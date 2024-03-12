@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            helmetsTable.appendChild(row);
             });
             // Armors
             const armorsTable = document.getElementById('armorsTable');
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            armorsTable.appendChild(row);
             });
             // Legs
             const legsTable = document.getElementById('legsTable');
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            legsTable.appendChild(row);
             });
             // Boots
             const bootsTable = document.getElementById('bootsTable');
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            bootsTable.appendChild(row);
             });
             // Shields
             const shieldsTable = document.getElementById('shieldsTable');
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            shieldsTable.appendChild(row);
             });
             // Club Weapons
             const clubTable = document.getElementById('clubTable');
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            clubTable.appendChild(row);
             });
             // Sword Weapons
             const swordTable = document.getElementById('swordTable');
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            swordTable.appendChild(row);
             });
             // Axe Weapons
             const axeTable = document.getElementById('axeTable');
@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            axeTable.appendChild(row);
             });
             // Distance Weapons
             const distanceTable = document.getElementById('distanceTable');
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            distanceTable.appendChild(row);
             });
             // Ammunition
             const ammunitionTable = document.getElementById('ammunitionTable');
@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            ammunitionTable.appendChild(row);
             });
             // Amulets
             const amuletsTable = document.getElementById('amuletsTable');
@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            amuletsTable.appendChild(row);
             });
             // Rings
             const ringsTable = document.getElementById('ringsTable');
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            ringsTable.appendChild(row);
             });
             // Containers
             const containersTable = document.getElementById('containersTable');
@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>
             `;
-                itemsTable.appendChild(row);
+            containersTable.appendChild(row);
             });
             // Recipes
             const recipesTable = document.getElementById('recipesTable');
@@ -236,7 +236,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${item.effect}</td>
                 <td>${item.weight}</td>
             `;
-                itemsTable.appendChild(row);
+            recipesTable.appendChild(row);
             });
         })
         .catch(error => console.error('Error loading items:', error));
