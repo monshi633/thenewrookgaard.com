@@ -2,7 +2,7 @@
     "helmets": [
         {
             "name": "Party Hat",
-            "img": "",
+            "img": "https://www.tibiawiki.com.br/images/9/9c/Mystic_Turban.gif",
             "arm": "1",
             "additional": "-",
             "weight": "7.5",

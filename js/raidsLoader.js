@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('/website/data/raids.json')
+    fetch('/data/raids.json')
         .then(response => response.json())
         .then(data => {
             const raidsTable = document.getElementById('raidsTable');
