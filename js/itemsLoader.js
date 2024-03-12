@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('/website/data/items.json')
+    fetch('/data/items.json')
         .then(response => response.json())
         .then(data => {
             // Helmets

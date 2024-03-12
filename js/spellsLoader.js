@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('/website/data/spells.json')
+    fetch('/data/spells.json')
         .then(response => response.json())
         .then(data => {
             const spellsTable = document.getElementById('spellsTable');

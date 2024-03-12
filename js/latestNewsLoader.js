@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('/website/data/latestNews.json')
+    fetch('/data/latestNews.json')
         .then(response => response.json())
         .then(data => {
             const articlesContainer = document.getElementById('newsContainer');
