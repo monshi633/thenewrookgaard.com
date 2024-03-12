@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('/website/data/addons.json')
+    fetch('/data/addons.json')
         .then(response => response.json())
         .then(data => {
             const addonsTable = document.getElementById('addonsTable');

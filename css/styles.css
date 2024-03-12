@@ -2,7 +2,7 @@ body {
     background-color: #051122;
     background-position: center top;
     background-repeat: no-repeat;
-    background-image: url("/website/images/background-artwork.webp");
+    background-image: url("/images/background-artwork.webp");
 }
 
 @media(max-width:1280px) {
@@ -219,7 +219,7 @@ nav {
 }
 
 #about__label {
-    background-image: url("/website/images/label-about.png");
+    background-image: url("/images/label-about.png");
 }
 
 #library__label {
@@ -231,7 +231,7 @@ nav {
 }
 
 #networks__label {
-    background-image: url("/website/images/label-networks.png");
+    background-image: url("/images/label-networks.png");
 }
 
 #support__label {
@@ -653,7 +653,7 @@ nav {
 }
 
 .loginbutton__buttonfield input {
-    background-image: url("/website/images/button_blue.gif");
+    background-image: url("/images/button_blue.gif");
     position: relative;
     width: 135px;
     height: 25px;
@@ -669,7 +669,7 @@ nav {
 }
 
 .loginbutton__buttonfield input:hover {
-    background-image: url("/website/images/button_blue_over.gif");
+    background-image: url("/images/button_blue_over.gif");
     top: 1px;
     left: 1px;
 }

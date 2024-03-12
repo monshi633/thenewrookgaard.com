@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('/website/data/quests.json')
+    fetch('/data/quests.json')
         .then(response => response.json())
         .then(data => {
             const questsTable = document.getElementById('questsTable');

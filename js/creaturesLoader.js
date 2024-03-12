@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('/website/data/creatures.json')
+    fetch('/data/creatures.json')
         .then(response => response.json())
         .then(data => {
             const creaturesFlex = document.getElementById('creaturesFlex');

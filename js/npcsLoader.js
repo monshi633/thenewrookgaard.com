@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('/website/data/npcs.json')
+    fetch('/data/npcs.json')
         .then(response => response.json())
         .then(data => {
             const npcsTable = document.getElementById('npcsTable');
