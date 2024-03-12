@@ -1,0 +1,238 @@
+{
+    "tasks": [
+        {
+            "name": "Apes",
+            "creatures": "Kongra, Merklin, Sibang",
+            "kills": "500",
+            "reward": "Exp: 60.000<br>Gold: 10.000<br>Items: 5 Ape Fur"
+        },
+        {
+            "name": "Arachnids",
+            "creatures": "Spider, Poison Spider, Tarantula, Giant Spider",
+            "kills": "300",
+            "reward": "Exp: 40.000<br>Gold: 3.500<br>Items: 10 Spider Fangs, 5 Poison Spider Shell"
+        },
+        {
+            "name": "Baby Dragons",
+            "creatures": "Dragon Hatchling, Frost Dragon Hatchling, Dragon Lord Hatchling",
+            "kills": "500",
+            "reward": "Exp: 150.000<br>Gold: 20.000<br>Items: Crusader Helmet."
+        },
+        {
+            "name": "Barbarians",
+            "creatures": "Barbarian Bloodwalker, Barbarian Brutetamer, Barbarian Headsplitter, Barbarian Skullhunter",
+            "kills": "500",
+            "reward": "Exp: 75.000<br>Gold: 15.000<br>Items: Mammoth Fur Cape, Fur Boots"
+        },
+        {
+            "name": "Bears",
+            "creatures": "Bear, Polar Bear, Panda",
+            "kills": "250",
+            "reward": "Exp: 45.000<br>Gold: 2.000<br>Items: 10 Bear Paw"
+        },
+        {
+            "name": "Behemoths",
+            "creatures": "Behemoth",
+            "kills": "300",
+            "reward": "Exp: 450.000<br>Gold: 50.000<br>Items: Steel Boots"
+        },
+        {
+            "name": "Birds",
+            "creatures": "Chicken, Flamingo, Parrot, Penguin, Seagull, Terror Bird",
+            "kills": "250",
+            "reward": "Exp: 0<br>Gold: 1.500<br>Items: 10 Chicken Feather, Feather Headdress"
+        },
+        {
+            "name": "Beholders",
+            "creatures": "Beholder, Elder Beholder, Gazer",
+            "kills": "250",
+            "reward": "Exp: 100.000<br>Gold: 20.000<br>Items: 5 Beholder Eye, 5 Elder Beholder Tentacle"
+        },
+        {
+            "name": "Cultists",
+            "creatures": "Acolyte of the Cult, Adept of the Cult, Novice of the Cult, Enlightened of the Cult",
+            "kills": "350",
+            "reward": "Exp: 65.000<br>Gold: 10.000<br>Items: 10 Cultish Robe"
+        },
+        {
+            "name": "Demons",
+            "creatures": "Demon",
+            "kills": "666",
+            "reward": "Exp: 6.666.666<br>Gold: 100.000<br>Items: Demon Helmet"
+        },
+        {
+            "name": "Dragons",
+            "creatures": "Dragon, Frost Dragon, Dragon Lord",
+            "kills": "750",
+            "reward": "Exp: 300.000<br>Gold: 30.000<br>Items: Dragon Robe, Warrior Helmet"
+        },
+        {
+            "name": "Dwarves",
+            "creatures": "Dwarf, Dwarf Guard, Dwarf Soldier, Dwarf Geomancer",
+            "kills": "750",
+            "reward": "Exp: 55.000<br>Gold: 15.000<br>Items: 10 Iron Ore"
+        },
+        {
+            "name": "Dworcs",
+            "creatures": "Dworc Fleshhunter, Dworc Venomsniper, Dworc Voodoomaster",
+            "kills": "250",
+            "reward": "Exp: 40.000<br>Gold: 2.500<br>Items: Tribal Mask, Voodoo Doll"
+        },
+        {
+            "name": "Elves",
+            "creatures": "Elf, Elf Scout, Elf Arcanist",
+            "kills": "350",
+            "reward": "Exp: 35.000<br>Gold: 5.000<br>Items: Modified Crossbow"
+        },
+        {
+            "name": "Giants",
+            "creatures": "Frost Giant, Frost Giantess, Cyclops, Cyclops Drone, Cyclops Smith",
+            "kills": "500",
+            "reward": "Exp: 100.000<br>Gold: 10.000<br>Items: 5 Frost Giant Pelt"
+        },
+        {
+            "name": "Goblins",
+            "creatures": "Goblin, Goblin Assassin, Goblin Leader, Goblin Scavenger",
+            "kills": "750",
+            "reward": "Exp: 50.000<br>Gold: 6.000<br>Items: 10 Goblin Ear"
+        },
+        {
+            "name": "High Dragons",
+            "creatures": "Undead Dragon, Ghastly Dragon",
+            "kills": "500",
+            "reward": "Exp: 1.000.000<br>Gold: 40.000<br>Items: Dragon Claw"
+        },
+        {
+            "name": "High Lizards",
+            "creatures": "Lizard Legionnaire, Lizard High Guard, Lizard Chosen, Lizard Zaogun",
+            "kills": "300",
+            "reward": "Exp: 500.000<br>Gold: 75.000<br>Items: Zaoan Legs"
+        },
+        {
+            "name": "High Outlaws",
+            "creatures": "Assassin, Stalker, Black Knight, Gang Member",
+            "kills": "1000",
+            "reward": "Exp: 75.000<br>Gold: 10.000<br>Items: Medusa Shield"
+        },
+        {
+            "name": "High Quaras",
+            "creatures": "Quara Constrictor, Quara Predator, Quara Mantassin, Quara Hydromancer, Quara Pincher",
+            "kills": "500",
+            "reward": "Exp: 500.000<br>Gold: 50.000<br>Items: Golden Legs"
+        },
+        {
+            "name": "High Undeads",
+            "creatures": "Zombie, Vampire, Vampire Bride, Lich, Priestess, Necromancer, Lost Soul, Undead Gladiator",
+            "kills": "500",
+            "reward": "Exp: 125.000<br>Gold: 20.000<br>Items: 10 Necromantic Robe"
+        },
+        {
+            "name": "Hydras",
+            "creatures": "Hydra",
+            "kills": "500",
+            "reward": "Exp: 350.000<br>Gold: 50.000<br>Items: 10 Hydra Tongue"
+        },
+        {
+            "name": "Insects",
+            "creatures": "Bug, Larva, Sandcrawler, Centipede, Scarab, Wasp, Ancient Scarab",
+            "kills": "500",
+            "reward": "Exp: 45.000<br>Gold: 3.000<br>Items: 5 Sancrawler Shell"
+        },
+        {
+            "name": "Lizards",
+            "creatures": "Lizard Templar, Lizard Sentinel, Lizard Snakecharmer",
+            "kills": "500",
+            "reward": "Exp: 300.000<br>Gold: 25.000<br>Items: Warrior Helmet, 10 Lizard Leather"
+        },
+        {
+            "name": "Mammals",
+            "creatures": "Deer, Sheep, Rabbit, Black Sheep, Skunk, Silver Rabbit, Elephant, Mammoth",
+            "kills": "500",
+            "reward": "Exp: 0<br>Gold: 2.500<br>Items: 5 Wool"
+        },
+        {
+            "name": "Medusas",
+            "creatures": "Medusa",
+            "kills": "250",
+            "reward": "Exp: 350.000<br>Gold: 40.000<br>Items: Medusa Shield"
+        },
+        {
+            "name": "Minotaurs",
+            "creatures": "Minotaur, Minotaur Guard, Minotaur Mage, Minotaur Archer",
+            "kills": "1000",
+            "reward": "Exp: 75.000<br>Gold: 10.000<br>Items: 10 Minotaur Leather, 20 Minotaur Horn"
+        },
+        {
+            "name": "Mutants",
+            "creatures": "Mutated Rat, Mutated Bat, Mutated Human, Mutated Tiger",
+            "kills": "350",
+            "reward": "Exp: 65.000<br>Gold: 25.000<br>Items: Moldy Cheese"
+        },
+        {
+            "name": "Orcs",
+            "creatures": "Orc, Orc Warrior, Orc Spearman, Orc Berserker, Orc Shaman, Orc Lider, Orc Marauder, Orc Rider, Orc Warlord",
+            "kills": "750",
+            "reward": "Exp: 60.000<br>Gold: 5.000<br>Items: 5 Broken Helmet, 20 Orc Leather"
+        },
+        {
+            "name": "Outlaws",
+            "creatures": "Bandit, Crazed Beggar, Hunter, Smuggler, Wild Warrior",
+            "kills": "750",
+            "reward": "Exp: 55.000<br>Gold: 10.000<br>Items: 10 Black Hood"
+        },
+        {
+            "name": "Pirates",
+            "creatures": "Pirate Buccaneer, Pirate Corsair, Pirate Cutthroat, Pirate Marauder, Pirate Skeleton",
+            "kills": "750",
+            "reward": "Exp: 100.000<br>Gold: 25.000<br>Items: 10 Peg Leg, 10 Hook, 10 Eye Patch"
+        },
+        {
+            "name": "Quaras",
+            "creatures": "Quara Constrictor Scout, Quara Predator Scout, Quara Mantassin Scout, Quara Hydromancer Scout, Quara Pincher Scout",
+            "kills": "1000",
+            "reward": "Exp: 400.000<br>Gold: 30.000<br>Items: Strange Helmet, Imperor's Trident'"
+        },
+        {
+            "name": "Rats",
+            "creatures": "Rat, Cave Rat",
+            "kills": "250",
+            "reward": "Exp: 15.000<br>Gold: 500<br>Items: Cheese"
+        },
+        {
+            "name": "Rotworms",
+            "creatures": "Rotworm, Carrion Worm, Rotworm Queen",
+            "kills": "250",
+            "reward": "Exp: 50.000<br>Gold: 5.000<br>Items: 15 Lump Of Dirt"
+        },
+        {
+            "name": "Skeletons",
+            "creatures": "Skeleton, Skeleton Warrior, Demon Skeleton, Bonebeast",
+            "kills": "500",
+            "reward": "Exp: 50.000<br>Gold: 5.000<br>Items: 10 Pelvis Bone"
+        },
+        {
+            "name": "Snakes",
+            "creatures": "Snake, Cobra",
+            "kills": "150",
+            "reward": "Exp: 20.000<br>Gold: 1.000<br>Items: Cobra Tongue"
+        },
+        {
+            "name": "Trolls",
+            "creatures": "Troll, Island Troll, Swamp Troll, Troll Champion, Frost Troll",
+            "kills": "350",
+            "reward": "Exp: 40.000<br>Gold: 2.000<br>Items: 15 Bunch Of Troll Hair"
+        },
+        {
+            "name": "Turtles",
+            "creatures": "Tortoise, Thornback Tortoise",
+            "kills": "300",
+            "reward": "Exp: 45.000<br>Gold: 5.000<br>Items: 5 Turtle Shell, 10 Thorn"
+        },
+        {
+            "name": "Wolves",
+            "creatures": "Wolf, Winter Wolf, War Wolf",
+            "kills": "300",
+            "reward": "Exp: 35.000<br>Gold: 0<br>Items: 10 Wolf Paw"
+        }
+    ]
+}

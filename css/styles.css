@@ -1,0 +1,782 @@
+body {
+    background-color: #051122;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url("/website/images/background-artwork.webp");
+}
+
+@media(max-width:1280px) {
+    body {
+        background-position: -170px top;
+    }
+}
+
+a:active,
+a:hover {
+    text-decoration: underline;
+}
+
+mark {
+    background-color: transparent;
+    color: #6f6fb2;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1280px;
+    min-width: 1024px;
+    margin: 0 auto;
+    font: 1.2em Helvetica, arial, sans-serif;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: 205px auto 200px;
+    grid-template-areas:
+        "header     header  header "
+        "navigation content content"
+        "navigation content content";
+}
+
+header {
+    grid-area: header;
+    position: relative;
+    height: 155px;
+    visibility: hidden;
+}
+
+nav {
+    grid-area: navigation;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 180px;
+    top: 160px;
+    margin-top: -155px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    line-height: 12pt;
+    text-align: left;
+}
+
+.nav__login {
+    position: relative;
+    left: 5px;
+    top: 8px;
+    width: 100%;
+    margin-bottom: 38px;
+    background-repeat: no-repeat;
+}
+
+.nav-top {
+    background-image: url(https://static.tibia.com/images/global/general/box-top.gif);
+    position: absolute;
+    left: -5px;
+    top: -12px;
+    height: 12px;
+    width: 180px;
+    background-repeat: no-repeat;
+}
+
+.nav-chain {
+    background-image: url(https://static.tibia.com/images/global/general/chain.gif);
+    position: absolute;
+    top: 0;
+    height: 40px;
+    width: 8px;
+    background-repeat: repeat-y;
+    z-index: 10;
+}
+
+.nav-chain.right {
+    right: 9px;
+}
+
+.nav-bottom {
+    background-image: url(https://static.tibia.com/images/global/general/box-bottom.gif);
+    position: absolute;
+    top: 39px;
+    left: -5px;
+    height: 12px;
+    width: 180px;
+    background-repeat: no-repeat
+}
+
+.nav__login__container {
+    background-image: url(https://static.tibia.com/images/global/loginbox/loginbox-textfield-background.gif);
+    position: relative;
+    height: 40px;
+    width: 160px;
+    left: 5px;
+    background-repeat: repeat-y;
+    z-index: 1;
+}
+
+#nav__login__container__button {
+    position: absolute;
+    width: 150px;
+    height: 37px;
+    top: 1px;
+    left: 5px;
+    z-index: 99;
+}
+
+.nav__login__container__button__background {
+    background-image: url(https://static.tibia.com/images/global/buttons/mediumbutton.gif);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.nav__login__container__button__background:hover {
+    background-image: url(https://static.tibia.com/images/global/buttons/mediumbutton-over.gif);
+}
+
+.nav__login__container__button__login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 37px;
+    width: 150px;
+    z-index: 20;
+}
+
+.nav__menu {
+    display: block;
+    position: relative;
+    left: 5px;
+    top: 0;
+    background-repeat: no-repeat;
+}
+
+.nav-bottom.menu {
+    position: relative;
+    top: 0;
+    left: -5px;
+    bottom: 0;
+}
+
+.nav__menu__button {
+    background-image: url(https://static.tibia.com/images/global/menu/button-background.gif);
+    position: relative;
+    height: 32px;
+    width: 170px;
+    display: block;
+    cursor: pointer;
+}
+
+.nav__menu__button:hover {
+    background-image: url(https://static.tibia.com/images/global/menu/button-background-over.gif);
+}
+
+.nav__menu__icon {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: 0;
+    left: 8px;
+}
+
+#news__icon {
+    background-image: url(https://static.tibia.com/images/global/menu/icon-news.gif);
+}
+
+#about__icon {
+    background-image: url(https://static.tibia.com/images/global/menu/icon-abouttibia.gif);
+}
+
+#library__icon {
+    background-image: url(https://static.tibia.com/images/global/menu/icon-library.gif);
+}
+
+#community__icon {
+    background-image: url(https://static.tibia.com/images/global/menu/icon-community.gif);
+}
+
+#networks__icon {
+    background-image: url(https://static.tibia.com/images/global/menu/icon-forum.gif);
+}
+
+#support__icon {
+    background-image: url(https://static.tibia.com/images/global/menu/icon-support.gif);
+}
+
+.nav__menu__label {
+    position: absolute;
+    height: 22px;
+    width: 116px;
+    top: 6px;
+    left: 42px;
+}
+
+#news__label {
+    background-image: url(https://static.tibia.com/images/global/menu/label-news.png);
+}
+
+#about__label {
+    background-image: url("/website/images/label-about.png");
+}
+
+#library__label {
+    background-image: url(https://static.tibia.com/images/global/menu/label-library.png);
+}
+
+#community__label {
+    background-image: url(https://static.tibia.com/images/global/menu/label-community.png);
+}
+
+#networks__label {
+    background-image: url("/website/images/label-networks.png");
+}
+
+#support__label {
+    background-image: url(https://static.tibia.com/images/global/menu/label-support.png);
+}
+
+.nav__menu__submenu {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #0d2e2b;
+    width: 160px;
+    display: none;
+}
+
+.nav__menu__submenu li {
+    cursor: pointer;
+}
+
+.nav__menu__submenu a:visited {
+    color: #d7d7d7;
+    text-decoration: none;
+}
+
+.nav__menu__submenu__item {
+    position: relative;
+    color: #d7d7d7;
+    background-color: rgb(13, 46, 43);
+}
+
+.nav__menu__submenu__item:hover {
+    background-color: rgb(20, 67, 63);
+}
+
+.nav-chain.left {
+    left: -5px;
+    height: 21px;
+}
+
+.nav-chain.right.submenu {
+    right: -4px;
+    height: 21px;
+}
+
+.submenu__activeicon {
+    background-image: url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+
+#news__submenu {
+    display: block;
+}
+
+#activeicon__section__news__latestnews {
+    visibility: visible;
+}
+
+.submenu_label {
+    border-top: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    border-bottom: 1px solid #4b7874;
+    overflow: hidden;
+}
+
+#label__section__news__latestnews {
+    color: white;
+}
+
+.box {
+    position: relative;
+    margin: 4px 5px 18px;
+    color: #5a2800;
+    border-left: 2px solid #3a3738;
+    border-right: 2px solid #3a3738;
+    background-color: #debb9d;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+
+.corner-tl {
+    background-image: url(https://static.tibia.com/images/global/content/corner-tl.gif);
+    position: absolute;
+    top: -4px;
+    left: -5px;
+    width: 17px;
+    height: 17px;
+    z-index: 50;
+}
+
+.corner-tr {
+    background-image: url(https://static.tibia.com/images/global/content/corner-tr.gif);
+    position: absolute;
+    top: -4px;
+    right: -5px;
+    width: 17px;
+    height: 17px;
+    z-index: 50;
+}
+
+.corner-bl {
+    background-image: url(https://static.tibia.com/images/global/content/corner-bl.gif);
+    position: absolute;
+    bottom: -3px;
+    left: -5px;
+    width: 17px;
+    height: 17px;
+    z-index: 50;
+}
+
+.corner-br {
+    background-image: url(https://static.tibia.com/images/global/content/corner-br.gif);
+    position: absolute;
+    bottom: -3px;
+    right: -5px;
+    width: 17px;
+    height: 17px;
+    z-index: 50;
+}
+
+.border_1 {
+    background-image: url(https://static.tibia.com/images/global/content/border-1.gif);
+    position: relative;
+    height: 6px;
+    width: 100%;
+    background-repeat: repeat-x;
+}
+
+.box__heading__background__red {
+    background-image: url(https://static.tibia.com/images/global/content/cacheinfo_background.gif);
+    height: 28px;
+    position: relative;
+    background-repeat: repeat-x;
+}
+
+.box__heading__infobar {
+    position: relative;
+    height: 28px;
+    margin: 0 5px;
+    font-size: 10px;
+    color: #fff;
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+}
+
+.box__heading__infobar__title {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 12px;
+    font-size: 9pt;
+}
+
+.box__heading__infobar a {
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+    font-size: 7pt;
+    margin-top: 6px;
+    margin-right: 10px;
+    color: #fff;
+    float: right;
+}
+
+.box__heading__infobar__amount:hover {
+    text-decoration: underline;
+}
+
+.box__heading__infobar__amount {
+    top: -4px;
+    position: relative;
+}
+
+.box section {
+    display: none;
+}
+
+#section__news__latestnews {
+    display: block;
+}
+
+.box__heading__background__green {
+    background-image: url(https://static.tibia.com/images/global/content/title-background-green.gif);
+    height: 24px;
+}
+
+.box__section__title {
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+
+.border_2 {
+    margin: 4px;
+    background-color: #793d03;
+}
+
+.border_3 {
+    margin: 1px;
+    border-top: 1px solid #793d03;
+    border-bottom: 1px solid #793d03;
+}
+
+.box__section__content {
+    background-image: url(https://static.tibia.com/images/global/content/scroll.gif);
+    min-height: 100px;
+    height: auto !important;
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+    font-size: 9pt;
+    background-color: #fff2db;
+    color: #5a2800;
+    padding: 10px;
+}
+
+.box__section__content__headline {
+    background-image: url(https://static.tibia.com/images/global/content/newsheadline_background.gif);
+    position: relative;
+    min-height: 30px;
+    margin-bottom: 5px;
+    background-repeat: repeat;
+    background-position-y: 2px;
+    border: 1px solid #000;
+}
+
+.box__section__content__headline__icon {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.box__section__content__headline__date {
+    font-size: 7pt;
+    margin-top: 9px;
+    margin-left: 40px;
+    width: 75px;
+    color: #fff;
+    float: left;
+}
+
+.box__section__content__headline__text {
+    margin-left: 7px;
+    line-height: 28px;
+    font-size: 10pt;
+    font-weight: 700;
+    color: #fff;
+}
+
+.box__section__content__account {
+    position: relative;
+    width: 100%;
+    font-size: 1px;
+}
+
+#section__library__items .box__section__content__account {
+    margin-bottom: 10px;
+}
+
+.caption__container {
+    position: relative;
+    font-size: 1pt;
+    background-color: #5f4d41;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.caption__container.message {
+    background-color: #d4c0a1;
+    margin-bottom: 15px;
+}
+
+.caption__container__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+.caption-text {
+    display: block;
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    padding-right: 3px;
+    padding-left: 10px;
+    margin-top: 3px;
+    margin-left: 4px;
+    margin-bottom: 2px;
+}
+
+.caption__container.message .caption-text,
+.caption-text.message {
+    color: #5a2800;
+}
+
+.caption-text.message {
+    font-weight: 400;
+}
+
+.caption-corner {
+    background-image: url(https://static.tibia.com/images/global/content/box-frame-edge.gif);
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    z-index: 50;
+}
+
+.caption-corner.tl {
+    top: -2px;
+    left: -2px;
+}
+
+.caption-corner.tr {
+    top: -2px;
+    right: -2px;
+}
+
+.caption-corner.bl {
+    left: -2px;
+    bottom: -3px;
+}
+
+.caption-corner.br {
+    right: -2px;
+    bottom: -3px;
+}
+
+.caption-border {
+    background-image: url(https://static.tibia.com/images/global/content/table-headline-border.gif);
+}
+
+.caption-border.top {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    top: -1px;
+}
+
+.caption-border.bottom {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -2px;
+}
+
+.caption-border-vertical {
+    background-image: url(https://static.tibia.com/images/global/content/box-frame-vertical.gif);
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    top: 0;
+}
+
+.caption-border-vertical.left {
+    left: -1px;
+}
+
+.caption-border-vertical.right {
+    right: -1px;
+}
+
+.article__content__container {
+    border: 2px solid #55636c;
+    background-color: #f1e0c5;
+    padding: 4px;
+}
+
+.loginbox {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loginbox__label {
+    flex-basis: 135px;
+    white-space: nowrap;
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    color: #5a2800;
+    width: 120px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.loginbox__inputfield {
+    flex-grow: 1;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+
+.loginbox__inputfield input {
+    width: 100%;
+}
+
+.loginbox__break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.loginbuttons {
+    vertical-align: top;
+    padding: 3px 5px 2px;
+}
+
+.loginbutton__buttonfield {
+    margin-bottom: 4px;
+}
+
+.loginbutton__buttonfield input {
+    background-image: url("/website/images/button_blue.gif");
+    position: relative;
+    width: 135px;
+    height: 25px;
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+    border: none;
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffd18c;
+    text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+}
+
+.loginbutton__buttonfield input:hover {
+    background-image: url("/website/images/button_blue_over.gif");
+    top: 1px;
+    left: 1px;
+}
+
+h1 {
+    text-align: center;
+    margin: 17px 0;
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+    font-size: 18pt;
+    font-weight: 900;
+    color: #5a2800;
+}
+
+.login__message {
+    font-size: 10pt;
+    position: relative;
+    height: 100%;
+    background-color: #d4c0a1;
+    padding: 10px;
+}
+
+.login__message ul {
+    margin-left: 10px;
+}
+
+.login__message a {
+    font-weight: 700;
+}
+
+.login__message a:visited {
+    color: #5a2800;
+}
+
+.section__library__spells.article__content__container,
+.section__library__tasks.article__content__container {
+    padding: 6px;
+}
+
+.listed__table {
+    box-shadow: 3px 3px 2px #875f3e;
+    font-size: 10pt;
+    background-color: #d5c0a1;
+    margin-bottom: 4px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.listed__table tr:nth-child(even) {
+    background-color: #f1e0c5;
+}
+
+.listed__table th,
+.listed__table td {
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #faf0d7;
+    padding: 2px 5px;
+}
+
+
+.box__section__content__table {
+    width: 100%;
+    clear: both;
+}
+
+.box__section__content__table td {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+    font-size: 10pt;
+    color: #5a2800;
+}
+
+.box__section__content__table p {
+    margin: 13.3px 0;
+}
+
+#creaturesFlex {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.creature {
+    width: 100px;
+    height: 110px;
+    margin: 0px;
+    float: left;
+}
+
+#addonsTable td:nth-child(2) {
+    width: 160px;
+}
+
+footer {
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+    font-size: 7pt;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+    color: #fff
+}
+
+footer a {
+    font-weight: 700;
+    color: #fff;
+}

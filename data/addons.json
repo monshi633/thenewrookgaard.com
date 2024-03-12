@@ -1,0 +1,196 @@
+{
+    "addons": [
+        {
+            "name": "First Citizen Addon",
+            "img1": "https://www.tibiawiki.com.br/images/c/ca/Outfit_Citizen_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/e/eb/Outfit_Citizen_Female_Addon_1.gif",
+            "items": "100 Minotaur Leathers"
+        },
+        {
+            "name": "Second Citizen Addon",
+            "img1": "https://www.tibiawiki.com.br/images/4/46/Outfit_Citizen_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/8/8c/Outfit_Citizen_Female_Addon_2.gif",
+            "items": "100 Chicken Feathers, 50 Honey Combs, Legion Helmet"
+        },
+        {
+            "name": "First Hunter Addon",
+            "img1": "https://www.tibiawiki.com.br/images/6/62/Outfit_Hunter_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/9/96/Outfit_Hunter_Female_Addon_2.gif",
+            "items": "30 Terramite Shells, 30 Wools, 20 Heaven Blossoms"
+        },
+        {
+            "name": "Second Hunter Addon",
+            "img1": "https://www.tibiawiki.com.br/images/c/c3/Outfit_Hunter_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/f/ff/Outfit_Hunter_Female_Addon_1.gif",
+            "items": "Sniper Gloves"
+        },
+        {
+            "name": "First Mage Addon",
+            "img1": "https://www.tibiawiki.com.br/images/b/b2/Outfit_Mage_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/3/30/Outfit_Mage_Female_Addon_1.gif",
+            "items": "30 Magic Lightwand"
+        },
+        {
+            "name": "Second Mage Addon",
+            "img1": "https://www.tibiawiki.com.br/images/7/78/Outfit_Mage_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/b/b6/Outfit_Mage_Female_Addon_2.gif",
+            "items": "Ferumbras Hat"
+        },
+        {
+            "name": "First Knight Addon",
+            "img1": "https://www.tibiawiki.com.br/images/2/21/Outfit_Knight_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/d/db/Outfit_Knight_Female_Addon_2.gif",
+            "items": "5 Steel Helmets, 10 Thorns, 5 Crystal Coins"
+        },
+        {
+            "name": "Second Knight Addon",
+            "img1": "https://www.tibiawiki.com.br/images/6/6a/Outfit_Knight_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/1/15/Outfit_Knight_Female_Addon_1.gif",
+            "items": "1 Gland, 20 Seeds, 10 Antlers, Pig Foot"
+        },
+        {
+            "name": "First Nobleman Addon",
+            "img1": "https://www.tibiawiki.com.br/images/5/58/Outfit_Nobleman_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/f/f0/Outfit_Nobleman_Female_Addon_1.gif",
+            "items": "15 Crystal Coins."
+        },
+        {
+            "name": "Second Nobleman Addon",
+            "img1": "https://www.tibiawiki.com.br/images/a/a6/Outfit_Nobleman_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/a/a5/Outfit_Nobleman_Female_Addon_2.gif",
+            "items": "15 Crystal Coins."
+        },
+        {
+            "name": "First Summoner Addon",
+            "img1": "https://www.tibiawiki.com.br/images/1/1f/Outfit_Summoner_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/5/56/Outfit_Summoner_Female_Addon_1.gif",
+            "items": "100 Empty Potion Flask, 100 Health Potion, 100 Mana Potion"
+        },
+        {
+            "name": "Second Summoner Addon",
+            "img1": "https://www.tibiawiki.com.br/images/8/84/Outfit_Summoner_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/6/64/Outfit_Summoner_Female_Addon_2.gif",
+            "items": "20 Warwolf Fur, 20 Bunch Of Troll Hair, 20 Wools, 20 Silky Furs"
+        },
+        {
+            "name": "First Warrior Addon",
+            "img1": "https://www.tibiawiki.com.br/images/7/73/Outfit_Warrior_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/6/6f/Outfit_Warrior_Female_Addon_1.gif",
+            "items": "50 Thorns, 50 Turtle Shells"
+        },
+        {
+            "name": "Second Warrior Addon",
+            "img1": "https://www.tibiawiki.com.br/images/7/76/Outfit_Warrior_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/9/9c/Outfit_Warrior_Female_Addon_2.gif",
+            "items": "100 Iron Ores, 3 Two Handed Swords"
+        },
+        {
+            "name": "First Barbarian Addon",
+            "img1": "https://www.tibiawiki.com.br/images/6/6c/Outfit_Barbarian_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/a/a1/Outfit_Barbarian_Female_Addon_1.gif",
+            "items": "30 Iron Ores, 50 Lizard Leathers, 20 Lizard Scales"
+        },
+        {
+            "name": "Second Barbarian Addon",
+            "img1": "https://www.tibiawiki.com.br/images/6/6c/Outfit_Barbarian_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/f/f8/Outfit_Barbarian_Female_Addon_2.gif",
+            "items": "50 Bunch Of Troll Hairs, 50 Orc Leathers"
+        },
+        {
+            "name": "First Druid Addon",
+            "img1": "https://www.tibiawiki.com.br/images/3/3a/Outfit_Druid_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/6/62/Outfit_Druid_Female_Addon_1.gif",
+            "items": "50 Bear Paws, 50 Wolf Paws"
+        },
+        {
+            "name": "Second Druid Addon",
+            "img1": "https://www.tibiawiki.com.br/images/7/7b/Outfit_Druid_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/6/6e/Outfit_Druid_Female_Addon_2.gif",
+            "items": "50 Warwolf Furs, 50 Winter Wolf Furs, 50 Polar Bear Paws"
+        },
+        {
+            "name": "First Wizard Addon",
+            "img1": "https://www.tibiawiki.com.br/images/8/8f/Outfit_Wizard_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/4/4f/Outfit_Wizard_Female_Addon_1.gif",
+            "items": "10 Tusks, 10 Silky Furs, 20 Wools, 20 Centipede Legs"
+        },
+        {
+            "name": "Second Wizard Addon",
+            "img1": "https://www.tibiawiki.com.br/images/d/d5/Outfit_Wizard_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/b/b5/Outfit_Wizard_Female_Addon_2.gif",
+            "items": "30 Hardened Bones, 10 Skulls"
+        },
+        {
+            "name": "First Oriental Addon",
+            "img1": "https://www.tibiawiki.com.br/images/b/b6/Outfit_Oriental_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/0/02/Outfit_Oriental_Female_Addon_2.gif",
+            "items": "Mermaid Comb"
+        },
+        {
+            "name": "Second Oriental Addon",
+            "img1": "https://www.tibiawiki.com.br/images/3/35/Outfit_Oriental_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/f/fe/Outfit_Oriental_Female_Addon_1.gif",
+            "items": "50 Fish Fins, 50 Ape Furs"
+        },
+        {
+            "name": "First Pirate Addon",
+            "img1": "https://www.tibiawiki.com.br/images/0/06/Outfit_Pirate_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/9/9e/Outfit_Pirate_Female_Addon_1.gif",
+            "items": "25 Hooks, 25 Eye Patchs, 25 Peg Legs"
+        },
+        {
+            "name": "Second Pirate Addon",
+            "img1": "https://www.tibiawiki.com.br/images/4/4e/Outfit_Pirate_Female_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/8/8a/Outfit_Pirate_Male_Addon_2.gif",
+            "items": "Brutus Bloodbeard's hat, Lethal Lizzy's Shirt, Ron The Ripper's Sabre ,Deadeye Devious Eye Patch"
+        },
+        {
+            "name": "First Assassin Addon",
+            "img1": "https://www.tibiawiki.com.br/images/b/bd/Outfit_Assassin_Female_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/a/a1/Outfit_Assassin_Male_Addon_1.gif",
+            "items": "30 White Piece Of Cloths, 30 Green Piece Of Cloths, 30 Red Piece Of Cloths, 30 Blue Piece Of Cloths, 30 Brown Piece Of Cloths"
+        },
+        {
+            "name": "Second Assassin Addon",
+            "img1": "https://www.tibiawiki.com.br/images/9/91/Outfit_Assassin_Female_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/f/fb/Outfit_Assassin_Male_Addon_2.gif",
+            "items": "10 Spiderwebs"
+        },
+        {
+            "name": "First Beggar Addon",
+            "img1": "https://www.tibiawiki.com.br/images/2/2f/Outfit_Beggar_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/8/80/Outfit_Beggar_Female_Addon_2.gif",
+            "items": "50 Minotaur Leathers, 30 Heaven Blossoms, 20 Brown Piece Of Cloths"
+        },
+        {
+            "name": "Second Beggar Addon",
+            "img1": "https://www.tibiawiki.com.br/images/a/a8/Outfit_Beggar_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/f/f7/Outfit_Beggar_Female_Addon_1.gif",
+            "items": "Simon The Beggar's Favorite Staff"
+        },
+        {
+            "name": "First Shaman Addon",
+            "img1": "https://www.tibiawiki.com.br/images/7/73/Outfit_Shaman_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/1/17/Outfit_Shaman_Female_Addon_1.gif",
+            "items": "10 Tribal Masks, 30 Ferns"
+        },
+        {
+            "name": "Second Shaman Addon",
+            "img1": "https://www.tibiawiki.com.br/images/f/f5/Outfit_Shaman_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/1/1c/Outfit_Shaman_Female_Addon_2.gif",
+            "items": "3 Staffs, 3 Voodoo Dolls"
+        },
+        {
+            "name": "First Norseman Addon",
+            "img1": "https://www.tibiawiki.com.br/images/1/10/Outfit_Norseman_Male_Addon_1.gif",
+            "img2": "https://www.tibiawiki.com.br/images/c/c5/Outfit_Norseman_Female_Addon_1.gif",
+            "items": "15 Shards"
+        },
+        {
+            "name": "Second Norseman Addon",
+            "img1": "https://www.tibiawiki.com.br/images/3/34/Outfit_Norseman_Male_Addon_2.gif",
+            "img2": "https://www.tibiawiki.com.br/images/e/ed/Outfit_Norseman_Female_Addon_2.gif",
+            "items": "5 Fur Caps"
+        }
+    ]
+}

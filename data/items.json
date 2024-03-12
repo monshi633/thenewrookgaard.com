@@ -1,0 +1,3597 @@
+{
+    "helmets": [
+        {
+            "name": "Party Hat",
+            "sprite": "",
+            "def": "1",
+            "additional": "-",
+            "weight": "7.5",
+            "obtained": "Surprise bag"
+        },
+        {
+            "name": "Mystic Turban",
+            "sprite": "",
+            "def": "1",
+            "additional": "-",
+            "weight": "8.5",
+            "obtained": "Blue djinn, Green Djinn, ice Witch, Necromancer, Orc Shaman"
+        },
+        {
+            "name": "Bandana",
+            "sprite": "",
+            "def": "1",
+            "additional": "-",
+            "weight": "8.5",
+            "obtained": "Pirate Marauder"
+        },
+        {
+            "name": "Leather Helmet",
+            "sprite": "",
+            "def": "1",
+            "additional": "-",
+            "weight": "22.0",
+            "obtained": "Goblin, Goblin Leader, Goblin Assassin, Goblin Scavenger, Island Troll, Minotaur Mage, Troll, Smuggler"
+        },
+        {
+            "name": "Studded Helmet",
+            "sprite": "",
+            "def": "2",
+            "additional": "-",
+            "weight": "24.5",
+            "obtained": "Elf, Orc, Orc Spearman"
+        },
+        {
+            "name": "Tribal Mask",
+            "sprite": "",
+            "def": "2",
+            "additional": "-",
+            "weight": "25.0",
+            "obtained": "Dworc Venomsniper, Dworc Voodoomaster, Dworc Fleshhunter"
+        },
+        {
+            "name": "Chain Helmet",
+            "sprite": "",
+            "def": "2",
+            "additional": "-",
+            "weight": "42.0",
+            "obtained": "Bandit, Barbarian Bloodwalker, Gladiator, Wild Warrior"
+        },
+        {
+            "name": "Pair Of Earmuffs",
+            "sprite": "",
+            "def": "2",
+            "additional": "Protection ice +2%",
+            "weight": "5.0",
+            "obtained": "Barbarian Bloodwalker, Barbarian Brutetamer, Barbarian Skullhunter, Barbarian Headsplitter"
+        },
+        {
+            "name": "Helmet Of The Deep",
+            "sprite": "",
+            "def": "2",
+            "additional": "Protection drown +100%",
+            "weight": "210.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Pirate Hat",
+            "sprite": "",
+            "def": "3",
+            "additional": "-",
+            "weight": "12.5",
+            "obtained": "Pirate Corsair."
+        },
+        {
+            "name": "Brass Helmet",
+            "sprite": "",
+            "def": "3",
+            "additional": "-",
+            "weight": "27.0",
+            "obtained": "Barbarian Skullhunter, Barbarian Headsplitter, Hunter, Minotaur, Zombie"
+        },
+        {
+            "name": "Feather Headdress",
+            "sprite": "",
+            "def": "3",
+            "additional": "Distance fighting +1",
+            "weight": "21.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Viking Helmet",
+            "sprite": "",
+            "def": "4",
+            "additional": "-",
+            "weight": "39.0",
+            "obtained": "Barbarian Skullhunter, Barbarian Headsplitter, Ghoul, Skeleton"
+        },
+        {
+            "name": "Legion Helmet",
+            "sprite": "",
+            "def": "4",
+            "additional": "-",
+            "weight": "31.0",
+            "obtained": "Rotworm, Rotworm Queen"
+        },
+        {
+            "name": "Soldier Helmet",
+            "sprite": "",
+            "def": "5",
+            "additional": "-",
+            "weight": "32.0",
+            "obtained": "Dwarf Soldier"
+        },
+        {
+            "name": "Iron Helmet",
+            "sprite": "",
+            "def": "5",
+            "additional": "-",
+            "weight": "30.0",
+            "obtained": "Bandit, Crypt Shambler, Demon Skeleton, Nomad, Wild Warrior"
+        },
+        {
+            "name": "Strange Helmet",
+            "sprite": "",
+            "def": "5",
+            "additional": "Protection drown +50%",
+            "weight": "46.0",
+            "obtained": "Dragon Lord, Frost Dragon, Lich, Quara Mantassin, Serpent Spawn, Vampire"
+        },
+        {
+            "name": "Steel Helmet",
+            "sprite": "",
+            "def": "6",
+            "additional": "-",
+            "weight": "46.0",
+            "obtained": "Assassin, Black Knight, Dragon, Dwarf Guard, Giant Spider, Lizard Templar, Tarantula, Zombie"
+        },
+        {
+            "name": "Dark Helmet",
+            "sprite": "",
+            "def": "6",
+            "additional": "-",
+            "weight": "46.0",
+            "obtained": "Black Knight, Cyclops, Cyclops Drone, Cyclops Smith, Frost Giant, Frost Giantess, Orc Warlord"
+        },
+        {
+            "name": "Ragnir Helmet",
+            "sprite": "",
+            "def": "6",
+            "additional": "-",
+            "weight": "31.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Fur Cap",
+            "sprite": "",
+            "def": "6",
+            "additional": "-",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Krimhorn Helmet",
+            "sprite": "",
+            "def": "6",
+            "additional": "Protection physical +1%",
+            "weight": "51.0",
+            "obtained": "Barbarian Headsplitter, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Wood Cape",
+            "sprite": "",
+            "def": "6",
+            "additional": "Distance fighting +1",
+            "weight": "11.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Devil Helmet",
+            "sprite": "",
+            "def": "7",
+            "additional": "-",
+            "weight": "50.0",
+            "obtained": "Demon, Demon Skeleton, Giant Spider, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Crown Helmet",
+            "sprite": "",
+            "def": "7",
+            "additional": "-",
+            "weight": "29.5",
+            "obtained": "Hero, High Quaras"
+        },
+        {
+            "name": "Charmer's Tiara",
+            "sprite": "",
+            "def": "7",
+            "additional": "-",
+            "weight": "22.0",
+            "obtained": "Lizard Snakecharmer, Serpent Spawn"
+        },
+        {
+            "name": "Beholder Helmet",
+            "sprite": "",
+            "def": "7",
+            "additional": "Shielding +1",
+            "weight": "46.0",
+            "obtained": "Elder Beholder, Braindeath, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Warrior Helmet",
+            "sprite": "",
+            "def": "8",
+            "additional": "-",
+            "weight": "68.0",
+            "obtained": "Black Knight, Hydra, Orc Leader, Quara Pincher, Serpent Spawn"
+        },
+        {
+            "name": "Crusader Helmet",
+            "sprite": "",
+            "def": "8",
+            "additional": "-",
+            "weight": "52.0",
+            "obtained": "Orc Warlord"
+        },
+        {
+            "name": "Dwarven Helmet",
+            "sprite": "",
+            "def": "8",
+            "additional": "Protection physical +2%",
+            "weight": "",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Royal Helmet",
+            "sprite": "",
+            "def": "9",
+            "additional": "-",
+            "weight": "48.0",
+            "obtained": "Dragon Lord, Frost Dragon, Hydra, Serpent Spawn, Undead Dragon"
+        },
+        {
+            "name": "Skull Helmet",
+            "sprite": "",
+            "def": "9",
+            "additional": "-",
+            "weight": "42.0",
+            "obtained": "Lost Soul, Quara Predator, Undead Dragon"
+        },
+        {
+            "name": "Dragon Scale Helmet",
+            "sprite": "",
+            "def": "9",
+            "additional": "-",
+            "weight": "32.5",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Zaoan Helmet",
+            "sprite": "",
+            "def": "9",
+            "additional": "Protection physical +2%",
+            "weight": "66.0",
+            "obtained": "Ghastly Dragon, Lizard Chosen, Draken Elite, Lizard Zaogun, Lizard High Guard, Lizard Legionnaire"
+        },
+        {
+            "name": "Winged Helmet",
+            "sprite": "",
+            "def": "10",
+            "additional": "?",
+            "weight": "12.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Demon Helmet",
+            "sprite": "",
+            "def": "10",
+            "additional": "-",
+            "weight": "29.5",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Horned Helmet",
+            "sprite": "",
+            "def": "11",
+            "additional": "?",
+            "weight": "51.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Golden Helmet",
+            "sprite": "",
+            "def": "12",
+            "additional": "?",
+            "weight": "32.0",
+            "obtained": "Unknown"
+        }
+    ],
+    "armors": [
+        {
+            "name": "Simple Dress",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "level": "-",
+            "weight": "10.0",
+            "obtained": "Banshee, Zombie"
+        },
+        {
+            "name": "Hibiscus Dress",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "level": "-",
+            "weight": "19.0",
+            "obtained": "Vampire Bride"
+        },
+        {
+            "name": "Green Tunic",
+            "sprite": "",
+            "arm": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "9.3",
+            "obtained": "Orc Leader, Hero, Hunter, Elf Arcanist"
+        },
+        {
+            "name": "Jacket",
+            "sprite": "",
+            "arm": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "24.0",
+            "obtained": "-"
+        },
+        {
+            "name": "Red Robe",
+            "sprite": "",
+            "arm": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "26.0",
+            "obtained": "Banshee, Adept of The Cult, Pirate Ghost"
+        },
+        {
+            "name": "Coat",
+            "sprite": "",
+            "arm": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "27.0",
+            "obtained": "Witch, Frost Troll"
+        },
+        {
+            "name": "Cape",
+            "sprite": "",
+            "arm": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "32.0",
+            "obtained": "Quara Mantassin, Witch, Lizard Snakecharmer, Quara Mantassin Scout, Ghost"
+        },
+        {
+            "name": "Doublet",
+            "sprite": "",
+            "arm": "2",
+            "additional": "-",
+            "level": "-",
+            "weight": "25.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Pirate Shirt",
+            "sprite": "",
+            "arm": "3",
+            "additional": "-",
+            "level": "-",
+            "weight": "20.0",
+            "obtained": "Pirate Buccaneer"
+        },
+        {
+            "name": "Leather Armor",
+            "sprite": "",
+            "arm": "4",
+            "additional": "-",
+            "level": "-",
+            "weight": "60.0",
+            "obtained": "Goblin, Dworc Venomsniper, Dworc Voodoomaster, Dworc Fleshhunter, Amazon"
+        },
+        {
+            "name": "Studded Armor",
+            "sprite": "",
+            "arm": "5",
+            "additional": "-",
+            "level": "-",
+            "weight": "71.0",
+            "obtained": "Orc, Elf, Dwarf, Elf Scout"
+        },
+        {
+            "name": "Chain Armor",
+            "sprite": "",
+            "arm": "6",
+            "additional": "-",
+            "level": "-",
+            "weight": "100.0",
+            "obtained": "Minotaur Guard, Orc Berserker, Dwarf Soldier, Barbarian Bloodwalker, Minotaur, Orc Warrior and others"
+        },
+        {
+            "name": "Rangers Cloak",
+            "sprite": "",
+            "arm": "7",
+            "additional": "?",
+            "level": "-",
+            "weight": "48.0",
+            "obtained": "Unknow"
+        },
+        {
+            "name": "Brass Armor",
+            "sprite": "",
+            "arm": "8",
+            "additional": "-",
+            "level": "-",
+            "weight": "80.0",
+            "obtained": "Toad, Bandit, Minotaur Mage, Hunter, Minotaur Archer, Zombie, Nomad, Wild Warrior and others"
+        },
+        {
+            "name": "Scale Armor",
+            "sprite": "",
+            "arm": "9",
+            "additional": "-",
+            "level": "-",
+            "weight": "105.0",
+            "obtained": "Ghoul, Orc Rider, Minotaur Archer, Dwarf Guard, Necromancer, Pirate Cutthroat, Lizard Sentinel and others"
+        },
+        {
+            "name": "Leopard Armor",
+            "sprite": "",
+            "arm": "9",
+            "additional": "-",
+            "level": "-",
+            "weight": "95.0",
+            "obtained": "Assassin"
+        },
+        {
+            "name": "Plate Armor",
+            "sprite": "",
+            "arm": "10",
+            "additional": "-",
+            "level": "-",
+            "weight": "120.0",
+            "obtained": "Tarantula, Bonebeast, Orc Leader, Black Knight, Giant Spider, Kongra, Behemoth, Lizard Templar and others"
+        },
+        {
+            "name": "Mammoth Fur Cape",
+            "sprite": "",
+            "arm": "10",
+            "additional": "-",
+            "level": "-",
+            "weight": "20.0",
+            "obtained": "Barbarian Bloodwalker, Barbarian Brutetamer, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Dark Armor",
+            "sprite": "",
+            "arm": "10",
+            "additional": "Protection physical +2%",
+            "level": "-",
+            "weight": "120.0",
+            "obtained": "Pirate Corsair, Gargoyle, Black Knight, Behemoth, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Velvet Mantle",
+            "sprite": "",
+            "arm": "10",
+            "additional": "Magic level +1",
+            "level": "50",
+            "weight": "28.5",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Belted Cape",
+            "sprite": "",
+            "arm": "10",
+            "additional": "Distance fighting +1",
+            "level": "-",
+            "weight": "35.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Noble Armor",
+            "sprite": "",
+            "arm": "11",
+            "additional": "-",
+            "level": "-",
+            "weight": "120.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Blue Robe",
+            "sprite": "",
+            "arm": "11",
+            "additional": "-",
+            "level": "-",
+            "weight": "22.0",
+            "obtained": "Quara Mantassin, Enlightened of The Cult, Banshee, Medusa, Lich, Warlock"
+        },
+        {
+            "name": "Witchhunter's Cloak",
+            "sprite": "",
+            "arm": "12",
+            "additional": "Protection holy -2%, death +2%",
+            "level": "50",
+            "weight": "25.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Dragon Robe",
+            "sprite": "",
+            "arm": "12",
+            "additional": "Protection fire +5%",
+            "level": "50",
+            "weight": "28.5",
+            "obtained": "Dragon"
+        },
+        {
+            "name": "Knight Armor",
+            "sprite": "",
+            "arm": "12",
+            "additional": "-",
+            "level": "-",
+            "weight": "120.0",
+            "obtained": "Serpent Spawn, Quara Hydromancer, Medusa, Black Knight, Hydra, Giant Spider, Undead Dragon, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Crown Armor",
+            "sprite": "",
+            "arm": "13",
+            "additional": "-",
+            "level": "-",
+            "weight": "99.0",
+            "obtained": "Serpent Spawn,  Hero, High Quaras"
+        },
+        {
+            "name": "Beholder Mail",
+            "sprite": "",
+            "arm": "13",
+            "additional": "Distance fighting +2",
+            "level": "-",
+            "weight": "90.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Dark Lord's Cape",
+            "sprite": "",
+            "arm": "13",
+            "additional": "Protection energy +8%, death +8%",
+            "level": "65",
+            "weight": "29.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Golden Armor",
+            "sprite": "",
+            "arm": "14",
+            "additional": "-",
+            "level": "-",
+            "weight": "80.0",
+            "obtained": "Undead Dragon, Warlock"
+        },
+        {
+            "name": "Dwarven Armor",
+            "sprite": "",
+            "arm": "14",
+            "additional": "Protection physical +4%",
+            "level": "-",
+            "weight": "130.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Swamplair Armor",
+            "sprite": "",
+            "arm": "14",
+            "additional": "Protection earth +12%, fire -12%",
+            "level": "60",
+            "weight": "84.5",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Lavos Armor",
+            "sprite": "",
+            "arm": "14",
+            "additional": "Protection fire +12%, ice -12%",
+            "level": "60",
+            "weight": "85.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Frozen Armor",
+            "sprite": "",
+            "arm": "14",
+            "additional": "Protection earth -12%, ice +12%",
+            "level": "60",
+            "weight": "80.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Elite Draken Mail ",
+            "sprite": "",
+            "arm": "15",
+            "additional": "Shielding +1",
+            "level": "70",
+            "weight": "120.0",
+            "obtained": "Ghastly Dragon, Lizard Chosen, Draken Elite, Lizard Zaogun, Lizard High Guard, Lizard Legionnaire"
+        },
+        {
+            "name": "Dragon Scale Mail",
+            "sprite": "",
+            "arm": "15",
+            "additional": "-",
+            "level": "-",
+            "weight": "114.0",
+            "obtained": "Plaguesmith, Frost Dragon, Serpent Spawn, Dragon Lord"
+        },
+        {
+            "name": "Demon Armor",
+            "sprite": "",
+            "arm": "16",
+            "additional": "-",
+            "level": "-",
+            "weight": "80.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Master Archer's Armor",
+            "sprite": "",
+            "arm": "16",
+            "additional": "Distance fighting +3",
+            "level": "75",
+            "weight": "69.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Robe Of The Underworld",
+            "sprite": "",
+            "arm": "16",
+            "additional": "Magic level +3",
+            "level": "75",
+            "weight": "51.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Skullcracker Armor",
+            "sprite": "",
+            "arm": "16",
+            "additional": "Shielding +4",
+            "level": "75",
+            "weight": "110.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Magic Plate Armor",
+            "sprite": "",
+            "arm": "17",
+            "additional": "-",
+            "level": "-",
+            "weight": "85.0",
+            "obtained": "Demon"
+        }
+    ],
+    "legs": [
+        {
+            "name": "Bast Skirt",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "weight": "3.5",
+            "obtained": "Dworc Venomsniper"
+        },
+        {
+            "name": "Leather Legs",
+            "sprite": "",
+            "arm": "1",
+            "additional": "-",
+            "weight": "18.0",
+            "obtained": "Bandit, Dwarf, Gang Member, Minotaur Mage, Smuggler"
+        },
+        {
+            "name": "Studded Legs",
+            "sprite": "",
+            "arm": "2",
+            "additional": "-",
+            "weight": "26.0",
+            "obtained": "Gang Member, Orc Spearman"
+        },
+        {
+            "name": "Chain Legs",
+            "sprite": "",
+            "arm": "3",
+            "additional": "-",
+            "weight": "35.0",
+            "obtained": "Minotaur Guard, Minotaur Mage, Minotaur Archer"
+        },
+        {
+            "name": "Brass Legs",
+            "sprite": "",
+            "arm": "5",
+            "additional": "-",
+            "weight": "38.0",
+            "obtained": "Black Knight, Blood Crab, Orc Leader, Stalker, Tarantula, Undead Gladiator"
+        },
+        {
+            "name": "Mammoth Fur Shorts",
+            "sprite": "",
+            "arm": "5",
+            "additional": "-",
+            "weight": "1.5",
+            "obtained": "Barbarian Brutetamer"
+        },
+        {
+            "name": "Pirete Knee Breeches",
+            "sprite": "",
+            "arm": "6",
+            "additional": "-",
+            "weight": "12.0",
+            "obtained": "Pirate Cutthroat"
+        },
+        {
+            "name": "Plate Legs",
+            "sprite": "",
+            "arm": "7",
+            "additional": "-",
+            "weight": "50.0",
+            "obtained": "Dragon, Ghastly Dragon, Giant Spider, Orc Leader, Orc Warlord, Undead Gladiator, Thornback Tortoise"
+        },
+        {
+            "name": "Beholder Legs",
+            "sprite": "",
+            "arm": "7",
+            "additional": "Distance fighting +1",
+            "weight": "33.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Dwarven Legs",
+            "sprite": "",
+            "arm": "7",
+            "additional": "Protection physical +3%",
+            "weight": "49.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Knight Legs",
+            "sprite": "",
+            "arm": "8",
+            "additional": "-",
+            "weight": "70.0",
+            "obtained": "Black Knight, Giant Spider"
+        },
+        {
+            "name": "Crown Legs",
+            "sprite": "",
+            "arm": "8",
+            "additional": "-",
+            "weight": "65.0",
+            "obtained": "Hero, High Quaras"
+        },
+        {
+            "name": "Blue Legs",
+            "sprite": "",
+            "arm": "8",
+            "additional": "-",
+            "weight": "18.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Zaoan Legs",
+            "sprite": "",
+            "arm": "8",
+            "additional": "Protection physical +2%",
+            "weight": "66.0",
+            "obtained": "Ghastly Dragon, Lizard Chosen, Draken Elite, Lizard Zaogun, Lizard High Guard, Lizard Legionnaire"
+        },
+        {
+            "name": "Golden Legs",
+            "sprite": "",
+            "arm": "9",
+            "additional": "-",
+            "weight": "56.0",
+            "obtained": "Demon"
+        },
+        {
+            "name": "Demon Legs",
+            "sprite": "",
+            "arm": "9",
+            "additional": "?",
+            "weight": "70.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Dragon Scale Legs",
+            "sprite": "",
+            "arm": "10",
+            "additional": "?",
+            "weight": "48.0",
+            "obtained": "Unknown"
+        }
+    ],
+    "boots": [
+        {
+            "name": "Firewalker Boots",
+            "sprite": "",
+            "arm": "-",
+            "additional": "Protection fire +90%",
+            "level": "130",
+            "weight": "9.5",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Bunnyslpippers",
+            "sprite": "",
+            "arm": "-",
+            "additional": "?",
+            "level": "-",
+            "weight": "6.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Coconut Shoes",
+            "sprite": "",
+            "arm": "-",
+            "additional": "?",
+            "level": "-",
+            "weight": "6.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Pair Of Soft Boots",
+            "sprite": "",
+            "arm": "-",
+            "additional": "Faster regeneration",
+            "level": "-",
+            "weight": "6.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Sandals",
+            "sprite": "",
+            "arm": "-",
+            "additional": "Speed +8",
+            "level": "-",
+            "weight": "6.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Boots of Haste",
+            "sprite": "",
+            "arm": "-",
+            "additional": "Speed +20",
+            "level": "-",
+            "weight": "7.5",
+            "obtained": "Black Knight, Hydra, Necromancer, Vampire Bride"
+        },
+        {
+            "name": "Leather Boots",
+            "sprite": "",
+            "arm": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "9.0",
+            "obtained": "Dwarf Guard, Elf, Island Troll, Swamp Troll, Troll, Troll Champion, Witch"
+        },
+        {
+            "name": "Crocodile Boots",
+            "sprite": "",
+            "arm": "1",
+            "additional": "Protection physical +2%",
+            "level": "-",
+            "weight": "9.0",
+            "obtained": "Crocodile, Killer Caiman, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Zaoan Shoes",
+            "sprite": "",
+            "arm": "1",
+            "additional": "Speed +5",
+            "level": "-",
+            "weight": "7.0",
+            "obtained": "Ghastly Dragon, Lizard Chosen, Draken Elite, Lizard Zaogun, Lizard High Guard, Lizard Legionnaire"
+        },
+        {
+            "name": "Fur Boots",
+            "sprite": "",
+            "arm": "2",
+            "additional": "Speed -6",
+            "level": "-",
+            "weight": "12.0",
+            "obtained": "Barbarian Bloodwalker, Barbarian Brutetamer, Barbarian Headsplitter, Barbarian Skullhunter"
+        },
+        {
+            "name": "Pirate Boots",
+            "sprite": "",
+            "arm": "2",
+            "additional": "-",
+            "level": "-",
+            "weight": "8.0",
+            "obtained": "Pirate Corsair"
+        },
+        {
+            "name": "Steel Boots",
+            "sprite": "",
+            "arm": "3",
+            "additional": "-",
+            "level": "-",
+            "weight": "29.0",
+            "obtained": "Behemoth, Ghastly Dragon, Undead Dragon"
+        },
+        {
+            "name": "Patched Boots",
+            "sprite": "",
+            "arm": "2",
+            "additional": "?",
+            "level": "-",
+            "weight": "10.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Guardian Boots",
+            "sprite": "",
+            "arm": "3",
+            "additional": "Protection physical +2%",
+            "level": "50",
+            "weight": "22.5",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Frozen Boots",
+            "sprite": "",
+            "arm": "3",
+            "additional": "Protection fire -3%, ice +3%",
+            "level": "50",
+            "weight": "18.5",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Great Crocodile Boots",
+            "sprite": "",
+            "arm": "3",
+            "additional": "Protection fire +3%, ice -3%",
+            "level": "50",
+            "weight": "18.5",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Draken Boots",
+            "sprite": "",
+            "arm": "3",
+            "additional": "Speed +15",
+            "level": "80",
+            "weight": "25.0",
+            "obtained": "Draken Elite, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Golden Boots",
+            "sprite": "",
+            "arm": "4",
+            "additional": "?",
+            "level": "-",
+            "weight": "31.0",
+            "obtained": "Unknown"
+        }
+    ],
+    "shields": [
+        {
+            "name": "Wooden Shield",
+            "sprite": "",
+            "def": "14",
+            "additional": "-",
+            "weight": "40.0",
+            "obtained": "Frost Troll, Beholder, Island Troll, Troll, Orc Warrior"
+        },
+        {
+            "name": "Studded Shield",
+            "sprite": "",
+            "def": "15",
+            "additional": "-",
+            "weight": "58.0",
+            "obtained": "Orc, Amazon"
+        },
+        {
+            "name": "Brass Shield",
+            "sprite": "",
+            "def": "16",
+            "additional": "-",
+            "weight": "60.0",
+            "obtained": "Stalker, Bandit, Elf, Skeleton, Nomad, Wild Warrior"
+        },
+        {
+            "name": "Plate Shield",
+            "sprite": "",
+            "def": "17",
+            "additional": "-",
+            "weight": "65.0",
+            "obtained": "Tarantula, Elf, Orc Leader, Cyclops, Tortoise, Minotaur, Assassin, Pirate Marauder, Orc Warrior"
+        },
+        {
+            "name": "Black Shield",
+            "sprite": "",
+            "def": "18",
+            "additional": "-",
+            "weight": "42.0",
+            "obtained": "Mummy, Priestess"
+        },
+        {
+            "name": "Copper Shield",
+            "sprite": "",
+            "def": "19",
+            "additional": "-",
+            "weight": "63.0",
+            "obtained": "Dwarf, Rotworm, Orc Warrior."
+        },
+        {
+            "name": "Bone Shield",
+            "sprite": "",
+            "def": "20",
+            "additional": "-",
+            "weight": "55.0",
+            "obtained": "Chakoya Tribewarden, Dworc Fleshhunter, Bonebeast, Crypt Shambler, Skeleton Warrior"
+        },
+        {
+            "name": "Steel Shield",
+            "sprite": "",
+            "def": "21",
+            "additional": "-",
+            "weight": "69.0",
+            "obtained": "Elder Beholder, Bandit, Braindeath, Assassin, Dragon, Beholder, Nomad, Pirate Cutthroat, Stone Golem, Wild Warrior"
+        },
+        {
+            "name": "Sentinel Shield",
+            "sprite": "",
+            "def": "22",
+            "additional": "-",
+            "weight": "49.0",
+            "obtained": "Lizard Sentinel"
+        },
+        {
+            "name": "Battle Shield",
+            "sprite": "",
+            "def": "23",
+            "additional": "-",
+            "weight": "62.0",
+            "obtained": "Minotaur Guard, Cyclops, Frost Giantess, Orc Rider, Assassin, Frost Giant, Dwarf Guard, Demon Skeleton and others"
+        },
+        {
+            "name": "Dark Shield",
+            "sprite": "",
+            "def": "25",
+            "additional": "-",
+            "weight": "52.0",
+            "obtained": "Werewolf, Grim Reaper, Fire Devil, Pirate Corsair, Skeleton Warrior"
+        },
+        {
+            "name": "Scarab Shield",
+            "sprite": "",
+            "def": "25",
+            "additional": "-",
+            "weight": "47.0",
+            "obtained": "Ancient Scarab"
+        },
+        {
+            "name": "Dwarven Shield",
+            "sprite": "",
+            "def": "26",
+            "additional": "-",
+            "weight": "55.0",
+            "obtained": "Dwarf Soldier."
+        },
+        {
+            "name": "Salamander Shield",
+            "sprite": "",
+            "def": "26",
+            "additional": "-",
+            "weight": "59.0",
+            "obtained": "Lizard Templar."
+        },
+        {
+            "name": "Tortoise Shield",
+            "sprite": "",
+            "def": "27",
+            "additional": "-",
+            "weight": "52.0",
+            "obtained": "Tortoise"
+        },
+        {
+            "name": "Ancient Shield",
+            "sprite": "",
+            "def": "27",
+            "additional": "-",
+            "weight": "61.0",
+            "obtained": "Ghost"
+        },
+        {
+            "name": "Tusk Shield",
+            "sprite": "",
+            "def": "27",
+            "additional": "-",
+            "weight": "69.0",
+            "obtained": "Elephant, Mammoth, Orc Rider"
+        },
+        {
+            "name": "Beholder Shield",
+            "sprite": "",
+            "def": "28",
+            "additional": "-",
+            "weight": "47.0",
+            "obtained": "Elder Beholder, Braindeath, Beholder."
+        },
+        {
+            "name": "Castle Shield",
+            "sprite": "",
+            "def": "28",
+            "additional": "-",
+            "weight": "49.0",
+            "obtained": "Lich"
+        },
+        {
+            "name": "Norse Shield",
+            "sprite": "",
+            "def": "28",
+            "additional": "-",
+            "weight": "41.0",
+            "obtained": "Frost Giant, Frost Giantess"
+        },
+        {
+            "name": "Guardian Shield",
+            "sprite": "",
+            "def": "30",
+            "additional": "-",
+            "weight": "55.0",
+            "obtained": "Fire Devil, Demon Skeleton"
+        },
+        {
+            "name": "Dragon Shield",
+            "sprite": "",
+            "def": "31",
+            "additional": "-",
+            "weight": "60.0",
+            "obtained": "Dragon"
+        },
+        {
+            "name": "Crown Shield",
+            "sprite": "",
+            "def": "32",
+            "additional": "-",
+            "weight": "62.0",
+            "obtained": "Hero, High Quaras"
+        },
+        {
+            "name": "Tower Shield",
+            "sprite": "",
+            "def": "32",
+            "additional": "-",
+            "weight": "82.0",
+            "obtained": " Frost Dragon, Serpent Spawn, Dragon Lord, Mutated Rat"
+        },
+        {
+            "name": "Medusa Shield",
+            "sprite": "",
+            "def": "33",
+            "additional": "-",
+            "weight": "58.0",
+            "obtained": "Medusa, Hydra"
+        },
+        {
+            "name": "Vampire Shield",
+            "sprite": "",
+            "def": "34",
+            "additional": "-",
+            "weight": "38.0",
+            "obtained": "Werewolf, Vampire"
+        },
+        {
+            "name": "Phoenix Shield",
+            "sprite": "",
+            "def": "35",
+            "additional": "-",
+            "weight": "35.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Demon Shield",
+            "sprite": "",
+            "def": "35",
+            "additional": "-",
+            "weight": "26.0",
+            "obtained": "Demon"
+        },
+        {
+            "name": "Fiery Rainbow Shield",
+            "sprite": "",
+            "def": "36",
+            "additional": "Protection fire +7%",
+            "weight": "69.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Sparking Rainbow Shield",
+            "sprite": "",
+            "def": "36",
+            "additional": "Protection energy +7%",
+            "weight": "69.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Terran Rainbow Shield",
+            "sprite": "",
+            "def": "36",
+            "additional": "Protection earth +7%",
+            "weight": "69.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Icy Rainbow Shield",
+            "sprite": "",
+            "def": "36",
+            "additional": "Protection ice +7%",
+            "weight": "69.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Necromancer Shield",
+            "sprite": "",
+            "def": "37",
+            "additional": "-",
+            "weight": "32.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Mastermind Shield",
+            "sprite": "",
+            "def": "37",
+            "additional": "-",
+            "weight": "57.0",
+            "obtained": "Demon."
+        },
+        {
+            "name": "Great Shield",
+            "sprite": "",
+            "def": "38",
+            "additional": "?",
+            "weight": "84.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Blessed Shield",
+            "sprite": "",
+            "def": "40",
+            "additional": "-",
+            "weight": "68.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Queen's Shield",
+            "sprite": "",
+            "def": "41",
+            "additional": "-",
+            "weight": "54.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Rose Shield",
+            "sprite": "",
+            "def": "?",
+            "additional": "?",
+            "weight": "52.0",
+            "obtained": "Unknown"
+        }
+    ],
+    "club": [
+        {
+            "name": "Club",
+            "sprite": "",
+            "atk": "7",
+            "def": "7",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "25.0",
+            "obtained": "Frost Troll."
+        },
+        {
+            "name": "Studded Club",
+            "sprite": "",
+            "atk": "9",
+            "def": "8",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "35.0",
+            "obtained": "Island Troll, Troll"
+        },
+        {
+            "name": "Staff",
+            "sprite": "",
+            "atk": "10",
+            "def": "25",
+            "hands": "2",
+            "additional": "-",
+            "level": "-",
+            "weight": "38.0",
+            "obtained": "Monk, Orc Shaman, Elf Arcanist, Lich, Barbarian Brutetamer"
+        },
+        {
+            "name": "Bone Club",
+            "sprite": "",
+            "atk": "12",
+            "def": "8",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "39.0",
+            "obtained": "Goblin, Bonebeast, Pirate Skeleton, Gargoyle"
+        },
+        {
+            "name": "Mace",
+            "sprite": "",
+            "atk": "16",
+            "def": "11",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "38.0",
+            "obtained": "Chakoya Tribewarden, Bandit, Skeleton, Minotaur,  Zombie, Skeleton Warrior, Nomad, Rotworm, Wild Warrior and others"
+        },
+        {
+            "name": "Iron Hammer",
+            "sprite": "",
+            "atk": "18",
+            "def": "10",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "66.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Daramanian Mace",
+            "sprite": "",
+            "atk": "21",
+            "def": "12",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "68.0",
+            "obtained": "Scarab"
+        },
+        {
+            "name": "Battle Hammer",
+            "sprite": "",
+            "atk": "24",
+            "def": "14",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "68.0",
+            "obtained": "Plaguesmith, Tortoise, Black Knight, Zombie, Dwarf Guard, Demon Skeleton"
+        },
+        {
+            "name": "Morning Star",
+            "sprite": "",
+            "atk": "25",
+            "def": "11",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "54.0",
+            "obtained": "Elder Beholder, Acolyte of The Cult, Plaguesmith, Ghost, Gargoyle, Beholder, Quara Pincher, Hellspawn"
+        },
+        {
+            "name": "Banana Staff",
+            "sprite": "",
+            "atk": "25",
+            "def": "15",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "-",
+            "weight": "50.0",
+            "obtained": "Merlkin"
+        },
+        {
+            "name": "Clerical Mace",
+            "sprite": "",
+            "atk": "28",
+            "def": "15",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "20",
+            "weight": "58.0",
+            "obtained": "Braindeath, Adept of The Cult, Dwarf Geomancer, Necromancer, Priestess"
+        },
+        {
+            "name": "Taurus Mace",
+            "sprite": "",
+            "atk": "30",
+            "def": "18",
+            "hands": "2",
+            "additional": "-",
+            "level": "20",
+            "weight": "51.0",
+            "obtained": "Minotaur Mage"
+        },
+        {
+            "name": "Furry Club",
+            "sprite": "",
+            "atk": "31",
+            "def": "19",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "20",
+            "weight": "42.0",
+            "obtained": "Mammoth"
+        },
+        {
+            "name": "Dragon Hammer",
+            "sprite": "",
+            "atk": "32",
+            "def": "20",
+            "hands": "1",
+            "additional": "-",
+            "level": "25",
+            "weight": "97.0",
+            "obtained": "Orc Warlord, Dragon"
+        },
+        {
+            "name": "Dragonbone Staff",
+            "sprite": "",
+            "atk": "35",
+            "def": "18",
+            "hands": "1",
+            "additional": "-",
+            "level": "30",
+            "weight": "18.0",
+            "obtained": "Dragon, Undead Dragon"
+        },
+        {
+            "name": "Spiked Squelcher",
+            "sprite": "",
+            "atk": "41",
+            "def": "12",
+            "hands": "2",
+            "additional": "-",
+            "level": "30",
+            "weight": "68.0",
+            "obtained": "Braindeath, Cyclops Smith, Hellspawn"
+        },
+        {
+            "name": "Orcish Maul",
+            "sprite": "",
+            "atk": "35",
+            "def": "18",
+            "hands": "2",
+            "additional": "-",
+            "level": "30",
+            "weight": "54.0",
+            "obtained": "Orc Marauder"
+        },
+        {
+            "name": "Mammoth Whopper",
+            "sprite": "",
+            "atk": "33",
+            "def": "18",
+            "hands": "1",
+            "additional": "-",
+            "level": "35",
+            "weight": "45.0",
+            "obtained": "Chakoya Tribewarden, Chakoya Toolshaper"
+        },
+        {
+            "name": "Brutetamer's Staff",
+            "sprite": "",
+            "atk": "40",
+            "def": "12",
+            "hands": "2",
+            "additional": "-",
+            "level": "35",
+            "weight": "38.0",
+            "obtained": "Barbarian Brutetamer"
+        },
+        {
+            "name": "Lunar Staff",
+            "sprite": "",
+            "atk": "40",
+            "def": "25",
+            "hands": "2",
+            "additional": "-",
+            "level": "35",
+            "weight": "38.0",
+            "obtained": "Adept of The Cult"
+        },
+        {
+            "name": "Lich Staff",
+            "sprite": "",
+            "atk": "40",
+            "def": "30",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "35",
+            "weight": "41.0",
+            "obtained": "Lich"
+        },
+        {
+            "name": "Skull Staff",
+            "sprite": "",
+            "atk": "36",
+            "def": "12",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "40",
+            "weight": "17.0",
+            "obtained": "Enlightened of The Cult, Lost Soul, Necromancer, Warlock"
+        },
+        {
+            "name": "War Hammer",
+            "sprite": "",
+            "atk": "38",
+            "def": "10",
+            "hands": "2",
+            "additional": "-",
+            "level": "40",
+            "weight": "85.0",
+            "obtained": "Toad, Plaguesmith, Bandit, Hero, Thornback Tortoise, Wild Warrior"
+        },
+        {
+            "name": "Amber Staff",
+            "sprite": "",
+            "atk": "43",
+            "def": "25",
+            "hands": "2",
+            "additional": "-",
+            "level": "40",
+            "weight": "35.0",
+            "obtained": "Enlightened of The Cult, Adept of The Cult, Hellhound"
+        },
+        {
+            "name": "Chaos Mace",
+            "sprite": "",
+            "atk": "44",
+            "def": "21",
+            "hands": "2",
+            "additional": "-",
+            "level": "45",
+            "weight": "63.0",
+            "obtained": "Destroyer, Grim Reaper"
+        },
+        {
+            "name": "Cranial Basher",
+            "sprite": "",
+            "atk": "43",
+            "def": "25",
+            "hands": "1",
+            "additional": "-",
+            "level": "50",
+            "weight": "78.0",
+            "obtained": "Quara Hydromancer Scout, Quara Hydromancer"
+        },
+        {
+            "name": "Onyx Flail",
+            "sprite": "",
+            "atk": "45",
+            "def": "18",
+            "hands": "1",
+            "additional": "-",
+            "level": "55",
+            "weight": "26.0",
+            "obtained": "Hellspawn"
+        },
+        {
+            "name": "Bonebreaker",
+            "sprite": "",
+            "atk": "46",
+            "def": "15",
+            "hands": "2",
+            "additional": "-",
+            "level": "55",
+            "weight": "120.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Heavy Mace",
+            "sprite": "",
+            "atk": "48",
+            "def": "21",
+            "hands": "2",
+            "additional": "-",
+            "level": "55",
+            "weight": "110.0",
+            "obtained": "Behemoth, Demon, Elder Beholder"
+        },
+        {
+            "name": "Northern Star",
+            "sprite": "",
+            "atk": "46",
+            "def": "25",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "60",
+            "weight": "42.0",
+            "obtained": "Dragon Lord"
+        },
+        {
+            "name": "Abyss Hammer",
+            "sprite": "",
+            "atk": "47",
+            "def": "21",
+            "hands": "2",
+            "additional": "-",
+            "level": "60",
+            "weight": "55.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Blessed Sceptre",
+            "sprite": "",
+            "atk": "49",
+            "def": "27",
+            "hands": "2",
+            "additional": "-",
+            "level": "65",
+            "weight": "39.0",
+            "obtained": "Frost Dragon."
+        },
+        {
+            "name": "Dark Trinity Mace",
+            "sprite": "",
+            "atk": "49",
+            "def": "27",
+            "hands": "1",
+            "additional": "-",
+            "level": "70",
+            "weight": "99.0",
+            "obtained": "Hydra"
+        },
+        {
+            "name": "Drachaku",
+            "sprite": "",
+            "atk": "51",
+            "def": "32",
+            "hands": "2",
+            "additional": "-",
+            "level": "75",
+            "weight": "90.0",
+            "obtained": "Undead Dragon, Ghastly Dragon"
+        },
+        {
+            "name": "Arcane Staff",
+            "sprite": "",
+            "atk": "50",
+            "def": "30",
+            "hands": "2",
+            "additional": "-",
+            "level": "75",
+            "weight": "40.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Silver Mace",
+            "sprite": "",
+            "atk": "53",
+            "def": "36",
+            "hands": "2",
+            "additional": "-",
+            "level": "85",
+            "weight": "67.0",
+            "obtained": "Lizad Chosen"
+        },
+        {
+            "name": "Obsidian Truncheon",
+            "sprite": "",
+            "atk": "50",
+            "def": "30",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "90",
+            "weight": "65.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Thunder Hammer",
+            "sprite": "",
+            "atk": "58",
+            "def": "35",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "100",
+            "weight": "125.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "King's Hammer",
+            "sprite": "",
+            "atk": "60",
+            "def": "30",
+            "hands": "1",
+            "additional": "-",
+            "level": "100",
+            "weight": "70.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Queen's Sceptre",
+            "sprite": "",
+            "atk": "?",
+            "def": "?",
+            "hands": "2",
+            "additional": "?",
+            "level": "120",
+            "weight": "23.0",
+            "obtained": "Unknown"
+        }
+    ],
+    "sword": [
+        {
+            "name": "Knife",
+            "sprite": "",
+            "atk": "5",
+            "def": "5",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "4.2",
+            "obtained": "Ghoul, Barbarian Skullhunter, Minotaur Mage, Assassin, Smuggler, Barbarian Headsplitter"
+        },
+        {
+            "name": "Dagger",
+            "sprite": "",
+            "atk": "8",
+            "def": "6",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "9.5",
+            "obtained": "Goblin, Orc Leader, Amazon, Swamp Troll, Valkyrie"
+        },
+        {
+            "name": "Combat Knife",
+            "sprite": "",
+            "atk": "8",
+            "def": "6",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "8.7",
+            "obtained": "Minotaur Mage, Ghost, Assassin, Smuggler"
+        },
+        {
+            "name": "Silver Dagger",
+            "sprite": "",
+            "atk": "9",
+            "def": "7",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "10.2",
+            "obtained": "Witch"
+        },
+        {
+            "name": "Rapier",
+            "sprite": "",
+            "atk": "10",
+            "def": "9",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "15.0",
+            "obtained": "Frost Troll"
+        },
+        {
+            "name": "Short Sword",
+            "sprite": "",
+            "atk": "11",
+            "def": "11",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "35.0",
+            "obtained": "Goblin, Cyclops, Frost Giantess, Mummy, Pirate Skeleton, Frost Giant, Necromancer, Lizard Templar, Smuggler"
+        },
+        {
+            "name": "Sabre",
+            "sprite": "",
+            "atk": "12",
+            "def": "11",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "26.0",
+            "obtained": "Orc, Pirate Buccaneer, Amazon, Pirate Corsair, Orc Warrior"
+        },
+        {
+            "name": "Bone Sword",
+            "sprite": "",
+            "atk": "13",
+            "def": "10",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "19.0",
+            "obtained": "Bonebeast, Braindeath, Crypt Shambler"
+        },
+        {
+            "name": "Sword",
+            "sprite": "",
+            "atk": "14",
+            "def": "13",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "35.0",
+            "obtained": "Skeleton, Minotaur, Pirate Skeleton, Skeleton Warrior, Rotworm, Lizard Templar, Pirate Cutthroat and others"
+        },
+        {
+            "name": "Carlin Sword",
+            "sprite": "",
+            "atk": "15",
+            "def": "14",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "40.0",
+            "obtained": "Stone Golem"
+        },
+        {
+            "name": "Katana",
+            "sprite": "",
+            "atk": "16",
+            "def": "13",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "31.0",
+            "obtained": "Toad, Stalker, Vampire, Rotworm"
+        },
+        {
+            "name": "Longsword",
+            "sprite": "",
+            "atk": "17",
+            "def": "14",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "42.0",
+            "obtained": "Elder Beholder, Quara Constrictor Scout, Elf, Orc Leader, Elf Scout, Dragon, Beholder, Quara Constrictor"
+        },
+        {
+            "name": "Poison Dagger",
+            "sprite": "",
+            "atk": "18",
+            "def": "8",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "8.8",
+            "obtained": "Dworc Venomsniper, Dworc Voodoomaster, Banshee, Dworc Fleshhunter, Mummy, Warlock, Orc Warrior"
+        },
+        {
+            "name": "Scimitar",
+            "sprite": "",
+            "atk": "19",
+            "def": "14",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "29.0",
+            "obtained": " Orc Leader, Orc Marauder,  Fire Devil, Orc Warlord, Undead Gladiator"
+        },
+        {
+            "name": "Templar Scytheblade",
+            "sprite": "",
+            "atk": "23",
+            "def": "15",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "-",
+            "weight": "29.0",
+            "obtained": "Lizard Templar, Orc Rider"
+        },
+        {
+            "name": "Spike Sword",
+            "sprite": "",
+            "atk": "24",
+            "def": "21",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "-",
+            "weight": "50.0",
+            "obtained": "Pirate Ghost, Vampire"
+        },
+        {
+            "name": "Serpent Sword",
+            "sprite": "",
+            "atk": "18",
+            "def": "15",
+            "hands": "1",
+            "additional": "+1 Def +8 Earth attack",
+            "level": "-",
+            "weight": "41.0",
+            "obtained": "Sea Serpent, Dragon"
+        },
+        {
+            "name": "Broadsword",
+            "sprite": "",
+            "atk": "26",
+            "def": "23",
+            "hands": "2",
+            "additional": "-",
+            "level": "-",
+            "weight": "52.5",
+            "obtained": "Orc Leader, Dragon"
+        },
+        {
+            "name": "Ice Rapier",
+            "sprite": "",
+            "atk": "42",
+            "def": "1",
+            "hands": "1",
+            "additional": "+1 Def +18 Ice attack",
+            "level": "-",
+            "weight": "15.0",
+            "obtained": "Frost Dragon, Demon, Vampire"
+        },
+        {
+            "name": "Two Handed Sword",
+            "sprite": "",
+            "atk": "35",
+            "def": "12",
+            "hands": "2",
+            "additional": "-",
+            "level": "25",
+            "weight": "70.0",
+            "obtained": "All Quaras, Elder Beholder, Hero, Orc Warlord, Crypt Shambler, Black Knight, Beholder, Behemoth, Undead Gladiator"
+        },
+        {
+            "name": "Crystal Sword",
+            "sprite": "",
+            "atk": "35",
+            "def": "26",
+            "hands": "2",
+            "additional": "-",
+            "level": "25",
+            "weight": "69.0",
+            "obtained": "Barbarian Skullhunter, Ice Witch, Crystal Spider, Barbarian Headsplitter"
+        },
+        {
+            "name": "Fire Sword",
+            "sprite": "",
+            "atk": "24",
+            "def": "20",
+            "hands": "1",
+            "additional": "+1 Def +11 Fire attack",
+            "level": "30",
+            "weight": "23.0",
+            "obtained": "Serpent Spawn, Dragon Lord, Hero, Hellhound"
+        },
+        {
+            "name": "Epee",
+            "sprite": "",
+            "atk": "33",
+            "def": "20",
+            "hands": "1",
+            "additional": "-",
+            "level": "35",
+            "weight": "14.5",
+            "obtained": "Frost Giant, Frost Giantess"
+        },
+        {
+            "name": "Mercenary Sword",
+            "sprite": "",
+            "atk": "39",
+            "def": "15",
+            "hands": "2",
+            "additional": "-",
+            "level": "35",
+            "weight": "68.0",
+            "obtained": "Lizard Templar, Serpent Spawn, Mutated Bat, Undead Gladiator, Medusa"
+        },
+        {
+            "name": "Djinn Blade",
+            "sprite": "",
+            "atk": "38",
+            "def": "22",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "40",
+            "weight": "24.5",
+            "obtained": "Blue Djinn, Green Djinn"
+        },
+        {
+            "name": "Assassin Dagger",
+            "sprite": "",
+            "atk": "40",
+            "def": "12",
+            "hands": "1",
+            "additional": "-2 Def",
+            "level": "40",
+            "weight": "17.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Pharaoh Sword",
+            "sprite": "",
+            "atk": "41",
+            "def": "23",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "45",
+            "weight": "52.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Dragon Slayer",
+            "sprite": "",
+            "atk": "44",
+            "def": "28",
+            "hands": "2",
+            "additional": "-",
+            "level": "45",
+            "weight": "82.0",
+            "obtained": "Frost Dragon, Dragon Lord, Undead Dragon"
+        },
+        {
+            "name": "Relic Sword",
+            "sprite": "",
+            "atk": "42",
+            "def": "24",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "50",
+            "weight": "48.0",
+            "obtained": "Quara Predator Scout, Quara Predator"
+        },
+        {
+            "name": "Giant Sword",
+            "sprite": "",
+            "atk": "47",
+            "def": "14",
+            "hands": "2",
+            "additional": "-",
+            "level": "55",
+            "weight": "180.0",
+            "obtained": "Hellhound, Demon, Behemoth, Elder Beholder"
+        },
+        {
+            "name": "Mystic Blade",
+            "sprite": "",
+            "atk": "44",
+            "def": "25",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "60",
+            "weight": "35.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Great Scimitar",
+            "sprite": "",
+            "atk": "45",
+            "def": "27",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "60",
+            "weight": "49.0",
+            "obtained": "Dragon Lord"
+        },
+        {
+            "name": "Justice Seeker",
+            "sprite": "",
+            "atk": "48",
+            "def": "29",
+            "hands": "2",
+            "additional": "-",
+            "level": "65",
+            "weight": "50.0",
+            "obtained": "Frost Dragon"
+        },
+        {
+            "name": "Nightmare Blade",
+            "sprite": "",
+            "atk": "48",
+            "def": "29",
+            "hands": "1",
+            "additional": "-",
+            "level": "70",
+            "weight": "46.0",
+            "obtained": "Hydra"
+        },
+        {
+            "name": "Sai",
+            "sprite": "",
+            "atk": "50",
+            "def": "34",
+            "hands": "2",
+            "additional": "-",
+            "level": "75",
+            "weight": "80.0",
+            "obtained": "Undead Dragon, Ghastly Dragon"
+        },
+        {
+            "name": "Avenger",
+            "sprite": "",
+            "atk": "50",
+            "def": "38",
+            "hands": "2",
+            "additional": "-",
+            "level": "75",
+            "weight": "64.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Warlord Sword",
+            "sprite": "",
+            "atk": "52",
+            "def": "38",
+            "hands": "2",
+            "additional": "-",
+            "level": "85",
+            "weight": "64.0",
+            "obtained": "Lizad Chosen."
+        },
+        {
+            "name": "Magic Sword",
+            "sprite": "",
+            "atk": "56",
+            "def": "30",
+            "hands": "1",
+            "additional": "+3 Def",
+            "level": "100",
+            "weight": "42.0",
+            "obtained": "Quest."
+        },
+        {
+            "name": "King's Sword",
+            "sprite": "",
+            "atk": "58",
+            "def": "34",
+            "hands": "1",
+            "additional": "-",
+            "level": "100",
+            "weight": "61.0",
+            "obtained": "Quest."
+        },
+        {
+            "name": "Magic Longsword",
+            "sprite": "",
+            "atk": "?",
+            "def": "?",
+            "hands": "2",
+            "additional": "?",
+            "level": "120",
+            "weight": "43.0",
+            "obtained": "Unknown."
+        }
+    ],
+    "axe": [
+        {
+            "name": "Hand Axe",
+            "sprite": "",
+            "atk": "10",
+            "def": "5",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "18.0",
+            "obtained": "Island Troll, Troll"
+        },
+        {
+            "name": "Axe",
+            "sprite": "",
+            "atk": "12",
+            "def": "6",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "40.0",
+            "obtained": "Orc, Bandit, Dwarf, Minotaur, Nomad, Wild Warrior"
+        },
+        {
+            "name": "Golden Sickle",
+            "sprite": "",
+            "atk": "13",
+            "def": "6",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "19.5",
+            "obtained": "Demon"
+        },
+        {
+            "name": "Hatchet",
+            "sprite": "",
+            "atk": "15",
+            "def": "8",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "35.0",
+            "obtained": "Minotaur Guard, Skeleton Warrior, Skeleton, Dwarf"
+        },
+        {
+            "name": "Battle Axe",
+            "sprite": "",
+            "atk": "25",
+            "def": "10",
+            "hands": "2",
+            "additional": "-",
+            "level": "-",
+            "weight": "50.0",
+            "obtained": "Orc Berserker, Dwarf Soldier, Barbarian Bloodwalker"
+        },
+        {
+            "name": "Orcish Axe",
+            "sprite": "",
+            "atk": "25",
+            "def": "12",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "45.0",
+            "obtained": "Orc Rider, Orc Warlord"
+        },
+        {
+            "name": "Barbarian Axe",
+            "sprite": "",
+            "atk": "28",
+            "def": "18",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "20",
+            "weight": "51.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Dwarven Axe",
+            "sprite": "",
+            "atk": "31",
+            "def": "19",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "20",
+            "weight": "82.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Obsidian Lance",
+            "sprite": "",
+            "atk": "34",
+            "def": "10",
+            "hands": "2",
+            "additional": "-",
+            "level": "20",
+            "weight": "80.0",
+            "obtained": "Stalker, Quara Hydromancer Scout, Lizard Sentinel, Orc Rider, Orc Marauder"
+        },
+        {
+            "name": "Knight Axe",
+            "sprite": "",
+            "atk": "33",
+            "def": "21",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "25",
+            "weight": "59.0",
+            "obtained": "Hellhound, Black Knight, Undead Gladiator"
+        },
+        {
+            "name": "Double Axe",
+            "sprite": "",
+            "atk": "35",
+            "def": "12",
+            "hands": "2",
+            "additional": "-",
+            "level": "25",
+            "weight": "70.0",
+            "obtained": "Minotaur Guard, Fire Devil, Dragon, Black Knight, Demon, Dwarf Guard, Behemoth, Quara Predator, Valkyrie"
+        },
+        {
+            "name": "Halberd",
+            "sprite": "",
+            "atk": "35",
+            "def": "14",
+            "hands": "2",
+            "additional": "-",
+            "level": "25",
+            "weight": "90.0",
+            "obtained": "All Quaras, Orc Berserker, Cyclops, Barbarian Bloodwalker, Black Knight, Frost Giant, Zombie, Lizard Sentinel"
+        },
+        {
+            "name": "Daramanian Waraxe",
+            "sprite": "",
+            "atk": "39",
+            "def": "15",
+            "hands": "2",
+            "additional": "-",
+            "level": "25",
+            "weight": "52.5",
+            "obtained": "Ancient Scarab"
+        },
+        {
+            "name": "Zaoan Halberd",
+            "sprite": "",
+            "atk": "37",
+            "def": "15",
+            "hands": "2",
+            "additional": "-",
+            "level": "25",
+            "weight": "87.0",
+            "obtained": "Ghastly Dragon"
+        },
+        {
+            "name": "Glorious Axe",
+            "sprite": "",
+            "atk": "40",
+            "def": "13",
+            "hands": "2",
+            "additional": "-",
+            "level": "30",
+            "weight": "95.0",
+            "obtained": "Undead Gladiator"
+        },
+        {
+            "name": "Beastslayer Axe",
+            "sprite": "",
+            "atk": "35",
+            "def": "15",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "35",
+            "weight": "61.5",
+            "obtained": "Barbarian Bloodwalker, Barbarian Headsplitter, Undead Gladiator"
+        },
+        {
+            "name": "Fire Axe",
+            "sprite": "",
+            "atk": "26",
+            "def": "16",
+            "hands": "1",
+            "additional": "+1 Def +11 Fire attack",
+            "level": "35",
+            "weight": "40.0",
+            "obtained": "Demon, Latrivan, Hellfire Fighter"
+        },
+        {
+            "name": "Noble Axe",
+            "sprite": "",
+            "atk": "39",
+            "def": "22",
+            "hands": "1",
+            "additional": "-",
+            "level": "35",
+            "weight": "38.0",
+            "obtained": "Serpent Spawn, Necromancer"
+        },
+        {
+            "name": "Titan Axe",
+            "sprite": "",
+            "atk": "42",
+            "def": "8",
+            "hands": "2",
+            "additional": "-",
+            "level": "35",
+            "weight": "81.0",
+            "obtained": "Orc Berserker, Medusa, Juggernaut, Lost Soul, Behemoth"
+        },
+        {
+            "name": "Angelic Axe",
+            "sprite": "",
+            "atk": "44",
+            "def": "24",
+            "hands": "2",
+            "additional": "-",
+            "level": "45",
+            "weight": "56.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Ornamented Axe",
+            "sprite": "",
+            "atk": "44",
+            "def": "18",
+            "hands": "1",
+            "additional": "-",
+            "level": "50",
+            "weight": "61.5",
+            "obtained": "Quara Pincher Scout, Quara Pincher"
+        },
+        {
+            "name": "Twin Axe",
+            "sprite": "",
+            "atk": "45",
+            "def": "24",
+            "hands": "2",
+            "additional": "-",
+            "level": "50",
+            "weight": "64.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Guardian Halberd",
+            "sprite": "",
+            "atk": "46",
+            "def": "15",
+            "hands": "2",
+            "additional": "-",
+            "level": "55",
+            "weight": "110.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Vile Axe",
+            "sprite": "",
+            "atk": "46",
+            "def": "19",
+            "hands": "1",
+            "additional": "+3 Def",
+            "level": "55",
+            "weight": "52.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "War Axe",
+            "sprite": "",
+            "atk": "49",
+            "def": "10",
+            "hands": "2",
+            "additional": "-",
+            "level": "55",
+            "weight": "61.5",
+            "obtained": "Elder Beholder, Behemoth, Demon"
+        },
+        {
+            "name": "Dragon Lance",
+            "sprite": "",
+            "atk": "47",
+            "def": "16",
+            "hands": "2",
+            "additional": "-",
+            "level": "60",
+            "weight": "67.0",
+            "obtained": "Black Knight"
+        },
+        {
+            "name": "Ravenwing",
+            "sprite": "",
+            "atk": "45",
+            "def": "22",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "65",
+            "weight": "55.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Drakinata",
+            "sprite": "",
+            "atk": "47",
+            "def": "20",
+            "hands": "1",
+            "additional": "-",
+            "level": "65",
+            "weight": "54.0",
+            "obtained": "Dragon Lord, Ghastly Dragon"
+        },
+        {
+            "name": "Royal Axe",
+            "sprite": "",
+            "atk": "50",
+            "def": "25",
+            "hands": "2",
+            "additional": "-",
+            "level": "65",
+            "weight": "92.0",
+            "obtained": "Frost Dragon"
+        },
+        {
+            "name": "Reaper's Axe",
+            "sprite": "",
+            "atk": "48",
+            "def": "25",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "70",
+            "weight": "59.0",
+            "obtained": "Sea Serpent, Young Sea Serpent"
+        },
+        {
+            "name": "Impaler",
+            "sprite": "",
+            "atk": "50",
+            "def": "25",
+            "hands": "1",
+            "additional": "-",
+            "level": "70",
+            "weight": "82.0",
+            "obtained": "Hydra"
+        },
+        {
+            "name": "Ravager's Axe",
+            "sprite": "",
+            "atk": "52",
+            "def": "28",
+            "hands": "1",
+            "additional": "-",
+            "level": "70",
+            "weight": "52.5",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Ruthless Axe",
+            "sprite": "",
+            "atk": "50",
+            "def": "15",
+            "hands": "2",
+            "additional": "-",
+            "level": "75",
+            "weight": "58.0",
+            "obtained": "Hellhound"
+        },
+        {
+            "name": "Twin Hooks",
+            "sprite": "",
+            "atk": "52",
+            "def": "30",
+            "hands": "2",
+            "additional": "-",
+            "level": "75",
+            "weight": "80.0",
+            "obtained": "Undead Dragon, Ghastly Dragon"
+        },
+        {
+            "name": "Demonwing Axe",
+            "sprite": "",
+            "atk": "53",
+            "def": "20",
+            "hands": "2",
+            "additional": "-",
+            "level": "80",
+            "weight": "120.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Great Axe",
+            "sprite": "",
+            "atk": "54",
+            "def": "34",
+            "hands": "2",
+            "additional": "-",
+            "level": "85",
+            "weight": "90.0",
+            "obtained": "Lizard Chosen"
+        },
+        {
+            "name": "Hellforged Axe",
+            "sprite": "",
+            "atk": "51",
+            "def": "28",
+            "hands": "1",
+            "additional": "+2 Def",
+            "level": "90",
+            "weight": "88.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Stonecutter Axe",
+            "sprite": "",
+            "atk": "59",
+            "def": "30",
+            "hands": "1",
+            "additional": "+3 Def",
+            "level": "100",
+            "weight": "99.0",
+            "obtained": ""
+        },
+        {
+            "name": "King's Axe",
+            "sprite": "",
+            "atk": "62",
+            "def": "26",
+            "hands": "1",
+            "additional": "-",
+            "level": "100",
+            "weight": "52.5",
+            "obtained": ""
+        },
+        {
+            "name": "Solar Axe",
+            "sprite": "",
+            "atk": "?",
+            "def": "?",
+            "hands": "2",
+            "additional": "?",
+            "level": "120",
+            "weight": "110.0",
+            "obtained": "Unknown"
+        }
+    ],
+    "distance": [
+        {
+            "name": "Snowball",
+            "sprite": "",
+            "atk": "-",
+            "range": "6",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "0.80",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Slingshot",
+            "sprite": "",
+            "atk": "5",
+            "range": "1",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "3.60",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Small Stone",
+            "sprite": "",
+            "atk": "5",
+            "range": "4",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "3.60",
+            "obtained": "Goblin, Earth Elemental, Frost Giantess, Gargoyle, Stone Golem, Sibang"
+        },
+        {
+            "name": "Throwing Knife",
+            "sprite": "",
+            "atk": "25",
+            "range": "4",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "5.0",
+            "obtained": "Stalker, Dworc Venomsniper, Goblin Assassin, Pirate Buccaneer, Orc Leader, Hellhound"
+        },
+        {
+            "name": "Spear",
+            "sprite": "",
+            "atk": "25",
+            "range": "3",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "20.0",
+            "obtained": "All Trolls, Orc Spearman, Orc Shaman, Black Knight, Pirate Marauder, Lizard Sentinel, Valkyrie"
+        },
+        {
+            "name": "Viper Star",
+            "sprite": "",
+            "atk": "28",
+            "range": "4",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "1.0",
+            "obtained": "Assassin"
+        },
+        {
+            "name": "Throwing Star",
+            "sprite": "",
+            "atk": "30",
+            "range": "4",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "2.0",
+            "obtained": "Orc Warlord, Pirate Corsair, Crypt Shambler, Assassin, Demon Skeleton, Undead Gladiator"
+        },
+        {
+            "name": "Hunting Spear",
+            "sprite": "",
+            "atk": "32",
+            "range": "3",
+            "hands": "1",
+            "additional": "-",
+            "level": "20",
+            "weight": "22.0",
+            "obtained": "Orc Berserker, Dworc Fleshhunter, Orc Warlord, Barbarian Brutetamer, Lizard Sentinel, Undead Gladiator, Valkyrie"
+        },
+        {
+            "name": "Royal Spear",
+            "sprite": "",
+            "atk": "35",
+            "range": "3",
+            "hands": "1",
+            "additional": "-",
+            "level": "25",
+            "weight": "25.0",
+            "obtained": "Green Djinn, Blue Djinn, Dragon Lord, Orc Leader, Quara Predator, Barbarian Headsplitter"
+        },
+        {
+            "name": "Assassin Star",
+            "sprite": "",
+            "atk": "65",
+            "range": "4",
+            "hands": "1",
+            "additional": "-",
+            "level": "80",
+            "weight": "1.0",
+            "obtained": " Hellhound, Behemoth, Demon, Undead Dragon, Warlock, Hellspawn"
+        },
+        {
+            "name": "Bow",
+            "sprite": "",
+            "atk": "-",
+            "range": "6",
+            "hands": "2",
+            "additional": "-",
+            "level": "-",
+            "weight": "31.0",
+            "obtained": "Elf, Elf Scout, Hero, Hunter"
+        },
+        {
+            "name": "Crossbow",
+            "sprite": "",
+            "atk": "-",
+            "range": "5",
+            "hands": "2",
+            "additional": "-",
+            "level": "-",
+            "weight": "40.0",
+            "obtained": " Dwarf Soldier, Dragon, Minotaur Archer"
+        },
+        {
+            "name": "Elvish Bow",
+            "sprite": "",
+            "atk": "-",
+            "range": "6",
+            "hands": "2",
+            "additional": "hit +3%",
+            "level": "-",
+            "weight": "39.0",
+            "obtained": "Elf Scout, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Yol's Bow",
+            "sprite": "",
+            "atk": "-",
+            "range": "5",
+            "hands": "2",
+            "additional": "hit +5%",
+            "level": "30",
+            "weight": "35.0",
+            "obtained": "Orc Warrior"
+        },
+        {
+            "name": "Elethriel's Elemental Bow",
+            "sprite": "",
+            "atk": "+7",
+            "range": "6",
+            "hands": "2",
+            "additional": "-",
+            "level": "35",
+            "weight": "44.0",
+            "obtained": "Frost Dragon, Frost Dragon Hatchling"
+        },
+        {
+            "name": "Silkweaver Bow",
+            "sprite": "",
+            "atk": "+5",
+            "range": "6",
+            "hands": "2",
+            "additional": "hit +5%",
+            "level": "40",
+            "weight": "22.0",
+            "obtained": "Earth Elemental, Massive Earth Elemental, Medusa"
+        },
+        {
+            "name": "Modified Crossbow",
+            "sprite": "",
+            "atk": "+7",
+            "range": "5",
+            "hands": "2",
+            "additional": "hit +7%",
+            "level": "45",
+            "weight": "35.0",
+            "obtained": "Frost Dragon, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "The Ironworker",
+            "sprite": "",
+            "atk": "+7",
+            "range": "6",
+            "hands": "2",
+            "additional": "hit +7%",
+            "level": "50",
+            "weight": "55.0",
+            "obtained": "Quara Constrictor Scout, Behemoth, Quara Constrictor"
+        },
+        {
+            "name": "Imperor's Trident",
+            "sprite": "",
+            "atk": "38",
+            "range": "3",
+            "hands": "1",
+            "additional": "-",
+            "level": "50",
+            "weight": "100.0",
+            "obtained": "Black Knight"
+        },
+        {
+            "name": "Composite Hornbow",
+            "sprite": "",
+            "atk": "+7",
+            "range": "7",
+            "hands": "2",
+            "additional": "hit +7%",
+            "level": "60",
+            "weight": "52.0",
+            "obtained": "Orc Marauder, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Chain Bolter",
+            "sprite": "",
+            "atk": "+10",
+            "range": "6",
+            "hands": "2",
+            "additional": "hit +7%",
+            "level": "70",
+            "weight": "55.0",
+            "obtained": "Undead Dragon, Ghastly Dragon"
+        },
+        {
+            "name": "Ripper Lance",
+            "sprite": "",
+            "atk": "46",
+            "range": "3",
+            "hands": "1",
+            "additional": "-",
+            "level": "75",
+            "weight": "120.0",
+            "obtained": "Hydra"
+        },
+        {
+            "name": "The Devileye",
+            "sprite": "",
+            "atk": "+10",
+            "range": "7",
+            "hands": "2",
+            "additional": "hit + 10%",
+            "level": "85",
+            "weight": "55.0",
+            "obtained": "Lizard Chosen"
+        },
+        {
+            "name": "Warsinger Bow",
+            "sprite": "",
+            "atk": "?",
+            "range": "?",
+            "hands": "2",
+            "additional": "?",
+            "level": "90",
+            "weight": "45.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "King's Crossbow",
+            "sprite": "",
+            "atk": "+15",
+            "range": "7",
+            "hands": "2",
+            "additional": "hit +12%",
+            "level": "100",
+            "weight": "120.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Arbalest",
+            "sprite": "",
+            "atk": "?",
+            "range": "7",
+            "hands": "?",
+            "additional": "?",
+            "level": "120",
+            "weight": "95.0",
+            "obtained": "Unknown"
+        }
+    ],
+    "ammunition": [
+        {
+            "name": "Poison Arrow",
+            "sprite": "",
+            "atk": "22",
+            "additional": "Target will be poisoned",
+            "weight": "0.40",
+            "obtained": "Dworc Venomsniper, Elf Scout, Hunter, Giant Spider, Necromancer"
+        },
+        {
+            "name": "Arrow",
+            "sprite": "",
+            "atk": "25",
+            "additional": "-",
+            "weight": "0.15",
+            "obtained": "Elf, Elf Scout, Hero, Hunter, Elf Arcanist, Scarab"
+        },
+        {
+            "name": "Burst Arrow",
+            "sprite": "",
+            "atk": "28",
+            "additional": "Damage a 9 square area",
+            "weight": "0.45",
+            "obtained": "Hunter, Dragon"
+        },
+        {
+            "name": "Sniper Arrow",
+            "sprite": "",
+            "atk": "28",
+            "additional": "-",
+            "weight": "0.35",
+            "obtained": "Elder Beholder, Braindeath, Hero"
+        },
+        {
+            "name": "Bolt",
+            "sprite": "",
+            "atk": "30",
+            "additional": "-",
+            "weight": "0.20",
+            "obtained": "Dwarf Soldier, Minotaur Archer"
+        },
+        {
+            "name": "Piercing Bolt",
+            "sprite": "",
+            "atk": "33",
+            "additional": "-",
+            "weight": "0.40",
+            "obtained": "Dwarf Soldier, Minotaur Archer"
+        },
+        {
+            "name": "Onyx Arrow",
+            "sprite": "",
+            "atk": "38",
+            "additional": "-",
+            "weight": "0.35",
+            "obtained": " Plaguesmith, Serpent Spawn"
+        },
+        {
+            "name": "Power Bolt",
+            "sprite": "",
+            "atk": "40",
+            "additional": "-",
+            "weight": "0.45",
+            "obtained": "Frost Dragon, Serpent Spawn, Dragon Lord, Undead Dragon"
+        },
+        {
+            "name": "Earth Arrow",
+            "sprite": "",
+            "atk": "14",
+            "additional": "+ 14 earth attack",
+            "weight": "0.35",
+            "obtained": "Earth Elemental"
+        },
+        {
+            "name": "Flash Arrow",
+            "sprite": "",
+            "atk": "14",
+            "additional": "+ 14 energy attack",
+            "weight": "0.35",
+            "obtained": "Water Elemental"
+        },
+        {
+            "name": "Shiver Arrow",
+            "sprite": "",
+            "atk": "14",
+            "additional": "+ 14 ice attack",
+            "weight": "0.35",
+            "obtained": "Energy Elemental"
+        },
+        {
+            "name": "Flaming Arrow",
+            "sprite": "",
+            "atk": "14",
+            "additional": "+ 14 fire attack",
+            "weight": "0.35",
+            "obtained": "Blazing Fire Elemental"
+        }
+    ],
+    "amulets": [
+        {
+            "name": "Wolf Tooth Chain",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "weight": "3.3",
+            "obtained": "Witch, Cyclops, Orc Rider, Gargoyle"
+        },
+        {
+            "name": "Crystal Necklace",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "weight": "4.9",
+            "obtained": "Amazon, Behemoth, Priestess"
+        },
+        {
+            "name": "Scarab Amulet",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "weight": "7.7",
+            "obtained": "Ancient Scarab"
+        },
+        {
+            "name": "Ancient Amulet",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "weight": "8.4",
+            "obtained": "Ancient Scarab"
+        },
+        {
+            "name": "Amulet of Loss",
+            "sprite": "",
+            "arm": "-",
+            "additional": "item's loss protection",
+            "weight": "4.2",
+            "obtained": "Lost Soul"
+        },
+        {
+            "name": "Dragon Necklace",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection fire +8%",
+            "weight": "6.3",
+            "obtained": "Acolyte of The Cult, Hunter"
+        },
+        {
+            "name": "Protection Amulet",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection physical +10%",
+            "weight": "5.5",
+            "obtained": " Enlightened of The Cult, Orc Warlord, Kongra, Undead Gladiator"
+        },
+        {
+            "name": "Garlic Necklace",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection lifedrain +20%",
+            "weight": "3.8",
+            "obtained": "Witch, Novice of The Cult"
+        },
+        {
+            "name": "Elven Amulet",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection physical +5% energy +5% poison +5% fire +5% ice +5%",
+            "weight": "2.7",
+            "obtained": "Elf Arcanist"
+        },
+        {
+            "name": "Stone Skin Amulet",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection physical +80%",
+            "weight": "7.0",
+            "obtained": "Banshee, Lost Soul, Hydra, Warlock"
+        },
+        {
+            "name": "Strange Talisman",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection energy +10%",
+            "weight": "2.9",
+            "obtained": "Mummy"
+        },
+        {
+            "name": "Silver Amulet",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection poison +10%",
+            "weight": "5.0",
+            "obtained": "Banshee, Medusa, Adept of The Cult, Mummy, Island Troll, Troll, Mutated Human"
+        },
+        {
+            "name": "Bronze Amulet",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection manadrain +20%",
+            "weight": "5.0",
+            "obtained": "Dworc Venomsniper, Dworc Voodoomaster, Werewolf, Minotaur, Vampire"
+        },
+        {
+            "name": "Wailing Widow's Necklace",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection earth +15%",
+            "weight": "5.4",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Sacred Tree Amulet",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection physical +60%, earth +40%",
+            "weight": "7.0",
+            "obtained": "Medusa"
+        },
+        {
+            "name": "Beetle Necklace",
+            "sprite": "",
+            "arm": "-",
+            "additional": "speed +10",
+            "weight": "8.2",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Holy Falcon",
+            "sprite": "",
+            "arm": "-",
+            "additional": "distance fighting +3",
+            "weight": "8.4",
+            "obtained": "Questt"
+        },
+        {
+            "name": "Sapphire Amulet",
+            "sprite": "",
+            "arm": "-",
+            "additional": "club fighting +3",
+            "weight": "6.8",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Star Amulet",
+            "sprite": "",
+            "arm": "-",
+            "additional": "axe fighting +3",
+            "weight": "6.1",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Ruby Necklace",
+            "sprite": "",
+            "arm": "-",
+            "additional": "sword fighting +3",
+            "weight": "5.7",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Scarf",
+            "sprite": "",
+            "arm": "1",
+            "additional": "-",
+            "weight": "2.0",
+            "obtained": "Hero, Novice of The Cult"
+        },
+        {
+            "name": "Paw Amulet",
+            "sprite": "",
+            "arm": "1",
+            "additional": "-",
+            "weight": "4.2",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Platinum Amulet",
+            "sprite": "",
+            "arm": "2",
+            "additional": "-",
+            "weight": "6.0",
+            "obtained": "Enlightened of The Cult, Medusa, Demon, Giant Spider, Lich"
+        },
+        {
+            "name": "Golden Amulet",
+            "sprite": "",
+            "arm": "?",
+            "additional": "?",
+            "weight": "8.3",
+            "obtained": "Unknown"
+        }
+    ],
+    "rings": [
+        {
+            "name": "Crystal Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "weight": "0.9",
+            "obtained": "Banshee, Mummy, Stone Golem, Warlock"
+        },
+        {
+            "name": "Emerald Bangle",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "weight": "1.7",
+            "obtained": "Hand of Cursed Fate, Werewolf, Plaguesmith, Vampire Bride, Vampire"
+        },
+        {
+            "name": "Gold Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "weight": "-",
+            "obtained": "Demon"
+        },
+        {
+            "name": "Ring of The Sky",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "weight": "0.4",
+            "obtained": "Warlock"
+        },
+        {
+            "name": "Wedding Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "-",
+            "weight": "0.4",
+            "obtained": "Banshee, Hero"
+        },
+        {
+            "name": "Ring of Healing",
+            "sprite": "",
+            "arm": "-",
+            "additional": "faster regeneration",
+            "weight": "0.8",
+            "obtained": "Acolyte of The Cult, Lizard Snakecharmer, Serpent Spawn, Ghoul, Barbarian Skullhunter, Barbarian Headsplitter"
+        },
+        {
+            "name": "Life Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "faster regeneration",
+            "weight": "0.8",
+            "obtained": "Acolyte of The Cult, Lizard Snakecharmer, Serpent Spawn, Ghoul, Barbarian Skullhunter, Barbarian Headsplitter"
+        },
+        {
+            "name": "Axe Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "+4 axe skill",
+            "weight": "0.9",
+            "obtained": "Plaguesmith, Dwarf Soldier, Dwarf Guard"
+        },
+        {
+            "name": "Club Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "+4 club skill",
+            "weight": "0.9",
+            "obtained": "Plaguesmith, Cyclops, Gargoyle, Kongra."
+        },
+        {
+            "name": "Sword Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "+4 sword skill",
+            "weight": "0.9",
+            "obtained": "Orc Leader"
+        },
+        {
+            "name": "Power Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "+4 fist skill",
+            "weight": "0.8",
+            "obtained": "Monk, Kongra, Dark Monk, Stone Golem"
+        },
+        {
+            "name": "Time Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "+15 speed",
+            "weight": "0.9",
+            "obtained": "Tarantula, Adept of The Cult, Giant Spider"
+        },
+        {
+            "name": "Energy Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "mana shield",
+            "weight": "0.8",
+            "obtained": "Enlightened of The Cult, Frost Dragon, Serpent Spawn, Dragon Lord, Warlock"
+        },
+        {
+            "name": "Stealth Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "make you invisible",
+            "weight": "1.0",
+            "obtained": "Quara Mantassin, Stalker, Quara Mantassin Scout, Sea Serpent, Orc Warlord, Ghost, Pirate Ghost, Demon, Undead Gladiator"
+        },
+        {
+            "name": "Might Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "protection physical +20% energy +20% poison +20% fire +20% ice +20%",
+            "weight": "1.0",
+            "obtained": "Hero, Demon"
+        },
+        {
+            "name": "Dwarven Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "Suppress drunkenness",
+            "weight": "1.1",
+            "obtained": "Dwarf, Novice of The Cult"
+        },
+        {
+            "name": "Death Ring",
+            "sprite": "",
+            "arm": "1",
+            "additional": "shielding -10, protection death +5%",
+            "weight": "0.8",
+            "obtained": "Werewolf, Grim Reaper, Lost Soul, Undead Dragon"
+        },
+        {
+            "name": "Cigar",
+            "sprite": "",
+            "arm": "2",
+            "additional": "speed -5",
+            "weight": "1.2",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Signet Ring",
+            "sprite": "",
+            "arm": "-",
+            "additional": "sword fighting +1",
+            "weight": "1.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Feather",
+            "sprite": "",
+            "arm": "-",
+            "additional": "distance fighting +1",
+            "weight": "1.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "Didgeridoo",
+            "sprite": "",
+            "arm": "-",
+            "additional": "club fighting +1",
+            "weight": "1.0",
+            "obtained": "Unknown"
+        },
+        {
+            "name": "War Horn",
+            "sprite": "",
+            "arm": "-",
+            "additional": "axe fighting +1",
+            "weight": "1.0",
+            "obtained": "Unknown"
+        }
+    ],
+    "containers": [
+        {
+            "name": "Bag",
+            "sprite": "",
+            "slots": "8",
+            "additional": "-",
+            "weight": "8.0",
+            "obtained": "Most creatures"
+        },
+        {
+            "name": "Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "-",
+            "weight": "18.0",
+            "obtained": "Orc Leader"
+        },
+        {
+            "name": "Brocade Bag",
+            "sprite": "",
+            "slots": "8",
+            "additional": "-",
+            "weight": "8.0",
+            "obtained": "Acolyte of the Cult, Enlightened of the Cult, Adept of the Cult, Novice of the Cult"
+        },
+        {
+            "name": "Brocade Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "protection holy +7%",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Camouflage Bag",
+            "sprite": "",
+            "slots": "8",
+            "additional": "-",
+            "weight": "8.0",
+            "obtained": "Earth Elemental"
+        },
+        {
+            "name": "Camouflage Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "protection earth +7%",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Pirate Bag",
+            "sprite": "",
+            "slots": "8",
+            "additional": "-",
+            "weight": "8.0",
+            "obtained": "Pirate Buccaneer, Pirate Corsair, Pirate Cutthroat, Pirate Marauder"
+        },
+        {
+            "name": "Pirate Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "protection death +7%",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Fur Bag",
+            "sprite": "",
+            "slots": "8",
+            "additional": "-",
+            "weight": "8.0",
+            "obtained": "Barbarian Bloodwalker, Barbarian Headsplitter, Barbarian Brutetamer, Barbarian Skullhunter"
+        },
+        {
+            "name": "Fur Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "Shielding +1",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Expedition Bag",
+            "sprite": "",
+            "slots": "8",
+            "additional": "-",
+            "weight": "8.0",
+            "obtained": "Tarantula, Giant Spider"
+        },
+        {
+            "name": "Expedition Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "Speed +15",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Beach Bag",
+            "sprite": "",
+            "slots": "8",
+            "additional": "-",
+            "weight": "8.0",
+            "obtained": "Crab, Blood Crab"
+        },
+        {
+            "name": "Beach Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "faster mana regeneration",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Moon Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "protection ice +7%",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Lizard Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "protection fire +7%",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Minotaur Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "protection physical +3%",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Crown Backpack",
+            "sprite": "",
+            "slots": "20",
+            "additional": "faster health regeneration",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Demonic Backpack",
+            "sprite": "",
+            "slots": "30",
+            "additional": "-",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Hearth Backpack",
+            "sprite": "",
+            "slots": "?",
+            "additional": "?",
+            "weight": "18.0",
+            "obtained": "Valentine's day event"
+        },
+        {
+            "name": "Fluffy Santa Backpack",
+            "sprite": "",
+            "slots": "?",
+            "additional": "?",
+            "weight": "18.0",
+            "obtained": "Christmas day event"
+        }
+    ],
+    "recipes": [
+        {
+            "name": "Rotworm stew",
+            "sprite": "",
+            "effect": "It will heal you completely",
+            "weight": "12.0"
+        },
+        {
+            "name": "Tropical fried terrorbird",
+            "sprite": "",
+            "effect": "It will boost your Magic Level by 5 for one hour",
+            "weight": "7.8"
+        },
+        {
+            "name": "Carrot cake",
+            "sprite": "",
+            "effect": "It will boost your Distance Fighting skill by 10 for one hour",
+            "weight": "6.8"
+        },
+        {
+            "name": "Filled jalapeno peppers",
+            "sprite": "",
+            "effect": "It will boost your speed by 100 levels for one hour",
+            "weight": "6.5"
+        },
+        {
+            "name": "Sweet mangonaise elixir",
+            "sprite": "",
+            "effect": "Drinking this elixir will create 5 copies of the ring you are wearing",
+            "weight": "3.0"
+        },
+        {
+            "name": "Veggie casserole",
+            "sprite": "",
+            "effect": "It will boost your Melee skills (Sword Fighting, Axe Fighting and Club Fighting) by 10 for one hour",
+            "weight": "11.0"
+        },
+        {
+            "name": "Northern fishburger",
+            "sprite": "",
+            "effect": "It will boost your fishing skill by 50 for one hour",
+            "weight": "4.6"
+        },
+        {
+            "name": "Hydra tongue salad",
+            "sprite": "",
+            "effect": "It will cure you of most negative conditions",
+            "weight": "5.5"
+        },
+        {
+            "name": "Roasted dragon wings",
+            "sprite": "",
+            "effect": "It will boost your shielding skill by 10 for one hour",
+            "weight": "8.5"
+        }
+    ]
+}

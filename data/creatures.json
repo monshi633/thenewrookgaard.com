@@ -1,0 +1,965 @@
+{
+    "creatures": [
+        {
+            "name": "Acolytes Of The Cult",
+            "img": "https://static.tibia.com/images/library/cultacolyte.gif"
+        },
+        {
+            "name": "Adepts Of The Cult",
+            "img": "https://static.tibia.com/images/library/cultadept.gif"
+        },
+        {
+            "name": "Amazons",
+            "img": "https://static.tibia.com/images/library/amazon.gif"
+        },
+        {
+            "name": "Ancient Scarabs",
+            "img": "https://static.tibia.com/images/library/ancientscarab.gif"
+        },
+        {
+            "name": "Assassins",
+            "img": "https://static.tibia.com/images/library/assassin.gif"
+        },
+        {
+            "name": "Bandits",
+            "img": "https://static.tibia.com/images/library/bandit.gif"
+        },
+        {
+            "name": "Banshees",
+            "img": "https://static.tibia.com/images/library/banshee.gif"
+        },
+        {
+            "name": "Barbarian Bloodwalkers",
+            "img": "https://static.tibia.com/images/library/barbarianbloodwalker.gif"
+        },
+        {
+            "name": "Barbarian Brutetamers",
+            "img": "https://static.tibia.com/images/library/barbarianbrutetamer.gif"
+        },
+        {
+            "name": "Barbarian Headsplitters",
+            "img": "https://static.tibia.com/images/library/barbarianheadsplitter.gif"
+        },
+        {
+            "name": "Barbarian Skullhunters",
+            "img": "https://static.tibia.com/images/library/barbarianskullhunter.gif"
+        },
+        {
+            "name": "Bats",
+            "img": "https://static.tibia.com/images/library/bat.gif"
+        },
+        {
+            "name": "Bears",
+            "img": "https://static.tibia.com/images/library/bear.gif"
+        },
+        {
+            "name": "Behemoths",
+            "img": "https://static.tibia.com/images/library/behemoth.gif"
+        },
+        {
+            "name": "Betrayed Wraiths",
+            "img": "https://static.tibia.com/images/library/wraith.gif"
+        },
+        {
+            "name": "Black Knights",
+            "img": "https://static.tibia.com/images/library/blackknight.gif"
+        },
+        {
+            "name": "Blightwalkers",
+            "img": "https://static.tibia.com/images/library/blightwalker.gif"
+        },
+        {
+            "name": "Blood Crabs",
+            "img": "https://static.tibia.com/images/library/bloodcrab.gif"
+        },
+        {
+            "name": "Blue Djinns",
+            "img": "https://static.tibia.com/images/library/bluedjinn.gif"
+        },
+        {
+            "name": "Bog Raiders",
+            "img": "https://static.tibia.com/images/library/bograider.gif"
+        },
+        {
+            "name": "Bonebeasts",
+            "img": "https://static.tibia.com/images/library/bonebeast.gif"
+        },
+        {
+            "name": "Beholders",
+            "img": "https://static.tibia.com/images/library/bonelord.gif"
+        },
+        {
+            "name": "Braindeaths",
+            "img": "https://static.tibia.com/images/library/braindeath.gif"
+        },
+        {
+            "name": "Bugs",
+            "img": "https://static.tibia.com/images/library/bug.gif"
+        },
+        {
+            "name": "Butterflies",
+            "img": "https://static.tibia.com/images/library/butterflypurple.gif"
+        },
+        {
+            "name": "Carniphilas",
+            "img": "https://static.tibia.com/images/library/carniphila.gif"
+        },
+        {
+            "name": "Carrion Worms",
+            "img": "https://static.tibia.com/images/library/carrionworm.gif"
+        },
+        {
+            "name": "Cats",
+            "img": "https://static.tibia.com/images/library/cat.gif"
+        },
+        {
+            "name": "Cave Rats",
+            "img": "https://static.tibia.com/images/library/caverat.gif"
+        },
+        {
+            "name": "Centipedes",
+            "img": "https://static.tibia.com/images/library/centipede.gif"
+        },
+        {
+            "name": "Chakoya Toolshapers",
+            "img": "https://static.tibia.com/images/library/chakoyatoolshaper.gif"
+        },
+        {
+            "name": "Chakoya Tribewardens",
+            "img": "https://static.tibia.com/images/library/chakoyatribewarden.gif"
+        },
+        {
+            "name": "Chakoya Windcallers",
+            "img": "https://static.tibia.com/images/library/chakoyawindcaller.gif"
+        },
+        {
+            "name": "Chickens",
+            "img": "https://static.tibia.com/images/library/chicken.gif"
+        },
+        {
+            "name": "Cobras",
+            "img": "https://static.tibia.com/images/library/cobra.gif"
+        },
+        {
+            "name": "Crazed Beggars",
+            "img": "https://static.tibia.com/images/library/crazedbeggar.gif"
+        },
+        {
+            "name": "Crocodiles",
+            "img": "https://static.tibia.com/images/library/crocodile.gif"
+        },
+        {
+            "name": "Crypt Shamblers",
+            "img": "https://static.tibia.com/images/library/cryptshambler.gif"
+        },
+        {
+            "name": "Crystal Spiders",
+            "img": "https://static.tibia.com/images/library/crystalspider.gif"
+        },
+        {
+            "name": "Cyclopes",
+            "img": "https://static.tibia.com/images/library/cyclops.gif"
+        },
+        {
+            "name": "Cyclopes Drone",
+            "img": "https://static.tibia.com/images/library/cyclopsdrone.gif"
+        },
+        {
+            "name": "Cyclopes Smith",
+            "img": "https://static.tibia.com/images/library/cyclopssmith.gif"
+        },
+        {
+            "name": "Dark Apprentices",
+            "img": "https://static.tibia.com/images/library/darkapprentice.gif"
+        },
+        {
+            "name": "Dark Magicians",
+            "img": "https://static.tibia.com/images/library/darkmagician.gif"
+        },
+        {
+            "name": "Dark Monks",
+            "img": "https://static.tibia.com/images/library/darkmonk.gif"
+        },
+        {
+            "name": "Dark Torturers",
+            "img": "https://static.tibia.com/images/library/darktorturer.gif"
+        },
+        {
+            "name": "Death Blobs",
+            "img": "https://static.tibia.com/images/library/deathblob.gif"
+        },
+        {
+            "name": "Deer",
+            "img": "https://static.tibia.com/images/library/deer.gif"
+        },
+        {
+            "name": "Defilers",
+            "img": "https://static.tibia.com/images/library/defiler.gif"
+        },
+        {
+            "name": "Demon Skeletons",
+            "img": "https://static.tibia.com/images/library/demonskeleton.gif"
+        },
+        {
+            "name": "Demons",
+            "img": "https://static.tibia.com/images/library/demon.gif"
+        },
+        {
+            "name": "Destroyers",
+            "img": "https://static.tibia.com/images/library/destroyer.gif"
+        },
+        {
+            "name": "Diabolic Imps",
+            "img": "https://static.tibia.com/images/library/diabolicimp.gif"
+        },
+        {
+            "name": "Dogs",
+            "img": "https://static.tibia.com/images/library/dog.gif"
+        },
+        {
+            "name": "Dragon Hatchlings",
+            "img": "https://static.tibia.com/images/library/dragonhatchling.gif"
+        },
+        {
+            "name": "Dragon Lord Hatchlings",
+            "img": "https://static.tibia.com/images/library/dragonlordhatchling.gif"
+        },
+        {
+            "name": "Dragon Lords",
+            "img": "https://static.tibia.com/images/library/dragonlord.gif"
+        },
+        {
+            "name": "Dragons",
+            "img": "https://static.tibia.com/images/library/dragon.gif"
+        },
+        {
+            "name": "Draken Abominations",
+            "img": "https://static.tibia.com/images/library/drakenabomination.gif"
+        },
+        {
+            "name": "Draken Elites",
+            "img": "https://static.tibia.com/images/library/drakenelite.gif"
+        },
+        {
+            "name": "Draken Spellweavers",
+            "img": "https://static.tibia.com/images/library/drakenspellweaver.gif"
+        },
+        {
+            "name": "Draken Warmasters",
+            "img": "https://static.tibia.com/images/library/drakenwarmaster.gif"
+        },
+        {
+            "name": "Dwarf Geomancers",
+            "img": "https://static.tibia.com/images/library/dwarfgeomancer.gif"
+        },
+        {
+            "name": "Dwarf Guards",
+            "img": "https://static.tibia.com/images/library/dwarfguard.gif"
+        },
+        {
+            "name": "Dwarf Soldiers",
+            "img": "https://static.tibia.com/images/library/dwarfsoldier.gif"
+        },
+        {
+            "name": "Dwarfs",
+            "img": "https://static.tibia.com/images/library/dwarf.gif"
+        },
+        {
+            "name": "Dworc Fleshhunters",
+            "img": "https://static.tibia.com/images/library/dworcfleshhunter.gif"
+        },
+        {
+            "name": "Dworc Venomsnipers",
+            "img": "https://static.tibia.com/images/library/dworcvenomsniper.gif"
+        },
+        {
+            "name": "Dworc Voodoomasters",
+            "img": "https://static.tibia.com/images/library/dworcvoodoomaster.gif"
+        },
+        {
+            "name": "Earth Elementals",
+            "img": "https://static.tibia.com/images/library/earthelemental.gif"
+        },
+        {
+            "name": "Elder Beholders",
+            "img": "https://static.tibia.com/images/library/elderbonelord.gif"
+        },
+        {
+            "name": "Elephants",
+            "img": "https://static.tibia.com/images/library/elephant.gif"
+        },
+        {
+            "name": "Elf Arcanists",
+            "img": "https://static.tibia.com/images/library/elfarcanist.gif"
+        },
+        {
+            "name": "Elf Scouts",
+            "img": "https://static.tibia.com/images/library/elfscout.gif"
+        },
+        {
+            "name": "Elves",
+            "img": "https://static.tibia.com/images/library/elf.gif"
+        },
+        {
+            "name": "Enlighteneds Of The Cult",
+            "img": "https://static.tibia.com/images/library/cultpriest.gif"
+        },
+        {
+            "name": "Fire Devils",
+            "img": "https://static.tibia.com/images/library/firedevil.gif"
+        },
+        {
+            "name": "Fire Elementals",
+            "img": "https://static.tibia.com/images/library/fireelemental.gif"
+        },
+        {
+            "name": "Flamingos",
+            "img": "https://static.tibia.com/images/library/flamingo.gif"
+        },
+        {
+            "name": "Frost Dragon Hatchlings",
+            "img": "https://static.tibia.com/images/library/frostdragonhatchling.gif"
+        },
+        {
+            "name": "Frost Dragons",
+            "img": "https://static.tibia.com/images/library/frostdragon.gif"
+        },
+        {
+            "name": "Frost Giantesses",
+            "img": "https://static.tibia.com/images/library/frostgiantess.gif"
+        },
+        {
+            "name": "Frost Giants",
+            "img": "https://static.tibia.com/images/library/frostgiant.gif"
+        },
+        {
+            "name": "Frost Trolls",
+            "img": "https://static.tibia.com/images/library/frosttroll.gif"
+        },
+        {
+            "name": "Furies",
+            "img": "https://static.tibia.com/images/library/fury.gif"
+        },
+        {
+            "name": "Gang Members",
+            "img": "https://static.tibia.com/images/library/gangmember.gif"
+        },
+        {
+            "name": "Gargoyles",
+            "img": "https://static.tibia.com/images/library/gargoyle.gif"
+        },
+        {
+            "name": "Gazers",
+            "img": "https://static.tibia.com/images/library/gazer.gif"
+        },
+        {
+            "name": "Ghastly Dragons",
+            "img": "https://static.tibia.com/images/library/ghastlydragon.gif"
+        },
+        {
+            "name": "Ghosts",
+            "img": "https://static.tibia.com/images/library/ghost.gif"
+        },
+        {
+            "name": "Ghouls",
+            "img": "https://static.tibia.com/images/library/ghoul.gif"
+        },
+        {
+            "name": "Giant Spiders",
+            "img": "https://static.tibia.com/images/library/giantspider.gif"
+        },
+        {
+            "name": "Gladiators",
+            "img": "https://static.tibia.com/images/library/gladiator.gif"
+        },
+        {
+            "name": "Goblin Assassins",
+            "img": "https://static.tibia.com/images/library/goblinassassin.gif"
+        },
+        {
+            "name": "Goblin Leaders",
+            "img": "https://static.tibia.com/images/library/goblin.gif"
+        },
+        {
+            "name": "Goblin Scavengers",
+            "img": "https://static.tibia.com/images/library/goblinscavenger.gif"
+        },
+        {
+            "name": "Goblins",
+            "img": "https://static.tibia.com/images/library/goblin.gif"
+        },
+        {
+            "name": "Gozzlers",
+            "img": "https://static.tibia.com/images/library/gozzler.gif"
+        },
+        {
+            "name": "Green Djinns",
+            "img": "https://static.tibia.com/images/library/greendjinn.gif"
+        },
+        {
+            "name": "Grim Reapers",
+            "img": "https://static.tibia.com/images/library/grimreaper.gif"
+        },
+        {
+            "name": "Hands Of Cursed Fate",
+            "img": "https://static.tibia.com/images/library/handofcursedfate.gif"
+        },
+        {
+            "name": "Haunted Treelings",
+            "img": "https://static.tibia.com/images/library/hauntedtreeling.gif"
+        },
+        {
+            "name": "Hellfire Fighters",
+            "img": "https://static.tibia.com/images/library/hellfirefighter.gif"
+        },
+        {
+            "name": "Hellhounds",
+            "img": "https://static.tibia.com/images/library/hellhound.gif"
+        },
+        {
+            "name": "Hellspawns",
+            "img": "https://static.tibia.com/images/library/hellspawn.gif"
+        },
+        {
+            "name": "Heroes",
+            "img": "https://static.tibia.com/images/library/hero.gif"
+        },
+        {
+            "name": "Hunters",
+            "img": "https://static.tibia.com/images/library/hunter.gif"
+        },
+        {
+            "name": "Huskies",
+            "img": "https://static.tibia.com/images/library/husky.gif"
+        },
+        {
+            "name": "Hyaenas",
+            "img": "https://static.tibia.com/images/library/hyaena.gif"
+        },
+        {
+            "name": "Hydras",
+            "img": "https://static.tibia.com/images/library/hydra.gif"
+        },
+        {
+            "name": "Ice Golems",
+            "img": "https://static.tibia.com/images/library/icegolem.gif"
+        },
+        {
+            "name": "Ice Witches",
+            "img": "https://static.tibia.com/images/library/icewitch.gif"
+        },
+        {
+            "name": "Infernalists",
+            "img": "https://static.tibia.com/images/library/infernalist.gif"
+        },
+        {
+            "name": "Island Trolls",
+            "img": "https://static.tibia.com/images/library/islandtroll.gif"
+        },
+        {
+            "name": "Juggernauts",
+            "img": "https://static.tibia.com/images/library/juggernaut.gif"
+        },
+        {
+            "name": "Killer Caimans",
+            "img": "https://static.tibia.com/images/library/killercaiman.gif"
+        },
+        {
+            "name": "Kongras",
+            "img": "https://static.tibia.com/images/library/kongra.gif"
+        },
+        {
+            "name": "Larvas",
+            "img": "https://static.tibia.com/images/library/larva.gif"
+        },
+        {
+            "name": "Liches",
+            "img": "https://static.tibia.com/images/library/lich.gif"
+        },
+        {
+            "name": "Lions",
+            "img": "https://static.tibia.com/images/library/lion.gif"
+        },
+        {
+            "name": "Lizard Chosens",
+            "img": "https://static.tibia.com/images/library/lizardchosen.gif"
+        },
+        {
+            "name": "Lizard Dragon Priests",
+            "img": "https://static.tibia.com/images/library/lizarddragonpriest.gif"
+        },
+        {
+            "name": "Lizard High Guards",
+            "img": "https://static.tibia.com/images/library/lizardhighguard.gif"
+        },
+        {
+            "name": "Lizard Legionnaires",
+            "img": "https://static.tibia.com/images/library/lizardlegionnaire.gif"
+        },
+        {
+            "name": "Lizard Sentinels",
+            "img": "https://static.tibia.com/images/library/lizardsentinel.gif"
+        },
+        {
+            "name": "Lizard Snakecharmers",
+            "img": "https://static.tibia.com/images/library/lizardsnakecharmer.gif"
+        },
+        {
+            "name": "Lizard Templars",
+            "img": "https://static.tibia.com/images/library/lizardtemplar.gif"
+        },
+        {
+            "name": "Lizard Zaoguns",
+            "img": "https://static.tibia.com/images/library/lizardzaogun.gif"
+        },
+        {
+            "name": "Lost Souls",
+            "img": "https://static.tibia.com/images/library/lostsoul.gif"
+        },
+        {
+            "name": "Mammoths",
+            "img": "https://static.tibia.com/images/library/mammoth.gif"
+        },
+        {
+            "name": "Massive Earth Elementals",
+            "img": "https://static.tibia.com/images/library/earthelementalmassive.gif"
+        },
+        {
+            "name": "Massive Energy Elementals",
+            "img": "https://static.tibia.com/images/library/energyelementalmassive.gif"
+        },
+        {
+            "name": "Massive Fire Elementals",
+            "img": "https://static.tibia.com/images/library/hellfireelemental.gif"
+        },
+        {
+            "name": "Massive Water Elementals",
+            "img": "https://static.tibia.com/images/library/waterelementalmassive.gif"
+        },
+        {
+            "name": "Medusae",
+            "img": "https://static.tibia.com/images/library/medusa.gif"
+        },
+        {
+            "name": "Merlkins",
+            "img": "https://static.tibia.com/images/library/merlkin.gif"
+        },
+        {
+            "name": "Minotaur Archers",
+            "img": "https://static.tibia.com/images/library/minotaurarcher.gif"
+        },
+        {
+            "name": "Minotaur Guards",
+            "img": "https://static.tibia.com/images/library/minotaurguard.gif"
+        },
+        {
+            "name": "Minotaur Mages",
+            "img": "https://static.tibia.com/images/library/minotaurmage.gif"
+        },
+        {
+            "name": "Minotaurs",
+            "img": "https://static.tibia.com/images/library/minotaur.gif"
+        },
+        {
+            "name": "Mummies",
+            "img": "https://static.tibia.com/images/library/mummy.gif"
+        },
+        {
+            "name": "Mutated Bats",
+            "img": "https://static.tibia.com/images/library/mutatedbat.gif"
+        },
+        {
+            "name": "Mutated Humans",
+            "img": "https://static.tibia.com/images/library/mutatedhuman.gif"
+        },
+        {
+            "name": "Mutated Rats",
+            "img": "https://static.tibia.com/images/library/mutatedrat.gif"
+        },
+        {
+            "name": "Mutated Tigers",
+            "img": "https://static.tibia.com/images/library/mutatedtiger.gif"
+        },
+        {
+            "name": "Necromancers",
+            "img": "https://static.tibia.com/images/library/necromancer.gif"
+        },
+        {
+            "name": "Nightmare Scions",
+            "img": "https://static.tibia.com/images/library/nightmarescion.gif"
+        },
+        {
+            "name": "Nightmares",
+            "img": "https://static.tibia.com/images/library/nightmare.gif"
+        },
+        {
+            "name": "Nightstalkers",
+            "img": "https://static.tibia.com/images/library/nightstalker.gif"
+        },
+        {
+            "name": "Nomads",
+            "img": "https://static.tibia.com/images/library/nomad.gif"
+        },
+        {
+            "name": "Novices Of The Cult",
+            "img": "https://static.tibia.com/images/library/cultnovice.gif"
+        },
+        {
+            "name": "Orc Berserkers",
+            "img": "https://static.tibia.com/images/library/orcberserker.gif"
+        },
+        {
+            "name": "Orc Leaders",
+            "img": "https://static.tibia.com/images/library/orcleader.gif"
+        },
+        {
+            "name": "Orc Marauders",
+            "img": "https://static.tibia.com/images/library/orcmarauder.gif"
+        },
+        {
+            "name": "Orc Riders",
+            "img": "https://static.tibia.com/images/library/orcrider.gif"
+        },
+        {
+            "name": "Orc Shamans",
+            "img": "https://static.tibia.com/images/library/orcshaman.gif"
+        },
+        {
+            "name": "Orc Spearmen",
+            "img": "https://static.tibia.com/images/library/orcspearman.gif"
+        },
+        {
+            "name": "Orc Warlords",
+            "img": "https://static.tibia.com/images/library/orcwarlord.gif"
+        },
+        {
+            "name": "Orc Warriors",
+            "img": "https://static.tibia.com/images/library/orcwarrior.gif"
+        },
+        {
+            "name": "Orcs",
+            "img": "https://static.tibia.com/images/library/orc.gif"
+        },
+        {
+            "name": "Pandas",
+            "img": "https://static.tibia.com/images/library/panda.gif"
+        },
+        {
+            "name": "Parrots",
+            "img": "https://static.tibia.com/images/library/parrot.gif"
+        },
+        {
+            "name": "Penguins",
+            "img": "https://static.tibia.com/images/library/penguin.gif"
+        },
+        {
+            "name": "Phantasms",
+            "img": "https://static.tibia.com/images/library/phantasm.gif"
+        },
+        {
+            "name": "Pigs",
+            "img": "https://static.tibia.com/images/library/pig.gif"
+        },
+        {
+            "name": "Pirate Buccaneers",
+            "img": "https://static.tibia.com/images/library/piratebuccaneer.gif"
+        },
+        {
+            "name": "Pirate Corsairs",
+            "img": "https://static.tibia.com/images/library/piratecorsair.gif"
+        },
+        {
+            "name": "Pirate Cutthroats",
+            "img": "https://static.tibia.com/images/library/piratecutthroat.gif"
+        },
+        {
+            "name": "Pirate Ghosts",
+            "img": "https://static.tibia.com/images/library/pirateghost.gif"
+        },
+        {
+            "name": "Pirate Marauders",
+            "img": "https://static.tibia.com/images/library/piratemarauder.gif"
+        },
+        {
+            "name": "Pirate Skeletons",
+            "img": "https://static.tibia.com/images/library/pirateskeleton.gif"
+        },
+        {
+            "name": "Plaguesmiths",
+            "img": "https://static.tibia.com/images/library/plaguesmith.gif"
+        },
+        {
+            "name": "Poachers",
+            "img": "https://static.tibia.com/images/library/poacher.gif"
+        },
+        {
+            "name": "Poison Spiders",
+            "img": "https://static.tibia.com/images/library/poisonspider.gif"
+        },
+        {
+            "name": "Polar Bears",
+            "img": "https://static.tibia.com/images/library/polarbear.gif"
+        },
+        {
+            "name": "Priestesses",
+            "img": "https://static.tibia.com/images/library/priestess.gif"
+        },
+        {
+            "name": "Quara Constrictor Scouts",
+            "img": "https://static.tibia.com/images/library/quaraconstrictorscout.gif"
+        },
+        {
+            "name": "Quara Constrictors",
+            "img": "https://static.tibia.com/images/library/quaraconstrictor.gif"
+        },
+        {
+            "name": "Quara Hydromancer Scouts",
+            "img": "https://static.tibia.com/images/library/quarahydromancerscout.gif"
+        },
+        {
+            "name": "Quara Hydromancers",
+            "img": "https://static.tibia.com/images/library/quarahydromancerscout.gif"
+        },
+        {
+            "name": "Quara Mantassin Scouts",
+            "img": "https://static.tibia.com/images/library/quaramantassinscout.gif"
+        },
+        {
+            "name": "Quara Mantassins",
+            "img": "https://static.tibia.com/images/library/quaramantassinscout.gif"
+        },
+        {
+            "name": "Quara Pincher Scouts",
+            "img": "https://static.tibia.com/images/library/quarapincherscout.gif"
+        },
+        {
+            "name": "Quara Pinchers",
+            "img": "https://static.tibia.com/images/library/quarapincherscout.gif"
+        },
+        {
+            "name": "Quara Predator Scouts",
+            "img": "https://static.tibia.com/images/library/quarapredatorscout.gif"
+        },
+        {
+            "name": "Quara Predators",
+            "img": "https://static.tibia.com/images/library/quarapredatorscout.gif"
+        },
+        {
+            "name": "Rabbits",
+            "img": "https://static.tibia.com/images/library/rabbit.gif"
+        },
+        {
+            "name": "Rats",
+            "img": "https://static.tibia.com/images/library/rat.gif"
+        },
+        {
+            "name": "Rotworms",
+            "img": "https://static.tibia.com/images/library/rotworm.gif"
+        },
+        {
+            "name": "Sandcrawlers",
+            "img": "https://static.tibia.com/images/library/sandcrawler.gif"
+        },
+        {
+            "name": "Scarabs",
+            "img": "https://static.tibia.com/images/library/scarab.gif"
+        },
+        {
+            "name": "Scorpions",
+            "img": "https://static.tibia.com/images/library/scorpion.gif"
+        },
+        {
+            "name": "Sea Serpents",
+            "img": "https://static.tibia.com/images/library/seaserpent.gif"
+        },
+        {
+            "name": "Seagulls",
+            "img": "https://static.tibia.com/images/library/seagull.gif"
+        },
+        {
+            "name": "Serpent Spawns",
+            "img": "https://static.tibia.com/images/library/serpentspawn.gif"
+        },
+        {
+            "name": "Sheep",
+            "img": "https://static.tibia.com/images/library/sheep.gif"
+        },
+        {
+            "name": "Sibangs",
+            "img": "https://static.tibia.com/images/library/sibang.gif"
+        },
+        {
+            "name": "Silver Rabbits",
+            "img": "https://static.tibia.com/images/library/silverrabbit.gif"
+        },
+        {
+            "name": "Skeleton Warriors",
+            "img": "https://static.tibia.com/images/library/skeletonwarrior.gif"
+        },
+        {
+            "name": "Skeletons",
+            "img": "https://static.tibia.com/images/library/skeleton.gif"
+        },
+        {
+            "name": "Skunks",
+            "img": "https://static.tibia.com/images/library/skunk.gif"
+        },
+        {
+            "name": "Slimes",
+            "img": "https://static.tibia.com/images/library/slime.gif"
+        },
+        {
+            "name": "Smugglers",
+            "img": "https://static.tibia.com/images/library/smuggler.gif"
+        },
+        {
+            "name": "Snakes",
+            "img": "https://static.tibia.com/images/library/snake.gif"
+        },
+        {
+            "name": "Spectres",
+            "img": "https://static.tibia.com/images/library/spectre.gif"
+        },
+        {
+            "name": "Spiders",
+            "img": "https://static.tibia.com/images/library/spider.gif"
+        },
+        {
+            "name": "Spit Nettles",
+            "img": "https://static.tibia.com/images/library/spitnettle.gif"
+        },
+        {
+            "name": "Squirrels",
+            "img": "https://static.tibia.com/images/library/squirrel.gif"
+        },
+        {
+            "name": "Stalkers",
+            "img": "https://static.tibia.com/images/library/stalker.gif"
+        },
+        {
+            "name": "Stone Golems",
+            "img": "https://static.tibia.com/images/library/stonegolem.gif"
+        },
+        {
+            "name": "Swamp Trolls",
+            "img": "https://static.tibia.com/images/library/swamptroll.gif"
+        },
+        {
+            "name": "Tarantulas",
+            "img": "https://static.tibia.com/images/library/tarantula.gif"
+        },
+        {
+            "name": "Terramites",
+            "img": "https://static.tibia.com/images/library/terramite.gif"
+        },
+        {
+            "name": "Terror Birds",
+            "img": "https://static.tibia.com/images/library/terrorbird.gif"
+        },
+        {
+            "name": "Thornback Tortoises",
+            "img": "https://static.tibia.com/images/library/thornbacktortoise.gif"
+        },
+        {
+            "name": "Tigers",
+            "img": "https://static.tibia.com/images/library/tiger.gif"
+        },
+        {
+            "name": "Toads",
+            "img": "https://static.tibia.com/images/library/toad.gif"
+        },
+        {
+            "name": "Tortoises",
+            "img": "https://static.tibia.com/images/library/tortoise.gif"
+        },
+        {
+            "name": "Troll Champions",
+            "img": "https://static.tibia.com/images/library/trollchampion.gif"
+        },
+        {
+            "name": "Trolls",
+            "img": "https://static.tibia.com/images/library/troll.gif"
+        },
+        {
+            "name": "Undead Dragons",
+            "img": "https://static.tibia.com/images/library/undeaddragon.gif"
+        },
+        {
+            "name": "Undead Gladiators",
+            "img": "https://static.tibia.com/images/library/undeadgladiator.gif"
+        },
+        {
+            "name": "Valkyries",
+            "img": "https://static.tibia.com/images/library/valkyrie.gif"
+        },
+        {
+            "name": "Vampire Brides",
+            "img": "https://static.tibia.com/images/library/vampirebride.gif"
+        },
+        {
+            "name": "Vampires",
+            "img": "https://static.tibia.com/images/library/vampire.gif"
+        },
+        {
+            "name": "Wailing Widows",
+            "img": "https://static.tibia.com/images/library/wailingwidow.gif"
+        },
+        {
+            "name": "War Wolves",
+            "img": "https://static.tibia.com/images/library/warwolf.gif"
+        },
+        {
+            "name": "Warlocks",
+            "img": "https://static.tibia.com/images/library/warlock.gif"
+        },
+        {
+            "name": "Wasps",
+            "img": "https://static.tibia.com/images/library/wasp.gif"
+        },
+        {
+            "name": "Water Elementals",
+            "img": "https://static.tibia.com/images/library/waterelemental.gif"
+        },
+        {
+            "name": "Werewolves",
+            "img": "https://static.tibia.com/images/library/werewolf.gif"
+        },
+        {
+            "name": "Wild Warriors",
+            "img": "https://static.tibia.com/images/library/wildwarrior.gif"
+        },
+        {
+            "name": "Winter Wolves",
+            "img": "https://static.tibia.com/images/library/winterwolf.gif"
+        },
+        {
+            "name": "Wisps",
+            "img": "https://static.tibia.com/images/library/wisp.gif"
+        },
+        {
+            "name": "Witches",
+            "img": "https://static.tibia.com/images/library/witch.gif"
+        },
+        {
+            "name": "Wolves",
+            "img": "https://static.tibia.com/images/library/wolf.gif"
+        },
+        {
+            "name": "Wyrms",
+            "img": "https://static.tibia.com/images/library/wyrm.gif"
+        },
+        {
+            "name": "Wyverns",
+            "img": "https://static.tibia.com/images/library/wyvern.gif"
+        },
+        {
+            "name": "Young Sea Serpents",
+            "img": "https://static.tibia.com/images/library/youngseaserpent.gif"
+        },
+        {
+            "name": "Zombies",
+            "img": "https://static.tibia.com/images/library/zombie.gif"
+        }
+        
+    ]
+}

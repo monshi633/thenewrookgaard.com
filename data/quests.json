@@ -1,0 +1,114 @@
+{
+    "quests": [
+        {
+            "name": "First Items",
+            "level": "-",
+            "reward": "Rope, Shovel and one of these items:Slingshot/Studded Club/Hand Axe/Silver Dagger"
+        },
+        {
+            "name": "Bear Room Quest",
+            "level": "-",
+            "reward": "Chain Armor, Brass Helmet, 12 Arrows, Key and 40 gp"
+        },
+        {
+            "name": "Captain Iglues Treasure Quest",
+            "level": "-",
+            "reward": "Treasure of Captain Iglue (Book) and some Salmon"
+        },
+        {
+            "name": "Combat Knife Quest",
+            "level": "-",
+            "reward": "Combat Knife"
+        },
+        {
+            "name": "Doublet Quest",
+            "level": "-",
+            "reward": "Doublet"
+        },
+        {
+            "name": "Dragon Corpse Quest",
+            "level": "-",
+            "reward": "Copper Shield"
+        },
+        {
+            "name": "Goblin Temple Quest",
+            "level": "",
+            "reward": "100 gp, 4 Snowballs, 5 Small Stones, Sandals and Key"
+        },
+        {
+            "name": "Katana Quest",
+            "level": "-",
+            "reward": "Katana, Viking Helmet and Key"
+        },
+        {
+            "name": "Minotaur Hell Quest",
+            "level": "-",
+            "reward": "Carlin Sword, 4 Poison Arrows, 10 Arrows and a Fishing Rod"
+        },
+        {
+            "name": "Rapier Quest",
+            "level": "-",
+            "reward": "Rapier"
+        },
+        {
+            "name": "Pick Quest",
+            "level": "-",
+            "reward": "Pick"
+        },
+        {
+            "name": "Sword Quest",
+            "level": "-",
+            "reward": "Sword"
+        },
+        {
+            "name": "Postman Quest",
+            "level": "-",
+            "reward": "Use of locked mailboxes"
+        },
+        {
+            "name": "Mallmann Cuisine Quest",
+            "level": "",
+            "reward": "Cookbook and some recipe ingredients"
+        },
+        {
+            "name": "Golden Armor Quest",
+            "level": "-",
+            "reward": "Golden Armor"
+        },
+        {
+            "name": "Mermaid Quest",
+            "level": "-",
+            "reward": "Coral Comb"
+        },
+        {
+            "name": "Goblin Lair",
+            "level": "30",
+            "reward": "36 Burst Arrows and Bow"
+        },
+        {
+            "name": "Orc Lair",
+            "level": "30",
+            "reward": "10 Broken Helmets and dice"
+        },
+        {
+            "name": "Minotaur lair",
+            "level": "30",
+            "reward": "Magic Light Wand and 10 Minotaur Leathers"
+        },
+        {
+            "name": "Dwarf Lair",
+            "level": "30",
+            "reward": "Light Shovel and Elvenhair Rope"
+        },
+        {
+            "name": "King Quest",
+            "level": "100",
+            "reward": "King's Sword, King's Hammer, King's Axe and King's Crossbow"
+        },
+        {
+            "name": "Queen Quest",
+            "level": "-",
+            "reward": "Queen's Shield"
+        }
+    ]
+}
