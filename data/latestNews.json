@@ -23,6 +23,14 @@
             "capital": "https://static.tibia.com/images/global/letters/letter_martel_A.gif",
             "firstLine": "nother refresh!",
             "content": "If you can see this, it means it worked! The new website is up and running and we couldn't be more happhy about it.<br>Of course there are lot's of tweaks and improvements to do and we are working on it. Hopefully, the next time you enter, you can see newer sections full of useful data and statistics about the game.<br>While we are at it, keep on rocking those levels and skills.<br><br>Have fun,<br>The development team"
+        },
+        {
+            "icon": "https://static.tibia.com/images/global/content/newsicon_community_big.png",
+            "date": "Mar 14 2024 -",
+            "title": "Community",
+            "capital": "https://static.tibia.com/images/global/letters/letter_martel_D.gif",
+            "firstLine": "ear friends,",
+            "content": "We wanted to let you know that you can reach us and other players you've met using our official community channels.<br>You can find us on Instagram, Facebook and Discord. Check out our <strong>Networks</strong> section!<br><br>Until the next one,<br>The development team"
         }
     ]
 }
