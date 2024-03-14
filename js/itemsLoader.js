@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>
                     <img src="${item.img}" alt="${item.name}">
                 </td>
-                <td>${item.def}</td>
+                <td>${item.arm}</td>
                 <td>${item.additional}</td>
                 <td>${item.weight}</td>
                 <td>${item.obtained}</td>

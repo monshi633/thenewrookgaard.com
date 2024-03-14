@@ -2,7 +2,7 @@
     "helmets": [
         {
             "name": "Party Hat",
-            "img": "https://www.tibiawiki.com.br/images/9/9c/Mystic_Turban.gif",
+            "img": "/images/items/helmets/Party_Hat.gif",
             "arm": "1",
             "additional": "-",
             "weight": "7.5",
@@ -10,7 +10,7 @@
         },
         {
             "name": "Mystic Turban",
-            "img": "",
+            "img": "/images/items/helmets/Mystic_Turban.gif",
             "arm": "1",
             "additional": "-",
             "weight": "8.5",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Bandana",
-            "img": "",
+            "img": "/images/items/helmets/Bandana.gif",
             "arm": "1",
             "additional": "-",
             "weight": "8.5",
@@ -26,7 +26,7 @@
         },
         {
             "name": "Leather Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Leather_Helmet.gif",
             "arm": "1",
             "additional": "-",
             "weight": "22.0",
@@ -34,7 +34,7 @@
         },
         {
             "name": "Studded Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Studded_Helmet.gif",
             "arm": "2",
             "additional": "-",
             "weight": "24.5",
@@ -42,7 +42,7 @@
         },
         {
             "name": "Tribal Mask",
-            "img": "",
+            "img": "/images/items/helmets/Tribal_Mask.gif",
             "arm": "2",
             "additional": "-",
             "weight": "25.0",
@@ -50,7 +50,7 @@
         },
         {
             "name": "Chain Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Chain_Helmet.gif",
             "arm": "2",
             "additional": "-",
             "weight": "42.0",
@@ -58,7 +58,7 @@
         },
         {
             "name": "Pair Of Earmuffs",
-            "img": "",
+            "img": "/images/items/helmets/Pair_Of_Earmuffs.gif",
             "arm": "2",
             "additional": "Protection ice +2%",
             "weight": "5.0",
@@ -66,7 +66,7 @@
         },
         {
             "name": "Helmet Of The Deep",
-            "img": "",
+            "img": "/images/items/helmets/Helmet_Of_The_Deep.gif",
             "arm": "2",
             "additional": "Protection drown +100%",
             "weight": "210.0",
@@ -74,7 +74,7 @@
         },
         {
             "name": "Pirate Hat",
-            "img": "",
+            "img": "/images/items/helmets/Pirate_Hat.gif",
             "arm": "3",
             "additional": "-",
             "weight": "12.5",
@@ -82,7 +82,7 @@
         },
         {
             "name": "Brass Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Brass_Helmet.gif",
             "arm": "3",
             "additional": "-",
             "weight": "27.0",
@@ -90,7 +90,7 @@
         },
         {
             "name": "Feather Headdress",
-            "img": "",
+            "img": "/images/items/helmets/Feather_Headdress.gif",
             "arm": "3",
             "additional": "Distance fighting +1",
             "weight": "21.0",
@@ -98,7 +98,7 @@
         },
         {
             "name": "Viking Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Viking_Helmet.gif",
             "arm": "4",
             "additional": "-",
             "weight": "39.0",
@@ -106,7 +106,7 @@
         },
         {
             "name": "Legion Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Legion_Helmet.gif",
             "arm": "4",
             "additional": "-",
             "weight": "31.0",
@@ -114,7 +114,7 @@
         },
         {
             "name": "Soldier Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Soldier_Helmet.gif",
             "arm": "5",
             "additional": "-",
             "weight": "32.0",
@@ -122,7 +122,7 @@
         },
         {
             "name": "Iron Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Iron_Helmet.gif",
             "arm": "5",
             "additional": "-",
             "weight": "30.0",
@@ -130,7 +130,7 @@
         },
         {
             "name": "Strange Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Strange_Helmet.gif",
             "arm": "5",
             "additional": "Protection drown +50%",
             "weight": "46.0",
@@ -138,7 +138,7 @@
         },
         {
             "name": "Steel Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Steel_Helmet.gif",
             "arm": "6",
             "additional": "-",
             "weight": "46.0",
@@ -146,15 +146,23 @@
         },
         {
             "name": "Dark Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Dark_Helmet.gif",
             "arm": "6",
             "additional": "-",
             "weight": "46.0",
             "obtained": "Black Knight, Cyclops, Cyclops Drone, Cyclops Smith, Frost Giant, Frost Giantess, Orc Warlord"
         },
         {
+            "name": "Horseman Helmet",
+            "img": "/images/items/helmets/Horseman_Helmet.gif",
+            "arm": "6",
+            "additional": "-",
+            "weight": "42.0",
+            "obtained": "Assassin"
+        },
+        {
             "name": "Ragnir Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Ragnir_Helmet.gif",
             "arm": "6",
             "additional": "-",
             "weight": "31.0",
@@ -162,7 +170,7 @@
         },
         {
             "name": "Fur Cap",
-            "img": "",
+            "img": "/images/items/helmets/Fur_Cap.gif",
             "arm": "6",
             "additional": "-",
             "weight": "18.0",
@@ -170,7 +178,7 @@
         },
         {
             "name": "Krimhorn Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Krimhorn_Helmet.gif",
             "arm": "6",
             "additional": "Protection physical +1%",
             "weight": "51.0",
@@ -178,7 +186,7 @@
         },
         {
             "name": "Wood Cape",
-            "img": "",
+            "img": "/images/items/helmets/Wood_Cape.gif",
             "arm": "6",
             "additional": "Distance fighting +1",
             "weight": "11.0",
@@ -186,7 +194,7 @@
         },
         {
             "name": "Devil Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Devil_Helmet.gif",
             "arm": "7",
             "additional": "-",
             "weight": "50.0",
@@ -194,7 +202,7 @@
         },
         {
             "name": "Crown Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Crown_Helmet.gif",
             "arm": "7",
             "additional": "-",
             "weight": "29.5",
@@ -202,7 +210,7 @@
         },
         {
             "name": "Charmer's Tiara",
-            "img": "",
+            "img": "/images/items/helmets/Charmer's_Tiara.gif",
             "arm": "7",
             "additional": "-",
             "weight": "22.0",
@@ -210,7 +218,7 @@
         },
         {
             "name": "Beholder Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Beholder_Helmet.gif",
             "arm": "7",
             "additional": "Shielding +1",
             "weight": "46.0",
@@ -218,7 +226,7 @@
         },
         {
             "name": "Warrior Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Warrior_Helmet.gif",
             "arm": "8",
             "additional": "-",
             "weight": "68.0",
@@ -226,7 +234,7 @@
         },
         {
             "name": "Crusader Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Crusader_Helmet.gif",
             "arm": "8",
             "additional": "-",
             "weight": "52.0",
@@ -234,7 +242,7 @@
         },
         {
             "name": "Dwarven Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Dwarven_Helmet.gif",
             "arm": "8",
             "additional": "Protection physical +2%",
             "weight": "",
@@ -242,7 +250,7 @@
         },
         {
             "name": "Royal Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Royal_Helmet.gif",
             "arm": "9",
             "additional": "-",
             "weight": "48.0",
@@ -250,7 +258,7 @@
         },
         {
             "name": "Skull Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Skull_Helmet.gif",
             "arm": "9",
             "additional": "-",
             "weight": "42.0",
@@ -258,7 +266,7 @@
         },
         {
             "name": "Dragon Scale Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Dragon_Scale_Helmet.gif",
             "arm": "9",
             "additional": "-",
             "weight": "32.5",
@@ -266,7 +274,7 @@
         },
         {
             "name": "Zaoan Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Zaoan_Helmet.gif",
             "arm": "9",
             "additional": "Protection physical +2%",
             "weight": "66.0",
@@ -274,7 +282,7 @@
         },
         {
             "name": "Winged Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Winged_Helmet.gif",
             "arm": "10",
             "additional": "?",
             "weight": "12.0",
@@ -282,7 +290,7 @@
         },
         {
             "name": "Demon Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Demon_Helmet.gif",
             "arm": "10",
             "additional": "-",
             "weight": "29.5",
@@ -290,7 +298,7 @@
         },
         {
             "name": "Horned Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Horned_Helmet.gif",
             "arm": "11",
             "additional": "?",
             "weight": "51.0",
@@ -298,7 +306,7 @@
         },
         {
             "name": "Golden Helmet",
-            "img": "",
+            "img": "/images/items/helmets/Golden_Helmet.gif",
             "arm": "12",
             "additional": "?",
             "weight": "32.0",
@@ -308,7 +316,7 @@
     "armors": [
         {
             "name": "Simple Dress",
-            "img": "",
+            "img": "/images/items/armors/Simple_Dress.gif",
             "arm": "-",
             "additional": "-",
             "level": "-",
@@ -317,7 +325,7 @@
         },
         {
             "name": "Hibiscus Dress",
-            "img": "",
+            "img": "/images/items/armors/Hibiscus_Dress.gif",
             "arm": "-",
             "additional": "-",
             "level": "-",
@@ -326,7 +334,7 @@
         },
         {
             "name": "Green Tunic",
-            "img": "",
+            "img": "/images/items/armors/Green_Tunic.gif",
             "arm": "1",
             "additional": "-",
             "level": "-",
@@ -335,7 +343,7 @@
         },
         {
             "name": "Jacket",
-            "img": "",
+            "img": "/images/items/armors/Jacket.gif",
             "arm": "1",
             "additional": "-",
             "level": "-",
@@ -344,7 +352,7 @@
         },
         {
             "name": "Red Robe",
-            "img": "",
+            "img": "/images/items/armors/Red_Robe.gif",
             "arm": "1",
             "additional": "-",
             "level": "-",
@@ -353,7 +361,7 @@
         },
         {
             "name": "Coat",
-            "img": "",
+            "img": "/images/items/armors/Coat.gif",
             "arm": "1",
             "additional": "-",
             "level": "-",
@@ -362,7 +370,7 @@
         },
         {
             "name": "Cape",
-            "img": "",
+            "img": "/images/items/armors/Cape.gif",
             "arm": "1",
             "additional": "-",
             "level": "-",
@@ -371,7 +379,7 @@
         },
         {
             "name": "Doublet",
-            "img": "",
+            "img": "/images/items/armors/Doublet.gif",
             "arm": "2",
             "additional": "-",
             "level": "-",
@@ -380,7 +388,7 @@
         },
         {
             "name": "Pirate Shirt",
-            "img": "",
+            "img": "/images/items/armors/Pirate_Shirt.gif",
             "arm": "3",
             "additional": "-",
             "level": "-",
@@ -389,7 +397,7 @@
         },
         {
             "name": "Leather Armor",
-            "img": "",
+            "img": "/images/items/armors/Leather_Armor.gif",
             "arm": "4",
             "additional": "-",
             "level": "-",
@@ -398,7 +406,7 @@
         },
         {
             "name": "Studded Armor",
-            "img": "",
+            "img": "/images/items/armors/Studded_Armor.gif",
             "arm": "5",
             "additional": "-",
             "level": "-",
@@ -407,7 +415,7 @@
         },
         {
             "name": "Chain Armor",
-            "img": "",
+            "img": "/images/items/armors/Chain_Armor.gif",
             "arm": "6",
             "additional": "-",
             "level": "-",
@@ -416,7 +424,7 @@
         },
         {
             "name": "Rangers Cloak",
-            "img": "",
+            "img": "/images/items/armors/Rangers_Cloak.gif",
             "arm": "7",
             "additional": "?",
             "level": "-",
@@ -425,7 +433,7 @@
         },
         {
             "name": "Brass Armor",
-            "img": "",
+            "img": "/images/items/armors/Brass_Armor.gif",
             "arm": "8",
             "additional": "-",
             "level": "-",
@@ -434,7 +442,7 @@
         },
         {
             "name": "Scale Armor",
-            "img": "",
+            "img": "/images/items/armors/Scale_Armor.gif",
             "arm": "9",
             "additional": "-",
             "level": "-",
@@ -443,7 +451,7 @@
         },
         {
             "name": "Leopard Armor",
-            "img": "",
+            "img": "/images/items/armors/Leopard_Armor.gif",
             "arm": "9",
             "additional": "-",
             "level": "-",
@@ -452,7 +460,7 @@
         },
         {
             "name": "Plate Armor",
-            "img": "",
+            "img": "/images/items/armors/Plate_Armor.gif",
             "arm": "10",
             "additional": "-",
             "level": "-",
@@ -461,7 +469,7 @@
         },
         {
             "name": "Mammoth Fur Cape",
-            "img": "",
+            "img": "/images/items/armors/Mammoth_Fur_Cape.gif",
             "arm": "10",
             "additional": "-",
             "level": "-",
@@ -470,7 +478,7 @@
         },
         {
             "name": "Dark Armor",
-            "img": "",
+            "img": "/images/items/armors/Dark_Armor.gif",
             "arm": "10",
             "additional": "Protection physical +2%",
             "level": "-",
@@ -479,7 +487,7 @@
         },
         {
             "name": "Velvet Mantle",
-            "img": "",
+            "img": "/images/items/armors/Velvet_Mantle.gif",
             "arm": "10",
             "additional": "Magic level +1",
             "level": "50",
@@ -488,7 +496,7 @@
         },
         {
             "name": "Belted Cape",
-            "img": "",
+            "img": "/images/items/armors/Belted_Cape.gif",
             "arm": "10",
             "additional": "Distance fighting +1",
             "level": "-",
@@ -497,7 +505,7 @@
         },
         {
             "name": "Noble Armor",
-            "img": "",
+            "img": "/images/items/armors/Noble_Armor.gif",
             "arm": "11",
             "additional": "-",
             "level": "-",
@@ -506,7 +514,7 @@
         },
         {
             "name": "Blue Robe",
-            "img": "",
+            "img": "/images/items/armors/Blue_Robe.gif",
             "arm": "11",
             "additional": "-",
             "level": "-",
@@ -515,7 +523,7 @@
         },
         {
             "name": "Witchhunter's Cloak",
-            "img": "",
+            "img": "/images/items/armors/Witchhunters_Cloak.gif",
             "arm": "12",
             "additional": "Protection holy -2%, death +2%",
             "level": "50",
@@ -524,7 +532,7 @@
         },
         {
             "name": "Dragon Robe",
-            "img": "",
+            "img": "/images/items/armors/Dragon_Robe.gif",
             "arm": "12",
             "additional": "Protection fire +5%",
             "level": "50",
@@ -533,7 +541,7 @@
         },
         {
             "name": "Knight Armor",
-            "img": "",
+            "img": "/images/items/armors/Knight_Armor.gif",
             "arm": "12",
             "additional": "-",
             "level": "-",
@@ -542,7 +550,7 @@
         },
         {
             "name": "Crown Armor",
-            "img": "",
+            "img": "/images/items/armors/Crown_Armor.gif",
             "arm": "13",
             "additional": "-",
             "level": "-",
@@ -551,7 +559,7 @@
         },
         {
             "name": "Beholder Mail",
-            "img": "",
+            "img": "/images/items/armors/Beholder_Mail.gif",
             "arm": "13",
             "additional": "Distance fighting +2",
             "level": "-",
@@ -560,7 +568,7 @@
         },
         {
             "name": "Dark Lord's Cape",
-            "img": "",
+            "img": "/images/items/armors/Dark_Lord's_Cape.gif",
             "arm": "13",
             "additional": "Protection energy +8%, death +8%",
             "level": "65",
@@ -569,7 +577,7 @@
         },
         {
             "name": "Golden Armor",
-            "img": "",
+            "img": "/images/items/armors/Golden_Armor.gif",
             "arm": "14",
             "additional": "-",
             "level": "-",
@@ -578,7 +586,7 @@
         },
         {
             "name": "Dwarven Armor",
-            "img": "",
+            "img": "/images/items/armors/Dwarven_Armor.gif",
             "arm": "14",
             "additional": "Protection physical +4%",
             "level": "-",
@@ -587,7 +595,7 @@
         },
         {
             "name": "Swamplair Armor",
-            "img": "",
+            "img": "/images/items/armors/Swamplair_Armor.gif",
             "arm": "14",
             "additional": "Protection earth +12%, fire -12%",
             "level": "60",
@@ -596,7 +604,7 @@
         },
         {
             "name": "Lavos Armor",
-            "img": "",
+            "img": "/images/items/armors/Lavos_Armor.gif",
             "arm": "14",
             "additional": "Protection fire +12%, ice -12%",
             "level": "60",
@@ -605,7 +613,7 @@
         },
         {
             "name": "Frozen Armor",
-            "img": "",
+            "img": "/images/items/armors/Frozen_Armor.gif",
             "arm": "14",
             "additional": "Protection earth -12%, ice +12%",
             "level": "60",
@@ -613,8 +621,8 @@
             "obtained": "<i><b>Forging</b></i>"
         },
         {
-            "name": "Elite Draken Mail ",
-            "img": "",
+            "name": "Elite Draken Mail",
+            "img": "/images/items/armors/Elite_Draken_Mail.gif",
             "arm": "15",
             "additional": "Shielding +1",
             "level": "70",
@@ -623,7 +631,7 @@
         },
         {
             "name": "Dragon Scale Mail",
-            "img": "",
+            "img": "/images/items/armors/Dragon_Scale_Mail.gif",
             "arm": "15",
             "additional": "-",
             "level": "-",
@@ -632,7 +640,7 @@
         },
         {
             "name": "Demon Armor",
-            "img": "",
+            "img": "/images/items/armors/Demon_Armor.gif",
             "arm": "16",
             "additional": "-",
             "level": "-",
@@ -641,7 +649,7 @@
         },
         {
             "name": "Master Archer's Armor",
-            "img": "",
+            "img": "/images/items/armors/Master_Archer's_Armor.gif",
             "arm": "16",
             "additional": "Distance fighting +3",
             "level": "75",
@@ -650,7 +658,7 @@
         },
         {
             "name": "Robe Of The Underworld",
-            "img": "",
+            "img": "/images/items/armors/Robe_Of_The_Underworld.gif",
             "arm": "16",
             "additional": "Magic level +3",
             "level": "75",
@@ -659,7 +667,7 @@
         },
         {
             "name": "Skullcracker Armor",
-            "img": "",
+            "img": "/images/items/armors/Skullcracker_Armor.gif",
             "arm": "16",
             "additional": "Shielding +4",
             "level": "75",
@@ -668,7 +676,7 @@
         },
         {
             "name": "Magic Plate Armor",
-            "img": "",
+            "img": "/images/items/armors/Magic_Plate_Armor.gif",
             "arm": "17",
             "additional": "-",
             "level": "-",
@@ -679,7 +687,7 @@
     "legs": [
         {
             "name": "Bast Skirt",
-            "img": "",
+            "img": "/images/items/legs/Bast_Skirt.gif",
             "arm": "-",
             "additional": "-",
             "weight": "3.5",
@@ -687,7 +695,7 @@
         },
         {
             "name": "Leather Legs",
-            "img": "",
+            "img": "/images/items/legs/Leather_Legs.gif",
             "arm": "1",
             "additional": "-",
             "weight": "18.0",
@@ -695,7 +703,7 @@
         },
         {
             "name": "Studded Legs",
-            "img": "",
+            "img": "/images/items/legs/Studded_Legs.gif",
             "arm": "2",
             "additional": "-",
             "weight": "26.0",
@@ -703,7 +711,7 @@
         },
         {
             "name": "Chain Legs",
-            "img": "",
+            "img": "/images/items/legs/Chain_Legs.gif",
             "arm": "3",
             "additional": "-",
             "weight": "35.0",
@@ -711,7 +719,7 @@
         },
         {
             "name": "Brass Legs",
-            "img": "",
+            "img": "/images/items/legs/Brass_Legs.gif",
             "arm": "5",
             "additional": "-",
             "weight": "38.0",
@@ -719,15 +727,15 @@
         },
         {
             "name": "Mammoth Fur Shorts",
-            "img": "",
+            "img": "/images/items/legs/Mammoth_Fur_Shorts.gif",
             "arm": "5",
             "additional": "-",
             "weight": "1.5",
             "obtained": "Barbarian Brutetamer"
         },
         {
-            "name": "Pirete Knee Breeches",
-            "img": "",
+            "name": "Pirate Knee Breeches",
+            "img": "/images/items/legs/Pirate_Knee_Breeches.gif",
             "arm": "6",
             "additional": "-",
             "weight": "12.0",
@@ -735,7 +743,7 @@
         },
         {
             "name": "Plate Legs",
-            "img": "",
+            "img": "/images/items/legs/Plate_Legs.gif",
             "arm": "7",
             "additional": "-",
             "weight": "50.0",
@@ -743,7 +751,7 @@
         },
         {
             "name": "Beholder Legs",
-            "img": "",
+            "img": "/images/items/legs/Beholder_Legs.gif",
             "arm": "7",
             "additional": "Distance fighting +1",
             "weight": "33.0",
@@ -751,7 +759,7 @@
         },
         {
             "name": "Dwarven Legs",
-            "img": "",
+            "img": "/images/items/legs/Dwarven_Legs.gif",
             "arm": "7",
             "additional": "Protection physical +3%",
             "weight": "49.0",
@@ -759,7 +767,7 @@
         },
         {
             "name": "Knight Legs",
-            "img": "",
+            "img": "/images/items/legs/Knight_Legs.gif",
             "arm": "8",
             "additional": "-",
             "weight": "70.0",
@@ -767,7 +775,7 @@
         },
         {
             "name": "Crown Legs",
-            "img": "",
+            "img": "/images/items/legs/Crown_Legs.gif",
             "arm": "8",
             "additional": "-",
             "weight": "65.0",
@@ -775,7 +783,7 @@
         },
         {
             "name": "Blue Legs",
-            "img": "",
+            "img": "/images/items/legs/Blue_Legs.gif",
             "arm": "8",
             "additional": "-",
             "weight": "18.0",
@@ -783,7 +791,7 @@
         },
         {
             "name": "Zaoan Legs",
-            "img": "",
+            "img": "/images/items/legs/Zaoan_Legs.gif",
             "arm": "8",
             "additional": "Protection physical +2%",
             "weight": "66.0",
@@ -791,7 +799,7 @@
         },
         {
             "name": "Golden Legs",
-            "img": "",
+            "img": "/images/items/legs/Golden_Legs.gif",
             "arm": "9",
             "additional": "-",
             "weight": "56.0",
@@ -799,7 +807,7 @@
         },
         {
             "name": "Demon Legs",
-            "img": "",
+            "img": "/images/items/legs/Demon_Legs.gif",
             "arm": "9",
             "additional": "?",
             "weight": "70.0",
@@ -807,7 +815,7 @@
         },
         {
             "name": "Dragon Scale Legs",
-            "img": "",
+            "img": "/images/items/legs/Dragon_Scale_Legs.gif",
             "arm": "10",
             "additional": "?",
             "weight": "48.0",
@@ -817,7 +825,7 @@
     "boots": [
         {
             "name": "Firewalker Boots",
-            "img": "",
+            "img": "/images/items/boots/Firewalker_Boots.gif",
             "arm": "-",
             "additional": "Protection fire +90%",
             "level": "130",
@@ -825,8 +833,8 @@
             "obtained": "Quest"
         },
         {
-            "name": "Bunnyslpippers",
-            "img": "",
+            "name": "Bunnyslippers",
+            "img": "/images/items/boots/Bunnyslippers.gif",
             "arm": "-",
             "additional": "?",
             "level": "-",
@@ -835,7 +843,7 @@
         },
         {
             "name": "Coconut Shoes",
-            "img": "",
+            "img": "/images/items/boots/Coconut_Shoes.gif",
             "arm": "-",
             "additional": "?",
             "level": "-",
@@ -844,7 +852,7 @@
         },
         {
             "name": "Pair Of Soft Boots",
-            "img": "",
+            "img": "/images/items/boots/Pair_Of_Soft_Boots.gif",
             "arm": "-",
             "additional": "Faster regeneration",
             "level": "-",
@@ -853,7 +861,7 @@
         },
         {
             "name": "Sandals",
-            "img": "",
+            "img": "/images/items/boots/Sandals.gif",
             "arm": "-",
             "additional": "Speed +8",
             "level": "-",
@@ -862,7 +870,7 @@
         },
         {
             "name": "Boots of Haste",
-            "img": "",
+            "img": "/images/items/boots/Boots_of_Haste.gif",
             "arm": "-",
             "additional": "Speed +20",
             "level": "-",
@@ -871,7 +879,7 @@
         },
         {
             "name": "Leather Boots",
-            "img": "",
+            "img": "/images/items/boots/Leather_Boots.gif",
             "arm": "1",
             "additional": "-",
             "level": "-",
@@ -880,7 +888,7 @@
         },
         {
             "name": "Crocodile Boots",
-            "img": "",
+            "img": "/images/items/boots/Crocodile_Boots.gif",
             "arm": "1",
             "additional": "Protection physical +2%",
             "level": "-",
@@ -889,7 +897,7 @@
         },
         {
             "name": "Zaoan Shoes",
-            "img": "",
+            "img": "/images/items/boots/Zaoan_Shoes.gif",
             "arm": "1",
             "additional": "Speed +5",
             "level": "-",
@@ -898,7 +906,7 @@
         },
         {
             "name": "Fur Boots",
-            "img": "",
+            "img": "/images/items/boots/Fur_Boots.gif",
             "arm": "2",
             "additional": "Speed -6",
             "level": "-",
@@ -907,7 +915,7 @@
         },
         {
             "name": "Pirate Boots",
-            "img": "",
+            "img": "/images/items/boots/Pirate_Boots.gif",
             "arm": "2",
             "additional": "-",
             "level": "-",
@@ -915,17 +923,8 @@
             "obtained": "Pirate Corsair"
         },
         {
-            "name": "Steel Boots",
-            "img": "",
-            "arm": "3",
-            "additional": "-",
-            "level": "-",
-            "weight": "29.0",
-            "obtained": "Behemoth, Ghastly Dragon, Undead Dragon"
-        },
-        {
             "name": "Patched Boots",
-            "img": "",
+            "img": "/images/items/boots/Patched_Boots.gif",
             "arm": "2",
             "additional": "?",
             "level": "-",
@@ -933,8 +932,17 @@
             "obtained": "Unknown"
         },
         {
+            "name": "Steel Boots",
+            "img": "/images/items/boots/Steel_Boots.gif",
+            "arm": "3",
+            "additional": "-",
+            "level": "-",
+            "weight": "29.0",
+            "obtained": "Behemoth, Ghastly Dragon, Undead Dragon"
+        },
+        {
             "name": "Guardian Boots",
-            "img": "",
+            "img": "/images/items/boots/Guardian_Boots.gif",
             "arm": "3",
             "additional": "Protection physical +2%",
             "level": "50",
@@ -943,7 +951,7 @@
         },
         {
             "name": "Frozen Boots",
-            "img": "",
+            "img": "/images/items/boots/Frozen_Boots.gif",
             "arm": "3",
             "additional": "Protection fire -3%, ice +3%",
             "level": "50",
@@ -952,7 +960,7 @@
         },
         {
             "name": "Great Crocodile Boots",
-            "img": "",
+            "img": "/images/items/boots/Great_Crocodile_Boots.gif",
             "arm": "3",
             "additional": "Protection fire +3%, ice -3%",
             "level": "50",
@@ -961,7 +969,7 @@
         },
         {
             "name": "Draken Boots",
-            "img": "",
+            "img": "/images/items/boots/Draken_Boots.gif",
             "arm": "3",
             "additional": "Speed +15",
             "level": "80",
@@ -970,7 +978,7 @@
         },
         {
             "name": "Golden Boots",
-            "img": "",
+            "img": "/images/items/boots/Golden_Boots.gif",
             "arm": "4",
             "additional": "?",
             "level": "-",
@@ -981,7 +989,7 @@
     "shields": [
         {
             "name": "Wooden Shield",
-            "img": "",
+            "img": "/images/items/shields/Wooden_Shield.gif",
             "def": "14",
             "additional": "-",
             "weight": "40.0",
@@ -989,7 +997,7 @@
         },
         {
             "name": "Studded Shield",
-            "img": "",
+            "img": "/images/items/shields/Studded_Shield.gif",
             "def": "15",
             "additional": "-",
             "weight": "58.0",
@@ -997,7 +1005,7 @@
         },
         {
             "name": "Brass Shield",
-            "img": "",
+            "img": "/images/items/shields/Brass_Shield.gif",
             "def": "16",
             "additional": "-",
             "weight": "60.0",
@@ -1005,7 +1013,7 @@
         },
         {
             "name": "Plate Shield",
-            "img": "",
+            "img": "/images/items/shields/Plate_Shield.gif",
             "def": "17",
             "additional": "-",
             "weight": "65.0",
@@ -1013,7 +1021,7 @@
         },
         {
             "name": "Black Shield",
-            "img": "",
+            "img": "/images/items/shields/Black_Shield.gif",
             "def": "18",
             "additional": "-",
             "weight": "42.0",
@@ -1021,7 +1029,7 @@
         },
         {
             "name": "Copper Shield",
-            "img": "",
+            "img": "/images/items/shields/Copper_Shield.gif",
             "def": "19",
             "additional": "-",
             "weight": "63.0",
@@ -1029,7 +1037,7 @@
         },
         {
             "name": "Bone Shield",
-            "img": "",
+            "img": "/images/items/shields/Bone_Shield.gif",
             "def": "20",
             "additional": "-",
             "weight": "55.0",
@@ -1037,7 +1045,7 @@
         },
         {
             "name": "Steel Shield",
-            "img": "",
+            "img": "/images/items/shields/Steel_Shield.gif",
             "def": "21",
             "additional": "-",
             "weight": "69.0",
@@ -1045,7 +1053,7 @@
         },
         {
             "name": "Sentinel Shield",
-            "img": "",
+            "img": "/images/items/shields/Sentinel_Shield.gif",
             "def": "22",
             "additional": "-",
             "weight": "49.0",
@@ -1053,7 +1061,7 @@
         },
         {
             "name": "Battle Shield",
-            "img": "",
+            "img": "/images/items/shields/Battle_Shield.gif",
             "def": "23",
             "additional": "-",
             "weight": "62.0",
@@ -1061,7 +1069,7 @@
         },
         {
             "name": "Dark Shield",
-            "img": "",
+            "img": "/images/items/shields/Dark_Shield.gif",
             "def": "25",
             "additional": "-",
             "weight": "52.0",
@@ -1069,7 +1077,7 @@
         },
         {
             "name": "Scarab Shield",
-            "img": "",
+            "img": "/images/items/shields/Scarab_Shield.gif",
             "def": "25",
             "additional": "-",
             "weight": "47.0",
@@ -1077,7 +1085,7 @@
         },
         {
             "name": "Dwarven Shield",
-            "img": "",
+            "img": "/images/items/shields/Dwarven_Shield.gif",
             "def": "26",
             "additional": "-",
             "weight": "55.0",
@@ -1085,7 +1093,7 @@
         },
         {
             "name": "Salamander Shield",
-            "img": "",
+            "img": "/images/items/shields/Salamander_Shield.gif",
             "def": "26",
             "additional": "-",
             "weight": "59.0",
@@ -1093,7 +1101,7 @@
         },
         {
             "name": "Tortoise Shield",
-            "img": "",
+            "img": "/images/items/shields/Tortoise_Shield.gif",
             "def": "27",
             "additional": "-",
             "weight": "52.0",
@@ -1101,7 +1109,7 @@
         },
         {
             "name": "Ancient Shield",
-            "img": "",
+            "img": "/images/items/shields/Ancient_Shield.gif",
             "def": "27",
             "additional": "-",
             "weight": "61.0",
@@ -1109,7 +1117,7 @@
         },
         {
             "name": "Tusk Shield",
-            "img": "",
+            "img": "/images/items/shields/Tusk_Shield.gif",
             "def": "27",
             "additional": "-",
             "weight": "69.0",
@@ -1117,7 +1125,7 @@
         },
         {
             "name": "Beholder Shield",
-            "img": "",
+            "img": "/images/items/shields/Beholder_Shield.gif",
             "def": "28",
             "additional": "-",
             "weight": "47.0",
@@ -1125,7 +1133,7 @@
         },
         {
             "name": "Castle Shield",
-            "img": "",
+            "img": "/images/items/shields/Castle_Shield.gif",
             "def": "28",
             "additional": "-",
             "weight": "49.0",
@@ -1133,7 +1141,7 @@
         },
         {
             "name": "Norse Shield",
-            "img": "",
+            "img": "/images/items/shields/Norse_Shield.gif",
             "def": "28",
             "additional": "-",
             "weight": "41.0",
@@ -1141,7 +1149,7 @@
         },
         {
             "name": "Guardian Shield",
-            "img": "",
+            "img": "/images/items/shields/Guardian_Shield.gif",
             "def": "30",
             "additional": "-",
             "weight": "55.0",
@@ -1149,7 +1157,7 @@
         },
         {
             "name": "Dragon Shield",
-            "img": "",
+            "img": "/images/items/shields/Dragon_Shield.gif",
             "def": "31",
             "additional": "-",
             "weight": "60.0",
@@ -1157,7 +1165,7 @@
         },
         {
             "name": "Crown Shield",
-            "img": "",
+            "img": "/images/items/shields/Crown_Shield.gif",
             "def": "32",
             "additional": "-",
             "weight": "62.0",
@@ -1165,7 +1173,7 @@
         },
         {
             "name": "Tower Shield",
-            "img": "",
+            "img": "/images/items/shields/Tower_Shield.gif",
             "def": "32",
             "additional": "-",
             "weight": "82.0",
@@ -1173,7 +1181,7 @@
         },
         {
             "name": "Medusa Shield",
-            "img": "",
+            "img": "/images/items/shields/Medusa_Shield.gif",
             "def": "33",
             "additional": "-",
             "weight": "58.0",
@@ -1181,7 +1189,7 @@
         },
         {
             "name": "Vampire Shield",
-            "img": "",
+            "img": "/images/items/shields/Vampire_Shield.gif",
             "def": "34",
             "additional": "-",
             "weight": "38.0",
@@ -1189,7 +1197,7 @@
         },
         {
             "name": "Phoenix Shield",
-            "img": "",
+            "img": "/images/items/shields/Phoenix_Shield.gif",
             "def": "35",
             "additional": "-",
             "weight": "35.0",
@@ -1197,7 +1205,7 @@
         },
         {
             "name": "Demon Shield",
-            "img": "",
+            "img": "/images/items/shields/Demon_Shield.gif",
             "def": "35",
             "additional": "-",
             "weight": "26.0",
@@ -1205,7 +1213,7 @@
         },
         {
             "name": "Fiery Rainbow Shield",
-            "img": "",
+            "img": "/images/items/shields/Fiery_Rainbow_Shield.gif",
             "def": "36",
             "additional": "Protection fire +7%",
             "weight": "69.0",
@@ -1213,7 +1221,7 @@
         },
         {
             "name": "Sparking Rainbow Shield",
-            "img": "",
+            "img": "/images/items/shields/Sparking_Rainbow_Shield.gif",
             "def": "36",
             "additional": "Protection energy +7%",
             "weight": "69.0",
@@ -1221,7 +1229,7 @@
         },
         {
             "name": "Terran Rainbow Shield",
-            "img": "",
+            "img": "/images/items/shields/Terran_Rainbow_Shield.gif",
             "def": "36",
             "additional": "Protection earth +7%",
             "weight": "69.0",
@@ -1229,7 +1237,7 @@
         },
         {
             "name": "Icy Rainbow Shield",
-            "img": "",
+            "img": "/images/items/shields/Icy_Rainbow_Shield.gif",
             "def": "36",
             "additional": "Protection ice +7%",
             "weight": "69.0",
@@ -1237,7 +1245,7 @@
         },
         {
             "name": "Necromancer Shield",
-            "img": "",
+            "img": "/images/items/shields/Necromancer_Shield.gif",
             "def": "37",
             "additional": "-",
             "weight": "32.0",
@@ -1245,7 +1253,7 @@
         },
         {
             "name": "Mastermind Shield",
-            "img": "",
+            "img": "/images/items/shields/Mastermind_Shield.gif",
             "def": "37",
             "additional": "-",
             "weight": "57.0",
@@ -1253,7 +1261,7 @@
         },
         {
             "name": "Great Shield",
-            "img": "",
+            "img": "/images/items/shields/Great_Shield.gif",
             "def": "38",
             "additional": "?",
             "weight": "84.0",
@@ -1261,7 +1269,7 @@
         },
         {
             "name": "Blessed Shield",
-            "img": "",
+            "img": "/images/items/shields/Blessed_Shield.gif",
             "def": "40",
             "additional": "-",
             "weight": "68.0",
@@ -1269,7 +1277,7 @@
         },
         {
             "name": "Queen's Shield",
-            "img": "",
+            "img": "/images/items/shields/Queen's_Shield.gif",
             "def": "41",
             "additional": "-",
             "weight": "54.0",
@@ -1277,7 +1285,7 @@
         },
         {
             "name": "Rose Shield",
-            "img": "",
+            "img": "/images/items/shields/Rose_Shield.gif",
             "def": "?",
             "additional": "?",
             "weight": "52.0",
@@ -1286,19 +1294,30 @@
     ],
     "club": [
         {
+            "name": "Crowbar",
+            "img": "/images/items/clubs/Crowbar.gif",
+            "atk": "5",
+            "def": "6",
+            "hands": "1",
+            "additional": "-",
+            "level": "-",
+            "weight": "21.0",
+            "obtained": "Behemoth, Destroyer"
+        },
+        {
             "name": "Club",
-            "img": "",
+            "img": "/images/items/clubs/Club.gif",
             "atk": "7",
             "def": "7",
             "hands": "1",
             "additional": "-",
             "level": "-",
             "weight": "25.0",
-            "obtained": "Frost Troll."
+            "obtained": "Frost Troll"
         },
         {
             "name": "Studded Club",
-            "img": "",
+            "img": "/images/items/clubs/Studded_Club.gif",
             "atk": "9",
             "def": "8",
             "hands": "1",
@@ -1309,7 +1328,7 @@
         },
         {
             "name": "Staff",
-            "img": "",
+            "img": "/images/items/clubs/Staff.gif",
             "atk": "10",
             "def": "25",
             "hands": "2",
@@ -1320,7 +1339,7 @@
         },
         {
             "name": "Bone Club",
-            "img": "",
+            "img": "/images/items/clubs/Bone_Club.gif",
             "atk": "12",
             "def": "8",
             "hands": "1",
@@ -1331,7 +1350,7 @@
         },
         {
             "name": "Mace",
-            "img": "",
+            "img": "/images/items/clubs/Mace.gif",
             "atk": "16",
             "def": "11",
             "hands": "1",
@@ -1342,7 +1361,7 @@
         },
         {
             "name": "Iron Hammer",
-            "img": "",
+            "img": "/images/items/clubs/Iron_Hammer.gif",
             "atk": "18",
             "def": "10",
             "hands": "1",
@@ -1352,8 +1371,8 @@
             "obtained": "Unknown"
         },
         {
-            "name": "Daramanian Mace",
-            "img": "",
+            "name": "Daramian Mace",
+            "img": "/images/items/clubs/Daramian_Mace.gif",
             "atk": "21",
             "def": "12",
             "hands": "1",
@@ -1364,7 +1383,7 @@
         },
         {
             "name": "Battle Hammer",
-            "img": "",
+            "img": "/images/items/clubs/Battle_Hammer.gif",
             "atk": "24",
             "def": "14",
             "hands": "1",
@@ -1375,7 +1394,7 @@
         },
         {
             "name": "Morning Star",
-            "img": "",
+            "img": "/images/items/clubs/Morning_Star.gif",
             "atk": "25",
             "def": "11",
             "hands": "1",
@@ -1386,7 +1405,7 @@
         },
         {
             "name": "Banana Staff",
-            "img": "",
+            "img": "/images/items/clubs/Banana_Staff.gif",
             "atk": "25",
             "def": "15",
             "hands": "1",
@@ -1397,7 +1416,7 @@
         },
         {
             "name": "Clerical Mace",
-            "img": "",
+            "img": "/images/items/clubs/Clerical_Mace.gif",
             "atk": "28",
             "def": "15",
             "hands": "1",
@@ -1408,7 +1427,7 @@
         },
         {
             "name": "Taurus Mace",
-            "img": "",
+            "img": "/images/items/clubs/Taurus_Mace.gif",
             "atk": "30",
             "def": "18",
             "hands": "2",
@@ -1419,7 +1438,7 @@
         },
         {
             "name": "Furry Club",
-            "img": "",
+            "img": "/images/items/clubs/Furry_Club.gif",
             "atk": "31",
             "def": "19",
             "hands": "1",
@@ -1430,7 +1449,7 @@
         },
         {
             "name": "Dragon Hammer",
-            "img": "",
+            "img": "/images/items/clubs/Dragon_Hammer.gif",
             "atk": "32",
             "def": "20",
             "hands": "1",
@@ -1441,7 +1460,7 @@
         },
         {
             "name": "Dragonbone Staff",
-            "img": "",
+            "img": "/images/items/clubs/Dragonbone_Staff.gif",
             "atk": "35",
             "def": "18",
             "hands": "1",
@@ -1452,7 +1471,7 @@
         },
         {
             "name": "Spiked Squelcher",
-            "img": "",
+            "img": "/images/items/clubs/Spiked_Squelcher.gif",
             "atk": "41",
             "def": "12",
             "hands": "2",
@@ -1463,7 +1482,7 @@
         },
         {
             "name": "Orcish Maul",
-            "img": "",
+            "img": "/images/items/clubs/Orcish_Maul.gif",
             "atk": "35",
             "def": "18",
             "hands": "2",
@@ -1473,8 +1492,19 @@
             "obtained": "Orc Marauder"
         },
         {
+            "name": "Sapphire Hammer",
+            "img": "/images/items/clubs/Sapphire_Hammer.gif",
+            "atk": "37",
+            "def": "18",
+            "hands": "1",
+            "additional": "-",
+            "level": "30",
+            "weight": "21.0",
+            "obtained": "Crystal Spider"
+        },
+        {
             "name": "Mammoth Whopper",
-            "img": "",
+            "img": "/images/items/clubs/Mammoth_Whopper.gif",
             "atk": "33",
             "def": "18",
             "hands": "1",
@@ -1485,7 +1515,7 @@
         },
         {
             "name": "Brutetamer's Staff",
-            "img": "",
+            "img": "/images/items/clubs/Brutetamer's_Staff.gif",
             "atk": "40",
             "def": "12",
             "hands": "2",
@@ -1496,7 +1526,7 @@
         },
         {
             "name": "Lunar Staff",
-            "img": "",
+            "img": "/images/items/clubs/Lunar_Staff.gif",
             "atk": "40",
             "def": "25",
             "hands": "2",
@@ -1507,7 +1537,7 @@
         },
         {
             "name": "Lich Staff",
-            "img": "",
+            "img": "/images/items/clubs/Lich_Staff.gif",
             "atk": "40",
             "def": "30",
             "hands": "1",
@@ -1518,7 +1548,7 @@
         },
         {
             "name": "Skull Staff",
-            "img": "",
+            "img": "/images/items/clubs/Skull_Staff.gif",
             "atk": "36",
             "def": "12",
             "hands": "1",
@@ -1529,7 +1559,7 @@
         },
         {
             "name": "War Hammer",
-            "img": "",
+            "img": "/images/items/clubs/War_Hammer.gif",
             "atk": "38",
             "def": "10",
             "hands": "2",
@@ -1540,7 +1570,7 @@
         },
         {
             "name": "Amber Staff",
-            "img": "",
+            "img": "/images/items/clubs/Amber_Staff.gif",
             "atk": "43",
             "def": "25",
             "hands": "2",
@@ -1551,7 +1581,7 @@
         },
         {
             "name": "Chaos Mace",
-            "img": "",
+            "img": "/images/items/clubs/Chaos_Mace.gif",
             "atk": "44",
             "def": "21",
             "hands": "2",
@@ -1562,7 +1592,7 @@
         },
         {
             "name": "Cranial Basher",
-            "img": "",
+            "img": "/images/items/clubs/Cranial_Basher.gif",
             "atk": "43",
             "def": "25",
             "hands": "1",
@@ -1573,7 +1603,7 @@
         },
         {
             "name": "Onyx Flail",
-            "img": "",
+            "img": "/images/items/clubs/Onyx_Flail.gif",
             "atk": "45",
             "def": "18",
             "hands": "1",
@@ -1584,7 +1614,7 @@
         },
         {
             "name": "Bonebreaker",
-            "img": "",
+            "img": "/images/items/clubs/Bonebreaker.gif",
             "atk": "46",
             "def": "15",
             "hands": "2",
@@ -1595,7 +1625,7 @@
         },
         {
             "name": "Heavy Mace",
-            "img": "",
+            "img": "/images/items/clubs/Heavy_Mace.gif",
             "atk": "48",
             "def": "21",
             "hands": "2",
@@ -1606,7 +1636,7 @@
         },
         {
             "name": "Northern Star",
-            "img": "",
+            "img": "/images/items/clubs/Northern_Star.gif",
             "atk": "46",
             "def": "25",
             "hands": "1",
@@ -1617,7 +1647,7 @@
         },
         {
             "name": "Abyss Hammer",
-            "img": "",
+            "img": "/images/items/clubs/Abyss_Hammer.gif",
             "atk": "47",
             "def": "21",
             "hands": "2",
@@ -1628,7 +1658,7 @@
         },
         {
             "name": "Blessed Sceptre",
-            "img": "",
+            "img": "/images/items/clubs/Blessed_Sceptre.gif",
             "atk": "49",
             "def": "27",
             "hands": "2",
@@ -1639,7 +1669,7 @@
         },
         {
             "name": "Dark Trinity Mace",
-            "img": "",
+            "img": "/images/items/clubs/Dark_Trinity_Mace.gif",
             "atk": "49",
             "def": "27",
             "hands": "1",
@@ -1650,7 +1680,7 @@
         },
         {
             "name": "Drachaku",
-            "img": "",
+            "img": "/images/items/clubs/Drachaku.gif",
             "atk": "51",
             "def": "32",
             "hands": "2",
@@ -1661,7 +1691,7 @@
         },
         {
             "name": "Arcane Staff",
-            "img": "",
+            "img": "/images/items/clubs/Arcane_Staff.gif",
             "atk": "50",
             "def": "30",
             "hands": "2",
@@ -1672,7 +1702,7 @@
         },
         {
             "name": "Silver Mace",
-            "img": "",
+            "img": "/images/items/clubs/Silver_Mace.gif",
             "atk": "53",
             "def": "36",
             "hands": "2",
@@ -1683,7 +1713,7 @@
         },
         {
             "name": "Obsidian Truncheon",
-            "img": "",
+            "img": "/images/items/clubs/Obsidian_Truncheon.gif",
             "atk": "50",
             "def": "30",
             "hands": "1",
@@ -1694,7 +1724,7 @@
         },
         {
             "name": "Thunder Hammer",
-            "img": "",
+            "img": "/images/items/clubs/Thunder_Hammer.gif",
             "atk": "58",
             "def": "35",
             "hands": "1",
@@ -1705,7 +1735,7 @@
         },
         {
             "name": "King's Hammer",
-            "img": "",
+            "img": "/images/items/clubs/King's_Hammer.gif",
             "atk": "60",
             "def": "30",
             "hands": "1",
@@ -1716,7 +1746,7 @@
         },
         {
             "name": "Queen's Sceptre",
-            "img": "",
+            "img": "/images/items/clubs/Queen's_Sceptre.gif",
             "atk": "?",
             "def": "?",
             "hands": "2",
@@ -1729,7 +1759,7 @@
     "sword": [
         {
             "name": "Knife",
-            "img": "",
+            "img": "/images/items/swords/Knife.gif",
             "atk": "5",
             "def": "5",
             "hands": "1",
@@ -1740,7 +1770,7 @@
         },
         {
             "name": "Dagger",
-            "img": "",
+            "img": "/images/items/swords/Dagger.gif",
             "atk": "8",
             "def": "6",
             "hands": "1",
@@ -1751,7 +1781,7 @@
         },
         {
             "name": "Combat Knife",
-            "img": "",
+            "img": "/images/items/swords/Combat_Knife.gif",
             "atk": "8",
             "def": "6",
             "hands": "1",
@@ -1762,7 +1792,7 @@
         },
         {
             "name": "Silver Dagger",
-            "img": "",
+            "img": "/images/items/swords/Silver_Dagger.gif",
             "atk": "9",
             "def": "7",
             "hands": "1",
@@ -1773,7 +1803,7 @@
         },
         {
             "name": "Rapier",
-            "img": "",
+            "img": "/images/items/swords/Rapier.gif",
             "atk": "10",
             "def": "9",
             "hands": "1",
@@ -1784,7 +1814,7 @@
         },
         {
             "name": "Short Sword",
-            "img": "",
+            "img": "/images/items/swords/Short_Sword.gif",
             "atk": "11",
             "def": "11",
             "hands": "1",
@@ -1795,7 +1825,7 @@
         },
         {
             "name": "Sabre",
-            "img": "",
+            "img": "/images/items/swords/Sabre.gif",
             "atk": "12",
             "def": "11",
             "hands": "1",
@@ -1806,7 +1836,7 @@
         },
         {
             "name": "Bone Sword",
-            "img": "",
+            "img": "/images/items/swords/Bone_Sword.gif",
             "atk": "13",
             "def": "10",
             "hands": "1",
@@ -1817,7 +1847,7 @@
         },
         {
             "name": "Sword",
-            "img": "",
+            "img": "/images/items/swords/Sword.gif",
             "atk": "14",
             "def": "13",
             "hands": "1",
@@ -1828,7 +1858,7 @@
         },
         {
             "name": "Carlin Sword",
-            "img": "",
+            "img": "/images/items/swords/Carlin_Sword.gif",
             "atk": "15",
             "def": "14",
             "hands": "1",
@@ -1839,7 +1869,7 @@
         },
         {
             "name": "Katana",
-            "img": "",
+            "img": "/images/items/swords/Katana.gif",
             "atk": "16",
             "def": "13",
             "hands": "1",
@@ -1850,7 +1880,7 @@
         },
         {
             "name": "Longsword",
-            "img": "",
+            "img": "/images/items/swords/Longsword.gif",
             "atk": "17",
             "def": "14",
             "hands": "1",
@@ -1861,7 +1891,7 @@
         },
         {
             "name": "Poison Dagger",
-            "img": "",
+            "img": "/images/items/swords/Poison_Dagger.gif",
             "atk": "18",
             "def": "8",
             "hands": "1",
@@ -1872,7 +1902,7 @@
         },
         {
             "name": "Scimitar",
-            "img": "",
+            "img": "/images/items/swords/Scimitar.gif",
             "atk": "19",
             "def": "14",
             "hands": "1",
@@ -1883,7 +1913,7 @@
         },
         {
             "name": "Templar Scytheblade",
-            "img": "",
+            "img": "/images/items/swords/Templar_Scytheblade.gif",
             "atk": "23",
             "def": "15",
             "hands": "1",
@@ -1894,7 +1924,7 @@
         },
         {
             "name": "Spike Sword",
-            "img": "",
+            "img": "/images/items/swords/Spike_Sword.gif",
             "atk": "24",
             "def": "21",
             "hands": "1",
@@ -1905,7 +1935,7 @@
         },
         {
             "name": "Serpent Sword",
-            "img": "",
+            "img": "/images/items/swords/Serpent_Sword.gif",
             "atk": "18",
             "def": "15",
             "hands": "1",
@@ -1916,7 +1946,7 @@
         },
         {
             "name": "Broadsword",
-            "img": "",
+            "img": "/images/items/swords/Broadsword.gif",
             "atk": "26",
             "def": "23",
             "hands": "2",
@@ -1927,7 +1957,7 @@
         },
         {
             "name": "Ice Rapier",
-            "img": "",
+            "img": "/images/items/swords/Ice_Rapier.gif",
             "atk": "42",
             "def": "1",
             "hands": "1",
@@ -1937,8 +1967,19 @@
             "obtained": "Frost Dragon, Demon, Vampire"
         },
         {
+            "name": "Wyvern Fang",
+            "img": "/images/items/swords/Wyvern_Fang.gif",
+            "atk": "32",
+            "def": "19",
+            "hands": "1",
+            "additional": "+1 Def",
+            "level": "-",
+            "weight": "20.0",
+            "obtained": "Wyvern"
+        },
+        {
             "name": "Two Handed Sword",
-            "img": "",
+            "img": "/images/items/swords/Two_Handed_Sword.gif",
             "atk": "35",
             "def": "12",
             "hands": "2",
@@ -1949,7 +1990,7 @@
         },
         {
             "name": "Crystal Sword",
-            "img": "",
+            "img": "/images/items/swords/Crystal_Sword.gif",
             "atk": "35",
             "def": "26",
             "hands": "2",
@@ -1960,7 +2001,7 @@
         },
         {
             "name": "Fire Sword",
-            "img": "",
+            "img": "/images/items/swords/Fire_Sword.gif",
             "atk": "24",
             "def": "20",
             "hands": "1",
@@ -1971,7 +2012,7 @@
         },
         {
             "name": "Epee",
-            "img": "",
+            "img": "/images/items/swords/Epee.gif",
             "atk": "33",
             "def": "20",
             "hands": "1",
@@ -1982,7 +2023,7 @@
         },
         {
             "name": "Mercenary Sword",
-            "img": "",
+            "img": "/images/items/swords/Mercenary_Sword.gif",
             "atk": "39",
             "def": "15",
             "hands": "2",
@@ -1993,7 +2034,7 @@
         },
         {
             "name": "Djinn Blade",
-            "img": "",
+            "img": "/images/items/swords/Djinn_Blade.gif",
             "atk": "38",
             "def": "22",
             "hands": "1",
@@ -2004,7 +2045,7 @@
         },
         {
             "name": "Assassin Dagger",
-            "img": "",
+            "img": "/images/items/swords/Assassin_Dagger.gif",
             "atk": "40",
             "def": "12",
             "hands": "1",
@@ -2015,7 +2056,7 @@
         },
         {
             "name": "Pharaoh Sword",
-            "img": "",
+            "img": "/images/items/swords/Pharaoh_Sword.gif",
             "atk": "41",
             "def": "23",
             "hands": "1",
@@ -2026,7 +2067,7 @@
         },
         {
             "name": "Dragon Slayer",
-            "img": "",
+            "img": "/images/items/swords/Dragon_Slayer.gif",
             "atk": "44",
             "def": "28",
             "hands": "2",
@@ -2037,7 +2078,7 @@
         },
         {
             "name": "Relic Sword",
-            "img": "",
+            "img": "/images/items/swords/Relic_Sword.gif",
             "atk": "42",
             "def": "24",
             "hands": "1",
@@ -2048,7 +2089,7 @@
         },
         {
             "name": "Giant Sword",
-            "img": "",
+            "img": "/images/items/swords/Giant_Sword.gif",
             "atk": "47",
             "def": "14",
             "hands": "2",
@@ -2059,7 +2100,7 @@
         },
         {
             "name": "Mystic Blade",
-            "img": "",
+            "img": "/images/items/swords/Mystic_Blade.gif",
             "atk": "44",
             "def": "25",
             "hands": "1",
@@ -2070,7 +2111,7 @@
         },
         {
             "name": "Great Scimitar",
-            "img": "",
+            "img": "/images/items/swords/Great_Scimitar.gif",
             "atk": "45",
             "def": "27",
             "hands": "1",
@@ -2080,8 +2121,8 @@
             "obtained": "Dragon Lord"
         },
         {
-            "name": "Justice Seeker",
-            "img": "",
+            "name": "The Justice Seeker",
+            "img": "/images/items/swords/The_Justice_Seeker.gif",
             "atk": "48",
             "def": "29",
             "hands": "2",
@@ -2092,7 +2133,7 @@
         },
         {
             "name": "Nightmare Blade",
-            "img": "",
+            "img": "/images/items/swords/Nightmare_Blade.gif",
             "atk": "48",
             "def": "29",
             "hands": "1",
@@ -2103,7 +2144,7 @@
         },
         {
             "name": "Sai",
-            "img": "",
+            "img": "/images/items/swords/Sai.gif",
             "atk": "50",
             "def": "34",
             "hands": "2",
@@ -2113,8 +2154,8 @@
             "obtained": "Undead Dragon, Ghastly Dragon"
         },
         {
-            "name": "Avenger",
-            "img": "",
+            "name": "The Avenger",
+            "img": "/images/items/swords/The_Avenger.gif",
             "atk": "50",
             "def": "38",
             "hands": "2",
@@ -2125,7 +2166,7 @@
         },
         {
             "name": "Warlord Sword",
-            "img": "",
+            "img": "/images/items/swords/Warlord_Sword.gif",
             "atk": "52",
             "def": "38",
             "hands": "2",
@@ -2136,7 +2177,7 @@
         },
         {
             "name": "Magic Sword",
-            "img": "",
+            "img": "/images/items/swords/Magic_Sword.gif",
             "atk": "56",
             "def": "30",
             "hands": "1",
@@ -2147,7 +2188,7 @@
         },
         {
             "name": "King's Sword",
-            "img": "",
+            "img": "/images/items/swords/King's_Sword.gif",
             "atk": "58",
             "def": "34",
             "hands": "1",
@@ -2158,7 +2199,7 @@
         },
         {
             "name": "Magic Longsword",
-            "img": "",
+            "img": "/images/items/swords/Magic_Longsword.gif",
             "atk": "?",
             "def": "?",
             "hands": "2",
@@ -2171,7 +2212,7 @@
     "axe": [
         {
             "name": "Hand Axe",
-            "img": "",
+            "img": "/images/items/axes/Hand_Axe.gif",
             "atk": "10",
             "def": "5",
             "hands": "1",
@@ -2182,7 +2223,7 @@
         },
         {
             "name": "Axe",
-            "img": "",
+            "img": "/images/items/axes/Axe.gif",
             "atk": "12",
             "def": "6",
             "hands": "1",
@@ -2193,7 +2234,7 @@
         },
         {
             "name": "Golden Sickle",
-            "img": "",
+            "img": "/images/items/axes/Golden_Sickle.gif",
             "atk": "13",
             "def": "6",
             "hands": "1",
@@ -2204,7 +2245,7 @@
         },
         {
             "name": "Hatchet",
-            "img": "",
+            "img": "/images/items/axes/Hatchet.gif",
             "atk": "15",
             "def": "8",
             "hands": "1",
@@ -2215,7 +2256,7 @@
         },
         {
             "name": "Battle Axe",
-            "img": "",
+            "img": "/images/items/axes/Battle_Axe.gif",
             "atk": "25",
             "def": "10",
             "hands": "2",
@@ -2226,7 +2267,7 @@
         },
         {
             "name": "Orcish Axe",
-            "img": "",
+            "img": "/images/items/axes/Orcish_Axe.gif",
             "atk": "25",
             "def": "12",
             "hands": "1",
@@ -2237,7 +2278,7 @@
         },
         {
             "name": "Barbarian Axe",
-            "img": "",
+            "img": "/images/items/axes/Barbarian_Axe.gif",
             "atk": "28",
             "def": "18",
             "hands": "1",
@@ -2248,7 +2289,7 @@
         },
         {
             "name": "Dwarven Axe",
-            "img": "",
+            "img": "/images/items/axes/Dwarven_Axe.gif",
             "atk": "31",
             "def": "19",
             "hands": "1",
@@ -2259,7 +2300,7 @@
         },
         {
             "name": "Obsidian Lance",
-            "img": "",
+            "img": "/images/items/axes/Obsidian_Lance.gif",
             "atk": "34",
             "def": "10",
             "hands": "2",
@@ -2270,7 +2311,7 @@
         },
         {
             "name": "Knight Axe",
-            "img": "",
+            "img": "/images/items/axes/Knight_Axe.gif",
             "atk": "33",
             "def": "21",
             "hands": "1",
@@ -2281,7 +2322,7 @@
         },
         {
             "name": "Double Axe",
-            "img": "",
+            "img": "/images/items/axes/Double_Axe.gif",
             "atk": "35",
             "def": "12",
             "hands": "2",
@@ -2292,7 +2333,7 @@
         },
         {
             "name": "Halberd",
-            "img": "",
+            "img": "/images/items/axes/Halberd.gif",
             "atk": "35",
             "def": "14",
             "hands": "2",
@@ -2302,8 +2343,8 @@
             "obtained": "All Quaras, Orc Berserker, Cyclops, Barbarian Bloodwalker, Black Knight, Frost Giant, Zombie, Lizard Sentinel"
         },
         {
-            "name": "Daramanian Waraxe",
-            "img": "",
+            "name": "Daramian Waraxe",
+            "img": "/images/items/axes/Daramian_Waraxe.gif",
             "atk": "39",
             "def": "15",
             "hands": "2",
@@ -2314,7 +2355,7 @@
         },
         {
             "name": "Zaoan Halberd",
-            "img": "",
+            "img": "/images/items/axes/Zaoan_Halberd.gif",
             "atk": "37",
             "def": "15",
             "hands": "2",
@@ -2325,7 +2366,7 @@
         },
         {
             "name": "Glorious Axe",
-            "img": "",
+            "img": "/images/items/axes/Glorious_Axe.gif",
             "atk": "40",
             "def": "13",
             "hands": "2",
@@ -2336,7 +2377,7 @@
         },
         {
             "name": "Beastslayer Axe",
-            "img": "",
+            "img": "/images/items/axes/Beastslayer_Axe.gif",
             "atk": "35",
             "def": "15",
             "hands": "1",
@@ -2347,7 +2388,7 @@
         },
         {
             "name": "Fire Axe",
-            "img": "",
+            "img": "/images/items/axes/Fire_Axe.gif",
             "atk": "26",
             "def": "16",
             "hands": "1",
@@ -2358,7 +2399,7 @@
         },
         {
             "name": "Noble Axe",
-            "img": "",
+            "img": "/images/items/axes/Noble_Axe.gif",
             "atk": "39",
             "def": "22",
             "hands": "1",
@@ -2369,7 +2410,7 @@
         },
         {
             "name": "Titan Axe",
-            "img": "",
+            "img": "/images/items/axes/Titan_Axe.gif",
             "atk": "42",
             "def": "8",
             "hands": "2",
@@ -2380,7 +2421,7 @@
         },
         {
             "name": "Angelic Axe",
-            "img": "",
+            "img": "/images/items/axes/Angelic_Axe.gif",
             "atk": "44",
             "def": "24",
             "hands": "2",
@@ -2391,7 +2432,7 @@
         },
         {
             "name": "Ornamented Axe",
-            "img": "",
+            "img": "/images/items/axes/Ornamented_Axe.gif",
             "atk": "44",
             "def": "18",
             "hands": "1",
@@ -2402,7 +2443,7 @@
         },
         {
             "name": "Twin Axe",
-            "img": "",
+            "img": "/images/items/axes/Twin_Axe.gif",
             "atk": "45",
             "def": "24",
             "hands": "2",
@@ -2413,7 +2454,7 @@
         },
         {
             "name": "Guardian Halberd",
-            "img": "",
+            "img": "/images/items/axes/Guardian_Halberd.gif",
             "atk": "46",
             "def": "15",
             "hands": "2",
@@ -2424,7 +2465,7 @@
         },
         {
             "name": "Vile Axe",
-            "img": "",
+            "img": "/images/items/axes/Vile_Axe.gif",
             "atk": "46",
             "def": "19",
             "hands": "1",
@@ -2435,7 +2476,7 @@
         },
         {
             "name": "War Axe",
-            "img": "",
+            "img": "/images/items/axes/War_Axe.gif",
             "atk": "49",
             "def": "10",
             "hands": "2",
@@ -2446,7 +2487,7 @@
         },
         {
             "name": "Dragon Lance",
-            "img": "",
+            "img": "/images/items/axes/Dragon_Lance.gif",
             "atk": "47",
             "def": "16",
             "hands": "2",
@@ -2457,7 +2498,7 @@
         },
         {
             "name": "Ravenwing",
-            "img": "",
+            "img": "/images/items/axes/Ravenwing.gif",
             "atk": "45",
             "def": "22",
             "hands": "1",
@@ -2468,7 +2509,7 @@
         },
         {
             "name": "Drakinata",
-            "img": "",
+            "img": "/images/items/axes/Drakinata.gif",
             "atk": "47",
             "def": "20",
             "hands": "1",
@@ -2479,7 +2520,7 @@
         },
         {
             "name": "Royal Axe",
-            "img": "",
+            "img": "/images/items/axes/Royal_Axe.gif",
             "atk": "50",
             "def": "25",
             "hands": "2",
@@ -2490,7 +2531,7 @@
         },
         {
             "name": "Reaper's Axe",
-            "img": "",
+            "img": "/images/items/axes/Reaper's_Axe.gif",
             "atk": "48",
             "def": "25",
             "hands": "1",
@@ -2501,7 +2542,7 @@
         },
         {
             "name": "Impaler",
-            "img": "",
+            "img": "/images/items/axes/Impaler.gif",
             "atk": "50",
             "def": "25",
             "hands": "1",
@@ -2512,7 +2553,7 @@
         },
         {
             "name": "Ravager's Axe",
-            "img": "",
+            "img": "/images/items/axes/Ravager's_Axe.gif",
             "atk": "52",
             "def": "28",
             "hands": "1",
@@ -2523,7 +2564,7 @@
         },
         {
             "name": "Ruthless Axe",
-            "img": "",
+            "img": "/images/items/axes/Ruthless_Axe.gif",
             "atk": "50",
             "def": "15",
             "hands": "2",
@@ -2534,7 +2575,7 @@
         },
         {
             "name": "Twin Hooks",
-            "img": "",
+            "img": "/images/items/axes/Twin_Hooks.gif",
             "atk": "52",
             "def": "30",
             "hands": "2",
@@ -2545,7 +2586,7 @@
         },
         {
             "name": "Demonwing Axe",
-            "img": "",
+            "img": "/images/items/axes/Demonwing_Axe.gif",
             "atk": "53",
             "def": "20",
             "hands": "2",
@@ -2556,7 +2597,7 @@
         },
         {
             "name": "Great Axe",
-            "img": "",
+            "img": "/images/items/axes/Great_Axe.gif",
             "atk": "54",
             "def": "34",
             "hands": "2",
@@ -2567,7 +2608,7 @@
         },
         {
             "name": "Hellforged Axe",
-            "img": "",
+            "img": "/images/items/axes/Hellforged_Axe.gif",
             "atk": "51",
             "def": "28",
             "hands": "1",
@@ -2578,7 +2619,7 @@
         },
         {
             "name": "Stonecutter Axe",
-            "img": "",
+            "img": "/images/items/axes/Stonecutter_Axe.gif",
             "atk": "59",
             "def": "30",
             "hands": "1",
@@ -2589,7 +2630,7 @@
         },
         {
             "name": "King's Axe",
-            "img": "",
+            "img": "/images/items/axes/King's_Axe.gif",
             "atk": "62",
             "def": "26",
             "hands": "1",
@@ -2600,7 +2641,7 @@
         },
         {
             "name": "Solar Axe",
-            "img": "",
+            "img": "/images/items/axes/Solar_Axe.gif",
             "atk": "?",
             "def": "?",
             "hands": "2",
@@ -2613,7 +2654,7 @@
     "distance": [
         {
             "name": "Snowball",
-            "img": "",
+            "img": "/images/items/distance/Snowball.gif",
             "atk": "-",
             "range": "6",
             "hands": "1",
@@ -2624,7 +2665,7 @@
         },
         {
             "name": "Slingshot",
-            "img": "",
+            "img": "/images/items/distance/Slingshot.gif",
             "atk": "5",
             "range": "1",
             "hands": "1",
@@ -2635,7 +2676,7 @@
         },
         {
             "name": "Small Stone",
-            "img": "",
+            "img": "/images/items/distance/Small_Stone.gif",
             "atk": "5",
             "range": "4",
             "hands": "1",
@@ -2646,7 +2687,7 @@
         },
         {
             "name": "Throwing Knife",
-            "img": "",
+            "img": "/images/items/distance/Throwing_Knife.gif",
             "atk": "25",
             "range": "4",
             "hands": "1",
@@ -2657,7 +2698,7 @@
         },
         {
             "name": "Spear",
-            "img": "",
+            "img": "/images/items/distance/Spear.gif",
             "atk": "25",
             "range": "3",
             "hands": "1",
@@ -2668,7 +2709,7 @@
         },
         {
             "name": "Viper Star",
-            "img": "",
+            "img": "/images/items/distance/Viper_Star.gif",
             "atk": "28",
             "range": "4",
             "hands": "1",
@@ -2679,7 +2720,7 @@
         },
         {
             "name": "Throwing Star",
-            "img": "",
+            "img": "/images/items/distance/Throwing_Star.gif",
             "atk": "30",
             "range": "4",
             "hands": "1",
@@ -2690,7 +2731,7 @@
         },
         {
             "name": "Hunting Spear",
-            "img": "",
+            "img": "/images/items/distance/Hunting_Spear.gif",
             "atk": "32",
             "range": "3",
             "hands": "1",
@@ -2701,7 +2742,7 @@
         },
         {
             "name": "Royal Spear",
-            "img": "",
+            "img": "/images/items/distance/Royal_Spear.gif",
             "atk": "35",
             "range": "3",
             "hands": "1",
@@ -2712,7 +2753,7 @@
         },
         {
             "name": "Assassin Star",
-            "img": "",
+            "img": "/images/items/distance/Assassin_Star.gif",
             "atk": "65",
             "range": "4",
             "hands": "1",
@@ -2723,7 +2764,7 @@
         },
         {
             "name": "Bow",
-            "img": "",
+            "img": "/images/items/distance/Bow.gif",
             "atk": "-",
             "range": "6",
             "hands": "2",
@@ -2734,7 +2775,7 @@
         },
         {
             "name": "Crossbow",
-            "img": "",
+            "img": "/images/items/distance/Crossbow.gif",
             "atk": "-",
             "range": "5",
             "hands": "2",
@@ -2745,7 +2786,7 @@
         },
         {
             "name": "Elvish Bow",
-            "img": "",
+            "img": "/images/items/distance/Elvish_Bow.gif",
             "atk": "-",
             "range": "6",
             "hands": "2",
@@ -2756,7 +2797,7 @@
         },
         {
             "name": "Yol's Bow",
-            "img": "",
+            "img": "/images/items/distance/Yol's_Bow.gif",
             "atk": "-",
             "range": "5",
             "hands": "2",
@@ -2767,7 +2808,7 @@
         },
         {
             "name": "Elethriel's Elemental Bow",
-            "img": "",
+            "img": "/images/items/distance/Elethriel's_Elemental_Bow.gif",
             "atk": "+7",
             "range": "6",
             "hands": "2",
@@ -2778,7 +2819,7 @@
         },
         {
             "name": "Silkweaver Bow",
-            "img": "",
+            "img": "/images/items/distance/Silkweaver_Bow.gif",
             "atk": "+5",
             "range": "6",
             "hands": "2",
@@ -2789,7 +2830,7 @@
         },
         {
             "name": "Modified Crossbow",
-            "img": "",
+            "img": "/images/items/distance/Modified_Crossbow.gif",
             "atk": "+7",
             "range": "5",
             "hands": "2",
@@ -2800,7 +2841,7 @@
         },
         {
             "name": "The Ironworker",
-            "img": "",
+            "img": "/images/items/distance/The_Ironworker.gif",
             "atk": "+7",
             "range": "6",
             "hands": "2",
@@ -2811,7 +2852,7 @@
         },
         {
             "name": "Imperor's Trident",
-            "img": "",
+            "img": "/images/items/distance/Imperor's_Trident.gif",
             "atk": "38",
             "range": "3",
             "hands": "1",
@@ -2822,7 +2863,7 @@
         },
         {
             "name": "Composite Hornbow",
-            "img": "",
+            "img": "/images/items/distance/Composite_Hornbow.gif",
             "atk": "+7",
             "range": "7",
             "hands": "2",
@@ -2833,7 +2874,7 @@
         },
         {
             "name": "Chain Bolter",
-            "img": "",
+            "img": "/images/items/distance/Chain_Bolter.gif",
             "atk": "+10",
             "range": "6",
             "hands": "2",
@@ -2844,7 +2885,7 @@
         },
         {
             "name": "Ripper Lance",
-            "img": "",
+            "img": "/images/items/distance/Ripper_Lance.gif",
             "atk": "46",
             "range": "3",
             "hands": "1",
@@ -2855,7 +2896,7 @@
         },
         {
             "name": "The Devileye",
-            "img": "",
+            "img": "/images/items/distance/The_Devileye.gif",
             "atk": "+10",
             "range": "7",
             "hands": "2",
@@ -2866,7 +2907,7 @@
         },
         {
             "name": "Warsinger Bow",
-            "img": "",
+            "img": "/images/items/distance/Warsinger_Bow.gif",
             "atk": "?",
             "range": "?",
             "hands": "2",
@@ -2877,7 +2918,7 @@
         },
         {
             "name": "King's Crossbow",
-            "img": "",
+            "img": "/images/items/distance/King's_Crossbow.gif",
             "atk": "+15",
             "range": "7",
             "hands": "2",
@@ -2888,7 +2929,7 @@
         },
         {
             "name": "Arbalest",
-            "img": "",
+            "img": "/images/items/distance/Arbalest.gif",
             "atk": "?",
             "range": "7",
             "hands": "?",
@@ -2901,7 +2942,7 @@
     "ammunition": [
         {
             "name": "Poison Arrow",
-            "img": "",
+            "img": "/images/items/ammunitions/Poison_Arrow.gif",
             "atk": "22",
             "additional": "Target will be poisoned",
             "weight": "0.40",
@@ -2909,7 +2950,7 @@
         },
         {
             "name": "Arrow",
-            "img": "",
+            "img": "/images/items/ammunitions/Arrow.gif",
             "atk": "25",
             "additional": "-",
             "weight": "0.15",
@@ -2917,7 +2958,7 @@
         },
         {
             "name": "Burst Arrow",
-            "img": "",
+            "img": "/images/items/ammunitions/Burst_Arrow.gif",
             "atk": "28",
             "additional": "Damage a 9 square area",
             "weight": "0.45",
@@ -2925,7 +2966,7 @@
         },
         {
             "name": "Sniper Arrow",
-            "img": "",
+            "img": "/images/items/ammunitions/Sniper_Arrow.gif",
             "atk": "28",
             "additional": "-",
             "weight": "0.35",
@@ -2933,7 +2974,7 @@
         },
         {
             "name": "Bolt",
-            "img": "",
+            "img": "/images/items/ammunitions/Bolt.gif",
             "atk": "30",
             "additional": "-",
             "weight": "0.20",
@@ -2941,7 +2982,7 @@
         },
         {
             "name": "Piercing Bolt",
-            "img": "",
+            "img": "/images/items/ammunitions/Piercing_Bolt.gif",
             "atk": "33",
             "additional": "-",
             "weight": "0.40",
@@ -2949,7 +2990,7 @@
         },
         {
             "name": "Onyx Arrow",
-            "img": "",
+            "img": "/images/items/ammunitions/Onyx_Arrow.gif",
             "atk": "38",
             "additional": "-",
             "weight": "0.35",
@@ -2957,7 +2998,7 @@
         },
         {
             "name": "Power Bolt",
-            "img": "",
+            "img": "/images/items/ammunitions/Power_Bolt.gif",
             "atk": "40",
             "additional": "-",
             "weight": "0.45",
@@ -2965,7 +3006,7 @@
         },
         {
             "name": "Earth Arrow",
-            "img": "",
+            "img": "/images/items/ammunitions/Earth_Arrow.gif",
             "atk": "14",
             "additional": "+ 14 earth attack",
             "weight": "0.35",
@@ -2973,7 +3014,7 @@
         },
         {
             "name": "Flash Arrow",
-            "img": "",
+            "img": "/images/items/ammunitions/Flash_Arrow.gif",
             "atk": "14",
             "additional": "+ 14 energy attack",
             "weight": "0.35",
@@ -2981,7 +3022,7 @@
         },
         {
             "name": "Shiver Arrow",
-            "img": "",
+            "img": "/images/items/ammunitions/Shiver_Arrow.gif",
             "atk": "14",
             "additional": "+ 14 ice attack",
             "weight": "0.35",
@@ -2989,7 +3030,7 @@
         },
         {
             "name": "Flaming Arrow",
-            "img": "",
+            "img": "/images/items/ammunitions/Flaming_Arrow.gif",
             "atk": "14",
             "additional": "+ 14 fire attack",
             "weight": "0.35",
@@ -2999,7 +3040,7 @@
     "amulets": [
         {
             "name": "Wolf Tooth Chain",
-            "img": "",
+            "img": "/images/items/amulets/Wolf_Tooth_Chain.gif",
             "arm": "-",
             "additional": "-",
             "weight": "3.3",
@@ -3007,7 +3048,7 @@
         },
         {
             "name": "Crystal Necklace",
-            "img": "",
+            "img": "/images/items/amulets/Crystal_Necklace.gif",
             "arm": "-",
             "additional": "-",
             "weight": "4.9",
@@ -3015,7 +3056,7 @@
         },
         {
             "name": "Scarab Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Scarab_Amulet.gif",
             "arm": "-",
             "additional": "-",
             "weight": "7.7",
@@ -3023,7 +3064,7 @@
         },
         {
             "name": "Ancient Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Ancient_Amulet.gif",
             "arm": "-",
             "additional": "-",
             "weight": "8.4",
@@ -3031,135 +3072,135 @@
         },
         {
             "name": "Amulet of Loss",
-            "img": "",
+            "img": "/images/items/amulets/Amulet_of_Loss.gif",
             "arm": "-",
-            "additional": "item's loss protection",
+            "additional": "Item's loss protection",
             "weight": "4.2",
             "obtained": "Lost Soul"
         },
         {
             "name": "Dragon Necklace",
-            "img": "",
+            "img": "/images/items/amulets/Dragon_Necklace.gif",
             "arm": "-",
-            "additional": "protection fire +8%",
+            "additional": "Protection fire +8%",
             "weight": "6.3",
             "obtained": "Acolyte of The Cult, Hunter"
         },
         {
             "name": "Protection Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Protection_Amulet.gif",
             "arm": "-",
-            "additional": "protection physical +10%",
+            "additional": "Protection physical +10%",
             "weight": "5.5",
             "obtained": " Enlightened of The Cult, Orc Warlord, Kongra, Undead Gladiator"
         },
         {
             "name": "Garlic Necklace",
-            "img": "",
+            "img": "/images/items/amulets/Garlic_Necklace.gif",
             "arm": "-",
-            "additional": "protection lifedrain +20%",
+            "additional": "Protection lifedrain +20%",
             "weight": "3.8",
             "obtained": "Witch, Novice of The Cult"
         },
         {
             "name": "Elven Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Elven_Amulet.gif",
             "arm": "-",
-            "additional": "protection physical +5% energy +5% poison +5% fire +5% ice +5%",
+            "additional": "Protection physical +5% energy +5% poison +5% fire +5% ice +5%",
             "weight": "2.7",
             "obtained": "Elf Arcanist"
         },
         {
             "name": "Stone Skin Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Stone_Skin_Amulet.gif",
             "arm": "-",
-            "additional": "protection physical +80%",
+            "additional": "Protection physical +80%",
             "weight": "7.0",
             "obtained": "Banshee, Lost Soul, Hydra, Warlock"
         },
         {
             "name": "Strange Talisman",
-            "img": "",
+            "img": "/images/items/amulets/Strange_Talisman.gif",
             "arm": "-",
-            "additional": "protection energy +10%",
+            "additional": "Protection energy +10%",
             "weight": "2.9",
             "obtained": "Mummy"
         },
         {
             "name": "Silver Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Silver_Amulet.gif",
             "arm": "-",
-            "additional": "protection poison +10%",
+            "additional": "Protection poison +10%",
             "weight": "5.0",
             "obtained": "Banshee, Medusa, Adept of The Cult, Mummy, Island Troll, Troll, Mutated Human"
         },
         {
             "name": "Bronze Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Bronze_Amulet.gif",
             "arm": "-",
-            "additional": "protection manadrain +20%",
+            "additional": "Protection manadrain +20%",
             "weight": "5.0",
             "obtained": "Dworc Venomsniper, Dworc Voodoomaster, Werewolf, Minotaur, Vampire"
         },
         {
             "name": "Wailing Widow's Necklace",
-            "img": "",
+            "img": "/images/items/amulets/Wailing_Widow's_Necklace.gif",
             "arm": "-",
-            "additional": "protection earth +15%",
+            "additional": "Protection earth +15%",
             "weight": "5.4",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Sacred Tree Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Sacred_Tree_Amulet.gif",
             "arm": "-",
-            "additional": "protection physical +60%, earth +40%",
+            "additional": "Protection physical +60%, earth +40%",
             "weight": "7.0",
             "obtained": "Medusa"
         },
         {
             "name": "Beetle Necklace",
-            "img": "",
+            "img": "/images/items/amulets/Beetle_Necklace.gif",
             "arm": "-",
-            "additional": "speed +10",
+            "additional": "Speed +10",
             "weight": "8.2",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Holy Falcon",
-            "img": "",
+            "img": "/images/items/amulets/Holy_Falcon.gif",
             "arm": "-",
-            "additional": "distance fighting +3",
+            "additional": "Distance fighting +3",
             "weight": "8.4",
             "obtained": "Questt"
         },
         {
             "name": "Sapphire Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Sapphire_Amulet.gif",
             "arm": "-",
-            "additional": "club fighting +3",
+            "additional": "Club fighting +3",
             "weight": "6.8",
             "obtained": "Quest"
         },
         {
             "name": "Star Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Star_Amulet.gif",
             "arm": "-",
-            "additional": "axe fighting +3",
+            "additional": "Axe fighting +3",
             "weight": "6.1",
             "obtained": "Quest"
         },
         {
             "name": "Ruby Necklace",
-            "img": "",
+            "img": "/images/items/amulets/Ruby_Necklace.gif",
             "arm": "-",
-            "additional": "sword fighting +3",
+            "additional": "Sword fighting +3",
             "weight": "5.7",
             "obtained": "Quest"
         },
         {
             "name": "Scarf",
-            "img": "",
+            "img": "/images/items/amulets/Scarf.gif",
             "arm": "1",
             "additional": "-",
             "weight": "2.0",
@@ -3167,7 +3208,7 @@
         },
         {
             "name": "Paw Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Paw_Amulet.gif",
             "arm": "1",
             "additional": "-",
             "weight": "4.2",
@@ -3175,7 +3216,7 @@
         },
         {
             "name": "Platinum Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Platinum_Amulet.gif",
             "arm": "2",
             "additional": "-",
             "weight": "6.0",
@@ -3183,7 +3224,7 @@
         },
         {
             "name": "Golden Amulet",
-            "img": "",
+            "img": "/images/items/amulets/Golden_Amulet.gif",
             "arm": "?",
             "additional": "?",
             "weight": "8.3",
@@ -3193,7 +3234,7 @@
     "rings": [
         {
             "name": "Crystal Ring",
-            "img": "",
+            "img": "/images/items/rings/Crystal_Ring.gif",
             "arm": "-",
             "additional": "-",
             "weight": "0.9",
@@ -3201,7 +3242,7 @@
         },
         {
             "name": "Emerald Bangle",
-            "img": "",
+            "img": "/images/items/rings/Emerald_Bangle.gif",
             "arm": "-",
             "additional": "-",
             "weight": "1.7",
@@ -3209,7 +3250,7 @@
         },
         {
             "name": "Gold Ring",
-            "img": "",
+            "img": "/images/items/rings/Gold_Ring.gif",
             "arm": "-",
             "additional": "-",
             "weight": "-",
@@ -3217,7 +3258,7 @@
         },
         {
             "name": "Ring of The Sky",
-            "img": "",
+            "img": "/images/items/rings/Ring_of_The_Sky.gif",
             "arm": "-",
             "additional": "-",
             "weight": "0.4",
@@ -3225,7 +3266,7 @@
         },
         {
             "name": "Wedding Ring",
-            "img": "",
+            "img": "/images/items/rings/Wedding_Ring.gif",
             "arm": "-",
             "additional": "-",
             "weight": "0.4",
@@ -3233,87 +3274,87 @@
         },
         {
             "name": "Ring of Healing",
-            "img": "",
+            "img": "/images/items/rings/Ring_of_Healing.gif",
             "arm": "-",
-            "additional": "faster regeneration",
+            "additional": "Faster regeneration",
             "weight": "0.8",
             "obtained": "Acolyte of The Cult, Lizard Snakecharmer, Serpent Spawn, Ghoul, Barbarian Skullhunter, Barbarian Headsplitter"
         },
         {
             "name": "Life Ring",
-            "img": "",
+            "img": "/images/items/rings/Life_Ring.gif",
             "arm": "-",
-            "additional": "faster regeneration",
+            "additional": "Faster regeneration",
             "weight": "0.8",
             "obtained": "Acolyte of The Cult, Lizard Snakecharmer, Serpent Spawn, Ghoul, Barbarian Skullhunter, Barbarian Headsplitter"
         },
         {
             "name": "Axe Ring",
-            "img": "",
+            "img": "/images/items/rings/Axe_Ring.gif",
             "arm": "-",
-            "additional": "+4 axe skill",
+            "additional": "Axe fighting +4",
             "weight": "0.9",
             "obtained": "Plaguesmith, Dwarf Soldier, Dwarf Guard"
         },
         {
             "name": "Club Ring",
-            "img": "",
+            "img": "/images/items/rings/Club_Ring.gif",
             "arm": "-",
-            "additional": "+4 club skill",
+            "additional": "Club fighting +4",
             "weight": "0.9",
             "obtained": "Plaguesmith, Cyclops, Gargoyle, Kongra."
         },
         {
             "name": "Sword Ring",
-            "img": "",
+            "img": "/images/items/rings/Sword_Ring.gif",
             "arm": "-",
-            "additional": "+4 sword skill",
+            "additional": "Sword fighting +4",
             "weight": "0.9",
             "obtained": "Orc Leader"
         },
         {
             "name": "Power Ring",
-            "img": "",
+            "img": "/images/items/rings/Power_Ring.gif",
             "arm": "-",
-            "additional": "+4 fist skill",
+            "additional": "Fist fighting +4",
             "weight": "0.8",
             "obtained": "Monk, Kongra, Dark Monk, Stone Golem"
         },
         {
             "name": "Time Ring",
-            "img": "",
+            "img": "/images/items/rings/Time_Ring.gif",
             "arm": "-",
-            "additional": "+15 speed",
+            "additional": "Speed +15",
             "weight": "0.9",
             "obtained": "Tarantula, Adept of The Cult, Giant Spider"
         },
         {
             "name": "Energy Ring",
-            "img": "",
+            "img": "/images/items/rings/Energy_Ring.gif",
             "arm": "-",
-            "additional": "mana shield",
+            "additional": "Mana shield",
             "weight": "0.8",
             "obtained": "Enlightened of The Cult, Frost Dragon, Serpent Spawn, Dragon Lord, Warlock"
         },
         {
             "name": "Stealth Ring",
-            "img": "",
+            "img": "/images/items/rings/Stealth_Ring.gif",
             "arm": "-",
-            "additional": "make you invisible",
+            "additional": "Makes you invisible",
             "weight": "1.0",
             "obtained": "Quara Mantassin, Stalker, Quara Mantassin Scout, Sea Serpent, Orc Warlord, Ghost, Pirate Ghost, Demon, Undead Gladiator"
         },
         {
             "name": "Might Ring",
-            "img": "",
+            "img": "/images/items/rings/Might_Ring.gif",
             "arm": "-",
-            "additional": "protection physical +20% energy +20% poison +20% fire +20% ice +20%",
+            "additional": "Protection physical +20% energy +20% poison +20% fire +20% ice +20%",
             "weight": "1.0",
             "obtained": "Hero, Demon"
         },
         {
             "name": "Dwarven Ring",
-            "img": "",
+            "img": "/images/items/rings/Dwarven_Ring.gif",
             "arm": "-",
             "additional": "Suppress drunkenness",
             "weight": "1.1",
@@ -3321,49 +3362,49 @@
         },
         {
             "name": "Death Ring",
-            "img": "",
+            "img": "/images/items/rings/Death_Ring.gif",
             "arm": "1",
-            "additional": "shielding -10, protection death +5%",
+            "additional": "Shielding -10, protection death +5%",
             "weight": "0.8",
             "obtained": "Werewolf, Grim Reaper, Lost Soul, Undead Dragon"
         },
         {
             "name": "Cigar",
-            "img": "",
+            "img": "/images/items/rings/Cigar.gif",
             "arm": "2",
-            "additional": "speed -5",
+            "additional": "Speed -5",
             "weight": "1.2",
             "obtained": "Unknown"
         },
         {
             "name": "Signet Ring",
-            "img": "",
+            "img": "/images/items/rings/Signet_Ring.gif",
             "arm": "-",
-            "additional": "sword fighting +1",
+            "additional": "Sword fighting +1",
             "weight": "1.0",
             "obtained": "Unknown"
         },
         {
             "name": "Feather",
-            "img": "",
+            "img": "/images/items/rings/Feather.gif",
             "arm": "-",
-            "additional": "distance fighting +1",
+            "additional": "Distance fighting +1",
             "weight": "1.0",
             "obtained": "Unknown"
         },
         {
             "name": "Didgeridoo",
-            "img": "",
+            "img": "/images/items/rings/Didgeridoo.gif",
             "arm": "-",
-            "additional": "club fighting +1",
+            "additional": "Club fighting +1",
             "weight": "1.0",
             "obtained": "Unknown"
         },
         {
             "name": "War Horn",
-            "img": "",
+            "img": "/images/items/rings/War_Horn.gif",
             "arm": "-",
-            "additional": "axe fighting +1",
+            "additional": "Axe fighting +1",
             "weight": "1.0",
             "obtained": "Unknown"
         }
@@ -3371,7 +3412,7 @@
     "containers": [
         {
             "name": "Bag",
-            "img": "",
+            "img": "/images/items/containers/Bag.gif",
             "slots": "8",
             "additional": "-",
             "weight": "8.0",
@@ -3379,7 +3420,7 @@
         },
         {
             "name": "Backpack",
-            "img": "",
+            "img": "/images/items/containers/Backpack.gif",
             "slots": "20",
             "additional": "-",
             "weight": "18.0",
@@ -3387,7 +3428,7 @@
         },
         {
             "name": "Brocade Bag",
-            "img": "",
+            "img": "/images/items/containers/Brocade_Bag.gif",
             "slots": "8",
             "additional": "-",
             "weight": "8.0",
@@ -3395,15 +3436,15 @@
         },
         {
             "name": "Brocade Backpack",
-            "img": "",
+            "img": "/images/items/containers/Brocade_Backpack.gif",
             "slots": "20",
-            "additional": "protection holy +7%",
+            "additional": "Protection holy +7%",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Camouflage Bag",
-            "img": "",
+            "img": "/images/items/containers/Camouflage_Bag.gif",
             "slots": "8",
             "additional": "-",
             "weight": "8.0",
@@ -3411,15 +3452,15 @@
         },
         {
             "name": "Camouflage Backpack",
-            "img": "",
+            "img": "/images/items/containers/Camouflage_Backpack.gif",
             "slots": "20",
-            "additional": "protection earth +7%",
+            "additional": "Protection earth +7%",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Pirate Bag",
-            "img": "",
+            "img": "/images/items/containers/Pirate_Bag.gif",
             "slots": "8",
             "additional": "-",
             "weight": "8.0",
@@ -3427,15 +3468,15 @@
         },
         {
             "name": "Pirate Backpack",
-            "img": "",
+            "img": "/images/items/containers/Pirate_Backpack.gif",
             "slots": "20",
-            "additional": "protection death +7%",
+            "additional": "Protection death +7%",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Fur Bag",
-            "img": "",
+            "img": "/images/items/containers/Fur_Bag.gif",
             "slots": "8",
             "additional": "-",
             "weight": "8.0",
@@ -3443,7 +3484,7 @@
         },
         {
             "name": "Fur Backpack",
-            "img": "",
+            "img": "/images/items/containers/Fur_Backpack.gif",
             "slots": "20",
             "additional": "Shielding +1",
             "weight": "18.0",
@@ -3451,7 +3492,7 @@
         },
         {
             "name": "Expedition Bag",
-            "img": "",
+            "img": "/images/items/containers/Expedition_Bag.gif",
             "slots": "8",
             "additional": "-",
             "weight": "8.0",
@@ -3459,7 +3500,7 @@
         },
         {
             "name": "Expedition Backpack",
-            "img": "",
+            "img": "/images/items/containers/Expedition_Backpack.gif",
             "slots": "20",
             "additional": "Speed +15",
             "weight": "18.0",
@@ -3467,7 +3508,7 @@
         },
         {
             "name": "Beach Bag",
-            "img": "",
+            "img": "/images/items/containers/Beach_Bag.gif",
             "slots": "8",
             "additional": "-",
             "weight": "8.0",
@@ -3475,47 +3516,47 @@
         },
         {
             "name": "Beach Backpack",
-            "img": "",
+            "img": "/images/items/containers/Beach_Backpack.gif",
             "slots": "20",
-            "additional": "faster mana regeneration",
+            "additional": "Faster mana regeneration",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Moon Backpack",
-            "img": "",
+            "img": "/images/items/containers/Moon_Backpack.gif",
             "slots": "20",
-            "additional": "protection ice +7%",
+            "additional": "Protection ice +7%",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Lizard Backpack",
-            "img": "",
+            "img": "/images/items/containers/Lizard_Backpack.gif",
             "slots": "20",
-            "additional": "protection fire +7%",
+            "additional": "Protection fire +7%",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Minotaur Backpack",
-            "img": "",
+            "img": "/images/items/containers/Minotaur_Backpack.gif",
             "slots": "20",
-            "additional": "protection physical +3%",
+            "additional": "Protection physical +3%",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Crown Backpack",
-            "img": "",
+            "img": "/images/items/containers/Crown_Backpack.gif",
             "slots": "20",
-            "additional": "faster health regeneration",
+            "additional": "Faster health regeneration",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Demonic Backpack",
-            "img": "",
+            "img": "/images/items/containers/Demonic_Backpack.gif",
             "slots": "30",
             "additional": "-",
             "weight": "18.0",
@@ -3523,7 +3564,7 @@
         },
         {
             "name": "Hearth Backpack",
-            "img": "",
+            "img": "/images/items/containers/Hearth_Backpack.gif",
             "slots": "?",
             "additional": "?",
             "weight": "18.0",
@@ -3531,7 +3572,7 @@
         },
         {
             "name": "Fluffy Santa Backpack",
-            "img": "",
+            "img": "/images/items/containers/Fluffy_Santa_Backpack.gif",
             "slots": "?",
             "additional": "?",
             "weight": "18.0",
@@ -3541,55 +3582,55 @@
     "recipes": [
         {
             "name": "Rotworm stew",
-            "img": "",
+            "img": "/images/items/recipes/Rotworm_stew.gif",
             "effect": "It will heal you completely",
             "weight": "12.0"
         },
         {
             "name": "Tropical fried terrorbird",
-            "img": "",
+            "img": "/images/items/recipes/Tropical_fried_terrorbird.gif",
             "effect": "It will boost your Magic Level by 5 for one hour",
             "weight": "7.8"
         },
         {
             "name": "Carrot cake",
-            "img": "",
+            "img": "/images/items/recipes/Carrot_cake.gif",
             "effect": "It will boost your Distance Fighting skill by 10 for one hour",
             "weight": "6.8"
         },
         {
             "name": "Filled jalapeno peppers",
-            "img": "",
+            "img": "/images/items/recipes/Filled_jalapeno_peppers.gif",
             "effect": "It will boost your speed by 100 levels for one hour",
             "weight": "6.5"
         },
         {
             "name": "Sweet mangonaise elixir",
-            "img": "",
+            "img": "/images/items/recipes/Sweet_mangonaise_elixir.gif",
             "effect": "Drinking this elixir will create 5 copies of the ring you are wearing",
             "weight": "3.0"
         },
         {
             "name": "Veggie casserole",
-            "img": "",
+            "img": "/images/items/recipes/Veggie_casserole.gif",
             "effect": "It will boost your Melee skills (Sword Fighting, Axe Fighting and Club Fighting) by 10 for one hour",
             "weight": "11.0"
         },
         {
             "name": "Northern fishburger",
-            "img": "",
+            "img": "/images/items/recipes/Northern_fishburger.gif",
             "effect": "It will boost your fishing skill by 50 for one hour",
             "weight": "4.6"
         },
         {
             "name": "Hydra tongue salad",
-            "img": "",
+            "img": "/images/items/recipes/Hydra_tongue_salad.gif",
             "effect": "It will cure you of most negative conditions",
             "weight": "5.5"
         },
         {
             "name": "Roasted dragon wings",
-            "img": "",
+            "img": "/images/items/recipes/Roasted_dragon_wings.gif",
             "effect": "It will boost your shielding skill by 10 for one hour",
             "weight": "8.5"
         }
