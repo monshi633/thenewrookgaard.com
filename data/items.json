@@ -59,7 +59,7 @@
         {
             "name": "Pair Of Earmuffs",
             "img": "/images/items/helmets/Pair_Of_Earmuffs.gif",
-            "arm": "2",
+            "arm": "<mark>2</mark>",
             "additional": "Protection ice +2%",
             "weight": "5.0",
             "obtained": "Barbarian Bloodwalker, Barbarian Brutetamer, Barbarian Skullhunter, Barbarian Headsplitter"
@@ -91,8 +91,8 @@
         {
             "name": "Feather Headdress",
             "img": "/images/items/helmets/Feather_Headdress.gif",
-            "arm": "3",
-            "additional": "Distance fighting +1",
+            "arm": "<mark>3</mark>",
+            "additional": "<mark>Distance fighting +1</mark>",
             "weight": "21.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -131,8 +131,8 @@
         {
             "name": "Strange Helmet",
             "img": "/images/items/helmets/Strange_Helmet.gif",
-            "arm": "5",
-            "additional": "Protection drown +50%",
+            "arm": "<mark>5</mark>",
+            "additional": "<mark>Protection drown +50%</mark>",
             "weight": "46.0",
             "obtained": "Dragon Lord, Frost Dragon, Lich, Quara Mantassin, Serpent Spawn, Vampire"
         },
@@ -171,7 +171,7 @@
         {
             "name": "Fur Cap",
             "img": "/images/items/helmets/Fur_Cap.gif",
-            "arm": "6",
+            "arm": "<mark>6</mark>",
             "additional": "-",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -180,15 +180,15 @@
             "name": "Krimhorn Helmet",
             "img": "/images/items/helmets/Krimhorn_Helmet.gif",
             "arm": "6",
-            "additional": "Protection physical +1%",
+            "additional": "<mark>Protection physical +1%</mark>",
             "weight": "51.0",
             "obtained": "Barbarian Headsplitter, <i><b>Forging</b></i>"
         },
         {
             "name": "Wood Cape",
             "img": "/images/items/helmets/Wood_Cape.gif",
-            "arm": "6",
-            "additional": "Distance fighting +1",
+            "arm": "<mark>6</mark>",
+            "additional": "<mark>Distance fighting +1</mark>",
             "weight": "11.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -220,7 +220,7 @@
             "name": "Beholder Helmet",
             "img": "/images/items/helmets/Beholder_Helmet.gif",
             "arm": "7",
-            "additional": "Shielding +1",
+            "additional": "<mark>Shielding +1</mark>",
             "weight": "46.0",
             "obtained": "Elder Beholder, Braindeath, <i><b>Forging</b></i>"
         },
@@ -243,8 +243,8 @@
         {
             "name": "Dwarven Helmet",
             "img": "/images/items/helmets/Dwarven_Helmet.gif",
-            "arm": "8",
-            "additional": "Protection physical +2%",
+            "arm": "<mark>8</mark>",
+            "additional": "<mark>Protection physical +2%</mark>",
             "weight": "",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -276,7 +276,7 @@
             "name": "Zaoan Helmet",
             "img": "/images/items/helmets/Zaoan_Helmet.gif",
             "arm": "9",
-            "additional": "Protection physical +2%",
+            "additional": "<mark>Protection physical +2%</mark>",
             "weight": "66.0",
             "obtained": "Ghastly Dragon, Lizard Chosen, Draken Elite, Lizard Zaogun, Lizard High Guard, Lizard Legionnaire"
         },
@@ -480,7 +480,7 @@
             "name": "Dark Armor",
             "img": "/images/items/armors/Dark_Armor.gif",
             "arm": "10",
-            "additional": "Protection physical +2%",
+            "additional": "<mark>Protection physical +2%</mark>",
             "level": "-",
             "weight": "120.0",
             "obtained": "Pirate Corsair, Gargoyle, Black Knight, Behemoth, <i><b>Forging</b></i>"
@@ -488,8 +488,8 @@
         {
             "name": "Velvet Mantle",
             "img": "/images/items/armors/Velvet_Mantle.gif",
-            "arm": "10",
-            "additional": "Magic level +1",
+            "arm": "<mark>10</mark>",
+            "additional": "<mark>Magic level +1</mark>",
             "level": "50",
             "weight": "28.5",
             "obtained": "<i><b>Forging</b></i>"
@@ -498,7 +498,7 @@
             "name": "Belted Cape",
             "img": "/images/items/armors/Belted_Cape.gif",
             "arm": "10",
-            "additional": "Distance fighting +1",
+            "additional": "<mark>Distance fighting +1</mark>",
             "level": "-",
             "weight": "35.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -524,7 +524,7 @@
         {
             "name": "Witchhunter's Cloak",
             "img": "/images/items/armors/Witchhunters_Cloak.gif",
-            "arm": "12",
+            "arm": "<mark>12</mark>",
             "additional": "Protection holy -2%, death +2%",
             "level": "50",
             "weight": "25.0",
@@ -534,7 +534,7 @@
             "name": "Dragon Robe",
             "img": "/images/items/armors/Dragon_Robe.gif",
             "arm": "12",
-            "additional": "Protection fire +5%",
+            "additional": "<mark>Protection fire +5%</mark>",
             "level": "50",
             "weight": "28.5",
             "obtained": "Dragon"
@@ -560,8 +560,8 @@
         {
             "name": "Beholder Mail",
             "img": "/images/items/armors/Beholder_Mail.gif",
-            "arm": "13",
-            "additional": "Distance fighting +2",
+            "arm": "<mark>13</mark>",
+            "additional": "<mark>Distance fighting +2</mark>",
             "level": "-",
             "weight": "90.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -569,8 +569,8 @@
         {
             "name": "Dark Lord's Cape",
             "img": "/images/items/armors/Dark_Lord's_Cape.gif",
-            "arm": "13",
-            "additional": "Protection energy +8%, death +8%",
+            "arm": "<mark>13</mark>",
+            "additional": "<mark>Protection energy +8%, death +8%</mark>",
             "level": "65",
             "weight": "29.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -587,8 +587,8 @@
         {
             "name": "Dwarven Armor",
             "img": "/images/items/armors/Dwarven_Armor.gif",
-            "arm": "14",
-            "additional": "Protection physical +4%",
+            "arm": "<mark>14</mark>",
+            "additional": "<mark>Protection physical +4%</mark>",
             "level": "-",
             "weight": "130.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -596,8 +596,8 @@
         {
             "name": "Swamplair Armor",
             "img": "/images/items/armors/Swamplair_Armor.gif",
-            "arm": "14",
-            "additional": "Protection earth +12%, fire -12%",
+            "arm": "<mark>14</mark>",
+            "additional": "<mark>Protection earth +12%, fire -12%</mark>",
             "level": "60",
             "weight": "84.5",
             "obtained": "<i><b>Forging</b></i>"
@@ -605,8 +605,8 @@
         {
             "name": "Lavos Armor",
             "img": "/images/items/armors/Lavos_Armor.gif",
-            "arm": "14",
-            "additional": "Protection fire +12%, ice -12%",
+            "arm": "<mark>14</mark>",
+            "additional": "<mark>Protection fire +12%, ice -12%</mark>",
             "level": "60",
             "weight": "85.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -614,8 +614,8 @@
         {
             "name": "Frozen Armor",
             "img": "/images/items/armors/Frozen_Armor.gif",
-            "arm": "14",
-            "additional": "Protection earth -12%, ice +12%",
+            "arm": "<mark>14</mark>",
+            "additional": "<mark>Protection earth -12%, ice +12%</mark>",
             "level": "60",
             "weight": "80.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -624,7 +624,7 @@
             "name": "Elite Draken Mail",
             "img": "/images/items/armors/Elite_Draken_Mail.gif",
             "arm": "15",
-            "additional": "Shielding +1",
+            "additional": "<mark>Shielding +1</mark>",
             "level": "70",
             "weight": "120.0",
             "obtained": "Ghastly Dragon, Lizard Chosen, Draken Elite, Lizard Zaogun, Lizard High Guard, Lizard Legionnaire"
@@ -650,8 +650,8 @@
         {
             "name": "Master Archer's Armor",
             "img": "/images/items/armors/Master_Archer's_Armor.gif",
-            "arm": "16",
-            "additional": "Distance fighting +3",
+            "arm": "<mark>16</mark>",
+            "additional": "<mark>Distance fighting +3</mark>",
             "level": "75",
             "weight": "69.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -659,8 +659,8 @@
         {
             "name": "Robe Of The Underworld",
             "img": "/images/items/armors/Robe_Of_The_Underworld.gif",
-            "arm": "16",
-            "additional": "Magic level +3",
+            "arm": "<mark>16</mark>",
+            "additional": "<mark>Magic level +3</mark>",
             "level": "75",
             "weight": "51.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -668,8 +668,8 @@
         {
             "name": "Skullcracker Armor",
             "img": "/images/items/armors/Skullcracker_Armor.gif",
-            "arm": "16",
-            "additional": "Shielding +4",
+            "arm": "<mark>16</mark>",
+            "additional": "<mark>Shielding +4</mark>",
             "level": "75",
             "weight": "110.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -736,7 +736,7 @@
         {
             "name": "Pirate Knee Breeches",
             "img": "/images/items/legs/Pirate_Knee_Breeches.gif",
-            "arm": "6",
+            "arm": "<mark>6</mark>",
             "additional": "-",
             "weight": "12.0",
             "obtained": "Pirate Cutthroat"
@@ -752,8 +752,8 @@
         {
             "name": "Beholder Legs",
             "img": "/images/items/legs/Beholder_Legs.gif",
-            "arm": "7",
-            "additional": "Distance fighting +1",
+            "arm": "<mark>7</mark>",
+            "additional": "<mark>Distance fighting +1</mark>",
             "weight": "33.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -826,7 +826,7 @@
         {
             "name": "Firewalker Boots",
             "img": "/images/items/boots/Firewalker_Boots.gif",
-            "arm": "-",
+            "arm": "<mark>-</mark>",
             "additional": "Protection fire +90%",
             "level": "130",
             "weight": "9.5",
@@ -890,7 +890,7 @@
             "name": "Crocodile Boots",
             "img": "/images/items/boots/Crocodile_Boots.gif",
             "arm": "1",
-            "additional": "Protection physical +2%",
+            "additional": "<mark>Protection physical +2%</mark>",
             "level": "-",
             "weight": "9.0",
             "obtained": "Crocodile, Killer Caiman, <i><b>Forging</b></i>"
@@ -944,7 +944,7 @@
             "name": "Guardian Boots",
             "img": "/images/items/boots/Guardian_Boots.gif",
             "arm": "3",
-            "additional": "Protection physical +2%",
+            "additional": "<mark>Protection physical +2%</mark>",
             "level": "50",
             "weight": "22.5",
             "obtained": "<i><b>Forging</b></i>"
@@ -953,7 +953,7 @@
             "name": "Frozen Boots",
             "img": "/images/items/boots/Frozen_Boots.gif",
             "arm": "3",
-            "additional": "Protection fire -3%, ice +3%",
+            "additional": "<mark>Protection fire -3%, ice +3%</mark>",
             "level": "50",
             "weight": "18.5",
             "obtained": "<i><b>Forging</b></i>"
@@ -1102,7 +1102,7 @@
         {
             "name": "Tortoise Shield",
             "img": "/images/items/shields/Tortoise_Shield.gif",
-            "def": "27",
+            "def": "<mark>27</mark>",
             "additional": "-",
             "weight": "52.0",
             "obtained": "Tortoise"
@@ -1198,7 +1198,7 @@
         {
             "name": "Phoenix Shield",
             "img": "/images/items/shields/Phoenix_Shield.gif",
-            "def": "35",
+            "def": "<mark>35</mark>",
             "additional": "-",
             "weight": "35.0",
             "obtained": "Unknown"
@@ -1215,7 +1215,7 @@
             "name": "Fiery Rainbow Shield",
             "img": "/images/items/shields/Fiery_Rainbow_Shield.gif",
             "def": "36",
-            "additional": "Protection fire +7%",
+            "additional": "<mark>Protection fire +7%</mark>",
             "weight": "69.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -1223,7 +1223,7 @@
             "name": "Sparking Rainbow Shield",
             "img": "/images/items/shields/Sparking_Rainbow_Shield.gif",
             "def": "36",
-            "additional": "Protection energy +7%",
+            "additional": "<mark>Protection energy +7%</mark>",
             "weight": "69.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -1231,7 +1231,7 @@
             "name": "Terran Rainbow Shield",
             "img": "/images/items/shields/Terran_Rainbow_Shield.gif",
             "def": "36",
-            "additional": "Protection earth +7%",
+            "additional": "<mark>Protection earth +7%</mark>",
             "weight": "69.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -1239,7 +1239,7 @@
             "name": "Icy Rainbow Shield",
             "img": "/images/items/shields/Icy_Rainbow_Shield.gif",
             "def": "36",
-            "additional": "Protection ice +7%",
+            "additional": "<mark>Protection ice +7%</mark>",
             "weight": "69.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -1278,7 +1278,7 @@
         {
             "name": "Queen's Shield",
             "img": "/images/items/shields/Queen's_Shield.gif",
-            "def": "41",
+            "def": "<mark>41</mark>",
             "additional": "-",
             "weight": "54.0",
             "obtained": "Quest"
@@ -1409,7 +1409,7 @@
             "atk": "25",
             "def": "15",
             "hands": "1",
-            "additional": "+2 Def",
+            "additional": "Def +2",
             "level": "-",
             "weight": "50.0",
             "obtained": "Merlkin"
@@ -1420,7 +1420,7 @@
             "atk": "28",
             "def": "15",
             "hands": "1",
-            "additional": "+1 Def",
+            "additional": "Def +1",
             "level": "20",
             "weight": "58.0",
             "obtained": "Braindeath, Adept of The Cult, Dwarf Geomancer, Necromancer, Priestess"
@@ -1442,7 +1442,7 @@
             "atk": "31",
             "def": "19",
             "hands": "1",
-            "additional": "+1 Def",
+            "additional": "Def +1",
             "level": "20",
             "weight": "42.0",
             "obtained": "Mammoth"
@@ -1483,7 +1483,7 @@
         {
             "name": "Orcish Maul",
             "img": "/images/items/clubs/Orcish_Maul.gif",
-            "atk": "35",
+            "atk": "<mark>35</mark>",
             "def": "18",
             "hands": "2",
             "additional": "-",
@@ -1505,8 +1505,8 @@
         {
             "name": "Mammoth Whopper",
             "img": "/images/items/clubs/Mammoth_Whopper.gif",
-            "atk": "33",
-            "def": "18",
+            "atk": "<mark>33</mark>",
+            "def": "<mark>18</mark>",
             "hands": "1",
             "additional": "-",
             "level": "35",
@@ -1516,8 +1516,8 @@
         {
             "name": "Brutetamer's Staff",
             "img": "/images/items/clubs/Brutetamer's_Staff.gif",
-            "atk": "40",
-            "def": "12",
+            "atk": "<mark>40</mark>",
+            "def": "<mark>12</mark>",
             "hands": "2",
             "additional": "-",
             "level": "35",
@@ -1541,7 +1541,7 @@
             "atk": "40",
             "def": "30",
             "hands": "1",
-            "additional": "+2 Def",
+            "additional": "Def +2",
             "level": "35",
             "weight": "41.0",
             "obtained": "Lich"
@@ -1552,7 +1552,7 @@
             "atk": "36",
             "def": "12",
             "hands": "1",
-            "additional": "+1 Def",
+            "additional": "Def +1",
             "level": "40",
             "weight": "17.0",
             "obtained": "Enlightened of The Cult, Lost Soul, Necromancer, Warlock"
@@ -1560,7 +1560,7 @@
         {
             "name": "War Hammer",
             "img": "/images/items/clubs/War_Hammer.gif",
-            "atk": "38",
+            "atk": "<mark>38</mark>",
             "def": "10",
             "hands": "2",
             "additional": "-",
@@ -1593,8 +1593,8 @@
         {
             "name": "Cranial Basher",
             "img": "/images/items/clubs/Cranial_Basher.gif",
-            "atk": "43",
-            "def": "25",
+            "atk": "<mark>43</mark>",
+            "def": "<mark>25</mark>",
             "hands": "1",
             "additional": "-",
             "level": "50",
@@ -1608,7 +1608,7 @@
             "def": "18",
             "hands": "1",
             "additional": "-",
-            "level": "55",
+            "level": "<mark>55</mark>",
             "weight": "26.0",
             "obtained": "Hellspawn"
         },
@@ -1626,22 +1626,22 @@
         {
             "name": "Heavy Mace",
             "img": "/images/items/clubs/Heavy_Mace.gif",
-            "atk": "48",
-            "def": "21",
+            "atk": "<mark>48</mark>",
+            "def": "<mark>21</mark>",
             "hands": "2",
             "additional": "-",
-            "level": "55",
+            "level": "<mark>55</mark>",
             "weight": "110.0",
             "obtained": "Behemoth, Demon, Elder Beholder"
         },
         {
             "name": "Northern Star",
             "img": "/images/items/clubs/Northern_Star.gif",
-            "atk": "46",
-            "def": "25",
+            "atk": "<mark>46</mark>",
+            "def": "<mark>25</mark>",
             "hands": "1",
-            "additional": "+1 Def",
-            "level": "60",
+            "additional": "Def +1",
+            "level": "<mark>60</mark>",
             "weight": "42.0",
             "obtained": "Dragon Lord"
         },
@@ -1659,33 +1659,33 @@
         {
             "name": "Blessed Sceptre",
             "img": "/images/items/clubs/Blessed_Sceptre.gif",
-            "atk": "49",
-            "def": "27",
+            "atk": "<mark>49</mark>",
+            "def": "<mark>27</mark>",
             "hands": "2",
             "additional": "-",
-            "level": "65",
+            "level": "<mark>65</mark>",
             "weight": "39.0",
             "obtained": "Frost Dragon."
         },
         {
             "name": "Dark Trinity Mace",
             "img": "/images/items/clubs/Dark_Trinity_Mace.gif",
-            "atk": "49",
-            "def": "27",
+            "atk": "<mark>49</mark>",
+            "def": "<mark>27</mark>",
             "hands": "1",
             "additional": "-",
-            "level": "70",
+            "level": "<mark>70</mark>",
             "weight": "99.0",
             "obtained": "Hydra"
         },
         {
             "name": "Drachaku",
             "img": "/images/items/clubs/Drachaku.gif",
-            "atk": "51",
-            "def": "32",
+            "atk": "<mark>51</mark>",
+            "def": "<mark>32</mark>",
             "hands": "2",
             "additional": "-",
-            "level": "75",
+            "level": "<mark>75</mark>",
             "weight": "90.0",
             "obtained": "Undead Dragon, Ghastly Dragon"
         },
@@ -1703,11 +1703,11 @@
         {
             "name": "Silver Mace",
             "img": "/images/items/clubs/Silver_Mace.gif",
-            "atk": "53",
-            "def": "36",
-            "hands": "2",
+            "atk": "<mark>53</mark>",
+            "def": "<mark>36</mark>",
+            "hands": "<mark>2</mark>",
             "additional": "-",
-            "level": "85",
+            "level": "<mark>85</mark>",
             "weight": "67.0",
             "obtained": "Lizad Chosen"
         },
@@ -1717,30 +1717,30 @@
             "atk": "50",
             "def": "30",
             "hands": "1",
-            "additional": "+2 Def",
-            "level": "90",
+            "additional": "Def +2",
+            "level": "<mark>90</mark>",
             "weight": "65.0",
             "obtained": "Unknown"
         },
         {
             "name": "Thunder Hammer",
             "img": "/images/items/clubs/Thunder_Hammer.gif",
-            "atk": "58",
+            "atk": "<mark>58</mark>",
             "def": "35",
             "hands": "1",
-            "additional": "+1 Def",
-            "level": "100",
+            "additional": "Def +1",
+            "level": "<mark>100</mark>",
             "weight": "125.0",
             "obtained": "Quest"
         },
         {
             "name": "King's Hammer",
             "img": "/images/items/clubs/King's_Hammer.gif",
-            "atk": "60",
-            "def": "30",
-            "hands": "1",
+            "atk": "<mark>60</mark>",
+            "def": "<mark>30</mark>",
+            "hands": "<mark>1</mark>",
             "additional": "-",
-            "level": "100",
+            "level": "<mark>100</mark>",
             "weight": "70.0",
             "obtained": "Quest"
         },
@@ -1751,7 +1751,7 @@
             "def": "?",
             "hands": "2",
             "additional": "?",
-            "level": "120",
+            "level": "<mark>120</mark>",
             "weight": "23.0",
             "obtained": "Unknown"
         }
@@ -1805,9 +1805,9 @@
             "name": "Rapier",
             "img": "/images/items/swords/Rapier.gif",
             "atk": "10",
-            "def": "9",
+            "def": "8",
             "hands": "1",
-            "additional": "-",
+            "additional": "Def +1",
             "level": "-",
             "weight": "15.0",
             "obtained": "Frost Troll"
@@ -1827,9 +1827,9 @@
             "name": "Sabre",
             "img": "/images/items/swords/Sabre.gif",
             "atk": "12",
-            "def": "11",
+            "def": "10",
             "hands": "1",
-            "additional": "-",
+            "additional": "Def +1",
             "level": "-",
             "weight": "26.0",
             "obtained": "Orc, Pirate Buccaneer, Amazon, Pirate Corsair, Orc Warrior"
@@ -1849,9 +1849,9 @@
             "name": "Sword",
             "img": "/images/items/swords/Sword.gif",
             "atk": "14",
-            "def": "13",
+            "def": "12",
             "hands": "1",
-            "additional": "-",
+            "additional": "Def +1",
             "level": "-",
             "weight": "35.0",
             "obtained": "Skeleton, Minotaur, Pirate Skeleton, Skeleton Warrior, Rotworm, Lizard Templar, Pirate Cutthroat and others"
@@ -1860,9 +1860,9 @@
             "name": "Carlin Sword",
             "img": "/images/items/swords/Carlin_Sword.gif",
             "atk": "15",
-            "def": "14",
+            "def": "13",
             "hands": "1",
-            "additional": "-",
+            "additional": "Def +1",
             "level": "-",
             "weight": "40.0",
             "obtained": "Stone Golem"
@@ -1871,9 +1871,9 @@
             "name": "Katana",
             "img": "/images/items/swords/Katana.gif",
             "atk": "16",
-            "def": "13",
+            "def": "12",
             "hands": "1",
-            "additional": "-",
+            "additional": "Def +1",
             "level": "-",
             "weight": "31.0",
             "obtained": "Toad, Stalker, Vampire, Rotworm"
@@ -1892,10 +1892,10 @@
         {
             "name": "Poison Dagger",
             "img": "/images/items/swords/Poison_Dagger.gif",
-            "atk": "18",
+            "atk": "16",
             "def": "8",
             "hands": "1",
-            "additional": "-",
+            "additional": "Earth attack +2",
             "level": "-",
             "weight": "8.8",
             "obtained": "Dworc Venomsniper, Dworc Voodoomaster, Banshee, Dworc Fleshhunter, Mummy, Warlock, Orc Warrior"
@@ -1904,9 +1904,9 @@
             "name": "Scimitar",
             "img": "/images/items/swords/Scimitar.gif",
             "atk": "19",
-            "def": "14",
+            "def": "13",
             "hands": "1",
-            "additional": "-",
+            "additional": "Def +1",
             "level": "-",
             "weight": "29.0",
             "obtained": " Orc Leader, Orc Marauder,  Fire Devil, Orc Warlord, Undead Gladiator"
@@ -1917,7 +1917,7 @@
             "atk": "23",
             "def": "15",
             "hands": "1",
-            "additional": "+1 Def",
+            "additional": "Def +1",
             "level": "-",
             "weight": "29.0",
             "obtained": "Lizard Templar, Orc Rider"
@@ -1928,7 +1928,7 @@
             "atk": "24",
             "def": "21",
             "hands": "1",
-            "additional": "+2 Def",
+            "additional": "Def +2",
             "level": "-",
             "weight": "50.0",
             "obtained": "Pirate Ghost, Vampire"
@@ -1939,7 +1939,7 @@
             "atk": "18",
             "def": "15",
             "hands": "1",
-            "additional": "+1 Def +8 Earth attack",
+            "additional": "Def +1, earth attack +8",
             "level": "-",
             "weight": "41.0",
             "obtained": "Sea Serpent, Dragon"
@@ -1961,7 +1961,7 @@
             "atk": "42",
             "def": "1",
             "hands": "1",
-            "additional": "+1 Def +18 Ice attack",
+            "additional": "Ice attack +18",
             "level": "-",
             "weight": "15.0",
             "obtained": "Frost Dragon, Demon, Vampire"
@@ -1972,7 +1972,7 @@
             "atk": "32",
             "def": "19",
             "hands": "1",
-            "additional": "+1 Def",
+            "additional": "Def +1",
             "level": "-",
             "weight": "20.0",
             "obtained": "Wyvern"
@@ -1980,8 +1980,8 @@
         {
             "name": "Two Handed Sword",
             "img": "/images/items/swords/Two_Handed_Sword.gif",
-            "atk": "35",
-            "def": "12",
+            "atk": "<mark>35</mark>",
+            "def": "<mark>12</mark>",
             "hands": "2",
             "additional": "-",
             "level": "25",
@@ -2005,7 +2005,7 @@
             "atk": "24",
             "def": "20",
             "hands": "1",
-            "additional": "+1 Def +11 Fire attack",
+            "additional": "Def +1, fire attack +11",
             "level": "30",
             "weight": "23.0",
             "obtained": "Serpent Spawn, Dragon Lord, Hero, Hellhound"
@@ -2013,8 +2013,8 @@
         {
             "name": "Epee",
             "img": "/images/items/swords/Epee.gif",
-            "atk": "33",
-            "def": "20",
+            "atk": "<mark>33</mark>",
+            "def": "<mark>20</mark>",
             "hands": "1",
             "additional": "-",
             "level": "35",
@@ -2024,11 +2024,11 @@
         {
             "name": "Mercenary Sword",
             "img": "/images/items/swords/Mercenary_Sword.gif",
-            "atk": "39",
-            "def": "15",
+            "atk": "<mark>39</mark>",
+            "def": "<mark>15</mark>",
             "hands": "2",
             "additional": "-",
-            "level": "35",
+            "level": "<mark>35</mark>",
             "weight": "68.0",
             "obtained": "Lizard Templar, Serpent Spawn, Mutated Bat, Undead Gladiator, Medusa"
         },
@@ -2038,7 +2038,7 @@
             "atk": "38",
             "def": "22",
             "hands": "1",
-            "additional": "+2 Def",
+            "additional": "Def +2",
             "level": "40",
             "weight": "24.5",
             "obtained": "Blue Djinn, Green Djinn"
@@ -2049,7 +2049,7 @@
             "atk": "40",
             "def": "12",
             "hands": "1",
-            "additional": "-2 Def",
+            "additional": "Def -2",
             "level": "40",
             "weight": "17.0",
             "obtained": "Unknown"
@@ -2060,7 +2060,7 @@
             "atk": "41",
             "def": "23",
             "hands": "1",
-            "additional": "+2 Def",
+            "additional": "Def +2",
             "level": "45",
             "weight": "52.0",
             "obtained": "Unknown"
@@ -2082,7 +2082,7 @@
             "atk": "42",
             "def": "24",
             "hands": "1",
-            "additional": "+1 Def",
+            "additional": "Def +1",
             "level": "50",
             "weight": "48.0",
             "obtained": "Quara Predator Scout, Quara Predator"
@@ -2090,8 +2090,8 @@
         {
             "name": "Giant Sword",
             "img": "/images/items/swords/Giant_Sword.gif",
-            "atk": "47",
-            "def": "14",
+            "atk": "<mark>47</mark>",
+            "def": "<mark>14</mark>",
             "hands": "2",
             "additional": "-",
             "level": "55",
@@ -2104,7 +2104,7 @@
             "atk": "44",
             "def": "25",
             "hands": "1",
-            "additional": "+2 Def",
+            "additional": "Def +2",
             "level": "60",
             "weight": "35.0",
             "obtained": "Unknown"
@@ -2112,44 +2112,44 @@
         {
             "name": "Great Scimitar",
             "img": "/images/items/swords/Great_Scimitar.gif",
-            "atk": "45",
-            "def": "27",
+            "atk": "<mark>45</mark>",
+            "def": "<mark>27</mark>",
             "hands": "1",
-            "additional": "+2 Def",
-            "level": "60",
+            "additional": "Def +2",
+            "level": "<mark>60</mark>",
             "weight": "49.0",
             "obtained": "Dragon Lord"
         },
         {
             "name": "The Justice Seeker",
             "img": "/images/items/swords/The_Justice_Seeker.gif",
-            "atk": "48",
-            "def": "29",
+            "atk": "<mark>48</mark>",
+            "def": "<mark>29</mark>",
             "hands": "2",
             "additional": "-",
-            "level": "65",
+            "level": "<mark>65</mark>",
             "weight": "50.0",
             "obtained": "Frost Dragon"
         },
         {
             "name": "Nightmare Blade",
             "img": "/images/items/swords/Nightmare_Blade.gif",
-            "atk": "48",
-            "def": "29",
+            "atk": "<mark>48</mark>",
+            "def": "<mark>29</mark>",
             "hands": "1",
             "additional": "-",
-            "level": "70",
+            "level": "<mark>70</mark>",
             "weight": "46.0",
             "obtained": "Hydra"
         },
         {
             "name": "Sai",
             "img": "/images/items/swords/Sai.gif",
-            "atk": "50",
-            "def": "34",
+            "atk": "<mark>50</mark>",
+            "def": "<mark>34</mark>",
             "hands": "2",
             "additional": "-",
-            "level": "75",
+            "level": "<mark>75</mark>",
             "weight": "80.0",
             "obtained": "Undead Dragon, Ghastly Dragon"
         },
@@ -2167,33 +2167,33 @@
         {
             "name": "Warlord Sword",
             "img": "/images/items/swords/Warlord_Sword.gif",
-            "atk": "52",
+            "atk": "<mark>52</mark>",
             "def": "38",
             "hands": "2",
             "additional": "-",
-            "level": "85",
+            "level": "<mark>85</mark>",
             "weight": "64.0",
             "obtained": "Lizad Chosen."
         },
         {
             "name": "Magic Sword",
             "img": "/images/items/swords/Magic_Sword.gif",
-            "atk": "56",
-            "def": "30",
+            "atk": "<mark>56</mark>",
+            "def": "<mark>30</mark>",
             "hands": "1",
-            "additional": "+3 Def",
-            "level": "100",
+            "additional": "Def +3",
+            "level": "<mark>100</mark>",
             "weight": "42.0",
             "obtained": "Quest."
         },
         {
             "name": "King's Sword",
             "img": "/images/items/swords/King's_Sword.gif",
-            "atk": "58",
-            "def": "34",
+            "atk": "<mark>58</mark>",
+            "def": "<mark>34</mark>",
             "hands": "1",
             "additional": "-",
-            "level": "100",
+            "level": "<mark>100</mark>",
             "weight": "61.0",
             "obtained": "Quest."
         },
@@ -2204,7 +2204,7 @@
             "def": "?",
             "hands": "2",
             "additional": "?",
-            "level": "120",
+            "level": "<mark>120</mark>",
             "weight": "43.0",
             "obtained": "Unknown."
         }
@@ -2268,7 +2268,7 @@
         {
             "name": "Orcish Axe",
             "img": "/images/items/axes/Orcish_Axe.gif",
-            "atk": "25",
+            "atk": "<mark>25</mark>",
             "def": "12",
             "hands": "1",
             "additional": "-",
@@ -2282,7 +2282,7 @@
             "atk": "28",
             "def": "18",
             "hands": "1",
-            "additional": "+1 Def",
+            "additional": "Def +1",
             "level": "20",
             "weight": "51.0",
             "obtained": "Unknown"
@@ -2293,7 +2293,7 @@
             "atk": "31",
             "def": "19",
             "hands": "1",
-            "additional": "+2 Def",
+            "additional": "Def +2",
             "level": "20",
             "weight": "82.0",
             "obtained": "Unknown"
@@ -2315,7 +2315,7 @@
             "atk": "33",
             "def": "21",
             "hands": "1",
-            "additional": "+1 Def",
+            "additional": "Def +1",
             "level": "25",
             "weight": "59.0",
             "obtained": "Hellhound, Black Knight, Undead Gladiator"
@@ -2368,7 +2368,7 @@
             "name": "Glorious Axe",
             "img": "/images/items/axes/Glorious_Axe.gif",
             "atk": "40",
-            "def": "13",
+            "def": "<mark>13</mark>",
             "hands": "2",
             "additional": "-",
             "level": "30",
@@ -2378,10 +2378,10 @@
         {
             "name": "Beastslayer Axe",
             "img": "/images/items/axes/Beastslayer_Axe.gif",
-            "atk": "35",
-            "def": "15",
+            "atk": "<mark>35</mark>",
+            "def": "<mark>15</mark>",
             "hands": "1",
-            "additional": "+1 Def",
+            "additional": "Def +1",
             "level": "35",
             "weight": "61.5",
             "obtained": "Barbarian Bloodwalker, Barbarian Headsplitter, Undead Gladiator"
@@ -2389,10 +2389,10 @@
         {
             "name": "Fire Axe",
             "img": "/images/items/axes/Fire_Axe.gif",
-            "atk": "26",
+            "atk": "<mark>26</mark>",
             "def": "16",
             "hands": "1",
-            "additional": "+1 Def +11 Fire attack",
+            "additional": "Def +1, fire attack +11",
             "level": "35",
             "weight": "40.0",
             "obtained": "Demon, Latrivan, Hellfire Fighter"
@@ -2411,11 +2411,11 @@
         {
             "name": "Titan Axe",
             "img": "/images/items/axes/Titan_Axe.gif",
-            "atk": "42",
-            "def": "8",
+            "atk": "<mark>42</mark>",
+            "def": "<mark>8</mark>",
             "hands": "2",
             "additional": "-",
-            "level": "35",
+            "level": "<mark>35</mark>",
             "weight": "81.0",
             "obtained": "Orc Berserker, Medusa, Juggernaut, Lost Soul, Behemoth"
         },
@@ -2433,8 +2433,8 @@
         {
             "name": "Ornamented Axe",
             "img": "/images/items/axes/Ornamented_Axe.gif",
-            "atk": "44",
-            "def": "18",
+            "atk": "<mark>44</mark>",
+            "def": "<mark>18</mark>",
             "hands": "1",
             "additional": "-",
             "level": "50",
@@ -2466,10 +2466,10 @@
         {
             "name": "Vile Axe",
             "img": "/images/items/axes/Vile_Axe.gif",
-            "atk": "46",
+            "atk": "<mark>46</mark>",
             "def": "19",
             "hands": "1",
-            "additional": "+3 Def",
+            "additional": "Def +3",
             "level": "55",
             "weight": "52.0",
             "obtained": "Unknown"
@@ -2477,11 +2477,11 @@
         {
             "name": "War Axe",
             "img": "/images/items/axes/War_Axe.gif",
-            "atk": "49",
+            "atk": "<mark>49</mark>",
             "def": "10",
             "hands": "2",
             "additional": "-",
-            "level": "55",
+            "level": "<mark>55</mark>",
             "weight": "61.5",
             "obtained": "Elder Beholder, Behemoth, Demon"
         },
@@ -2502,7 +2502,7 @@
             "atk": "45",
             "def": "22",
             "hands": "1",
-            "additional": "+1 Def",
+            "additional": "Def +1",
             "level": "65",
             "weight": "55.0",
             "obtained": "Unknown"
@@ -2512,30 +2512,30 @@
             "img": "/images/items/axes/Drakinata.gif",
             "atk": "47",
             "def": "20",
-            "hands": "1",
+            "hands": "<mark>1</mark>",
             "additional": "-",
-            "level": "65",
+            "level": "<mark>65</mark>",
             "weight": "54.0",
             "obtained": "Dragon Lord, Ghastly Dragon"
         },
         {
             "name": "Royal Axe",
             "img": "/images/items/axes/Royal_Axe.gif",
-            "atk": "50",
+            "atk": "<mark>50</mark>",
             "def": "25",
             "hands": "2",
             "additional": "-",
-            "level": "65",
+            "level": "<mark>65</mark>",
             "weight": "92.0",
             "obtained": "Frost Dragon"
         },
         {
             "name": "Reaper's Axe",
             "img": "/images/items/axes/Reaper's_Axe.gif",
-            "atk": "48",
+            "atk": "<mark>48</mark>",
             "def": "25",
             "hands": "1",
-            "additional": "+2 Def",
+            "additional": "Def +2",
             "level": "70",
             "weight": "59.0",
             "obtained": "Sea Serpent, Young Sea Serpent"
@@ -2543,7 +2543,7 @@
         {
             "name": "Impaler",
             "img": "/images/items/axes/Impaler.gif",
-            "atk": "50",
+            "atk": "<mark>50</mark>",
             "def": "25",
             "hands": "1",
             "additional": "-",
@@ -2554,9 +2554,9 @@
         {
             "name": "Ravager's Axe",
             "img": "/images/items/axes/Ravager's_Axe.gif",
-            "atk": "52",
-            "def": "28",
-            "hands": "1",
+            "atk": "<mark>52</mark>",
+            "def": "<mark>28</mark>",
+            "hands": "<mark>1</mark>",
             "additional": "-",
             "level": "70",
             "weight": "52.5",
@@ -2576,11 +2576,11 @@
         {
             "name": "Twin Hooks",
             "img": "/images/items/axes/Twin_Hooks.gif",
-            "atk": "52",
-            "def": "30",
+            "atk": "<mark>52</mark>",
+            "def": "<mark>30</mark>",
             "hands": "2",
             "additional": "-",
-            "level": "75",
+            "level": "<mark>75</mark>",
             "weight": "80.0",
             "obtained": "Undead Dragon, Ghastly Dragon"
         },
@@ -2591,18 +2591,18 @@
             "def": "20",
             "hands": "2",
             "additional": "-",
-            "level": "80",
+            "level": "<mark>80</mark>",
             "weight": "120.0",
             "obtained": "Unknown"
         },
         {
             "name": "Great Axe",
             "img": "/images/items/axes/Great_Axe.gif",
-            "atk": "54",
-            "def": "34",
+            "atk": "<mark>54</mark>",
+            "def": "<mark>34</mark>",
             "hands": "2",
             "additional": "-",
-            "level": "85",
+            "level": "<mark>85</mark>",
             "weight": "90.0",
             "obtained": "Lizard Chosen"
         },
@@ -2612,8 +2612,8 @@
             "atk": "51",
             "def": "28",
             "hands": "1",
-            "additional": "+2 Def",
-            "level": "90",
+            "additional": "Def +2",
+            "level": "<mark>90</mark>",
             "weight": "88.0",
             "obtained": "Unknown"
         },
@@ -2623,19 +2623,19 @@
             "atk": "59",
             "def": "30",
             "hands": "1",
-            "additional": "+3 Def",
-            "level": "100",
+            "additional": "Def +3",
+            "level": "<mark>100</mark>",
             "weight": "99.0",
             "obtained": ""
         },
         {
             "name": "King's Axe",
             "img": "/images/items/axes/King's_Axe.gif",
-            "atk": "62",
-            "def": "26",
+            "atk": "<mark>62</mark>",
+            "def": "<mark>26</mark>",
             "hands": "1",
             "additional": "-",
-            "level": "100",
+            "level": "<mark>100</mark>",
             "weight": "52.5",
             "obtained": ""
         },
@@ -2646,7 +2646,7 @@
             "def": "?",
             "hands": "2",
             "additional": "?",
-            "level": "120",
+            "level": "<mark>120</mark>",
             "weight": "110.0",
             "obtained": "Unknown"
         }
@@ -2666,9 +2666,9 @@
         {
             "name": "Slingshot",
             "img": "/images/items/distance/Slingshot.gif",
-            "atk": "5",
-            "range": "1",
-            "hands": "1",
+            "atk": "<mark>5</mark>",
+            "range": "<mark>1</mark>",
+            "hands": "<mark>1</mark>",
             "additional": "-",
             "level": "-",
             "weight": "3.60",
@@ -2790,7 +2790,7 @@
             "atk": "-",
             "range": "6",
             "hands": "2",
-            "additional": "hit +3%",
+            "additional": "<mark>Hit +3%</mark>",
             "level": "-",
             "weight": "39.0",
             "obtained": "Elf Scout, <i><b>Forging</b></i>"
@@ -2799,10 +2799,10 @@
             "name": "Yol's Bow",
             "img": "/images/items/distance/Yol's_Bow.gif",
             "atk": "-",
-            "range": "5",
+            "range": "<mark>5</mark>",
             "hands": "2",
-            "additional": "hit +5%",
-            "level": "30",
+            "additional": "<mark>Hit +5%</mark>",
+            "level": "<mark>30</mark>",
             "weight": "35.0",
             "obtained": "Orc Warrior"
         },
@@ -2810,20 +2810,20 @@
             "name": "Elethriel's Elemental Bow",
             "img": "/images/items/distance/Elethriel's_Elemental_Bow.gif",
             "atk": "+7",
-            "range": "6",
+            "range": "<mark>6</mark>",
             "hands": "2",
             "additional": "-",
-            "level": "35",
+            "level": "<mark>35</mark>",
             "weight": "44.0",
             "obtained": "Frost Dragon, Frost Dragon Hatchling"
         },
         {
             "name": "Silkweaver Bow",
             "img": "/images/items/distance/Silkweaver_Bow.gif",
-            "atk": "+5",
+            "atk": "<mark>+5</mark>",
             "range": "6",
             "hands": "2",
-            "additional": "hit +5%",
+            "additional": "<mark>Hit +5%</mark>",
             "level": "40",
             "weight": "22.0",
             "obtained": "Earth Elemental, Massive Earth Elemental, Medusa"
@@ -2831,10 +2831,10 @@
         {
             "name": "Modified Crossbow",
             "img": "/images/items/distance/Modified_Crossbow.gif",
-            "atk": "+7",
+            "atk": "<mark>+7</mark>",
             "range": "5",
             "hands": "2",
-            "additional": "hit +7%",
+            "additional": "<mark>Hit +7%</mark>",
             "level": "45",
             "weight": "35.0",
             "obtained": "Frost Dragon, <i><b>Forging</b></i>"
@@ -2842,66 +2842,66 @@
         {
             "name": "The Ironworker",
             "img": "/images/items/distance/The_Ironworker.gif",
-            "atk": "+7",
-            "range": "6",
+            "atk": "<mark>+7</mark>",
+            "range": "<mark>6</mark>",
             "hands": "2",
-            "additional": "hit +7%",
-            "level": "50",
+            "additional": "<mark>Hit +7%</mark>",
+            "level": "<mark>50</mark>",
             "weight": "55.0",
             "obtained": "Quara Constrictor Scout, Behemoth, Quara Constrictor"
         },
         {
             "name": "Imperor's Trident",
             "img": "/images/items/distance/Imperor's_Trident.gif",
-            "atk": "38",
-            "range": "3",
-            "hands": "1",
+            "atk": "<mark>38</mark>",
+            "range": "<mark>3</mark>",
+            "hands": "<mark>1</mark>",
             "additional": "-",
-            "level": "50",
+            "level": "<mark>50</mark>",
             "weight": "100.0",
             "obtained": "Black Knight"
         },
         {
             "name": "Composite Hornbow",
             "img": "/images/items/distance/Composite_Hornbow.gif",
-            "atk": "+7",
-            "range": "7",
+            "atk": "<mark>+7</mark>",
+            "range": "<mark>7</mark>",
             "hands": "2",
-            "additional": "hit +7%",
-            "level": "60",
+            "additional": "<mark>Hit +7%</mark>",
+            "level": "<mark>60</mark>",
             "weight": "52.0",
             "obtained": "Orc Marauder, <i><b>Forging</b></i>"
         },
         {
             "name": "Chain Bolter",
             "img": "/images/items/distance/Chain_Bolter.gif",
-            "atk": "+10",
-            "range": "6",
+            "atk": "<mark>+10</mark>",
+            "range": "<mark>6</mark>",
             "hands": "2",
-            "additional": "hit +7%",
-            "level": "70",
+            "additional": "<mark>Hit +7%</mark>",
+            "level": "<mark>70</mark>",
             "weight": "55.0",
             "obtained": "Undead Dragon, Ghastly Dragon"
         },
         {
             "name": "Ripper Lance",
             "img": "/images/items/distance/Ripper_Lance.gif",
-            "atk": "46",
-            "range": "3",
-            "hands": "1",
+            "atk": "<mark>46</mark>",
+            "range": "<mark>3</mark>",
+            "hands": "<mark>1</mark>",
             "additional": "-",
-            "level": "75",
+            "level": "<mark>75</mark>",
             "weight": "120.0",
             "obtained": "Hydra"
         },
         {
             "name": "The Devileye",
             "img": "/images/items/distance/The_Devileye.gif",
-            "atk": "+10",
-            "range": "7",
+            "atk": "<mark>+10</mark>",
+            "range": "<mark>7</mark>",
             "hands": "2",
-            "additional": "hit + 10%",
-            "level": "85",
+            "additional": "<mark>Hit + 10%</mark>",
+            "level": "<mark>85</mark>",
             "weight": "55.0",
             "obtained": "Lizard Chosen"
         },
@@ -2912,18 +2912,18 @@
             "range": "?",
             "hands": "2",
             "additional": "?",
-            "level": "90",
+            "level": "<mark>90</mark>",
             "weight": "45.0",
             "obtained": "Quest"
         },
         {
             "name": "King's Crossbow",
             "img": "/images/items/distance/King's_Crossbow.gif",
-            "atk": "+15",
-            "range": "7",
+            "atk": "<mark>+15</mark>",
+            "range": "<mark>7</mark>",
             "hands": "2",
-            "additional": "hit +12%",
-            "level": "100",
+            "additional": "<mark>Hit +12%</mark>",
+            "level": "<mark>100</mark>",
             "weight": "120.0",
             "obtained": "Quest"
         },
@@ -2934,7 +2934,7 @@
             "range": "7",
             "hands": "?",
             "additional": "?",
-            "level": "120",
+            "level": "<mark>120</mark>",
             "weight": "95.0",
             "obtained": "Unknown"
         }
@@ -2943,8 +2943,8 @@
         {
             "name": "Poison Arrow",
             "img": "/images/items/ammunitions/Poison_Arrow.gif",
-            "atk": "22",
-            "additional": "Target will be poisoned",
+            "atk": "<mark>22</mark>",
+            "additional": "Target will get poisoned",
             "weight": "0.40",
             "obtained": "Dworc Venomsniper, Elf Scout, Hunter, Giant Spider, Necromancer"
         },
@@ -2959,8 +2959,8 @@
         {
             "name": "Burst Arrow",
             "img": "/images/items/ammunitions/Burst_Arrow.gif",
-            "atk": "28",
-            "additional": "Damage a 9 square area",
+            "atk": "<mark>28</mark>",
+            "additional": "Damage in a 9sqm area",
             "weight": "0.45",
             "obtained": "Hunter, Dragon"
         },
@@ -3008,7 +3008,7 @@
             "name": "Earth Arrow",
             "img": "/images/items/ammunitions/Earth_Arrow.gif",
             "atk": "14",
-            "additional": "+ 14 earth attack",
+            "additional": "earth attack +14",
             "weight": "0.35",
             "obtained": "Earth Elemental"
         },
@@ -3016,7 +3016,7 @@
             "name": "Flash Arrow",
             "img": "/images/items/ammunitions/Flash_Arrow.gif",
             "atk": "14",
-            "additional": "+ 14 energy attack",
+            "additional": "energy attack +14",
             "weight": "0.35",
             "obtained": "Water Elemental"
         },
@@ -3024,7 +3024,7 @@
             "name": "Shiver Arrow",
             "img": "/images/items/ammunitions/Shiver_Arrow.gif",
             "atk": "14",
-            "additional": "+ 14 ice attack",
+            "additional": "ice attack +14",
             "weight": "0.35",
             "obtained": "Energy Elemental"
         },
@@ -3032,7 +3032,7 @@
             "name": "Flaming Arrow",
             "img": "/images/items/ammunitions/Flaming_Arrow.gif",
             "atk": "14",
-            "additional": "+ 14 fire attack",
+            "additional": "fire attack +14",
             "weight": "0.35",
             "obtained": "Blazing Fire Elemental"
         }
@@ -3074,7 +3074,7 @@
             "name": "Amulet of Loss",
             "img": "/images/items/amulets/Amulet_of_Loss.gif",
             "arm": "-",
-            "additional": "Item's loss protection",
+            "additional": "Protection from item's loss",
             "weight": "4.2",
             "obtained": "Lost Soul"
         },
@@ -3090,7 +3090,7 @@
             "name": "Protection Amulet",
             "img": "/images/items/amulets/Protection_Amulet.gif",
             "arm": "-",
-            "additional": "Protection physical +10%",
+            "additional": "<mark>Protection physical +10%</mark>",
             "weight": "5.5",
             "obtained": " Enlightened of The Cult, Orc Warlord, Kongra, Undead Gladiator"
         },
@@ -3114,7 +3114,7 @@
             "name": "Stone Skin Amulet",
             "img": "/images/items/amulets/Stone_Skin_Amulet.gif",
             "arm": "-",
-            "additional": "Protection physical +80%",
+            "additional": "Protection physical +80% death +80%",
             "weight": "7.0",
             "obtained": "Banshee, Lost Soul, Hydra, Warlock"
         },
@@ -3138,7 +3138,7 @@
             "name": "Bronze Amulet",
             "img": "/images/items/amulets/Bronze_Amulet.gif",
             "arm": "-",
-            "additional": "Protection manadrain +20%",
+            "additional": "Protection mana drain +20%",
             "weight": "5.0",
             "obtained": "Dworc Venomsniper, Dworc Voodoomaster, Werewolf, Minotaur, Vampire"
         },
@@ -3146,7 +3146,7 @@
             "name": "Wailing Widow's Necklace",
             "img": "/images/items/amulets/Wailing_Widow's_Necklace.gif",
             "arm": "-",
-            "additional": "Protection earth +15%",
+            "additional": "<mark>Protection earth +15%</mark>",
             "weight": "5.4",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3162,7 +3162,7 @@
             "name": "Beetle Necklace",
             "img": "/images/items/amulets/Beetle_Necklace.gif",
             "arm": "-",
-            "additional": "Speed +10",
+            "additional": "<mark>Speed +10</mark>",
             "weight": "8.2",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3170,7 +3170,7 @@
             "name": "Holy Falcon",
             "img": "/images/items/amulets/Holy_Falcon.gif",
             "arm": "-",
-            "additional": "Distance fighting +3",
+            "additional": "<mark>Distance fighting +3</mark>",
             "weight": "8.4",
             "obtained": "Questt"
         },
@@ -3178,7 +3178,7 @@
             "name": "Sapphire Amulet",
             "img": "/images/items/amulets/Sapphire_Amulet.gif",
             "arm": "-",
-            "additional": "Club fighting +3",
+            "additional": "<mark>Club fighting +3</mark>",
             "weight": "6.8",
             "obtained": "Quest"
         },
@@ -3186,7 +3186,7 @@
             "name": "Star Amulet",
             "img": "/images/items/amulets/Star_Amulet.gif",
             "arm": "-",
-            "additional": "Axe fighting +3",
+            "additional": "<mark>Axe fighting +3</mark>",
             "weight": "6.1",
             "obtained": "Quest"
         },
@@ -3194,7 +3194,7 @@
             "name": "Ruby Necklace",
             "img": "/images/items/amulets/Ruby_Necklace.gif",
             "arm": "-",
-            "additional": "Sword fighting +3",
+            "additional": "<mark>Sword fighting +3</mark>",
             "weight": "5.7",
             "obtained": "Quest"
         },
@@ -3209,7 +3209,7 @@
         {
             "name": "Paw Amulet",
             "img": "/images/items/amulets/Paw_Amulet.gif",
-            "arm": "1",
+            "arm": "<mark>1</mark>",
             "additional": "-",
             "weight": "4.2",
             "obtained": "Unknown"
@@ -3371,8 +3371,8 @@
         {
             "name": "Cigar",
             "img": "/images/items/rings/Cigar.gif",
-            "arm": "2",
-            "additional": "Speed -5",
+            "arm": "<mark>2</mark>",
+            "additional": "<mark>Speed -5</mark>",
             "weight": "1.2",
             "obtained": "Unknown"
         },
@@ -3380,7 +3380,7 @@
             "name": "Signet Ring",
             "img": "/images/items/rings/Signet_Ring.gif",
             "arm": "-",
-            "additional": "Sword fighting +1",
+            "additional": "<mark>Sword fighting +1</mark>",
             "weight": "1.0",
             "obtained": "Unknown"
         },
@@ -3388,7 +3388,7 @@
             "name": "Feather",
             "img": "/images/items/rings/Feather.gif",
             "arm": "-",
-            "additional": "Distance fighting +1",
+            "additional": "<mark>Distance fighting +1</mark>",
             "weight": "1.0",
             "obtained": "Unknown"
         },
@@ -3396,7 +3396,7 @@
             "name": "Didgeridoo",
             "img": "/images/items/rings/Didgeridoo.gif",
             "arm": "-",
-            "additional": "Club fighting +1",
+            "additional": "<mark>Club fighting +1</mark>",
             "weight": "1.0",
             "obtained": "Unknown"
         },
@@ -3404,7 +3404,7 @@
             "name": "War Horn",
             "img": "/images/items/rings/War_Horn.gif",
             "arm": "-",
-            "additional": "Axe fighting +1",
+            "additional": "<mark>Axe fighting +1</mark>",
             "weight": "1.0",
             "obtained": "Unknown"
         }
@@ -3438,7 +3438,7 @@
             "name": "Brocade Backpack",
             "img": "/images/items/containers/Brocade_Backpack.gif",
             "slots": "20",
-            "additional": "Protection holy +7%",
+            "additional": "<mark>Protection holy +7%</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3454,7 +3454,7 @@
             "name": "Camouflage Backpack",
             "img": "/images/items/containers/Camouflage_Backpack.gif",
             "slots": "20",
-            "additional": "Protection earth +7%",
+            "additional": "<mark>Protection earth +7%</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3470,7 +3470,7 @@
             "name": "Pirate Backpack",
             "img": "/images/items/containers/Pirate_Backpack.gif",
             "slots": "20",
-            "additional": "Protection death +7%",
+            "additional": "<mark>Protection death +7%</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3486,7 +3486,7 @@
             "name": "Fur Backpack",
             "img": "/images/items/containers/Fur_Backpack.gif",
             "slots": "20",
-            "additional": "Shielding +1",
+            "additional": "<mark>Shielding +1</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3502,7 +3502,7 @@
             "name": "Expedition Backpack",
             "img": "/images/items/containers/Expedition_Backpack.gif",
             "slots": "20",
-            "additional": "Speed +15",
+            "additional": "<mark>Speed +15</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3518,7 +3518,7 @@
             "name": "Beach Backpack",
             "img": "/images/items/containers/Beach_Backpack.gif",
             "slots": "20",
-            "additional": "Faster mana regeneration",
+            "additional": "<mark>Faster mana regeneration</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3526,7 +3526,7 @@
             "name": "Moon Backpack",
             "img": "/images/items/containers/Moon_Backpack.gif",
             "slots": "20",
-            "additional": "Protection ice +7%",
+            "additional": "<mark>Protection ice +7%</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3534,7 +3534,7 @@
             "name": "Lizard Backpack",
             "img": "/images/items/containers/Lizard_Backpack.gif",
             "slots": "20",
-            "additional": "Protection fire +7%",
+            "additional": "<mark>Protection fire +7%</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3542,7 +3542,7 @@
             "name": "Minotaur Backpack",
             "img": "/images/items/containers/Minotaur_Backpack.gif",
             "slots": "20",
-            "additional": "Protection physical +3%",
+            "additional": "<mark>Protection physical +3%</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3550,14 +3550,14 @@
             "name": "Crown Backpack",
             "img": "/images/items/containers/Crown_Backpack.gif",
             "slots": "20",
-            "additional": "Faster health regeneration",
+            "additional": "<mark>Faster health regeneration</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Demonic Backpack",
             "img": "/images/items/containers/Demonic_Backpack.gif",
-            "slots": "30",
+            "slots": "<mark>30</mark>",
             "additional": "-",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -3607,7 +3607,7 @@
         {
             "name": "Sweet mangonaise elixir",
             "img": "/images/items/recipes/Sweet_mangonaise_elixir.gif",
-            "effect": "Drinking this elixir will create 5 copies of the ring you are wearing",
+            "effect": "<mark>Drinking this elixir will create 5 copies of the ring you are wearing</mark>",
             "weight": "3.0"
         },
         {

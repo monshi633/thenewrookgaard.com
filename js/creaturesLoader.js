@@ -7,8 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 const creatureElement = document.createElement('div');
                 creatureElement.innerHTML = `
                 <div class="creature">
-                    <img src="${creature.img}" alt="${creature.name}">
-                    <div>${creature.name}</div>
+                    <div class="creature_container">
+                        <img src="${creature.img}" alt="${creature.name}">
+                    </div>
+                        <div>${creature.name}</div>
                 </div>
             `;
                 creaturesFlex.appendChild(creatureElement);

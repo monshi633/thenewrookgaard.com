@@ -729,7 +729,6 @@ h1 {
     padding: 2px 5px;
 }
 
-
 .box__section__content__table {
     width: 100%;
     clear: both;
@@ -756,13 +755,29 @@ h1 {
 
 .creature {
     width: 100px;
-    height: 110px;
-    margin: 0px;
-    float: left;
+    height: 100px;
+    margin: 1px;
+}
+
+.creature_container {
+    height: 64px;
+    min-width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.creature_container img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #addonsTable td:nth-child(2) {
     width: 160px;
+}
+
+.wide__column {
+    width: 180px;
 }
 
 footer {

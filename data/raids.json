@@ -2,61 +2,61 @@
     "raids": [
         {
             "name": "Brutus Bloodbeard",
-            "img": "",
+            "img": "/images/raids/Brutus_Bloodbeard.gif",
             "message": "Old Brutus Bloodbeard has a hat that dazzles just like his attacks!",
             "location": "Pirate Island"
         },
         {
             "name": "Ron the Ripper",
-            "img": "",
+            "img": "/images/raids/Ron_the_Ripper.gif",
             "message": "Ron the ripper is with his sharp sabre waiting for his next victim!",
             "location": "Pirate Island"
         },
         {
             "name": "Deadeye Devious",
-            "img": "",
+            "img": "/images/raids/Deadeye_Devious.gif",
             "message": "the blind Deadeye Devious hears you from far away, he is waiting for you!",
             "location": "Pirate Island"
         },
         {
             "name": "Lethal Lissy",
-            "img": "",
+            "img": "/images/raids/Lethal_Lissy.gif",
             "message": "Lethal Lissy with her shiny shirt is waiting for you for the fight!",
             "location": "Pirate Island"
         },
         {
             "name": "Grovehorn",
-            "img": "",
+            "img": "/images/raids/Juggernaut.gif",
             "message": "The forests tremble because of the appearance of so many horns!",
-            "location": "Swwampland"
+            "location": "Swampland"
         },
         {
             "name": "Soulharvester",
-            "img": "",
+            "img": "/images/raids/Draken_Abomination.gif",
             "message": "The souls flee from the cemetery, because an abysmal being is consuming them!",
             "location": "Cementery"
         },
         {
             "name": "Lord of the depth",
-            "img": "",
+            "img": "/images/raids/Demon.gif",
             "message": "From the depths of hell his enraged representative has appeared!",
             "location": "Dragonland"
         },
         {
             "name": "Ancient Scarbs",
-            "img": "",
+            "img": "/images/raids/Ancient_Scarab.gif",
             "message": "Something crawls from deep in the Rookgaard Desert!",
             "location": "Desert"
         },
         {
             "name": "Ashmunrah",
-            "img": "",
+            "img": "/images/raids/Ashmunrah.gif",
             "message": "The pharaoh is angry that they walk the corridors of his tomb!",
             "location": "Desert deep tombs"
         },
         {
             "name": "The Old Widow",
-            "img": "",
+            "img": "/images/raids/Giant_Spider.gif",
             "message": "Many legs, many eyes, many deaths...the old widow is here!",
             "location": "Rookgaards deep caves"
         }
