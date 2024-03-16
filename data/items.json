@@ -2173,7 +2173,7 @@
             "additional": "-",
             "level": "<mark>85</mark>",
             "weight": "64.0",
-            "obtained": "Lizad Chosen."
+            "obtained": "Lizard Chosen"
         },
         {
             "name": "Magic Sword",
@@ -2184,7 +2184,7 @@
             "additional": "Def +3",
             "level": "<mark>100</mark>",
             "weight": "42.0",
-            "obtained": "Quest."
+            "obtained": "Quest"
         },
         {
             "name": "King's Sword",
@@ -2195,7 +2195,7 @@
             "additional": "-",
             "level": "<mark>100</mark>",
             "weight": "61.0",
-            "obtained": "Quest."
+            "obtained": "Quest"
         },
         {
             "name": "Magic Longsword",
@@ -2206,7 +2206,7 @@
             "additional": "?",
             "level": "<mark>120</mark>",
             "weight": "43.0",
-            "obtained": "Unknown."
+            "obtained": "Unknown"
         }
     ],
     "axe": [
@@ -2626,7 +2626,7 @@
             "additional": "Def +3",
             "level": "<mark>100</mark>",
             "weight": "99.0",
-            "obtained": ""
+            "obtained": "Quest"
         },
         {
             "name": "King's Axe",
@@ -2637,7 +2637,7 @@
             "additional": "-",
             "level": "<mark>100</mark>",
             "weight": "52.5",
-            "obtained": ""
+            "obtained": "Quest"
         },
         {
             "name": "Solar Axe",

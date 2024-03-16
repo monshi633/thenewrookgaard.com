@@ -86,14 +86,14 @@
         },
         {
             "name": "First Barbarian Addon",
-            "img1": "/images/addons/Outfit_Barbarian_Female_Addon_1.gif",
-            "img2": "/images/addons/Outfit_Barbarian_Male_Addon_1.gif",
+            "img1": "/images/addons/Outfit_Barbarian_Male_Addon_1.gif",
+            "img2": "/images/addons/Outfit_Barbarian_Female_Addon_1.gif",
             "items": "30 Iron Ores, 50 Lizard Leathers, 20 Lizard Scales"
         },
         {
             "name": "Second Barbarian Addon",
-            "img1": "/images/addons/Outfit_Barbarian_Female_Addon_2.gif",
-            "img2": "/images/addons/Outfit_Barbarian_Male_Addon_2.gif",
+            "img1": "/images/addons/Outfit_Barbarian_Male_Addon_2.gif",
+            "img2": "/images/addons/Outfit_Barbarian_Female_Addon_2.gif",
             "items": "50 Bunch Of Troll Hairs, 50 Orc Leathers"
         },
         {
@@ -140,20 +140,20 @@
         },
         {
             "name": "Second Pirate Addon",
-            "img1": "/images/addons/Outfit_Pirate_Female_Addon_2.gif",
-            "img2": "/images/addons/Outfit_Pirate_Male_Addon_2.gif",
+            "img1": "/images/addons/Outfit_Pirate_Male_Addon_2.gif",
+            "img2": "/images/addons/Outfit_Pirate_Female_Addon_2.gif",
             "items": "Brutus Bloodbeard's hat, Lethal Lizzy's Shirt, Ron The Ripper's Sabre ,Deadeye Devious Eye Patch"
         },
         {
             "name": "First Assassin Addon",
-            "img1": "/images/addons/Outfit_Assassin_Female_Addon_1.gif",
-            "img2": "/images/addons/Outfit_Assassin_Male_Addon_1.gif",
+            "img1": "/images/addons/Outfit_Assassin_Male_Addon_1.gif",
+            "img2": "/images/addons/Outfit_Assassin_Female_Addon_1.gif",
             "items": "30 White Piece Of Cloths, 30 Green Piece Of Cloths, 30 Red Piece Of Cloths, 30 Blue Piece Of Cloths, 30 Brown Piece Of Cloths"
         },
         {
             "name": "Second Assassin Addon",
-            "img1": "/images/addons/Outfit_Assassin_Female_Addon_2.gif",
-            "img2": "/images/addons/Outfit_Assassin_Male_Addon_2.gif",
+            "img1": "/images/addons/Outfit_Assassin_Male_Addon_2.gif",
+            "img2": "/images/addons/Outfit_Assassin_Female_Addon_2.gif",
             "items": "10 Spiderwebs"
         },
         {

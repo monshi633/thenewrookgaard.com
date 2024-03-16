@@ -4,16 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => {
             const npcsTable = document.getElementById('npcsTable');
             data.npcs.forEach(npc => {
-                const npcElement = document.createElement('tr');
-                npcElement.innerHTML = `
-                <td>${npc.name}</td>
-                <td>
-                    <img src="${npc.img}" alt="${npc.name}">
-                </td>
-                <td>${npc.location}</td>
-                <td>${npc.services}</td>
-            `;
-            npcsTable.appendChild(npcElement);
+                const row = npcsTable.insertRow();
+                Object.values(npc).forEach(value => {
+                    const cell = row.insertCell();
+                    cell.innerHTML = value;
+                });
             });
         })
         .catch(error => console.error('Error loading npcs:', error));

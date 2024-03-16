@@ -1,7 +1,7 @@
 {
     "articles": [
         {
-            "icon": "https://static.tibia.com/images/global/content/newsicon_development_big.png",
+            "icon": "/images/news/newsicon_development_big.png",
             "date": "Feb 06 2024 -",
             "title": "Public Launch",
             "capital": "https://static.tibia.com/images/global/letters/letter_martel_W.gif",
@@ -9,7 +9,7 @@
             "content": "We launched the server to the public. There was a lot of work and learning in the process of running this, our own OT server 8.6 and we are more than happy with the new players that are joining and exploring this realm.<br>Come!, come and enjoy what we prepared for you in this fun land full of new adventures called <i>The New Rookgaard</i>.<br><br>Sincerely,<br>The development team"
         },
         {
-            "icon": "https://static.tibia.com/images/global/content/newsicon_development_big.png",
+            "icon": "/images/news/newsicon_development_big.png",
             "date": "Feb 29 2024 -",
             "title": "Dedicated server",
             "capital": "https://static.tibia.com/images/global/letters/letter_martel_L.gif",
@@ -17,7 +17,7 @@
             "content": "Happens once every so long, and we wanted to make it a landmark of this project's progress.<br>We decided to move from our own dedicated server to a hosting service with the hopes of having a better overall performance. Let us know if you see any difference.<br><br>Until the next one,<br>The development team"
         },
         {
-            "icon": "https://static.tibia.com/images/global/content/newsicon_community_big.png",
+            "icon": "/images/news/newsicon_community_big.png",
             "date": "Mar 12 2024 -",
             "title": "Website Launch",
             "capital": "https://static.tibia.com/images/global/letters/letter_martel_A.gif",
@@ -25,12 +25,20 @@
             "content": "If you can see this, it means it worked! The new website is up and running and we couldn't be more happhy about it.<br>Of course there are lot's of tweaks and improvements to do and we are working on it. Hopefully, the next time you enter, you can see newer sections full of useful data and statistics about the game.<br>While we are at it, keep on rocking those levels and skills.<br><br>Have fun,<br>The development team"
         },
         {
-            "icon": "https://static.tibia.com/images/global/content/newsicon_community_big.png",
+            "icon": "/images/news/newsicon_community_big.png",
             "date": "Mar 14 2024 -",
             "title": "Community",
             "capital": "https://static.tibia.com/images/global/letters/letter_martel_D.gif",
             "firstLine": "ear friends,",
             "content": "We wanted to let you know that you can reach us and other players you've met using our official community channels.<br>You can find us on Instagram, Facebook and Discord. Check out our <strong>Networks</strong> section!<br><br>Until the next one,<br>The development team"
+        },
+        {
+            "icon": "/images/news/newsicon_community_big.png",
+            "date": "Mar 16 2024 -",
+            "title": "Game Library",
+            "capital": "https://static.tibia.com/images/global/letters/letter_martel_F.gif",
+            "firstLine": "ellow adventurers,",
+            "content": "The Library section was updated and is full of rarities for you to find.<br>Browse through its sections and learn about quests, creatures, items, tasks and many more things you can find in the game.<br><br>Until the next one,<br>The development team"
         }
     ]
 }
