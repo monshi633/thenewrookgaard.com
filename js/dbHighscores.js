@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const row = table.insertRow();
                 const indexCell = row.insertCell();
                 indexCell.innerHTML = index++;
-                ['name', 'vocation', 'level', 'manaspent'].forEach(key => {
+                ['name', 'vocation', 'maglevel', 'manaspent'].forEach(key => {
                     const cell = row.insertCell();
                     cell.innerHTML = player[key];
                 });

@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('query.php?query=SELECT name, level, CASE WHEN promotion = 0 THEN "Rookie" WHEN promotion = 1 THEN "Rookstayer" END AS vocation FROM players WHERE online = 1 AND id > 2 ORDER BY experience DESC')
+    fetch('query.php?query=SELECT p.name, p.level, CASE WHEN p.promotion = 0 THEN "Rookie" WHEN p.promotion = 1 THEN "Rookstayer" END AS vocation, COALESCE(g.name, '-') AS guild FROM players AS p LEFT JOIN guild_ranks as r ON p.rank_id = r.id LEFT JOIN guilds AS g ON r.guild_id = g.id WHERE p.online = 1 AND p.id > 2 ORDER BY experience DESC')
         .then(response => response.json())
         .then(data => {
             const onlineTable = document.getElementById('onlineTable');
             data.forEach(player => {
                 const row = onlineTable.insertRow();
-                ['name', 'level', 'vocation'].forEach(key => {
+                ['name', 'level', 'vocation', 'guild'].forEach(key => {
                     const cell = row.insertCell();
                     cell.innerHTML = player[key];
                 });
