@@ -491,7 +491,8 @@ nav {
     font-size: 1px;
 }
 
-#section__library__items .box__section__content__account {
+#section__library__items .box__section__content__account,
+#section__community__highscores .box__section__content__account {
     margin-bottom: 10px;
 }
 

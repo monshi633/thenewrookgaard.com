@@ -208,7 +208,7 @@
                             <span class="box__heading__infobar__title">The New Rookgaard</span>
                             <a onclick="openContent('section__community__whosonline'); menuButtonAction('community')">
                                 <img class="box__heading__infobar__logo" src="https://static.tibia.com/images/global/header/info/icon-players-online.png" alt="players">
-                                <span id="playersOnline" class="box__heading__infobar__amount"></span><!--TODO: Get amount of online players-->
+                                <span id="numberOnline" class="box__heading__infobar__amount"></span>
                             </a>
                         </div>
                     </div>
@@ -1010,7 +1010,7 @@
                             </div>
                         </div>
                     </section>
-                    <section id="section__library__npcs">
+                    <section id="section__library__npcs">   
                         <img class="box__section__title" src="/images/headline-npcs.gif" alt="NPCs">
                         <div class="border_2">
                             <div class="border_3">
@@ -1030,7 +1030,7 @@
                                             </div>
                                         </div>
                                         <div class="article__content__container">
-                                            <table class="listed__table">
+                                            <table id="npcsTable" class="listed__table">
                                                 <thead>
                                                     <tr>
                                                         <th>Name</th>
@@ -1038,7 +1038,7 @@
                                                         <th>Services</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody id="npcsTable">
+                                                <tbody>
                                                     <!--NPCs are retrieved here using npcsLoader.js-->
                                                 </tbody>
                                             </table>
@@ -1173,7 +1173,36 @@
                         <div class="border_2">
                             <div class="border_3">
                                 <div class="box__section__content">
-                                    <article></article>
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Players Online</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div class="article__content__container">
+                                            <table id="onlineTable" class="listed__table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Name</th>
+                                                        <th>Level</th>
+                                                        <th>Vocation</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--Players online are retrieved here using dbWhosOnline.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
                                 </div>
                             </div>
                         </div>
@@ -1183,7 +1212,294 @@
                         <div class="border_2">
                             <div class="border_3">
                                 <div class="box__section__content">
-                                    <article></article>
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container" onclick="collapseTable('levelTableCollapsable')">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Level</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div id="levelTableCollapsable" class="article__content__container">
+                                            <table id="levelTable" class="listed__table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Rank</th>
+                                                        <th>Name</th>
+                                                        <th>Vocation</th>
+                                                        <th>Level</th>
+                                                        <th>Exp points</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--Level highscores are retrieved here using dbHighscores.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container" onclick="collapseTable('magicLevelTableCollapsable')">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Magic Level</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div id="magicLevelTableCollapsable" class="article__content__container">
+                                            <table id="magicLevelTable" class="listed__table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Rank</th>
+                                                        <th>Name</th>
+                                                        <th>Vocation</th>
+                                                        <th>Level</th>
+                                                        <th>Mana spent</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--Magic Level highscores are retrieved here using dbHighscores.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container" onclick="collapseTable('fistFightingTableCollapsable')">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Fist Fighting</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div id="fistFightingTableCollapsable" class="article__content__container">
+                                            <table id="fistFightingTable" class="listed__table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Rank</th>
+                                                        <th>Name</th>
+                                                        <th>Vocation</th>
+                                                        <th>Level</th>
+                                                        <th>Skill</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--Fist fighting highscores are retrieved here using dbHighscores.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container" onclick="collapseTable('clubFightingTableCollapsable')">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Club Fighting</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div id="clubFightingTableCollapsable" class="article__content__container">
+                                            <table id="clubFightingTable" class="listed__table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Rank</th>
+                                                        <th>Name</th>
+                                                        <th>Vocation</th>
+                                                        <th>Level</th>
+                                                        <th>Skill</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--Club fighting highscores are retrieved here using dbHighscores.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container" onclick="collapseTable('swordFightingTableCollapsable')">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Sword Fighting</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div id="swordFightingTableCollapsable" class="article__content__container">
+                                            <table id="swordFightingTable" class="listed__table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Rank</th>
+                                                        <th>Name</th>
+                                                        <th>Vocation</th>
+                                                        <th>Level</th>
+                                                        <th>Skill</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--Sword fighting highscores are retrieved here using dbHighscores.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container" onclick="collapseTable('axeFightingTableCollapsable')">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Axe Fighting</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div id="axeFightingTableCollapsable" class="article__content__container">
+                                            <table id="axeFightingTable" class="listed__table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Rank</th>
+                                                        <th>Name</th>
+                                                        <th>Vocation</th>
+                                                        <th>Level</th>
+                                                        <th>Skill</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--Axe fighting highscores are retrieved here using dbHighscores.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container" onclick="collapseTable('distanceFightingTableCollapsable')">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Distance Fighting</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div id="distanceFightingTableCollapsable" class="article__content__container">
+                                            <table id="distanceFightingTable" class="listed__table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Rank</th>
+                                                        <th>Name</th>
+                                                        <th>Vocation</th>
+                                                        <th>Level</th>
+                                                        <th>Skill</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--Distance fighting highscores are retrieved here using dbHighscores.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container" onclick="collapseTable('shieldingTableCollapsable')">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Shielding</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div id="shieldingTableCollapsable" class="article__content__container">
+                                            <table id="shieldingTable" class="listed__table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Rank</th>
+                                                        <th>Name</th>
+                                                        <th>Vocation</th>
+                                                        <th>Level</th>
+                                                        <th>Skill</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--Shielding highscores are retrieved here using dbHighscores.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container" onclick="collapseTable('fishingTableCollapsable')">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Fishing</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div id="fishingTableCollapsable" class="article__content__container">
+                                            <table id="fishingTable" class="listed__table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Rank</th>
+                                                        <th>Name</th>
+                                                        <th>Vocation</th>
+                                                        <th>Level</th>
+                                                        <th>Skill</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--Fishing highscores are retrieved here using dbHighscores.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
                                 </div>
                             </div>
                         </div>
@@ -1221,17 +1537,21 @@
             </main>
         </div>
         <script src="/js/sections.js"></script>
+        <script src="/js/divTableCollapser.js"></script>
         <script src="/js/latestNewsLoader.js"></script>
         <script src="/js/creaturesLoader.js"></script>
         <script src="/js/spellsLoader.js"></script>
         <script src="/js/questsLoader.js"></script>
         <script src="/js/itemsLoader.js"></script>
-        <script src="/js/itemsCollapser.js"></script>
         <script src="/js/npcsLoader.js"></script>
         <script src="/js/addonsLoader.js"></script>
         <script src="/js/tasksLoader.js"></script>
         <script src="/js/raidsLoader.js"></script>
-        <script src="/js/dbQueriesFetch.js"></script>
+        <script src="/js/dbNumberOnline.js"></script>
+        <script src="/js/dbWhosOnline.js"></script>
+        <script src="/js/dbHighscores.js"></script>
+        <script src="/js/dbHouses.js"></script>
+        <script src="/js/dbGuilds.js"></script>
     </body>
 
 </html>
