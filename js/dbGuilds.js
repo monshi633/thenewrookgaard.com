@@ -1,10 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('query.php?query=SELECT COUNT (*) AS players_online FROM players WHERE online = 1')
+    fetch('query.php?query=SELECT g.name, p_leader.name AS leader, COUNT(p.name) AS members ,strftime("%d-%m-%Y", datetime(g.creationdata, "unixepoch")) AS creation FROM guilds AS g JOIN players AS p_leader ON g.ownerid=p_leader.id JOIN guild_ranks as r ON g.id = r.guild_id JOIN players as p on r.id=p.rank_id GROUP BY g.name, p_leader.name, g.creationdata ORDER BY g.creationdata')
         .then(response => response.json())
         .then(data => {
-            const numberOnline = document.getElementById('numberOnline');
-            const count = data[0].players_online;
-            numberOnline.innerText = count + (count === 1 ? 'Player Online' : 'Players Online');
+            const guildTable = document.getElementById('guildTable');
+            data.forEach(house => {
+                const row = guildTable.insertRow();
+                ['name', 'leader', 'members', 'creation'].forEach(key => {
+                    const cell = row.insertCell();
+                    cell.innerHTML = house[key];
+                });
+            });
         })
-        .catch(error => console.error('Error:', error));
+        .catch(error => console.error('Error loading houses:', error));
 });

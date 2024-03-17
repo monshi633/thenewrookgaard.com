@@ -1,10 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('query.php?query=SELECT COUNT (*) AS players_online FROM players WHERE online = 1')
+    fetch('query.php?query=SELECT h.name, h.size, CAST(h.price / 1000 AS TEXT) || "k gold" AS kprice, COALESCE(p.name, "<mark>Available</mark>") AS status FROM houses AS h LEFT JOIN players AS p ON h.owner=p.id ORDER BY h.name')
         .then(response => response.json())
         .then(data => {
-            const numberOnline = document.getElementById('numberOnline');
-            const count = data[0].players_online;
-            numberOnline.innerText = count + (count === 1 ? 'Player Online' : 'Players Online');
+            const houseTable = document.getElementById('houseTable');
+            data.forEach(house => {
+                const row = houseTable.insertRow();
+                ['name', 'size', 'kprice', 'status'].forEach(key => {
+                    const cell = row.insertCell();
+                    cell.innerHTML = house[key];
+                });
+            });
         })
-        .catch(error => console.error('Error:', error));
+        .catch(error => console.error('Error loading houses:', error));
 });

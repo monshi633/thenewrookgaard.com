@@ -1,9 +1,13 @@
-function menuButtonAction(navMenuId) {
+function menuButtonAction(navMenuId,alwaysBlock) {
     const navSubmenu = document.getElementById(navMenuId + '__submenu')
     if (navSubmenu.style.display != 'block') {
         navSubmenu.style.display = 'block';
     } else {
-        navSubmenu.style.display = 'none';
+        if (alwaysBlock) {
+            return    
+        } else {
+            navSubmenu.style.display = 'none';
+        }
     }
 }
 
