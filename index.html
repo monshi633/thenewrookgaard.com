@@ -208,7 +208,7 @@
                             <span class="box__heading__infobar__title">The New Rookgaard</span>
                             <a onclick="openContent('section__community__whosonline'); menuButtonAction('community')">
                                 <img class="box__heading__infobar__logo" src="https://static.tibia.com/images/global/header/info/icon-players-online.png" alt="players">
-                                <span class="box__heading__infobar__amount">? Players Online</span><!--TODO: Get amount of online players-->
+                                <span id="playersOnline" class="box__heading__infobar__amount"></span><!--TODO: Get amount of online players-->
                             </a>
                         </div>
                     </div>
@@ -1231,6 +1231,7 @@
         <script src="/js/addonsLoader.js"></script>
         <script src="/js/tasksLoader.js"></script>
         <script src="/js/raidsLoader.js"></script>
+        <script src="/js/dbQueriesFetch.js"></script>
     </body>
 
 </html>
