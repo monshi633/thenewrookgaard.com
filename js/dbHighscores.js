@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error('Error loading level highscores:', error));
         
     // Magic Level
-    fetch('query.php?query=SELECT name, CASE WHEN promotion = 0 THEN "Rookie" WHEN promotion = 1 THEN "Rookstayer" END AS vocation, maglevel, manaspent FROM players WHERE id > 2 AND group_id < 3 ORDER BY manaspent DESC LIMIT 50')
+    fetch('query.php?query=SELECT name, CASE WHEN promotion = 0 THEN "Rookie" WHEN promotion = 1 THEN "Rookstayer" END AS vocation, maglevel, manaspent FROM players WHERE id > 2 AND group_id < 3 ORDER BY maglevel DESC, manaspent DESC LIMIT 50')
         .then(response => response.json())
         .then(data => {
             const table = document.getElementById('magicLevelTable');
