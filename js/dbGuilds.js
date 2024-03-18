@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('query.php?query=SELECT g.name, COUNT(*) AS members, STRFTIME("%d-%m-%Y", DATETIME(g.creationdata, "unixepoch")) AS creation FROM guilds AS g JOIN guild_ranks AS r ON g.id = r.guild_id GROUP BY g.name, g.creationdata ORDER BY g.creationdata')
+    fetch('query.php?query=SELECT g.name, COUNT(p.name) AS members ,strftime("%d-%m-%Y", datetime(g.creationdata, "unixepoch")) AS creation FROM guilds AS g JOIN players AS p_leader ON g.ownerid=p_leader.id JOIN guild_ranks as r ON g.id = r.guild_id JOIN players as p on r.id=p.rank_id GROUP BY g.name ORDER BY g.creationdata')
         .then(response => response.json())
         .then(data => {
             const guildTable = document.getElementById('guildTable');
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 guildRow.setAttribute('onclick', 'collapseTable("' + membersRowId + '", true)');
 
                 // Add content to membersBody
-                fetch('query.php?query=SELECT g.name, p_leader.name AS leader, COUNT(p.name) AS members ,strftime("%d-%m-%Y", datetime(g.creationdata, "unixepoch")) AS creation FROM guilds AS g JOIN players AS p_leader ON g.ownerid=p_leader.id JOIN guild_ranks as r ON g.id = r.guild_id JOIN players as p on r.id=p.rank_id GROUP BY g.name, p_leader.name, g.creationdata ORDER BY g.creationdata')
+                fetch('query.php?query=SELECT p.name AS name, r.name AS rank FROM players AS p JOIN guild_ranks AS r ON p.rank_id = r.id WHERE r.guild_id = (SELECT id FROM guilds WHERE name = "' + guild.name + '");')
                     .then(response => response.json())
                     .then(data => {
                         const membersTable = document.getElementById(membersBodyId);
