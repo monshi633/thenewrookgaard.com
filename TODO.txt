@@ -1,0 +1,15 @@
+#Secciones
+Guilds: Que al clickear en la guild se despliegue un menú con los integrantes: Name, Rank, Joindate?
+NPCs: Ver cómo agregar gifs de los NPC personalizados
+Login: Poder entrar, cambiar contraseña?, comprar premmy, ¿que mas?
+Lost account: Formulario de cambio de contraseñas.
+
+#Detalles
+Imágenes: hacer que todas las imágenes sean locales, incluso las letras capitales de latest news. Cambiar fondo de pantalla
+Caché: ¿Hay una forma de que latestNews cargue siempre desde cero sin almacenar cache?
+Index: Compartimentar secciones tipo thenewrookgaard.com/library/creatures
+Consultas a la db: que sean constantes (al menos players online, el resto puede quedar atado a F5)
+Que al iniciar sesión, te muestre las tasks y quest realizadas, addons obtenidos? y spells desbloqueados?
+
+#Importantísimo
+Certificado SSL
