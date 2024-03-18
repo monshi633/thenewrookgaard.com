@@ -1,36 +1,20 @@
 {
     "spells": [
         {
-            "name": "<b>Conjure Arrow</b> (exevo con)",
+            "name": "<b>Light</b> (utevo lux)",
             "group": "Support",
             "type": "Instant",
-            "level": "<mark>17</mark>",
-            "mana": "100",
+            "level": "<mark>5</mark>",
+            "mana": "20",
             "premium": "no"
         },
         {
-            "name": "<b>Conjure Bolt</b> (exevo con mort)",
-            "group": "Support",
-            "type": "Instant",
-            "level": "22",
-            "mana": "140",
-            "premium": "no"
-        },
-        {
-            "name": "<b>Cure Poison</b> (exana pox)",
+            "name": "<b>Light Healing</b> (exura)",
             "group": "Healing",
             "type": "Instant",
-            "level": "<mark>10</mark>",
-            "mana": "30",
+            "level": "<mark>5</mark>",
+            "mana": "20",
             "premium": "no"
-        },
-        {
-            "name": "<b>Ethereal Spear</b> (exori con)",
-            "group": "Attack",
-            "type": "Instant",
-            "level": "<mark>15</mark>",
-            "mana": "25",
-            "premium": "yes"
         },
         {
             "name": "<b>Find Person</b> (exiva)",
@@ -41,12 +25,28 @@
             "premium": "no"
         },
         {
-            "name": "<b>Great Fireball</b> (adori mas flam)",
+            "name": "<b>Magic Rope</b> (exani tera)",
             "group": "Support",
-            "type": "Rune",
-            "level": "<mark>35</mark>",
-            "mana": "<mark>300</mark>",
+            "type": "Instant",
+            "level": "9",
+            "mana": "20",
+            "premium": "yes"
+        },
+        {
+            "name": "<b>Cure Poison</b> (exana pox)",
+            "group": "Healing",
+            "type": "Instant",
+            "level": "<mark>10</mark>",
+            "mana": "30",
             "premium": "no"
+        },
+        {
+            "name": "<b>Levitate</b> (exani hur up|down)",
+            "group": "Support",
+            "type": "Instant",
+            "level": "12",
+            "mana": "50",
+            "premium": "yes"
         },
         {
             "name": "<b>Great Light</b> (utevo gran lux)",
@@ -65,11 +65,35 @@
             "premium": "yes"
         },
         {
-            "name": "<b>Heavy Magic Missile</b> (adori vis)",
+            "name": "<b>Ethereal Spear</b> (exori con)",
+            "group": "Attack",
+            "type": "Instant",
+            "level": "<mark>15</mark>",
+            "mana": "25",
+            "premium": "yes"
+        },
+        {
+            "name": "<b>Light Magic Missile</b> (adori min vis)",
             "group": "Support",
             "type": "Rune",
-            "level": "25",
-            "mana": "<mark>250</mark>",
+            "level": "15",
+            "mana": "120",
+            "premium": "no"
+        },
+        {
+            "name": "<b>Whirlwind Throw</b> (exori hur)",
+            "group": "Attack",
+            "type": "Instant",
+            "level": "<mark>15</mark>",
+            "mana": "<mark>25</mark>",
+            "premium": "yes"
+        },
+        {
+            "name": "<b>Conjure Arrow</b> (exevo con)",
+            "group": "Support",
+            "type": "Instant",
+            "level": "<mark>17</mark>",
+            "mana": "100",
             "premium": "no"
         },
         {
@@ -81,52 +105,28 @@
             "premium": "no"
         },
         {
-            "name": "<b>Levitate</b> (exani hur up|down)",
+            "name": "<b>Conjure Bolt</b> (exevo con mort)",
             "group": "Support",
             "type": "Instant",
-            "level": "12",
-            "mana": "50",
-            "premium": "yes"
-        },
-        {
-            "name": "<b>Light</b> (utevo lux)",
-            "group": "Support",
-            "type": "Instant",
-            "level": "<mark>5</mark>",
-            "mana": "20",
+            "level": "22",
+            "mana": "140",
             "premium": "no"
         },
         {
-            "name": "<b>Light Healing</b> (exura)",
-            "group": "Healing",
-            "type": "Instant",
-            "level": "<mark>5</mark>",
-            "mana": "20",
-            "premium": "no"
-        },
-        {
-            "name": "<b>Light Magic Missile</b> (adori min vis)",
+            "name": "<b>Heavy Magic Missile</b> (adori vis)",
             "group": "Support",
             "type": "Rune",
-            "level": "15",
-            "mana": "120",
+            "level": "25",
+            "mana": "<mark>250</mark>",
             "premium": "no"
         },
         {
-            "name": "<b>Magic Rope</b> (exani tera)",
+            "name": "<b>Great Fireball</b> (adori mas flam)",
             "group": "Support",
-            "type": "Instant",
-            "level": "9",
-            "mana": "20",
-            "premium": "yes"
-        },
-        {
-            "name": "<b>Whirlwind Throw</b> (exori hur)",
-            "group": "Attack",
-            "type": "Instant",
-            "level": "<mark>15</mark>",
-            "mana": "<mark>25</mark>",
-            "premium": "yes"
+            "type": "Rune",
+            "level": "<mark>35</mark>",
+            "mana": "<mark>300</mark>",
+            "premium": "no"
         }
     ]
 }

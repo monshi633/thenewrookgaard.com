@@ -52,13 +52,13 @@
             "name": "First Nobleman Addon",
             "img1": "/images/addons/Outfit_Nobleman_Male_Addon_1.gif",
             "img2": "/images/addons/Outfit_Nobleman_Female_Addon_1.gif",
-            "items": "15 Crystal Coins."
+            "items": "15 Crystal Coins"
         },
         {
             "name": "Second Nobleman Addon",
             "img1": "/images/addons/Outfit_Nobleman_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Nobleman_Female_Addon_2.gif",
-            "items": "15 Crystal Coins."
+            "items": "15 Crystal Coins"
         },
         {
             "name": "First Summoner Addon",
@@ -70,7 +70,7 @@
             "name": "Second Summoner Addon",
             "img1": "/images/addons/Outfit_Summoner_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Summoner_Female_Addon_2.gif",
-            "items": "20 Warwolf Fur, 20 Bunch Of Troll Hair, 20 Wools, 20 Silky Furs"
+            "items": "20 Warwolf Fur, 20 Bunch Of Troll Hair, 20 Wools, 20 Silky Fur"
         },
         {
             "name": "First Warrior Addon",
@@ -130,7 +130,7 @@
             "name": "Second Oriental Addon",
             "img1": "/images/addons/Outfit_Oriental_Male_Addon_1.gif",
             "img2": "/images/addons/Outfit_Oriental_Female_Addon_1.gif",
-            "items": "50 Fish Fins, 50 Ape Furs"
+            "items": "50 Fish Fins, 50 Ape Fur"
         },
         {
             "name": "First Pirate Addon",
@@ -142,7 +142,7 @@
             "name": "Second Pirate Addon",
             "img1": "/images/addons/Outfit_Pirate_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Pirate_Female_Addon_2.gif",
-            "items": "Brutus Bloodbeard's hat, Lethal Lizzy's Shirt, Ron The Ripper's Sabre ,Deadeye Devious Eye Patch"
+            "items": "Brutus Bloodbeard's hat, Lethal Lizzy's Shirt, Ron The Ripper's Sabre, Deadeye Devious's Eye Patch"
         },
         {
             "name": "First Assassin Addon",

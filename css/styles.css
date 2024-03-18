@@ -718,6 +718,16 @@ h1 {
     border-collapse: collapse;
 }
 
+.fixed_width td:nth-child(3),
+.sub.fixed_width td:nth-child(2) {
+    width: 150px;
+}
+
+.listed__table.sub {
+    box-shadow: none;
+    margin: 0;
+}
+
 .listed__table tr:nth-child(even) {
     background-color: #f1e0c5;
 }
