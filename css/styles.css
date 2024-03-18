@@ -791,6 +791,10 @@ h1 {
     width: 180px;
 }
 
+.separator:not(:last-child) {
+    border-bottom: 2px groove #875f3e;
+}
+
 footer {
     font-family: Verdana, Arial, Times New Roman, sans-serif;
     font-size: 7pt;

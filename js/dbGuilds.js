@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Add member row
                 const membersRow = document.createElement('tr');
+                membersRow.classList.add("separator")
                 membersRow.innerHTML = `
                 <td></td>
                 <td colspan="2" style="padding: 0; border: 0;">
@@ -39,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 guildRow.setAttribute('onclick', 'collapseTable("' + membersRowId + '", true)');
 
                 // Add content to membersBody
-                fetch('query.php?query=SELECT p.name AS name, r.name AS rank FROM players AS p JOIN guild_ranks AS r ON p.rank_id = r.id WHERE r.guild_id = (SELECT id FROM guilds WHERE name = "' + guild.name + '");')
+                fetch('query.php?query=SELECT p.name AS name, r.name AS rank FROM players AS p JOIN guild_ranks AS r ON p.rank_id = r.id WHERE r.guild_id = (SELECT id FROM guilds WHERE name = "' + guild.name + '") ORDER BY r.level DESC, p.name;')
                     .then(response => response.json())
                     .then(data => {
                         const membersTable = document.getElementById(membersBodyId);
