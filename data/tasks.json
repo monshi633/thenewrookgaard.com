@@ -184,7 +184,7 @@
             "name": "Pirates",
             "creatures": "Pirate Buccaneer, Pirate Corsair, Pirate Cutthroat, Pirate Marauder, Pirate Skeleton",
             "kills": "750",
-            "reward": "Exp: 100.000<br>Gold: 25.000<br>Items: 10 Peg Leg, 10 Hook, 10 Eye Patch"
+            "reward": "Exp: 100.000<br>Gold: 25.000<br>Items: 10 Peg Leg, 10 Hook, 10 Eye Patch, 1 Pirate Tapestry"
         },
         {
             "name": "Quaras",

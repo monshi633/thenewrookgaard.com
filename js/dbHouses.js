@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('query.php?query=SELECT h.name, h.size, CAST(h.price / 1000 AS TEXT) || ".000" AS kprice, COALESCE(p.name, "<mark>Available</mark>") AS status FROM houses AS h LEFT JOIN players AS p ON h.owner=p.id ORDER BY h.name')
+    fetch('query.php?query=SELECT h.name, h.size, CAST(h.price / 1000 AS TEXT) || ".000" AS kprice, COALESCE(p.name, "<i><b>Available</b></i>") AS status FROM houses AS h LEFT JOIN players AS p ON h.owner=p.id ORDER BY h.name')
         .then(response => response.json())
         .then(data => {
             const houseTable = document.getElementById('houseTable');
