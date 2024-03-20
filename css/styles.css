@@ -2,7 +2,11 @@ body {
     background-color: #051122;
     background-position: center top;
     background-repeat: no-repeat;
-    background-image: url("/images/background-artwork.webp");
+    /* background-image: url(/images/Background_Artwork_8.6.jpg); *//*Original del 8.6 */
+    /* background-image: url(/images/LandingPage2_BG.jpg);Habría que agregarle bottom fade */
+    background-image: url(/images/HeaderArtwork_SummerUpdate2020.jpg);
+    /* background-image: url(/images/ClientBackground_20th_Anniversary.jpg); */ /*Habría que agregarle bottom fade*/
+    /* background-image: url(/images/FanKitIllu_OfflineScreen_NoChars_1920x1080.jpg); */ /*Habría que agregarle bottom fade*/
 }
 
 @media(max-width:1280px) {
@@ -70,7 +74,7 @@ nav {
 }
 
 .nav-top {
-    background-image: url(https://static.tibia.com/images/global/general/box-top.gif);
+    background-image: url(/images/nav/box-top.gif);
     position: absolute;
     left: -5px;
     top: -12px;
@@ -80,7 +84,7 @@ nav {
 }
 
 .nav-chain {
-    background-image: url(https://static.tibia.com/images/global/general/chain.gif);
+    background-image: url(/images/nav/chain.gif);
     position: absolute;
     top: 0;
     height: 40px;
@@ -94,7 +98,7 @@ nav {
 }
 
 .nav-bottom {
-    background-image: url(https://static.tibia.com/images/global/general/box-bottom.gif);
+    background-image: url(/images/nav/box-bottom.gif);
     position: absolute;
     top: 39px;
     left: -5px;
@@ -104,7 +108,7 @@ nav {
 }
 
 .nav__login__container {
-    background-image: url(https://static.tibia.com/images/global/loginbox/loginbox-textfield-background.gif);
+    background-image: url(/images/nav/loginbox-textfield-background.gif);
     position: relative;
     height: 40px;
     width: 160px;
@@ -123,7 +127,7 @@ nav {
 }
 
 .nav__login__container__button__background {
-    background-image: url(https://static.tibia.com/images/global/buttons/mediumbutton.gif);
+    background-image: url(/images/nav/mediumbutton.gif);
     position: relative;
     top: 0;
     left: 0;
@@ -134,7 +138,7 @@ nav {
 }
 
 .nav__login__container__button__background:hover {
-    background-image: url(https://static.tibia.com/images/global/buttons/mediumbutton-over.gif);
+    background-image: url(/images/nav/mediumbutton-over.gif);
 }
 
 .nav__login__container__button__login {
@@ -162,7 +166,7 @@ nav {
 }
 
 .nav__menu__button {
-    background-image: url(https://static.tibia.com/images/global/menu/button-background.gif);
+    background-image: url(/images/nav/button-background.gif);
     position: relative;
     height: 32px;
     width: 170px;
@@ -171,7 +175,7 @@ nav {
 }
 
 .nav__menu__button:hover {
-    background-image: url(https://static.tibia.com/images/global/menu/button-background-over.gif);
+    background-image: url(/images/nav/button-background-over.gif);
 }
 
 .nav__menu__icon {
@@ -183,27 +187,27 @@ nav {
 }
 
 #news__icon {
-    background-image: url(https://static.tibia.com/images/global/menu/icon-news.gif);
+    background-image: url(/images/nav/icon-news.gif);
 }
 
 #about__icon {
-    background-image: url(https://static.tibia.com/images/global/menu/icon-abouttibia.gif);
+    background-image: url(/images/nav/icon-abouttibia.gif);
 }
 
 #library__icon {
-    background-image: url(https://static.tibia.com/images/global/menu/icon-library.gif);
+    background-image: url(/images/nav/icon-library.gif);
 }
 
 #community__icon {
-    background-image: url(https://static.tibia.com/images/global/menu/icon-community.gif);
+    background-image: url(/images/nav/icon-community.gif);
 }
 
 #networks__icon {
-    background-image: url(https://static.tibia.com/images/global/menu/icon-forum.gif);
+    background-image: url(/images/nav/icon-forum.gif);
 }
 
 #support__icon {
-    background-image: url(https://static.tibia.com/images/global/menu/icon-support.gif);
+    background-image: url(/images/nav/icon-support.gif);
 }
 
 .nav__menu__label {
@@ -215,27 +219,27 @@ nav {
 }
 
 #news__label {
-    background-image: url(https://static.tibia.com/images/global/menu/label-news.png);
+    background-image: url(/images/nav/label-news.png);
 }
 
 #about__label {
-    background-image: url("/images/label-about.png");
+    background-image: url(/images/nav/label-about.png);
 }
 
 #library__label {
-    background-image: url(https://static.tibia.com/images/global/menu/label-library.png);
+    background-image: url(/images/nav/label-library.png);
 }
 
 #community__label {
-    background-image: url(https://static.tibia.com/images/global/menu/label-community.png);
+    background-image: url(/images/nav/label-community.png);
 }
 
 #networks__label {
-    background-image: url("/images/label-networks.png");
+    background-image: url(/images/nav/label-networks.png);
 }
 
 #support__label {
-    background-image: url(https://static.tibia.com/images/global/menu/label-support.png);
+    background-image: url(/images/nav/label-support.png);
 }
 
 .nav__menu__submenu {
@@ -277,7 +281,7 @@ nav {
 }
 
 .submenu__activeicon {
-    background-image: url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);
+    background-image: url(/images/nav/icon-activesubmenu.gif);
     position: absolute;
     top: 5px;
     left: 3px;
@@ -320,7 +324,7 @@ nav {
 }
 
 .corner-tl {
-    background-image: url(https://static.tibia.com/images/global/content/corner-tl.gif);
+    background-image: url(/images/main/corner-tl.gif);
     position: absolute;
     top: -4px;
     left: -5px;
@@ -330,7 +334,7 @@ nav {
 }
 
 .corner-tr {
-    background-image: url(https://static.tibia.com/images/global/content/corner-tr.gif);
+    background-image: url(/images/main/corner-tr.gif);
     position: absolute;
     top: -4px;
     right: -5px;
@@ -340,7 +344,7 @@ nav {
 }
 
 .corner-bl {
-    background-image: url(https://static.tibia.com/images/global/content/corner-bl.gif);
+    background-image: url(/images/main/corner-bl.gif);
     position: absolute;
     bottom: -3px;
     left: -5px;
@@ -350,7 +354,7 @@ nav {
 }
 
 .corner-br {
-    background-image: url(https://static.tibia.com/images/global/content/corner-br.gif);
+    background-image: url(/images/main/corner-br.gif);
     position: absolute;
     bottom: -3px;
     right: -5px;
@@ -360,7 +364,7 @@ nav {
 }
 
 .border_1 {
-    background-image: url(https://static.tibia.com/images/global/content/border-1.gif);
+    background-image: url(/images/main/border-1.gif);
     position: relative;
     height: 6px;
     width: 100%;
@@ -368,7 +372,7 @@ nav {
 }
 
 .box__heading__background__red {
-    background-image: url(https://static.tibia.com/images/global/content/cacheinfo_background.gif);
+    background-image: url(/images/main/cacheinfo_background.gif);
     height: 28px;
     position: relative;
     background-repeat: repeat-x;
@@ -417,7 +421,7 @@ nav {
 }
 
 .box__heading__background__green {
-    background-image: url(https://static.tibia.com/images/global/content/title-background-green.gif);
+    background-image: url(/images/main/title-background-green.gif);
     height: 24px;
 }
 
@@ -439,7 +443,7 @@ nav {
 }
 
 .box__section__content {
-    background-image: url(https://static.tibia.com/images/global/content/scroll.gif);
+    background-image: url(/images/main/scroll.gif);
     min-height: 100px;
     height: auto !important;
     font-family: Verdana, Arial, Times New Roman, sans-serif;
@@ -450,7 +454,7 @@ nav {
 }
 
 .box__section__content__headline {
-    background-image: url(https://static.tibia.com/images/global/content/newsheadline_background.gif);
+    background-image: url(/images/main/newsheadline_background.gif);
     position: relative;
     min-height: 30px;
     margin-bottom: 5px;
@@ -542,7 +546,7 @@ nav {
 }
 
 .caption-corner {
-    background-image: url(https://static.tibia.com/images/global/content/box-frame-edge.gif);
+    background-image: url(/images/main/box-frame-edge.gif);
     position: absolute;
     width: 5px;
     height: 5px;
@@ -570,7 +574,7 @@ nav {
 }
 
 .caption-border {
-    background-image: url(https://static.tibia.com/images/global/content/table-headline-border.gif);
+    background-image: url(/images/main/table-headline-border.gif);
 }
 
 .caption-border.top {
@@ -590,7 +594,7 @@ nav {
 }
 
 .caption-border-vertical {
-    background-image: url(https://static.tibia.com/images/global/content/box-frame-vertical.gif);
+    background-image: url(/images/main/box-frame-vertical.gif);
     position: absolute;
     height: 100%;
     width: 3px;
@@ -654,7 +658,7 @@ nav {
 }
 
 .loginbutton__buttonfield input {
-    background-image: url("/images/button_blue.gif");
+    background-image: url(/images/main/button_blue.gif);
     position: relative;
     width: 135px;
     height: 25px;
@@ -670,7 +674,7 @@ nav {
 }
 
 .loginbutton__buttonfield input:hover {
-    background-image: url("/images/button_blue_over.gif");
+    background-image: url(/images/main/button_blue_over.gif);
     top: 1px;
     left: 1px;
 }

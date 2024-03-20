@@ -1,47 +1,7 @@
 {
     "npcs": [
         {
-            "name": "Bruno",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Carlson",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Berenice",
-            "location": "Snowland",
-            "services": "Forger"
-        },
-        {
-            "name": "Bron",
-            "location": "Snowland",
-            "services": "Forger"
-        },
-        {
-            "name": "Wrinkled Beholder",
-            "location": "Swampland",
-            "services": "Forger"
-        },
-        {
-            "name": "One-Eyed Beholder",
-            "location": "Swampland",
-            "services": "Forger"
-        },
-        {
-            "name": "Blind Beholder",
-            "location": "Swampland",
-            "services": "Forger"
-        },
-        {
-            "name": "Freezhild",
-            "location": "Swampland",
-            "services": "Forger"
-        },
-        {
-            "name": "Dixi",
+            "name": "Ajax",
             "location": "Rookgaard",
             "services": "Forger"
         },
@@ -49,206 +9,6 @@
             "name": "Al Dee",
             "location": "Rookgaard",
             "services": "Forger, Merchant"
-        },
-        {
-            "name": "Etzel",
-            "location": "Swampland",
-            "services": "Forger"
-        },
-        {
-            "name": "Eryn",
-            "location": "Rookgaard",
-            "services": "Forger, Merchant"
-        },
-        {
-            "name": "Melian",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Lee'Delle",
-            "location": "Rookgaard",
-            "services": "Forger, Merchant"
-        },
-        {
-            "name": "Sam",
-            "location": "Rookgaard",
-            "services": "Forger, Merchant"
-        },
-        {
-            "name": "Xodet",
-            "location": "Rookgaard",
-            "services": "Forger, Merchant"
-        },
-        {
-            "name": "Ajax",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Iwar",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Lorbas",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Cael",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Borkas",
-            "location": "Orc Fortress",
-            "services": "Forger"
-        },
-        {
-            "name": "Olrik",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Marvik",
-            "location": "Mintwallin",
-            "services": "Forger"
-        },
-        {
-            "name": "Marcus",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Tamara",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Oldrak",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Kroox",
-            "location": "Dragonlair",
-            "services": "Forger"
-        },
-        {
-            "name": "Fenech",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Ethan",
-            "location": "Snowland",
-            "services": "Forger"
-        },
-        {
-            "name": "Graubart",
-            "location": "Pirate Island",
-            "services": "Forger"
-        },
-        {
-            "name": "Storkus The Plaguesmith",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Skjaar The Lich",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Morpel The Demon",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Gundralph",
-            "location": "Swampland",
-            "services": "Forger"
-        },
-        {
-            "name": "Wally",
-            "location": "Rookgaard",
-            "services": "Post Officer"
-        },
-        {
-            "name": "Tamoril",
-            "location": "Dwarven Mines",
-            "services": "Forger"
-        },
-        {
-            "name": "Tarak",
-            "location": "Dwarven Mines",
-            "services": "Forger"
-        },
-        {
-            "name": "Tandros",
-            "location": "Dwarven Mines",
-            "services": "Forger"
-        },
-        {
-            "name": "Frans",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Anerui",
-            "location": "Goblin Lair",
-            "services": "Forger"
-        },
-        {
-            "name": "Arkulius",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Lil'Crab",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Baltim",
-            "location": "Pirate Island",
-            "services": "Forger"
-        },
-        {
-            "name": "Clyde",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Ferks",
-            "location": "Dragonland",
-            "services": "Forger"
-        },
-        {
-            "name": "Lokur",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Perod",
-            "location": "Snowland",
-            "services": "Forger"
-        },
-        {
-            "name": "Thomas",
-            "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Bashira",
-            "location": "Dragonland",
-            "services": "Forger"
-        },
-        {
-            "name": "Chef Mallmann",
-            "location": "Rookgaard",
-            "services": "Chef"
         },
         {
             "name": "Aldo",
@@ -261,8 +21,23 @@
             "services": "Merchant"
         },
         {
+            "name": "Anerui",
+            "location": "Goblin Lair",
+            "services": "Forger"
+        },
+        {
+            "name": "Arkulius",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
             "name": "Asima",
             "location": "Swampland",
+            "services": "Forger"
+        },
+        {
+            "name": "Baltim",
+            "location": "Pirate Island",
             "services": "Forger"
         },
         {
@@ -271,18 +46,48 @@
             "services": "Sailor"
         },
         {
+            "name": "Bashira",
+            "location": "Dragonland",
+            "services": "Forger"
+        },
+        {
+            "name": "Berenice",
+            "location": "Snowland",
+            "services": "Forger"
+        },
+        {
             "name": "Bespoke Zaffora",
             "location": "Rookgaard",
             "services": "Addoner"
         },
         {
-            "name": "Captain Breezelda",
-            "location": "Snowland",
-            "services": "Sailor"
+            "name": "Blind Beholder",
+            "location": "Swampland",
+            "services": "Forger"
         },
         {
-            "name": "Fisherman Arcay",
+            "name": "Borkas",
+            "location": "Orc Fortress",
+            "services": "Forger"
+        },
+        {
+            "name": "Bron",
+            "location": "Snowland",
+            "services": "Forger"
+        },
+        {
+            "name": "Bruno",
             "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Cael",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Captain Breezelda",
+            "location": "Snowland",
             "services": "Sailor"
         },
         {
@@ -306,14 +111,94 @@
             "services": "Sailor"
         },
         {
+            "name": "Carlson",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Chef Mallmann",
+            "location": "Rookgaard",
+            "services": "Chef"
+        },
+        {
+            "name": "Clyde",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Dixi",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Eryn",
+            "location": "Rookgaard",
+            "services": "Forger, Merchant"
+        },
+        {
+            "name": "Ethan",
+            "location": "Snowland",
+            "services": "Forger"
+        },
+        {
+            "name": "Etzel",
+            "location": "Swampland",
+            "services": "Forger"
+        },
+        {
+            "name": "Fenech",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Ferks",
+            "location": "Dragonland",
+            "services": "Forger"
+        },
+        {
+            "name": "Fisherman Arcay",
+            "location": "Rookgaard",
+            "services": "Sailor"
+        },
+        {
+            "name": "Frans",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Freezhild",
+            "location": "Swampland",
+            "services": "Forger"
+        },
+        {
             "name": "Frodo",
             "location": "Rookgaard",
             "services": "Merchant"
         },
         {
+            "name": "General Malor",
+            "location": "Rookgaard",
+            "services": "Guard"
+        },
+        {
+            "name": "Graubart",
+            "location": "Pirate Island",
+            "services": "Forger"
+        },
+        {
             "name": "Grizzly Adams",
             "location": "Rookgaard",
             "services": "Tasker"
+        },
+        {
+            "name": "Gundralph",
+            "location": "Swampland",
+            "services": "Forger"
+        },
+        {
+            "name": "Iwar",
+            "location": "Rookgaard",
+            "services": "Forger"
         },
         {
             "name": "Jok'ker",
@@ -326,14 +211,54 @@
             "services": "King"
         },
         {
+            "name": "Kroox",
+            "location": "Dragonlair",
+            "services": "Forger"
+        },
+        {
             "name": "Larry",
             "location": "Swampland",
             "services": "Sailor"
         },
         {
-            "name": "General Malor",
+            "name": "Lee'Delle",
             "location": "Rookgaard",
-            "services": "Guard"
+            "services": "Forger, Merchant"
+        },
+        {
+            "name": "Lil'Crab",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Lokur",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Lorbas",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Marcus",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Marvik",
+            "location": "Mintwallin",
+            "services": "Forger"
+        },
+        {
+            "name": "Melian",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Morpel The Demon",
+            "location": "Rookgaard",
+            "services": "Forger"
         },
         {
             "name": "Naji",
@@ -341,9 +266,34 @@
             "services": "Banker"
         },
         {
+            "name": "Oldrak",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Olrik",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "One-Eyed Beholder",
+            "location": "Swampland",
+            "services": "Forger"
+        },
+        {
+            "name": "Perod",
+            "location": "Snowland",
+            "services": "Forger"
+        },
+        {
             "name": "Queen Eloise",
-            "location": "?",
+            "location": "<i><b>Missing!</b></i>",
             "services": "Queen"
+        },
+        {
+            "name": "Sam",
+            "location": "Rookgaard",
+            "services": "Forger, Merchant"
         },
         {
             "name": "Shanar",
@@ -351,9 +301,59 @@
             "services": "Forger"
         },
         {
+            "name": "Skjaar The Lich",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Storkus The Plaguesmith",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Tamara",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Tamoril",
+            "location": "Dwarven Mines",
+            "services": "Forger"
+        },
+        {
+            "name": "Tandros",
+            "location": "Dwarven Mines",
+            "services": "Forger"
+        },
+        {
+            "name": "Tarak",
+            "location": "Dwarven Mines",
+            "services": "Forger"
+        },
+        {
+            "name": "Thomas",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Wally",
+            "location": "Rookgaard",
+            "services": "Post Officer"
+        },
+        {
             "name": "Websy",
             "location": "Rookgaard",
             "services": "Forger"
+        },
+        {
+            "name": "Wrinkled Beholder",
+            "location": "Swampland",
+            "services": "Forger"
+        },
+        {
+            "name": "Xodet",
+            "location": "Rookgaard",
+            "services": "Forger, Merchant"
         }
     ]
 }
