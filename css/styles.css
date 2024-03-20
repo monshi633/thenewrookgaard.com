@@ -2,11 +2,7 @@ body {
     background-color: #051122;
     background-position: center top;
     background-repeat: no-repeat;
-    /* background-image: url(/images/Background_Artwork_8.6.jpg); *//*Original del 8.6 */
-    /* background-image: url(/images/LandingPage2_BG.jpg);Habría que agregarle bottom fade */
-    background-image: url(/images/HeaderArtwork_SummerUpdate2020.jpg);
-    /* background-image: url(/images/ClientBackground_20th_Anniversary.jpg); */ /*Habría que agregarle bottom fade*/
-    /* background-image: url(/images/FanKitIllu_OfflineScreen_NoChars_1920x1080.jpg); */ /*Habría que agregarle bottom fade*/
+    background-image: url(/images/LandingPage2_BG.jpg);
 }
 
 @media(max-width:1280px) {
