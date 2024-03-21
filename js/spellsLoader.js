@@ -1,15 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('/data/spells.json')
-        .then(response => response.json())
-        .then(data => {
-            const spellsTable = document.getElementById('spellsTable');
-            data.spells.forEach(spell => {
-                const row = spellsTable.insertRow();
-                Object.values(spell).forEach(value => {
-                    const cell = row.insertCell();
-                    cell.innerHTML = value;
+    const label = document.getElementById('label__section__library__spells');
+
+    label.addEventListener('click', function () {
+        const table = document.getElementById('spellsTable');
+        table.innerText = '';
+        fetch('/data/spells.json')
+            .then(response => response.json())
+            .then(data => {
+                data.spells.forEach(spell => {
+                    const row = table.insertRow();
+                    Object.values(spell).forEach(value => {
+                        const cell = row.insertCell();
+                        cell.innerHTML = value;
+                    });
                 });
-            });
-        })
-        .catch(error => console.error('Error loading spells:', error));
+            })
+            .catch(error => console.error('Error loading spells:', error));
+    });
 });

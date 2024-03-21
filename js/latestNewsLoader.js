@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+    const articlesContainer = document.getElementById('newsContainer');
+    articlesContainer.innerText = '';
     fetch('/data/latestNews.json')
         .then(response => response.json())
         .then(data => {
-            const articlesContainer = document.getElementById('newsContainer');
             // Reverse the array to get the latest articles first
             data.articles.reverse().slice(0, 5).forEach(article => {
                 const articleElement = document.createElement('article');
