@@ -503,6 +503,7 @@ nav {
     height: 100%;
     width: 100%;
     text-align: left;
+    z-index: 1;
 }
 
 .caption__container.message {
@@ -728,7 +729,7 @@ h1 {
     margin: 0;
 }
 
-.listed__table tr:nth-child(even) {
+.listed__table tbody:nth-child(2) tr:nth-child(odd) {
     background-color: #f1e0c5;
 }
 
