@@ -1,13 +1,11 @@
+#Importantísimo
+Certificado SSL
+
 #Secciones
-NPCs: Ver cómo agregar gifs de los NPC personalizados
-Login: Poder entrar, cambiar contraseña?, comprar premmy, ¿que mas?
+Login: Poder entrar, cambiar contraseña?, comprar premmy. Que al iniciar sesión, te muestre las tasks y quest realizadas, addons obtenidos? y spells desbloqueados?
 Lost account: Formulario de cambio de contraseñas.
 
 #Detalles
+NPCs: Ver cómo agregar gifs de los NPC personalizados
 Caché: ¿Hay una forma de que latestNews cargue siempre desde cero sin almacenar cache?
 Index: Compartimentar secciones tipo thenewrookgaard.com/library/creatures
-Consultas a la db: que sean constantes (al menos players online, el resto puede quedar atado a F5)
-Que al iniciar sesión, te muestre las tasks y quest realizadas, addons obtenidos? y spells desbloqueados?
-
-#Importantísimo
-Certificado SSL
