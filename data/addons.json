@@ -10,7 +10,7 @@
             "name": "Second Citizen Addon",
             "img1": "/images/addons/Outfit_Citizen_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Citizen_Female_Addon_2.gif",
-            "items": "100 Chicken Feathers, 50 Honey Combs, Legion Helmet"
+            "items": "100 Chicken Feathers, 50 Honeycombs, 1 Legion Helmet"
         },
         {
             "name": "First Hunter Addon",
@@ -22,7 +22,7 @@
             "name": "Second Hunter Addon",
             "img1": "/images/addons/Outfit_Hunter_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Hunter_Female_Addon_1.gif",
-            "items": "Sniper Gloves"
+            "items": "1 Sniper Gloves"
         },
         {
             "name": "First Mage Addon",
@@ -34,19 +34,19 @@
             "name": "Second Mage Addon",
             "img1": "/images/addons/Outfit_Mage_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Mage_Female_Addon_2.gif",
-            "items": "Ferumbras Hat"
+            "items": "1 Ferumbras's Hat"
         },
         {
             "name": "First Knight Addon",
             "img1": "/images/addons/Outfit_Knight_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Knight_Female_Addon_2.gif",
-            "items": "5 Steel Helmets, 10 Thorns, 5 Crystal Coins"
+            "items": "5 Steel Helmet, 10 Thorns, 5 Crystal Coins"
         },
         {
             "name": "Second Knight Addon",
             "img1": "/images/addons/Outfit_Knight_Male_Addon_1.gif",
             "img2": "/images/addons/Outfit_Knight_Female_Addon_1.gif",
-            "items": "1 Gland, 20 Seeds, 10 Antlers, Pig Foot"
+            "items": "1 Gland, 20 Seeds, 10 Antlers, 1 Pig Foot"
         },
         {
             "name": "First Nobleman Addon",
@@ -64,13 +64,13 @@
             "name": "First Summoner Addon",
             "img1": "/images/addons/Outfit_Summoner_Male_Addon_1.gif",
             "img2": "/images/addons/Outfit_Summoner_Female_Addon_1.gif",
-            "items": "100 Empty Potion Flask, 100 Health Potion, 100 Mana Potion"
+            "items": "100 Empty Potion Flasks, 100 Health Potions, 100 Mana Potions"
         },
         {
             "name": "Second Summoner Addon",
             "img1": "/images/addons/Outfit_Summoner_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Summoner_Female_Addon_2.gif",
-            "items": "20 Warwolf Fur, 20 Bunch Of Troll Hair, 20 Wools, 20 Silky Fur"
+            "items": "20 Warwolf Furs, 20 Bunches of Troll Hair, 20 Wools, 20 Silky Furs"
         },
         {
             "name": "First Warrior Addon",
@@ -94,7 +94,7 @@
             "name": "Second Barbarian Addon",
             "img1": "/images/addons/Outfit_Barbarian_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Barbarian_Female_Addon_2.gif",
-            "items": "50 Bunch Of Troll Hairs, 50 Orc Leathers"
+            "items": "50 Bunches of Troll Hairs, 50 Orc Leathers"
         },
         {
             "name": "First Druid Addon",
@@ -124,13 +124,13 @@
             "name": "First Oriental Addon",
             "img1": "/images/addons/Outfit_Oriental_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Oriental_Female_Addon_2.gif",
-            "items": "Mermaid Comb"
+            "items": "1 Mermaid Comb"
         },
         {
             "name": "Second Oriental Addon",
             "img1": "/images/addons/Outfit_Oriental_Male_Addon_1.gif",
             "img2": "/images/addons/Outfit_Oriental_Female_Addon_1.gif",
-            "items": "50 Fish Fins, 50 Ape Fur"
+            "items": "50 Fish Fins, 50 Ape Furs"
         },
         {
             "name": "First Pirate Addon",
@@ -142,13 +142,13 @@
             "name": "Second Pirate Addon",
             "img1": "/images/addons/Outfit_Pirate_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Pirate_Female_Addon_2.gif",
-            "items": "Brutus Bloodbeard's hat, Lethal Lizzy's Shirt, Ron The Ripper's Sabre, Deadeye Devious's Eye Patch"
+            "items": "1 Brutus Bloodbeard's hat, 1 Lethal Lizzy's Shirt, 1 Ron The Ripper's Sabre, 1 Deadeye Devious's Eye Patch"
         },
         {
             "name": "First Assassin Addon",
             "img1": "/images/addons/Outfit_Assassin_Male_Addon_1.gif",
             "img2": "/images/addons/Outfit_Assassin_Female_Addon_1.gif",
-            "items": "30 White Piece Of Cloths, 30 Green Piece Of Cloths, 30 Red Piece Of Cloths, 30 Blue Piece Of Cloths, 30 Brown Piece Of Cloths"
+            "items": "30 White Pieces of Cloth, 30 Green Pieces of Cloth, 30 Red Pieces of Cloth, 30 Blue Pieces of Cloth, 30 Brown Pieces of Cloth"
         },
         {
             "name": "Second Assassin Addon",
@@ -160,13 +160,13 @@
             "name": "First Beggar Addon",
             "img1": "/images/addons/Outfit_Beggar_Male_Addon_1.gif",
             "img2": "/images/addons/Outfit_Beggar_Female_Addon_2.gif",
-            "items": "50 Minotaur Leathers, 30 Heaven Blossoms, 20 Brown Piece Of Cloths"
+            "items": "50 Minotaur Leathers, 30 Heaven Blossoms, 20 Brown Pieces of Cloth"
         },
         {
             "name": "Second Beggar Addon",
             "img1": "/images/addons/Outfit_Beggar_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Beggar_Female_Addon_1.gif",
-            "items": "Simon The Beggar's Favorite Staff"
+            "items": "1 Simon The Beggar's Favorite Staff"
         },
         {
             "name": "First Shaman Addon",

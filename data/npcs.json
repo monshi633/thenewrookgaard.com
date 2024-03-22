@@ -203,12 +203,12 @@
         {
             "name": "Jok'ker",
             "location": "Rookgaard",
-            "services": "joker"
+            "services": "Gambler"
         },
         {
             "name": "King Tibianus",
             "location": "Rookgaard",
-            "services": "King"
+            "services": "Royalty"
         },
         {
             "name": "Kroox",
@@ -288,7 +288,7 @@
         {
             "name": "Queen Eloise",
             "location": "<i><b>Missing!</b></i>",
-            "services": "Queen"
+            "services": "Royalty"
         },
         {
             "name": "Sam",

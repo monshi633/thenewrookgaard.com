@@ -101,12 +101,12 @@
             "reward": "Light Shovel and Elvenhair Rope"
         },
         {
-            "name": "King",
+            "name": "King's",
             "level": "100",
             "reward": "King's Sword, King's Hammer, King's Axe and King's Crossbow"
         },
         {
-            "name": "Queen",
+            "name": "Queen's",
             "level": "-",
             "reward": "Queen's Shield"
         }

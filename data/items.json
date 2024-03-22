@@ -3427,6 +3427,22 @@
             "obtained": "Orc Leader"
         },
         {
+            "name": "Beach Bag",
+            "img": "/images/items/containers/Beach_Bag.gif",
+            "slots": "8",
+            "additional": "-",
+            "weight": "8.0",
+            "obtained": "Crab, Blood Crab"
+        },
+        {
+            "name": "Beach Backpack",
+            "img": "/images/items/containers/Beach_Backpack.gif",
+            "slots": "20",
+            "additional": "<mark>Faster mana regeneration</mark>",
+            "weight": "18.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
             "name": "Brocade Bag",
             "img": "/images/items/containers/Brocade_Bag.gif",
             "slots": "8",
@@ -3459,34 +3475,18 @@
             "obtained": "<i><b>Forging</b></i>"
         },
         {
-            "name": "Pirate Bag",
-            "img": "/images/items/containers/Pirate_Bag.gif",
-            "slots": "8",
-            "additional": "-",
-            "weight": "8.0",
-            "obtained": "Pirate Buccaneer, Pirate Corsair, Pirate Cutthroat, Pirate Marauder"
-        },
-        {
-            "name": "Pirate Backpack",
-            "img": "/images/items/containers/Pirate_Backpack.gif",
+            "name": "Crown Backpack",
+            "img": "/images/items/containers/Crown_Backpack.gif",
             "slots": "20",
-            "additional": "<mark>Protection death +7%</mark>",
+            "additional": "<mark>Faster health regeneration</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
-            "name": "Fur Bag",
-            "img": "/images/items/containers/Fur_Bag.gif",
-            "slots": "8",
+            "name": "Demonic Backpack",
+            "img": "/images/items/containers/Demonic_Backpack.gif",
+            "slots": "<mark>30</mark>",
             "additional": "-",
-            "weight": "8.0",
-            "obtained": "Barbarian Bloodwalker, Barbarian Headsplitter, Barbarian Brutetamer, Barbarian Skullhunter"
-        },
-        {
-            "name": "Fur Backpack",
-            "img": "/images/items/containers/Fur_Backpack.gif",
-            "slots": "20",
-            "additional": "<mark>Shielding +1</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -3507,28 +3507,44 @@
             "obtained": "<i><b>Forging</b></i>"
         },
         {
-            "name": "Beach Bag",
-            "img": "/images/items/containers/Beach_Bag.gif",
+            "name": "Fluffy Santa Backpack",
+            "img": "/images/items/containers/Fluffy_Santa_Backpack.gif",
+            "slots": "?",
+            "additional": "?",
+            "weight": "18.0",
+            "obtained": "Christmas day event"
+        },
+        {
+            "name": "Fur Bag",
+            "img": "/images/items/containers/Fur_Bag.gif",
             "slots": "8",
             "additional": "-",
             "weight": "8.0",
-            "obtained": "Crab, Blood Crab"
+            "obtained": "Barbarian Bloodwalker, Barbarian Headsplitter, Barbarian Brutetamer, Barbarian Skullhunter"
         },
         {
-            "name": "Beach Backpack",
-            "img": "/images/items/containers/Beach_Backpack.gif",
+            "name": "Fur Backpack",
+            "img": "/images/items/containers/Fur_Backpack.gif",
             "slots": "20",
-            "additional": "<mark>Faster mana regeneration</mark>",
+            "additional": "<mark>Shielding +1</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
-            "name": "Moon Backpack",
-            "img": "/images/items/containers/Moon_Backpack.gif",
-            "slots": "20",
-            "additional": "<mark>Protection ice +7%</mark>",
+            "name": "Hearth Backpack",
+            "img": "/images/items/containers/Hearth_Backpack.gif",
+            "slots": "?",
+            "additional": "?",
             "weight": "18.0",
-            "obtained": "<i><b>Forging</b></i>"
+            "obtained": "Valentine's day event"
+        },
+        {
+            "name": "Jewelled Backpack",
+            "img": "/images/items/containers/Jewelled_Backpack.gif",
+            "slots": "22",
+            "additional": "-",
+            "weight": "17.0",
+            "obtained": "Acolyte of the Cult, Enlightened of the Cult, Adept of the Cult"
         },
         {
             "name": "Lizard Backpack",
@@ -3547,36 +3563,28 @@
             "obtained": "<i><b>Forging</b></i>"
         },
         {
-            "name": "Crown Backpack",
-            "img": "/images/items/containers/Crown_Backpack.gif",
+            "name": "Moon Backpack",
+            "img": "/images/items/containers/Moon_Backpack.gif",
             "slots": "20",
-            "additional": "<mark>Faster health regeneration</mark>",
+            "additional": "<mark>Protection ice +7%</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
-            "name": "Demonic Backpack",
-            "img": "/images/items/containers/Demonic_Backpack.gif",
-            "slots": "<mark>30</mark>",
+            "name": "Pirate Bag",
+            "img": "/images/items/containers/Pirate_Bag.gif",
+            "slots": "8",
             "additional": "-",
+            "weight": "8.0",
+            "obtained": "Pirate Buccaneer, Pirate Corsair, Pirate Cutthroat, Pirate Marauder"
+        },
+        {
+            "name": "Pirate Backpack",
+            "img": "/images/items/containers/Pirate_Backpack.gif",
+            "slots": "20",
+            "additional": "<mark>Protection death +7%</mark>",
             "weight": "18.0",
             "obtained": "<i><b>Forging</b></i>"
-        },
-        {
-            "name": "Hearth Backpack",
-            "img": "/images/items/containers/Hearth_Backpack.gif",
-            "slots": "?",
-            "additional": "?",
-            "weight": "18.0",
-            "obtained": "Valentine's day event"
-        },
-        {
-            "name": "Fluffy Santa Backpack",
-            "img": "/images/items/containers/Fluffy_Santa_Backpack.gif",
-            "slots": "?",
-            "additional": "?",
-            "weight": "18.0",
-            "obtained": "Christmas day event"
         }
     ],
     "recipes": [
