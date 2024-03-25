@@ -3,18 +3,15 @@ function loadCharacter(charName) {
     var characterName = '';
     if (typeof charName === 'undefined') {
         characterName = capitalizeWords(document.getElementById('characterName').value);
+        if (characterName.trim() === '') {
+            return false;
+        }
     } else {
         characterName = capitalizeWords(charName);
     }
 
     // Validate character name
-    if (!characterExists(characterName)) {
-        document.getElementById('characterNotFoundMessage').innerHTML = `<td>Character <b>${characterName}</b> does not exist.</td>`
-        document.getElementById('characterNotFound').style.display = 'block';
-        document.getElementById('characterInfo').style.display = 'none';
-        document.getElementById('characters').style.display = 'none';
-        return;
-    }
+    characterExists(characterName);
 
     // Clear input field
     document.getElementById('characterName').value = '';
@@ -80,7 +77,7 @@ function loadCharacter(charName) {
                     <td>${onlineIcon}</td>
                     <td>
                         <div class="loginbutton__buttonfield">
-                            <input type="submit" value="View" onclick="loadCharacter('${character.name})'">
+                            <input type="submit" value="View" onclick="loadCharacter('${character.name}')">
                         </div>
                     </td>
                     `;
@@ -111,19 +108,25 @@ function capitalizeWords(string) {
 }
 
 function characterExists(character) {
-    return fetch('query.php?query=SELECT COUNT(*) AS count FROM players WHERE name = "' + character + '"')
+    fetch('query.php?query=SELECT COUNT(*) AS count FROM players WHERE name = "' + character + '"')
         .then(response => response.json())
         .then(data => {
             if (data && data.length > 0 && data[0].count > 0) {
-                // Character name exists in the database
+                // Character name exists in the database, clear error messange
+                document.getElementById('characterNotFoundMessage').innerHTML = '';
+                document.getElementById('characterNotFound').style.display = 'none';
                 return true;
             } else {
-                // Character name doesn't exist in the database
+                // Character name doesn't exist in the database, show error
+                document.getElementById('characterNotFoundMessage').innerHTML = `<td>Character <b>${character}</b> does not exist.</td>`
+                document.getElementById('characterNotFound').style.display = 'block';
+                document.getElementById('characterInfo').style.display = 'none';
+                document.getElementById('characters').style.display = 'none';
+                document.getElementById('characterName').value = '';
                 return false;
             }
-            })
-            .catch(error => {
-                console.error('Error validating character:', error);
-                return false;
-            });
+        })
+        .catch(error => {
+            console.error('Error validating character:', error);
+        });
 }
