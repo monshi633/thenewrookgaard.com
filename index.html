@@ -125,7 +125,7 @@
                             <div id="community__label" class="nav__menu__label"></div>
                         </div>
                         <ul id="community__submenu" class="nav__menu__submenu">
-                            <li class="nav__menu__submenu__item" onclick="openContent('section__community__characters')">
+                            <li class="nav__menu__submenu__item" onclick="openContent('section__community__characters'), resetCharacters()">
                                 <div class="nav-chain left"></div>
                                 <div id="activeicon__section__community__characters" class="submenu__activeicon"></div>
                                 <div id="label__section__community__characters" class="submenu_label">Characters</div>
@@ -1134,11 +1134,32 @@
                             </div>
                         </div>
                     </section>
-                    <section id="section__community__characters">
+                    <section id="4">
                         <img class="box__section__title" src="images/headlines/headline-characters.gif" alt="Characters">
                         <div class="border_2">
                             <div class="border_3">
                                 <div class="box__section__content">
+                                    <article id="characterNotFound" class="box__section__content__account" style="display: none;">
+                                        <div class="caption__container">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Could not find character</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div class="article__content__container dark">
+                                            <table id="characterNotFoundMessage" class="listed__table">
+                                                <!--Character message is retrieved here using dbCharacters.js-->
+                                            </table>
+                                        </div>
+                                        <br>
+                                    </article>
                                     <article id="characterInfo" class="box__section__content__account" style="display: none;">
                                         <div class="caption__container">
                                             <div class="caption__container__inner">

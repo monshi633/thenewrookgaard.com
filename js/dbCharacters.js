@@ -2,9 +2,18 @@ function loadCharacter(charName) {
     // Get character name
     var characterName = '';
     if (typeof charName === 'undefined') {
-        characterName = document.getElementById('characterName').value;
+        characterName = capitalizeWords(document.getElementById('characterName').value);
     } else {
-        characterName = charName;
+        characterName = capitalizeWords(charName);
+    }
+
+    // Validate character name
+    if (!characterExists(characterName)) {
+        document.getElementById('characterNotFoundMessage').innerHTML = `<td>Character <b>${characterName}</b> does not exist.</td>`
+        document.getElementById('characterNotFound').style.display = 'block';
+        document.getElementById('characterInfo').style.display = 'none';
+        document.getElementById('characters').style.display = 'none';
+        return;
     }
 
     // Clear input field
@@ -53,7 +62,7 @@ function loadCharacter(charName) {
             // Load Characters
             const charactersTable = document.getElementById('charactersTable');
             charactersTable.innerText = '';
-            fetch('query.php?query=SELECT name, level, online AS status FROM players WHERE account_id = ' + characterInfo.account_id)
+            fetch('query.php?query=SELECT name, level, online FROM players WHERE account_id = ' + characterInfo.account_id)
             .then(response => response.json())
             .then(data => {
                 data.forEach(character => {
@@ -71,7 +80,7 @@ function loadCharacter(charName) {
                     <td>${onlineIcon}</td>
                     <td>
                         <div class="loginbutton__buttonfield">
-                            <input type="submit" value="Submit" onclick="loadCharacter(${character.name})">
+                            <input type="submit" value="View" onclick="loadCharacter('${character.name})'">
                         </div>
                     </td>
                     `;
@@ -86,4 +95,35 @@ function loadCharacter(charName) {
     // Display articles
     document.getElementById('characterInfo').style.display = 'block';
     document.getElementById('characters').style.display = 'block';
+}
+
+function capitalizeWords(string) {
+    // Split the string into an array of words
+    const words = string.split(" ");
+    
+    // Capitalize the first letter of each word and convert the rest to lowercase
+    const capitalizedWords = words.map(word => {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    });
+    
+    // Join the words back into a single string
+    return capitalizedWords.join(" ");
+}
+
+function characterExists(character) {
+    return fetch('query.php?query=SELECT COUNT(*) AS count FROM players WHERE name = "' + character + '"')
+        .then(response => response.json())
+        .then(data => {
+            if (data && data.length > 0 && data[0].count > 0) {
+                // Character name exists in the database
+                return true;
+            } else {
+                // Character name doesn't exist in the database
+                return false;
+            }
+            })
+            .catch(error => {
+                console.error('Error validating character:', error);
+                return false;
+            });
 }

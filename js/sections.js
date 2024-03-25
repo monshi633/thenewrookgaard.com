@@ -39,3 +39,10 @@ function openContent(section) {
         labelId.style.color = 'white';
     }
 }
+
+function resetCharacters() {
+    document.getElementById('characterNotFoundMessage').innerHTML = '';
+    document.getElementById('characterNotFound').style.display = 'none';
+    document.getElementById('characterInfo').style.display = 'none';
+    document.getElementById('characters').style.display = 'none';
+}
