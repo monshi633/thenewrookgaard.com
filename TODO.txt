@@ -9,3 +9,4 @@ Lost account: Formulario de cambio de contraseñas.
 NPCs: Ver cómo agregar gifs de los NPC personalizados
 Caché: ¿Hay una forma de que latestNews cargue siempre desde cero sin almacenar cache?
 Index: Compartimentar secciones tipo thenewrookgaard.com/library/creatures
+Highscores: puntito verde para los players online? tambien en houses y guilds

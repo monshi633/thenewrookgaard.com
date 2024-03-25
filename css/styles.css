@@ -492,7 +492,8 @@ nav {
 }
 
 #section__library__items .box__section__content__account,
-#section__community__highscores .box__section__content__account {
+#section__community__highscores .box__section__content__account,
+#section__community__characters .box__section__content__account {
     margin-bottom: 10px;
 }
 
@@ -612,6 +613,10 @@ nav {
     padding: 4px;
 }
 
+.article__content__container.dark {
+    background-color: #d4c0a1;
+}
+
 .loginbox {
     padding: 5px;
     display: flex;
@@ -619,13 +624,12 @@ nav {
 }
 
 .loginbox__label {
-    flex-basis: 135px;
     white-space: nowrap;
     font-family: Verdana, Arial, Times New Roman, sans-serif;
     font-size: 10pt;
     font-weight: 700;
     color: #5a2800;
-    width: 120px;
+    width: 135px;
     padding-right: 10px;
     margin-bottom: 5px;
 }
@@ -638,6 +642,7 @@ nav {
 
 .loginbox__inputfield input {
     width: 100%;
+    padding: 0;
 }
 
 .loginbox__break {
@@ -645,13 +650,8 @@ nav {
     height: 0;
 }
 
-.loginbuttons {
-    vertical-align: top;
-    padding: 3px 5px 2px;
-}
-
 .loginbutton__buttonfield {
-    margin-bottom: 4px;
+    padding-left: 10px;
 }
 
 .loginbutton__buttonfield input {
@@ -747,8 +747,6 @@ h1 {
 }
 
 .box__section__content__table td {
-    padding-left: 10px;
-    padding-right: 10px;
     font-family: Verdana, Arial, Times New Roman, sans-serif;
     font-size: 10pt;
     color: #5a2800;
