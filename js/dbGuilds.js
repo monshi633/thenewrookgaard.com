@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <tr>
                             <th>Name</th>
                             <th>Rank</th>
+                            <th style="width: 60px;">Online?</th>
                         </tr>
                     </table>
                 </td>
@@ -44,15 +45,23 @@ document.addEventListener("DOMContentLoaded", function () {
                 guildRow.setAttribute('onclick', 'collapseTable("' + membersRowId + '", true)');
                 
                 // Add content to membersBody
-                fetch('query.php?query=SELECT p.name AS name, r.name AS rank FROM players AS p JOIN guild_ranks AS r ON p.rank_id = r.id WHERE r.guild_id = (SELECT id FROM guilds WHERE name = "' + guild.name + '") ORDER BY r.level DESC, p.name;')
+                fetch('query.php?query=SELECT p.online AS online, p.name AS name, r.name AS rank FROM players AS p JOIN guild_ranks AS r ON p.rank_id = r.id WHERE r.guild_id = (SELECT id FROM guilds WHERE name = "' + guild.name + '") ORDER BY r.level DESC, p.name;')
                 .then(response => response.json())
                 .then(data => {
                     const membersTable = document.getElementById(membersBodyId);
                     data.forEach(member => {
+                        var onlineIcon = '<img src="images/'
+                        if (member.online == 1) {
+                            onlineIcon = onlineIcon + 'icon_yes.png" alt="Online">'
+                        } else {
+                            onlineIcon = onlineIcon + 'icon_no.png" alt="Offline">'
+                        }
+
                         const memberRow = document.createElement('tr');
                         memberRow.innerHTML = `
                         <td>${member.name}</td>
                         <td>${member.rank}</td>
+                        <td>${onlineIcon}</td>
                         `;
                         membersTable.appendChild(memberRow);
                     });

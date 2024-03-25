@@ -685,23 +685,22 @@ h1 {
     color: #5a2800;
 }
 
-.login__message {
+.login__new-player {
     font-size: 10pt;
     position: relative;
     height: 100%;
-    background-color: #d4c0a1;
     padding: 10px;
 }
 
-.login__message ul {
+.login__new-player ul {
     margin-left: 10px;
 }
 
-.login__message a {
+.login__new-player a {
     font-weight: 700;
 }
 
-.login__message a:visited {
+.login__new-player a:visited {
     color: #5a2800;
 }
 
@@ -792,6 +791,10 @@ h1 {
 
 .separator:not(:last-child) {
     border-bottom: 2px groove #875f3e;
+}
+
+#characterInfoTable th {
+    width: 120px;
 }
 
 footer {

@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(data => {
                 data.forEach(player => {
                     const row = onlineTable.insertRow();
-                    ['name', 'level', 'vocation', 'guild'].forEach(key => {
+                    ['name', 'vocation', 'level', 'guild'].forEach(key => {
                         const cell = row.insertCell();
                         cell.innerHTML = player[key];
                     });

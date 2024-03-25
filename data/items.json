@@ -2362,7 +2362,7 @@
             "additional": "-",
             "level": "25",
             "weight": "87.0",
-            "obtained": "Ghastly Dragon"
+            "obtained": "Ghastly Dragon, Lizard Legionnaire, Wailing Widow"
         },
         {
             "name": "Glorious Axe",
@@ -3018,7 +3018,7 @@
             "atk": "14",
             "additional": "energy attack +14",
             "weight": "0.35",
-            "obtained": "Water Elemental"
+            "obtained": "Energy Elemental"
         },
         {
             "name": "Shiver Arrow",
@@ -3026,7 +3026,7 @@
             "atk": "14",
             "additional": "ice attack +14",
             "weight": "0.35",
-            "obtained": "Energy Elemental"
+            "obtained": "Water Elemental"
         },
         {
             "name": "Flaming Arrow",
