@@ -926,10 +926,10 @@
             "name": "Patched Boots",
             "img": "/images/items/boots/Patched_Boots.gif",
             "arm": "2",
-            "additional": "?",
+            "additional": "<mark>Protection physical +1%</mark>",
             "level": "-",
             "weight": "10.0",
-            "obtained": "Unknown"
+            "obtained": "Ghastly Dragon"
         },
         {
             "name": "Steel Boots",
@@ -1720,7 +1720,7 @@
             "additional": "Def +2",
             "level": "<mark>90</mark>",
             "weight": "65.0",
-            "obtained": "Unknown"
+            "obtained": "Ghastly Dragon"
         },
         {
             "name": "Thunder Hammer",
@@ -2118,7 +2118,7 @@
             "additional": "Def +2",
             "level": "<mark>60</mark>",
             "weight": "49.0",
-            "obtained": "Dragon Lord"
+            "obtained": "Dragon Lord, Ghastly Dragon"
         },
         {
             "name": "The Justice Seeker",
@@ -2615,7 +2615,7 @@
             "additional": "Def +2",
             "level": "<mark>90</mark>",
             "weight": "88.0",
-            "obtained": "Unknown"
+            "obtained": "Ghastly Dragon"
         },
         {
             "name": "Stonecutter Axe",
@@ -2914,7 +2914,7 @@
             "additional": "?",
             "level": "<mark>90</mark>",
             "weight": "45.0",
-            "obtained": "Quest"
+            "obtained": "Ghastly Dragon"
         },
         {
             "name": "King's Crossbow",

@@ -10,9 +10,6 @@ function loadCharacter(charName) {
     // Clear input field
     document.getElementById('characterName').value = '';
 
-    // Variable to store player id
-    var accountId = 0;
-
     // Load Character Info
     const characterInfoTable = document.getElementById('characterInfoTable');
     characterInfoTable.innerText = '';
@@ -20,7 +17,6 @@ function loadCharacter(charName) {
     .then(response => response.json())
     .then(data => {
         data.forEach(characterInfo => {
-            accountId = characterInfo.account_id;
             const infoBody = document.createElement('tbody');
             infoBody.innerHTML = `
             <tr>
@@ -53,37 +49,41 @@ function loadCharacter(charName) {
             </tr>
             `;
             characterInfoTable.appendChild(infoBody);
+
+            // Load Characters
+            const charactersTable = document.getElementById('charactersTable');
+            charactersTable.innerText = '';
+            fetch('query.php?query=SELECT name, level, online AS status FROM players WHERE account_id = ' + characterInfo.account_id)
+            .then(response => response.json())
+            .then(data => {
+                data.forEach(character => {
+                    var onlineIcon = '<img src="images/'
+                    if (character.online == 1) {
+                        onlineIcon = onlineIcon + 'icon_yes.png" alt="Online">'
+                    } else {
+                        onlineIcon = onlineIcon + 'icon_no.png" alt="Offline">'
+                    }
+        
+                    const characterRow = document.createElement('tr');
+                    characterRow.innerHTML = `
+                    <td>${character.name}</td>
+                    <td>${character.level}</td>
+                    <td>${onlineIcon}</td>
+                    <td>
+                        <div class="loginbutton__buttonfield">
+                            <input type="submit" value="Submit" onclick="loadCharacter(${character.name})">
+                        </div>
+                    </td>
+                    `;
+                    charactersTable.appendChild(characterRow);
+                });
+            })
+            .catch(error => console.error('Error loading characters:', error));
         });
     })
     .catch(error => console.error('Error loading character info:', error));
 
-    // Load Characters
-    const charactersTable = document.getElementById('charactersTable');
-    charactersTable.innerText = '';
-    fetch('query.php?query=SELECT p.name, p.level, p.online AS status FROM players AS p JOIN accounts AS a ON p.account_id = a.id WHERE p.account_id = ' + accountId)
-    .then(response => response.json())
-    .then(data => {
-        data.forEach(character => {
-            var onlineIcon = '<img src="images/'
-            if (character.online === 1) {
-                onlineIcon = onlineIcon + 'icon_yes.png" alt="Online">'
-            } else {
-                onlineIcon = onlineIcon + 'icon_no.png" alt="Offline">'
-            }
-
-            const characterRow = document.createElement('tr');
-            characterRow.innerHTML = `
-            <td>${character.name}</td>
-            <td>${character.level}</td>
-            <td>${onlineIcon}</td>
-            <td>
-                <div class="loginbutton__buttonfield">
-                    <input type="submit" value="Submit" onclick="loadCharacter(${character.name})">
-                </div>
-            </td>
-            `;
-            charactersTable.appendChild(characterRow);
-        });
-    })
-    .catch(error => console.error('Error loading characters:', error));
+    // Display articles
+    document.getElementById('characterInfo').style.display = 'block';
+    document.getElementById('characters').style.display = 'block';
 }
