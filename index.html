@@ -83,6 +83,12 @@
                                 <div id="label__section__library__bosses" class="submenu_label">Bosses</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
+                            <li class="nav__menu__submenu__item" onclick="openContent('section__library__raids')">
+                                    <div class="nav-chain left"></div>
+                                    <div id="activeicon__section__library__raids" class="submenu__activeicon"></div>
+                                    <div id="label__section__library__raids" class="submenu_label">Raids</div>
+                                    <div class="nav-chain right submenu"></div>
+                            </li>
                                 <li class="nav__menu__submenu__item" onclick="openContent('section__library__spells')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeicon__section__library__spells" class="submenu__activeicon"></div>
@@ -118,12 +124,6 @@
                                 <div id="activeicon__section__library__tasks" class="submenu__activeicon"></div>
                                 <div id="label__section__library__tasks" class="submenu_label">Tasks</div>
                                 <div class="nav-chain right submenu"></div>
-                            </li>
-                            <li class="nav__menu__submenu__item" onclick="openContent('section__library__raids')">
-                                    <div class="nav-chain left"></div>
-                                    <div id="activeicon__section__library__raids" class="submenu__activeicon"></div>
-                                    <div id="label__section__library__raids" class="submenu_label">Raids</div>
-                                    <div class="nav-chain right submenu"></div>
                             </li>
                         </ul>
                     </div>
@@ -455,6 +455,44 @@
                                         <div id="bossesFlex">
                                             <!--Bosses are retrieved here using bossesLoader.js-->
                                         </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="section__library__raids">
+                        <img class="box__section__title" src="images/headlines/headline-raids.gif" alt="Raids">
+                        <div class="border_2">
+                            <div class="border_3">
+                                <div class="box__section__content">
+                                    <article class="box__section__content__account">
+                                        <div class="caption__container">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Raids</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div class="article__content__container">
+                                            <table class="listed__table">
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th></th>
+                                                    <th>Message</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                <tbody id="raidsTable">
+                                                    <!--Raids are retrieved here using raidsLoader.js-->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <br>
                                     </article>
                                 </div>
                             </div>
@@ -1132,44 +1170,6 @@
                             </div>
                         </div>
                     </section>
-                    <section id="section__library__raids">
-                        <img class="box__section__title" src="images/headlines/headline-raids.gif" alt="Raids">
-                        <div class="border_2">
-                            <div class="border_3">
-                                <div class="box__section__content">
-                                    <article class="box__section__content__account">
-                                        <div class="caption__container">
-                                            <div class="caption__container__inner">
-                                                <span class="caption-corner tl"></span>
-                                                <span class="caption-border top"></span>
-                                                <span class="caption-corner tr"></span>
-                                                <span class="caption-border-vertical left"></span>
-                                                <span class="caption-text">Raids</span>
-                                                <span class="caption-border-vertical right"></span>
-                                                <span class="caption-corner bl"></span>
-                                                <span class="caption-border bottom"></span>
-                                                <span class="caption-corner br"></span>
-                                            </div>
-                                        </div>
-                                        <div class="article__content__container">
-                                            <table class="listed__table">
-                                                <tr>
-                                                    <th>Name</th>
-                                                    <th></th>
-                                                    <th>Message</th>
-                                                    <th>Location</th>
-                                                </tr>
-                                                <tbody id="raidsTable">
-                                                    <!--Raids are retrieved here using raidsLoader.js-->
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <br>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
                     <section id="section__community__characters">
                         <img class="box__section__title" src="images/headlines/headline-characters.gif" alt="Characters">
                         <div class="border_2">
@@ -1694,13 +1694,13 @@
         <script src="/js/latestNewsLoader.js"></script>
         <script src="/js/creaturesLoader.js"></script>
         <script src="/js/bossesLoader.js"></script>
+        <script src="/js/raidsLoader.js"></script>
         <script src="/js/spellsLoader.js"></script>
         <script src="/js/questsLoader.js"></script>
         <script src="/js/itemsLoader.js"></script>
         <script src="/js/npcsLoader.js"></script>
         <script src="/js/addonsLoader.js"></script>
         <script src="/js/tasksLoader.js"></script>
-        <script src="/js/raidsLoader.js"></script>
         <script src="/js/dbNumberOnline.js"></script>
         <script src="/js/dbCharacters.js"></script>
         <script src="/js/dbWhosOnline.js"></script>
