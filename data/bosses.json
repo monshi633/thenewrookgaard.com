@@ -1,0 +1,32 @@
+{
+    "bosses": [
+        {
+            "name": "Avalanche",
+            "img": "/images/creatures/Ice_Golem.gif"
+        },
+        {
+            "name": "Azerus",
+            "img": "/images/bosses/Azerus.gif"
+        },
+        {
+            "name": "Demodras",
+            "img": "/images/creatures/Dragon_Lord.gif"
+        },
+        {
+            "name": "Fazzrah",
+            "img": "/images/creatures/Draken_Warmaster.gif"
+        },
+        {
+            "name": "Gabilgathol",
+            "img": "/images/creatures/Dwarf_Guard.gif"
+        },
+        {
+            "name": "Ragiaz",
+            "img": "/images/creatures/Destroyer.gif"
+        },
+        {
+            "name": "Yeti",
+            "img": "/images/bosses/Yeti.gif"
+        }
+    ]
+}

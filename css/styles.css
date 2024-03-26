@@ -40,7 +40,14 @@ header {
     grid-area: header;
     position: relative;
     height: 155px;
-    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height: 62px;
+    width: 512px;
 }
 
 nav {
@@ -755,7 +762,8 @@ h1 {
     margin: 13.3px 0;
 }
 
-#creaturesFlex {
+#creaturesFlex,
+#bossesFlex {
     text-align: center;
     display: flex;
     flex-wrap: wrap;

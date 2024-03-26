@@ -12,7 +12,9 @@
 
     <body>
         <div class="container">
-            <header></header>
+            <header>
+                <img src="images/header_title.png" alt="The New Rookgaard">
+            </header>
             <nav>
                 <div class="nav__login">
                     <div class="nav-top"></div>
@@ -75,7 +77,13 @@
                                 <div id="label__section__library__creatures" class="submenu_label">Creatures</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li class="nav__menu__submenu__item" onclick="openContent('section__library__spells')">
+                            <li class="nav__menu__submenu__item" onclick="openContent('section__library__bosses')">
+                                <div class="nav-chain left"></div>
+                                <div id="activeicon__section__library__bosses" class="submenu__activeicon"></div>
+                                <div id="label__section__library__bosses" class="submenu_label">Bosses</div>
+                                <div class="nav-chain right submenu"></div>
+                            </li>
+                                <li class="nav__menu__submenu__item" onclick="openContent('section__library__spells')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeicon__section__library__spells" class="submenu__activeicon"></div>
                                 <div id="label__section__library__spells" class="submenu_label">Spells</div>
@@ -418,6 +426,34 @@
                                         </div>
                                         <div id="creaturesFlex">
                                             <!--Creatures are retrieved here using creaturesLoader.js-->
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="section__library__bosses">
+                        <img class="box__section__title" src="images/headlines/headline-bosses.gif" alt="Bosses">
+                        <div class="border_2">
+                            <div class="border_3">
+                                <div class="box__section__content">
+                                    <article>
+                                        <div class="caption__container message">
+                                            <div class="caption__container__inner">
+                                                <span class="caption-corner tl"></span>
+                                                <span class="caption-border top"></span>
+                                                <span class="caption-corner tr"></span>
+                                                <span class="caption-border-vertical left"></span>
+                                                <span class="caption-text">Important information</span>
+                                                <span class="caption-text message">Some stats have been modified from the original game. This includes bosses's life, attack and specially: drop.</span>
+                                                <span class="caption-border-vertical right"></span>
+                                                <span class="caption-corner bl"></span>
+                                                <span class="caption-border bottom"></span>
+                                                <span class="caption-corner br"></span>
+                                            </div>
+                                        </div>
+                                        <div id="bossesFlex">
+                                            <!--Bosses are retrieved here using bossesLoader.js-->
                                         </div>
                                     </article>
                                 </div>
@@ -1657,6 +1693,7 @@
         <script src="/js/divTableCollapser.js"></script>
         <script src="/js/latestNewsLoader.js"></script>
         <script src="/js/creaturesLoader.js"></script>
+        <script src="/js/bossesLoader.js"></script>
         <script src="/js/spellsLoader.js"></script>
         <script src="/js/questsLoader.js"></script>
         <script src="/js/itemsLoader.js"></script>
