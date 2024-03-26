@@ -606,7 +606,16 @@
             "name": "Frozen Armor",
             "img": "/images/items/armors/Frozen_Armor.gif",
             "arm": "<mark>14</mark>",
-            "additional": "<mark>Protection earth -12%, ice +12%</mark>",
+            "additional": "<mark>Protection ice +12%, energy -12%</mark>",
+            "level": "60",
+            "weight": "80.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Voltage Armor",
+            "img": "/images/items/armors/Voltage_Armor.gif",
+            "arm": "<mark>14</mark>",
+            "additional": "<mark>Protection energy +12%, earth -12%</mark>",
             "level": "60",
             "weight": "80.0",
             "obtained": "<i><b>Forging</b></i>"
