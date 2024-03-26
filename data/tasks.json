@@ -13,12 +13,6 @@
             "reward": "Exp: 40.000<br>Gold: 3.500<br>Items: 10 Spider Fangs, 5 Poison Spider Shell"
         },
         {
-            "name": "Baby Dragons",
-            "creatures": "Dragon Hatchling, Frost Dragon Hatchling, Dragon Lord Hatchling",
-            "kills": "500",
-            "reward": "Exp: 150.000<br>Gold: 20.000<br>Items: Crusader Helmet."
-        },
-        {
             "name": "Barbarians",
             "creatures": "Barbarian Bloodwalker, Barbarian Brutetamer, Barbarian Headsplitter, Barbarian Skullhunter",
             "kills": "500",
@@ -61,10 +55,22 @@
             "reward": "Exp: 6.666.666<br>Gold: 100.000<br>Items: Demon Helmet"
         },
         {
+            "name": "Dragon Hatchlings",
+            "creatures": "Dragon Hatchling, Frost Dragon Hatchling, Dragon Lord Hatchling",
+            "kills": "500",
+            "reward": "Exp: 150.000<br>Gold: 20.000<br>Items: Crusader Helmet."
+        },
+        {
             "name": "Dragons",
             "creatures": "Dragon, Frost Dragon, Dragon Lord",
             "kills": "750",
             "reward": "Exp: 300.000<br>Gold: 30.000<br>Items: Dragon Robe, Warrior Helmet"
+        },
+        {
+            "name": "Drakens",
+            "creatures": "Draken Abomination, Draken Elite, Draken Spellweaver, Draken Warmaster",
+            "kills": "300",
+            "reward": "Exp: 3.000.000<br>Gold: 80.000<br>Items: Zaoan Helmet"
         },
         {
             "name": "Dwarves",

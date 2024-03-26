@@ -1,5 +1,6 @@
 #Importantísimo
 Certificado SSL
+Integrar sistema de cobro dentro de login
 
 #Secciones
 Login: Poder entrar, cambiar contraseña?, comprar premmy. Que al iniciar sesión, te muestre las tasks y quest realizadas, addons obtenidos? y spells desbloqueados?

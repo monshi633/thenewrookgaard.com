@@ -1,48 +1,6 @@
 {
     "raids": [
         {
-            "name": "Brutus Bloodbeard",
-            "img": "/images/raids/Brutus_Bloodbeard.gif",
-            "message": "Old Brutus Bloodbeard has a hat that dazzles just like his attacks!",
-            "location": "Pirate Island"
-        },
-        {
-            "name": "Ron the Ripper",
-            "img": "/images/raids/Ron_the_Ripper.gif",
-            "message": "Ron the ripper is with his sharp sabre waiting for his next victim!",
-            "location": "Pirate Island"
-        },
-        {
-            "name": "Deadeye Devious",
-            "img": "/images/raids/Deadeye_Devious.gif",
-            "message": "the blind Deadeye Devious hears you from far away, he is waiting for you!",
-            "location": "Pirate Island"
-        },
-        {
-            "name": "Lethal Lissy",
-            "img": "/images/raids/Lethal_Lissy.gif",
-            "message": "Lethal Lissy with her shiny shirt is waiting for you for the fight!",
-            "location": "Pirate Island"
-        },
-        {
-            "name": "Grovehorn",
-            "img": "/images/raids/Juggernaut.gif",
-            "message": "The forests tremble because of the appearance of so many horns!",
-            "location": "Swampland"
-        },
-        {
-            "name": "Soulharvester",
-            "img": "/images/raids/Draken_Abomination.gif",
-            "message": "The souls flee from the cemetery, because an abysmal being is consuming them!",
-            "location": "Cementery"
-        },
-        {
-            "name": "Lord of the depth",
-            "img": "/images/raids/Demon.gif",
-            "message": "From the depths of hell his enraged representative has appeared!",
-            "location": "Dragonland"
-        },
-        {
             "name": "Ancient Scarbs",
             "img": "/images/raids/Ancient_Scarab.gif",
             "message": "Something crawls from deep in the Rookgaard Desert!",
@@ -53,6 +11,54 @@
             "img": "/images/raids/Ashmunrah.gif",
             "message": "The pharaoh is angry that they walk the corridors of his tomb!",
             "location": "Desert deep tombs"
+        },
+        {
+            "name": "Brutus Bloodbeard",
+            "img": "/images/raids/Brutus_Bloodbeard.gif",
+            "message": "Old Brutus Bloodbeard has a hat that dazzles just like his attacks!",
+            "location": "Pirate Island"
+        },
+        {
+            "name": "Deadeye Devious",
+            "img": "/images/raids/Deadeye_Devious.gif",
+            "message": "The blind Deadeye Devious hears you from far away, he is waiting for you!",
+            "location": "Pirate Island"
+        },
+        {
+            "name": "Demodras",
+            "img": "/images/creatures/Dragon_Lord.gif",
+            "message": "he dragon boss Demodras has appeared and seeks to exterminate all humans!",
+            "location": "Dragonland"
+        },
+        {
+            "name": "Grovehorn",
+            "img": "/images/raids/Juggernaut.gif",
+            "message": "The forests tremble because of the appearance of so many horns!",
+            "location": "Swampland"
+        },
+        {
+            "name": "Lethal Lissy",
+            "img": "/images/raids/Lethal_Lissy.gif",
+            "message": "Lethal Lissy with her shiny shirt is waiting for you for the fight!",
+            "location": "Pirate Island"
+        },
+        {
+            "name": "Lord of the depth",
+            "img": "/images/raids/Demon.gif",
+            "message": "From the depths of hell his enraged representative has appeared!",
+            "location": "Dragonland"
+        },
+        {
+            "name": "Ron the Ripper",
+            "img": "/images/raids/Ron_the_Ripper.gif",
+            "message": "Ron the ripper is with his sharp sabre waiting for his next victim!",
+            "location": "Pirate Island"
+        },
+        {
+            "name": "Soulharvester",
+            "img": "/images/raids/Draken_Abomination.gif",
+            "message": "The souls flee from the cemetery, because an abysmal being is consuming them!",
+            "location": "Cementery"
         },
         {
             "name": "The Old Widow",

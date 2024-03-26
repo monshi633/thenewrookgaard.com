@@ -214,7 +214,7 @@
             "arm": "7",
             "additional": "-",
             "weight": "22.0",
-            "obtained": "Lizard Snakecharmer, Serpent Spawn"
+            "obtained": "Lizard Snakecharmer, Sea Serpent, Serpent Spawn"
         },
         {
             "name": "Beholder Helmet",
@@ -230,7 +230,7 @@
             "arm": "8",
             "additional": "-",
             "weight": "68.0",
-            "obtained": "Black Knight, Hydra, Orc Leader, Quara Pincher, Serpent Spawn"
+            "obtained": "Black Knight, Hydra, Orc Leader, Quara Pincher, Sea Serpent, Serpent Spawn"
         },
         {
             "name": "Crusader Helmet",
@@ -254,7 +254,7 @@
             "arm": "9",
             "additional": "-",
             "weight": "48.0",
-            "obtained": "Dragon Lord, Frost Dragon, Hydra, Serpent Spawn, Undead Dragon"
+            "obtained": "Dragon Lord, Frost Dragon, Hydra, Sea Serpent, Serpent Spawn, Undead Dragon"
         },
         {
             "name": "Skull Helmet",
@@ -270,7 +270,7 @@
             "arm": "9",
             "additional": "-",
             "weight": "32.5",
-            "obtained": "Unknown"
+            "obtained": "Demodras"
         },
         {
             "name": "Zaoan Helmet",
@@ -286,7 +286,7 @@
             "arm": "10",
             "additional": "?",
             "weight": "12.0",
-            "obtained": "Unknown"
+            "obtained": "Azerus"
         },
         {
             "name": "Demon Helmet",
@@ -302,7 +302,7 @@
             "arm": "11",
             "additional": "?",
             "weight": "51.0",
-            "obtained": "Unknown"
+            "obtained": "Ragiaz"
         },
         {
             "name": "Golden Helmet",
@@ -421,15 +421,6 @@
             "level": "-",
             "weight": "100.0",
             "obtained": "Minotaur Guard, Orc Berserker, Dwarf Soldier, Barbarian Bloodwalker, Minotaur, Orc Warrior and others"
-        },
-        {
-            "name": "Rangers Cloak",
-            "img": "/images/items/armors/Rangers_Cloak.gif",
-            "arm": "7",
-            "additional": "?",
-            "level": "-",
-            "weight": "48.0",
-            "obtained": "Unknow"
         },
         {
             "name": "Brass Armor",
@@ -555,7 +546,7 @@
             "additional": "-",
             "level": "-",
             "weight": "99.0",
-            "obtained": "Serpent Spawn,  Hero, High Quaras"
+            "obtained": "Fury, Hero, High Quaras, Sea Serpent, Serpent Spawn"
         },
         {
             "name": "Beholder Mail",
@@ -787,7 +778,7 @@
             "arm": "8",
             "additional": "-",
             "weight": "18.0",
-            "obtained": "Unknown"
+            "obtained": "Quest"
         },
         {
             "name": "Zaoan Legs",
@@ -819,7 +810,7 @@
             "arm": "10",
             "additional": "?",
             "weight": "48.0",
-            "obtained": "Unknown"
+            "obtained": "Fazzrah"
         }
     ],
     "boots": [
@@ -836,16 +827,16 @@
             "name": "Bunnyslippers",
             "img": "/images/items/boots/Bunnyslippers.gif",
             "arm": "-",
-            "additional": "?",
+            "additional": "-",
             "level": "-",
             "weight": "6.0",
-            "obtained": "Unknown"
+            "obtained": "Yeti"
         },
         {
             "name": "Coconut Shoes",
             "img": "/images/items/boots/Coconut_Shoes.gif",
             "arm": "-",
-            "additional": "?",
+            "additional": "Faster regeneration",
             "level": "-",
             "weight": "6.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -938,7 +929,7 @@
             "additional": "-",
             "level": "-",
             "weight": "29.0",
-            "obtained": "Behemoth, Ghastly Dragon, Undead Dragon"
+            "obtained": "Behemoth, Fury, Ghastly Dragon, Undead Dragon"
         },
         {
             "name": "Guardian Boots",
@@ -974,7 +965,7 @@
             "additional": "Speed +15",
             "level": "80",
             "weight": "25.0",
-            "obtained": "Draken Elite, <i><b>Forging</b></i>"
+            "obtained": "Draken Abomination, Draken Elite"
         },
         {
             "name": "Golden Boots",
@@ -1177,7 +1168,7 @@
             "def": "32",
             "additional": "-",
             "weight": "82.0",
-            "obtained": " Frost Dragon, Serpent Spawn, Dragon Lord, Mutated Rat"
+            "obtained": "Dragon Lord, Frost Dragon, Mutated Rat, Sea Serpent, Serpent Spawn"
         },
         {
             "name": "Medusa Shield",
@@ -1201,7 +1192,7 @@
             "def": "<mark>35</mark>",
             "additional": "-",
             "weight": "35.0",
-            "obtained": "Unknown"
+            "obtained": "Ashmunrah"
         },
         {
             "name": "Demon Shield",
@@ -1265,7 +1256,7 @@
             "def": "38",
             "additional": "?",
             "weight": "84.0",
-            "obtained": "Unknown"
+            "obtained": "Grovehorn"
         },
         {
             "name": "Blessed Shield",
@@ -1621,7 +1612,7 @@
             "additional": "-",
             "level": "55",
             "weight": "120.0",
-            "obtained": "Unknown"
+            "obtained": "Sea Serpent, Werewolf"
         },
         {
             "name": "Heavy Mace",
@@ -1654,7 +1645,7 @@
             "additional": "-",
             "level": "60",
             "weight": "55.0",
-            "obtained": "Unknown"
+            "obtained": "Quest"
         },
         {
             "name": "Blessed Sceptre",
@@ -2030,7 +2021,7 @@
             "additional": "-",
             "level": "<mark>35</mark>",
             "weight": "68.0",
-            "obtained": "Lizard Templar, Serpent Spawn, Mutated Bat, Undead Gladiator, Medusa"
+            "obtained": "Lizard Templar, Medusa, Mutated Bat, Sea Serpent, Serpent Spawn, Undead Gladiator"
         },
         {
             "name": "Djinn Blade",
@@ -2052,7 +2043,7 @@
             "additional": "Def -2",
             "level": "40",
             "weight": "17.0",
-            "obtained": "Unknown"
+            "obtained": "Fury, Draken Elite"
         },
         {
             "name": "Pharaoh Sword",
@@ -2063,7 +2054,7 @@
             "additional": "Def +2",
             "level": "45",
             "weight": "52.0",
-            "obtained": "Unknown"
+            "obtained": "Ashmunrah"
         },
         {
             "name": "Dragon Slayer",
@@ -2107,7 +2098,7 @@
             "additional": "Def +2",
             "level": "60",
             "weight": "35.0",
-            "obtained": "Unknown"
+            "obtained": "Quest"
         },
         {
             "name": "Great Scimitar",
@@ -2118,7 +2109,7 @@
             "additional": "Def +2",
             "level": "<mark>60</mark>",
             "weight": "49.0",
-            "obtained": "Dragon Lord, Ghastly Dragon"
+            "obtained": "Dragon Lord, Draken Elite, Ghastly Dragon"
         },
         {
             "name": "The Justice Seeker",
@@ -2140,7 +2131,7 @@
             "additional": "-",
             "level": "<mark>70</mark>",
             "weight": "46.0",
-            "obtained": "Hydra"
+            "obtained": "Grim Reaper, Hydra"
         },
         {
             "name": "Sai",
@@ -2285,7 +2276,7 @@
             "additional": "Def +1",
             "level": "20",
             "weight": "51.0",
-            "obtained": "Unknown"
+            "obtained": "Gladiator"
         },
         {
             "name": "Dwarven Axe",
@@ -2296,7 +2287,7 @@
             "additional": "Def +2",
             "level": "20",
             "weight": "82.0",
-            "obtained": "Unknown"
+            "obtained": "Gavilgathol"
         },
         {
             "name": "Obsidian Lance",
@@ -2406,7 +2397,7 @@
             "additional": "-",
             "level": "35",
             "weight": "38.0",
-            "obtained": "Serpent Spawn, Necromancer"
+            "obtained": "Fury, Necromancer, Sea Serpent, Serpent Spawn"
         },
         {
             "name": "Titan Axe",
@@ -2428,7 +2419,7 @@
             "additional": "-",
             "level": "45",
             "weight": "56.0",
-            "obtained": "Unknown"
+            "obtained": "Efreet, Marid"
         },
         {
             "name": "Ornamented Axe",
@@ -2450,7 +2441,7 @@
             "additional": "-",
             "level": "50",
             "weight": "64.0",
-            "obtained": "Unknown"
+            "obtained": "Crystal Spider"
         },
         {
             "name": "Guardian Halberd",
@@ -2461,7 +2452,7 @@
             "additional": "-",
             "level": "55",
             "weight": "110.0",
-            "obtained": "Unknown"
+            "obtained": "Behemot"
         },
         {
             "name": "Vile Axe",
@@ -2472,7 +2463,7 @@
             "additional": "Def +3",
             "level": "55",
             "weight": "52.0",
-            "obtained": "Unknown"
+            "obtained": "Quest"
         },
         {
             "name": "War Axe",
@@ -2505,7 +2496,7 @@
             "additional": "Def +1",
             "level": "65",
             "weight": "55.0",
-            "obtained": "Unknown"
+            "obtained": "Behemot"
         },
         {
             "name": "Drakinata",
@@ -2560,7 +2551,7 @@
             "additional": "-",
             "level": "70",
             "weight": "52.5",
-            "obtained": "Unknown"
+            "obtained": "Avalanche"
         },
         {
             "name": "Ruthless Axe",
@@ -2593,7 +2584,7 @@
             "additional": "-",
             "level": "<mark>80</mark>",
             "weight": "120.0",
-            "obtained": "Unknown"
+            "obtained": "Sea Serpent"
         },
         {
             "name": "Great Axe",
@@ -2760,7 +2751,7 @@
             "additional": "-",
             "level": "80",
             "weight": "1.0",
-            "obtained": " Hellhound, Behemoth, Demon, Undead Dragon, Warlock, Hellspawn"
+            "obtained": "Behemoth, Demon, Fury, Hellhound, Hellspawn, Undead Dragon, Warlock"
         },
         {
             "name": "Bow",
@@ -3228,7 +3219,7 @@
             "arm": "?",
             "additional": "?",
             "weight": "8.3",
-            "obtained": "Unknown"
+            "obtained": "Fury, Grim Reaper, Warlock"
         }
     ],
     "rings": [
