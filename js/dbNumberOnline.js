@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const numberOnline = document.getElementById('numberOnline');
 
     // Create EventSource object
-    const eventSource = new EventSource('sse.php?query=SELECT COUNT (*) AS players_online FROM players WHERE online = 1 AND id > 2');
+    const eventSource = new EventSource("sse.php?query=SELECT COUNT (*) AS players_online FROM players WHERE online = 1 AND id > 2");
 
     // Event listener for receiving SSE updates
     eventSource.addEventListener('message', function(event) {
