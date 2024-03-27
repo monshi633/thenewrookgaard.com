@@ -3590,55 +3590,55 @@
     "recipes": [
         {
             "name": "Rotworm stew",
-            "img": "/images/items/recipes/Rotworm_stew.gif",
+            "img": "/images/items/recipes/Rotworm_Stew.gif",
             "effect": "It will heal you completely",
             "weight": "12.0"
         },
         {
             "name": "Tropical fried terrorbird",
-            "img": "/images/items/recipes/Tropical_fried_terrorbird.gif",
+            "img": "/images/items/recipes/Tropical_Fried_Terrorbird.gif",
             "effect": "It will boost your Magic Level by 5 for one hour",
             "weight": "7.8"
         },
         {
             "name": "Carrot cake",
-            "img": "/images/items/recipes/Carrot_cake.gif",
+            "img": "/images/items/recipes/Carrot_Cake.gif",
             "effect": "It will boost your Distance Fighting skill by 10 for one hour",
             "weight": "6.8"
         },
         {
             "name": "Filled jalapeno peppers",
-            "img": "/images/items/recipes/Filled_jalapeno_peppers.gif",
+            "img": "/images/items/recipes/Filled_Jalapeno_Peppers.gif",
             "effect": "It will boost your speed by 100 levels for one hour",
             "weight": "6.5"
         },
         {
             "name": "Sweet mangonaise elixir",
-            "img": "/images/items/recipes/Sweet_mangonaise_elixir.gif",
+            "img": "/images/items/recipes/Sweet_Mangonaise_Elixir.gif",
             "effect": "<mark>Drinking this elixir will create 5 copies of the ring you are wearing</mark>",
             "weight": "3.0"
         },
         {
             "name": "Veggie casserole",
-            "img": "/images/items/recipes/Veggie_casserole.gif",
+            "img": "/images/items/recipes/Veggie_Casserole.gif",
             "effect": "It will boost your Melee skills (Sword Fighting, Axe Fighting and Club Fighting) by 10 for one hour",
             "weight": "11.0"
         },
         {
             "name": "Northern fishburger",
-            "img": "/images/items/recipes/Northern_fishburger.gif",
+            "img": "/images/items/recipes/Northern_Fishburger.gif",
             "effect": "It will boost your fishing skill by 50 for one hour",
             "weight": "4.6"
         },
         {
             "name": "Hydra tongue salad",
-            "img": "/images/items/recipes/Hydra_tongue_salad.gif",
+            "img": "/images/items/recipes/Hydra_Tongue_Salad.gif",
             "effect": "It will cure you of most negative conditions",
             "weight": "5.5"
         },
         {
             "name": "Roasted dragon wings",
-            "img": "/images/items/recipes/Roasted_dragon_wings.gif",
+            "img": "/images/items/recipes/Roasted_Dragon_Wings.gif",
             "effect": "It will boost your shielding skill by 10 for one hour",
             "weight": "8.5"
         }

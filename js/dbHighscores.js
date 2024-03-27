@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const label = document.getElementById('label__section__community__highscores');
+    const submenu = document.getElementById('submenuSectionCommunityHighscores');
 
-    label.addEventListener('click', function () {
+    submenu.addEventListener('click', function () {
         const levelTable = document.getElementById('levelTable');
         levelTable.innerText = '';
         const magicLevelTable = document.getElementById('magicLevelTable');

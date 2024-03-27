@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const label = document.getElementById('label__section__library__npcs');
+    const submenu = document.getElementById('submenuSectionLibraryNpcs');
 
-    label.addEventListener('click', function () {
+    submenu.addEventListener('click', function () {
         const table = document.getElementById('npcsTable');
         table.innerText = '';
         fetch('/data/npcs.json')

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const label = document.getElementById('label__section__library__spells');
+    const submenu = document.getElementById('submenuSectionLibrarySpells');
 
-    label.addEventListener('click', function () {
+    submenu.addEventListener('click', function () {
         const table = document.getElementById('spellsTable');
         table.innerText = '';
         fetch('/data/spells.json')

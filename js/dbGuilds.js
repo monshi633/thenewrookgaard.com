@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const label = document.getElementById('label__section__community__guilds');
+    const submenu = document.getElementById('submenuSectionCommunityGuilds');
 
-    label.addEventListener('click', function () {
+    submenu.addEventListener('click', function () {
         const guildTable = document.getElementById('guildTable');
         guildTable.innerText = '';
         fetch("query.php?query=SELECT g.name, COUNT(p.name) AS members ,strftime('%d-%m-%Y', datetime(g.creationdata, 'unixepoch')) AS creation FROM guilds AS g JOIN players AS p_leader ON g.ownerid=p_leader.id JOIN guild_ranks as r ON g.id = r.guild_id JOIN players as p on r.id=p.rank_id GROUP BY g.name ORDER BY g.creationdata")
