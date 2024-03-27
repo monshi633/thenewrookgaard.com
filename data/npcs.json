@@ -51,6 +51,11 @@
             "services": "Forger"
         },
         {
+            "name": "Beatrice",
+            "location": "Desert",
+            "services": "Forger"
+        },
+        {
             "name": "Berenice",
             "location": "Snowland",
             "services": "Forger"
@@ -79,6 +84,11 @@
             "name": "Bruno",
             "location": "Rookgaard",
             "services": "Forger"
+        },
+        {
+            "name": "Buddel",
+            "location": "Snowland",
+            "services": "Sailor"
         },
         {
             "name": "Cael",
@@ -126,9 +136,24 @@
             "services": "Forger"
         },
         {
+            "name": "Debbul",
+            "location": "Snowland",
+            "services": "Sailor"
+        },
+        {
             "name": "Dixi",
             "location": "Rookgaard",
             "services": "Forger"
+        },
+        {
+            "name": "Dove",
+            "location": "Swampland",
+            "services": "Forger"
+        },
+        {
+            "name": "Drakus",
+            "location": "Swampland",
+            "services": "Sailor"
         },
         {
             "name": "Eryn",
@@ -306,6 +331,26 @@
             "services": "Forger"
         },
         {
+            "name": "Squire Dove",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Squire Edoch",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Squire Jerom",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Squire Rodney",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
             "name": "Storkus The Plaguesmith",
             "location": "Rookgaard",
             "services": "Forger"
@@ -354,6 +399,11 @@
             "name": "Xodet",
             "location": "Rookgaard",
             "services": "Forger, Merchant"
+        },
+        {
+            "name": "Zetze",
+            "location": "Draken Castle",
+            "services": "Sailor"
         }
     ]
 }

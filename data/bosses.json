@@ -17,6 +17,10 @@
             "img": "/images/creatures/Dwarf_Guard.gif"
         },
         {
+            "name": "Leviathan",
+            "img": "/images/creatures/Sea_Serpent.gif"
+        },
+        {
             "name": "Ragiaz",
             "img": "/images/creatures/Destroyer.gif"
         },
