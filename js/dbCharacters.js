@@ -91,7 +91,7 @@ function loadCharacter(charName) {
         .catch(error => {
             console.error('Error loading character info:', error);
             charactersDisplayReset();
-            charactersDisplayError();
+            charactersDisplayError(characterName);
     });
 }
 
@@ -120,13 +120,13 @@ function charactersDisplayReset() {
     document.getElementById('characters').style.display = 'none';
 }
 
-function charactersDisplayError() {
-    document.getElementById('characterNotFoundMessage').innerHTML = `<td>Character <b>${character}</b> does not exist.</td>`
+function charactersDisplayError(characterName) {
+    document.getElementById('characterNotFoundMessage').innerHTML = `<td>Character <b>${characterName}</b> does not exist.</td>`
     document.getElementById('characterNotFound').style.display = 'block';
 }
 
-function characterExists(character) {
-    fetch("query.php?query=SELECT COUNT(*) AS count FROM players WHERE name = '" + character + "'")
+function characterExists(characterName) {
+    fetch("query.php?query=SELECT COUNT(*) AS count FROM players WHERE name = '" + characterName + "'")
         .then(response => response.json())
         .then(data => {
             if (data && data.length > 0 && data[0].count > 0) {
@@ -137,7 +137,7 @@ function characterExists(character) {
                 return true;
             } else {
                 // Character name doesn't exist in the database
-                charactersDisplayError();
+                charactersDisplayError(characterName);
                 return false;
             }
         })
