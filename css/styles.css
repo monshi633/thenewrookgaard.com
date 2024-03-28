@@ -643,6 +643,10 @@ mark {
     width: 120px;
 }
 
+.sub.fixed_width {
+    width: 100%;
+}
+
 .fixed_width td:nth-child(3),
 .sub.fixed_width td:nth-child(2) {
     width: 90px;

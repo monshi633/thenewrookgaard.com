@@ -77,7 +77,7 @@ function loadCharacter(charName) {
                             <td>${character.level}</td>
                             <td>${onlineIcon}</td>
                             <td>
-                                <div class="accountbox__buttonfield">
+                                <div class="inputbox__buttonfield">
                                     <input type="submit" value="View" onclick="loadCharacter('${character.name}')">
                                 </div>
                             </td>
