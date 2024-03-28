@@ -441,32 +441,32 @@ article {
 }
 
 /*Login*/
-.accountbox {
+.inputbox {
     display: flex;
     flex-wrap: wrap;
 }
 
-.accountbox__label {
+.inputbox__label {
     font-size: 10pt;
     font-weight: 700;
-    width: 135px;
+    padding-right: 15px;
 }
 
-.accountbox__inputfield {
+.inputbox__inputfield {
     flex-grow: 1;
-    margin-bottom: 5px;
 }
 
-.accountbox__inputfield input {
+.inputbox__inputfield input {
     width: 100%;
     padding: 0;
 }
 
-.accountbox__buttonfield {
+.inputbox__buttonfield {
     padding-left: 20px;
+    margin-bottom: 5px;
 }
 
-.accountbox__buttonfield input {
+.inputbox__buttonfield input {
     background-image: url(/images/main/button_blue.gif);
     width: 135px;
     height: 25px;
@@ -478,24 +478,71 @@ article {
     text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
-.accountbox__buttonfield input:hover {
+.inputbox__buttonfield input:hover {
     background-image: url(/images/main/button_blue_over.gif);
 }
 
-.accountbox__buttonfield.green input {
+.flex-break {
+    flex-basis: 100%;
+}
+
+.inputbox__buttonfield.green input {
     background-image: url(/images/main/button_green.gif);
 }
 
-.accountbox__buttonfield.green input:hover {
+.inputbox__buttonfield.green input:hover {
     background-image: url(/images/main/button_green_over.gif);
 }
 
-.accountbox__buttonfield.red input {
+.inputbox__buttonfield.red input {
     background-image: url(/images/main/button_red.gif);
 }
 
-.accountbox__buttonfield.red input:hover {
+.inputbox__buttonfield.red input:hover {
     background-image: url(/images/main/button_red_over.gif);
+}
+
+.statusbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.password-labels {
+    width: 165px;
+    height: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.statusbox .inputbox__inputfield {
+    margin-bottom: 5px;
+}
+
+.inputbox__inputfield.notspaced,
+.inputbox__buttonfield.notspaced {
+    margin-bottom: 0;
+}
+
+#statusbox-gem {
+    height: 52px;
+    width: 52px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#statusbox-status {
+    flex-grow: 1;
+}
+
+#statusbox-status p {
+    color: #ef0000;
+    font-size: 14pt;
+}
+
+#statusbox-status span{
+    font-size: 9pt;
 }
 
 h1 {

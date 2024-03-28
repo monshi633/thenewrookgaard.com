@@ -244,20 +244,21 @@
                                     <span class="caption br"></span>
                                 </div>
                                 <div class="main__box__section__content__article__border">
-                                    <div class="accountbox">
-                                        <span class="accountbox__label">Account Number:</span>
-                                        <div class="accountbox__inputfield">
+                                    <div class="inputbox">
+                                        <span class="inputbox__label" style="width: 120px;">Account Number:</span>
+                                        <div class="inputbox__inputfield">
                                             <input type="text" name="Account number" maxlength="50">
                                         </div>
-                                        <div class="accountbox__buttonfield">
-                                            <input type="submit" value="Login">
+                                        <div class="inputbox__buttonfield">
+                                            <input type="submit" value="Login" onclick="openContent('sectionLoggedIn')">
                                         </div>
-                                        <span class="accountbox__label">Password:</span>
-                                        <div class="accountbox__inputfield">
+                                        <div class="flex-break"></div>
+                                        <span class="inputbox__label" style="width: 120px;">Password:</span>
+                                        <div class="inputbox__inputfield">
                                             <input type="password" name="Password" maxlength="50">
                                         </div>
-                                        <div class="accountbox__buttonfield">
-                                            <input type="submit" value="Lost Account">
+                                        <div class="inputbox__buttonfield notspaced">
+                                            <input type="submit" value="Lost Account" onclick="openContent('sectionChangePassword')">
                                         </div>
                                     </div>
                                 </div>
@@ -298,7 +299,53 @@
                                     </div>
                                 </div>
                             </article>
-                            <!-- <article>
+                        </div>
+                    </section>
+                    <!-- <section id="sectionChangePassword">
+                        <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
+                        <div class="main__box__section__content">
+                            <article>
+                                <div class="main__box__section__content__article__caption">
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <span class="caption-text"><b>Change password</b></span>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
+                                </div>
+                                <div class="main__box__section__content__article__border">
+                                    <div class="statusbox">
+                                        <div class="password-labels">
+                                            <span class="inputbox__label">Recovery Key:</span>
+                                            <span class="inputbox__label">New Password:</span>
+                                            <span class="inputbox__label">Repeat New Password:</span>
+                                        </div>
+                                        <div style="flex-grow: 1;">
+                                            <div class="inputbox__inputfield">
+                                                <input type="password" name="Recovery key" maxlength="50">
+                                            </div>
+                                            <div class="inputbox__inputfield">
+                                                <input type="password" name="New password" maxlength="50">
+                                            </div>
+                                            <div class="inputbox__inputfield notspaced">
+                                                <input type="password" name="New password" maxlength="50">
+                                            </div>
+                                        </div>
+                                        <div class="inputbox__buttonfield notspaced">
+                                            <input type="submit" value="Submit" onclick="openContent('sectionLogin')">
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <section id="sectionLoggedIn">
+                        <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
+                        <div class="main__box__section__content">
+                            <article>
                                 <div class="main__box__section__content__article__caption">
                                     <span class="caption tl"></span>
                                     <span class="caption top"></span>
@@ -311,14 +358,23 @@
                                     <span class="caption br"></span>
                                 </div>
                                 <div class="main__box__section__content__article__border">
-                                    <div class="accountbox">
-                                        <span class="accountbox__label">Account Number:</span>
+                                    <div class="statusbox">
+                                        <div id="statusbox-gem">
+                                            <img src="images/account-status_red.gif" alt="Free account">
+                                        </div>
+                                        <div id="statusbox-status">
+                                            <p><b>Free account</b></p>
+                                            <span>Your Premium Time expired at Mar 11 2013.<br>(Balance of Premium Time: 0 days)</span>
+                                        </div>
                                         <div>
-                                            <div class="accountbox__buttonfield green">
+                                            <div class="inputbox__buttonfield">
+                                                <input type="submit" value="Change Password" onclick="openContent('sectionChangePassword')">
+                                            </div>
+                                            <div class="inputbox__buttonfield green">
                                                 <input type="submit" value="Get Premium">
                                             </div>
-                                            <div class="accountbox__buttonfield red">
-                                                <input type="submit" value="Logout">
+                                            <div class="inputbox__buttonfield red notspaced">
+                                                <input type="submit" value="Logout" onclick="openContent('sectionLogin')">
                                             </div>
                                         </div>
                                     </div>
@@ -349,9 +405,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                            </article> -->
+                            </article>
                         </div>
-                    </section>
+                    </section> -->
                     <section id="SectionNewsLatestnews">
                         <img class="main__box__section__headline" src="images/headlines/headline-news.gif" alt="Latest News">
                         <div class="main__box__section__content">
@@ -438,18 +494,16 @@
                         <div class="main__box__section__content">
                             <article>
                                 <div class="main__box__section__content__article__caption message">
-                                    <div class="main__box__section__content__article__caption message">
-                                        <span class="caption tl"></span>
-                                        <span class="caption top"></span>
-                                        <span class="caption tr"></span>
-                                        <span class="caption left"></span>
-                                        <span class="caption-text message"><b>Important information</b></span>
-                                        <span class="caption-text message">Some stats have been modified from the original game. This includes creatures's life, attack and specially: drop.</span>
-                                        <span class="caption right"></span>
-                                        <span class="caption bl"></span>
-                                        <span class="caption bottom"></span>
-                                        <span class="caption br"></span>
-                                    </div>
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <span class="caption-text message"><b>Important information</b></span>
+                                    <span class="caption-text message">Some stats have been modified from the original game. This includes creatures's life, attack and specially: drop.</span>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
                                 </div>
                                 <div id="creaturesFlex">
                                     <!--Creatures are retrieved here using creaturesLoader.js-->
@@ -462,18 +516,16 @@
                         <div class="main__box__section__content">
                             <article>
                                 <div class="main__box__section__content__article__caption message">
-                                    <div class="main__box__section__content__article__caption message">
-                                        <span class="caption tl"></span>
-                                        <span class="caption top"></span>
-                                        <span class="caption tr"></span>
-                                        <span class="caption left"></span>
-                                        <span class="caption-text message"><b>Important information</b></span>
-                                        <span class="caption-text message">Some stats have been modified from the original game. This includes bosses's life, attack and specially: drop.</span>
-                                        <span class="caption right"></span>
-                                        <span class="caption bl"></span>
-                                        <span class="caption bottom"></span>
-                                        <span class="caption br"></span>
-                                    </div>
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <span class="caption-text message"><b>Important information</b></span>
+                                    <span class="caption-text message">Some stats have been modified from the original game. This includes bosses's life, attack and specially: drop.</span>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
                                 </div>
                                 <div id="bossesFlex">
                                     <!--Bosses are retrieved here using bossesLoader.js-->
@@ -517,18 +569,16 @@
                         <div class="main__box__section__content">
                             <article>
                                 <div class="main__box__section__content__article__caption message">
-                                    <div class="main__box__section__content__article__caption message">
-                                        <span class="caption tl"></span>
-                                        <span class="caption top"></span>
-                                        <span class="caption tr"></span>
-                                        <span class="caption left"></span>
-                                        <span class="caption-text message"><b>Important information</b></span>
-                                        <span class="caption-text message">Some stats have been modified from the original game. Those changes are displayed <mark>highlighted</mark>.</span>
-                                        <span class="caption right"></span>
-                                        <span class="caption bl"></span>
-                                        <span class="caption bottom"></span>
-                                        <span class="caption br"></span>
-                                    </div>
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <span class="caption-text message"><b>Important information</b></span>
+                                    <span class="caption-text message">Some stats have been modified from the original game. Those changes are displayed <mark>highlighted</mark>.</span>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
                                 </div>
                                 <div class="main__box__section__content__article__caption">
                                     <span class="caption tl"></span>
@@ -593,18 +643,16 @@
                         <img class="main__box__section__headline" src="images/headlines/headline-items.gif" alt="Items">
                         <div class="main__box__section__content">
                             <div class="main__box__section__content__article__caption message">
-                                <div class="main__box__section__content__article__caption message">
-                                    <span class="caption tl"></span>
-                                    <span class="caption top"></span>
-                                    <span class="caption tr"></span>
-                                    <span class="caption left"></span>
-                                    <span class="caption-text"><b>Important information</b></span>
-                                    <span class="caption-text message">Some stats have been modified from the original game. Those changes are displayed <mark>highlighted</mark>.</span>
-                                    <span class="caption right"></span>
-                                    <span class="caption bl"></span>
-                                    <span class="caption bottom"></span>
-                                    <span class="caption br"></span>
-                                </div>
+                                <span class="caption tl"></span>
+                                <span class="caption top"></span>
+                                <span class="caption tr"></span>
+                                <span class="caption left"></span>
+                                <span class="caption-text"><b>Important information</b></span>
+                                <span class="caption-text message">Some stats have been modified from the original game. Those changes are displayed <mark>highlighted</mark>.</span>
+                                <span class="caption right"></span>
+                                <span class="caption bl"></span>
+                                <span class="caption bottom"></span>
+                                <span class="caption br"></span>
                             </div>
                             <article>
                                 <div class="main__box__section__content__article__caption" onclick="collapseTable('helmetsTableCollapsable')">
@@ -1181,23 +1229,15 @@
                                     <span class="caption br"></span>
                                 </div>
                                 <div class="main__box__section__content__article__border">
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <td class="accountbox">
-                                                    <div class="accountbox__label">
-                                                        <span>Character Name:</span>
-                                                    </div>
-                                                    <div class="accountbox__inputfield">
-                                                        <input id="characterName" type="text" name="Character name" maxlength="50">
-                                                    </div>
-                                                    <div class="accountbox__buttonfield">
-                                                        <input type="submit" value="Submit" onclick="loadCharacter()">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="inputbox">
+                                        <span class="inputbox__label">Character Name:</span>
+                                        <div class="inputbox__inputfield">
+                                            <input type="text" name="Character name" maxlength="50">
+                                        </div>
+                                        <div class="inputbox__buttonfield notspaced">
+                                            <input type="submit" value="Submit" onclick="loadCharacter()">
+                                        </div>
+                                    </div>
                                 </div>
                             </article>
                         </div>
