@@ -77,7 +77,7 @@ function loadCharacter(charName) {
                             <td>${character.level}</td>
                             <td>${onlineIcon}</td>
                             <td>
-                                <div class="loginbutton__buttonfield">
+                                <div class="accountbox__buttonfield">
                                     <input type="submit" value="View" onclick="loadCharacter('${character.name}')">
                                 </div>
                             </td>
@@ -85,7 +85,7 @@ function loadCharacter(charName) {
                             charactersTable.appendChild(characterRow);
                         });
                     })
-                    .catch(error => console.error('Error loading characters:', error));
+                    .catch(error => console.error('Error loading characters list:', error));
             });
         })
         .catch(error => {

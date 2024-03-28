@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", function () {
             data.articles.reverse().slice(0, 5).forEach(article => {
                 const articleElement = document.createElement('article');
                 articleElement.innerHTML = `
-                <div class="box__section__content__headline">
-                    <img class="box__section__content__headline__icon" src="${article.icon}" alt="news icon development">
-                    <span class="box__section__content__headline__date">${article.date}</span>
-                    <span class="box__section__content__headline__text">${article.title}</span>
+                <div class="news">
+                    <img class="news__icon" src="${article.icon}" alt="news icon development">
+                    <span class="news__date">${article.date}</span>
+                    <span class="news__text"><b>${article.title}</b></span>
                 </div>
-                <table class="box__section__content__table">
+                <table>
                     <tbody>
                         <tr>
                             <td>

@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
             .catch(error => console.error('Error loading players online:', error));
     }
 
-    const label = document.getElementById('label__section__community__whosonline');
+    const submenu = document.getElementById('submenuSectionCommunityWhosonline');
     const counter = document.getElementById('counter');
 
-    label.addEventListener('click', loadWhosOnline);
+    submenu.addEventListener('click', loadWhosOnline);
     counter.addEventListener('click', loadWhosOnline);
 });

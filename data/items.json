@@ -1360,17 +1360,6 @@
             "obtained": "Chakoya Tribewarden, Bandit, Skeleton, Minotaur,  Zombie, Skeleton Warrior, Nomad, Rotworm, Wild Warrior and others"
         },
         {
-            "name": "Iron Hammer",
-            "img": "/images/items/clubs/Iron_Hammer.gif",
-            "atk": "18",
-            "def": "10",
-            "hands": "1",
-            "additional": "-",
-            "level": "-",
-            "weight": "66.0",
-            "obtained": "Unknown"
-        },
-        {
             "name": "Daramian Mace",
             "img": "/images/items/clubs/Daramian_Mace.gif",
             "atk": "21",
@@ -1747,13 +1736,13 @@
         {
             "name": "Queen's Sceptre",
             "img": "/images/items/clubs/Queen's_Sceptre.gif",
-            "atk": "?",
-            "def": "?",
+            "atk": "70",
+            "def": "40",
             "hands": "2",
-            "additional": "?",
+            "additional": "-",
             "level": "<mark>120</mark>",
             "weight": "23.0",
-            "obtained": "Unknown"
+            "obtained": "Quest"
         }
     ],
     "sword": [
@@ -2200,13 +2189,13 @@
         {
             "name": "Magic Longsword",
             "img": "/images/items/swords/Magic_Longsword.gif",
-            "atk": "?",
-            "def": "?",
+            "atk": "70",
+            "def": "40",
             "hands": "2",
-            "additional": "?",
+            "additional": "-",
             "level": "<mark>120</mark>",
             "weight": "43.0",
-            "obtained": "Unknown"
+            "obtained": "Quest"
         }
     ],
     "axe": [
@@ -2642,13 +2631,13 @@
         {
             "name": "Solar Axe",
             "img": "/images/items/axes/Solar_Axe.gif",
-            "atk": "?",
-            "def": "?",
+            "atk": "70",
+            "def": "40",
             "hands": "2",
-            "additional": "?",
+            "additional": "-",
             "level": "<mark>120</mark>",
             "weight": "110.0",
-            "obtained": "Unknown"
+            "obtained": "Quest"
         }
     ],
     "distance": [
@@ -2930,13 +2919,13 @@
         {
             "name": "Arbalest",
             "img": "/images/items/distance/Arbalest.gif",
-            "atk": "?",
-            "range": "7",
-            "hands": "?",
-            "additional": "?",
+            "atk": "60",
+            "range": "<mark>4</mark>",
+            "hands": "2",
+            "additional": "<mark>No ammunition needed</mark>",
             "level": "<mark>120</mark>",
             "weight": "95.0",
-            "obtained": "Unknown"
+            "obtained": "Quest"
         }
     ],
     "ammunition": [
@@ -3172,7 +3161,7 @@
             "arm": "-",
             "additional": "<mark>Distance fighting +3</mark>",
             "weight": "8.4",
-            "obtained": "Questt"
+            "obtained": "Quest"
         },
         {
             "name": "Sapphire Amulet",
@@ -3212,7 +3201,7 @@
             "arm": "<mark>1</mark>",
             "additional": "-",
             "weight": "4.2",
-            "obtained": "Unknown"
+            "obtained": "?"
         },
         {
             "name": "Platinum Amulet",
@@ -3356,7 +3345,7 @@
             "name": "Dwarven Ring",
             "img": "/images/items/rings/Dwarven_Ring.gif",
             "arm": "-",
-            "additional": "Suppress drunkenness",
+            "additional": "Supress drunkenness",
             "weight": "1.1",
             "obtained": "Dwarf, Novice of The Cult"
         },
@@ -3374,7 +3363,7 @@
             "arm": "<mark>2</mark>",
             "additional": "<mark>Speed -5</mark>",
             "weight": "1.2",
-            "obtained": "Unknown"
+            "obtained": "?"
         },
         {
             "name": "Signet Ring",
@@ -3382,7 +3371,7 @@
             "arm": "-",
             "additional": "<mark>Sword fighting +1</mark>",
             "weight": "1.0",
-            "obtained": "Unknown"
+            "obtained": "?"
         },
         {
             "name": "Feather",
@@ -3390,7 +3379,7 @@
             "arm": "-",
             "additional": "<mark>Distance fighting +1</mark>",
             "weight": "1.0",
-            "obtained": "Unknown"
+            "obtained": "?"
         },
         {
             "name": "Didgeridoo",
@@ -3398,7 +3387,7 @@
             "arm": "-",
             "additional": "<mark>Club fighting +1</mark>",
             "weight": "1.0",
-            "obtained": "Unknown"
+            "obtained": "?"
         },
         {
             "name": "War Horn",
@@ -3406,7 +3395,7 @@
             "arm": "-",
             "additional": "<mark>Axe fighting +1</mark>",
             "weight": "1.0",
-            "obtained": "Unknown"
+            "obtained": "?"
         }
     ],
     "containers": [
@@ -3590,55 +3579,55 @@
     "recipes": [
         {
             "name": "Rotworm stew",
-            "img": "/images/items/recipes/Rotworm_stew.gif",
+            "img": "/images/items/recipes/Rotworm_Stew.gif",
             "effect": "It will heal you completely",
             "weight": "12.0"
         },
         {
             "name": "Tropical fried terrorbird",
-            "img": "/images/items/recipes/Tropical_fried_terrorbird.gif",
+            "img": "/images/items/recipes/Tropical_Fried_Terrorbird.gif",
             "effect": "It will boost your Magic Level by 5 for one hour",
             "weight": "7.8"
         },
         {
             "name": "Carrot cake",
-            "img": "/images/items/recipes/Carrot_cake.gif",
+            "img": "/images/items/recipes/Carrot_Cake.gif",
             "effect": "It will boost your Distance Fighting skill by 10 for one hour",
             "weight": "6.8"
         },
         {
             "name": "Filled jalapeno peppers",
-            "img": "/images/items/recipes/Filled_jalapeno_peppers.gif",
+            "img": "/images/items/recipes/Filled_Jalapeno_Peppers.gif",
             "effect": "It will boost your speed by 100 levels for one hour",
             "weight": "6.5"
         },
         {
             "name": "Sweet mangonaise elixir",
-            "img": "/images/items/recipes/Sweet_mangonaise_elixir.gif",
+            "img": "/images/items/recipes/Sweet_Mangonaise_Elixir.gif",
             "effect": "<mark>Drinking this elixir will create 5 copies of the ring you are wearing</mark>",
             "weight": "3.0"
         },
         {
             "name": "Veggie casserole",
-            "img": "/images/items/recipes/Veggie_casserole.gif",
+            "img": "/images/items/recipes/Veggie_Casserole.gif",
             "effect": "It will boost your Melee skills (Sword Fighting, Axe Fighting and Club Fighting) by 10 for one hour",
             "weight": "11.0"
         },
         {
             "name": "Northern fishburger",
-            "img": "/images/items/recipes/Northern_fishburger.gif",
+            "img": "/images/items/recipes/Northern_Fishburger.gif",
             "effect": "It will boost your fishing skill by 50 for one hour",
             "weight": "4.6"
         },
         {
             "name": "Hydra tongue salad",
-            "img": "/images/items/recipes/Hydra_tongue_salad.gif",
+            "img": "/images/items/recipes/Hydra_Tongue_Salad.gif",
             "effect": "It will cure you of most negative conditions",
             "weight": "5.5"
         },
         {
             "name": "Roasted dragon wings",
-            "img": "/images/items/recipes/Roasted_dragon_wings.gif",
+            "img": "/images/items/recipes/Roasted_Dragon_Wings.gif",
             "effect": "It will boost your shielding skill by 10 for one hour",
             "weight": "8.5"
         }

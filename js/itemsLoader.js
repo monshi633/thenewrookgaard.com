@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const label = document.getElementById('label__section__library__items');
+    const submenu = document.getElementById('submenuSectionLibraryItems');
     
-    label.addEventListener('click', function () {
+    submenu.addEventListener('click', function () {
         const helmetsTable = document.getElementById('helmetsTable');
         helmetsTable.innerText = '';
         const armorsTable = document.getElementById('armorsTable');

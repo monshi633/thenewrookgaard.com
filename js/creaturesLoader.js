@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const label = document.getElementById('label__section__library__creatures');
+    const submenu = document.getElementById('submenuSectionLibraryCreatures');
 
-    label.addEventListener('click', function () {
+    submenu.addEventListener('click', function () {
         const table = document.getElementById('creaturesFlex');
         table.innerText = '';
         fetch('/data/creatures.json')
@@ -10,11 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 data.creatures.forEach(creature => {
                     const creatureElement = document.createElement('div');
                     creatureElement.innerHTML = `
-                    <div class="creature">
-                        <div class="creature_container">
-                            <img src="${creature.img}" alt="${creature.name}">
-                        </div>
-                            <div>${creature.name}</div>
+                    <div class="creature-container">
+                        <img class="creature" src="${creature.img}" alt="${creature.name}">
+                        <div>${creature.name}</div>
                     </div>
                 `;
                     table.appendChild(creatureElement);

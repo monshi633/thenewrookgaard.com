@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const label = document.getElementById('label__section__library__quests');
+    const submenu = document.getElementById('submenuSectionLibraryQuests');
 
-    label.addEventListener('click', function () {
+    submenu.addEventListener('click', function () {
         const table = document.getElementById('questsTable');
         table.innerText = '';
         fetch('/data/quests.json')

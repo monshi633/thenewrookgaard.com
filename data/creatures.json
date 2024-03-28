@@ -6,7 +6,7 @@
         },
         {
             "name": "Adepts Of The Cult",
-            "img": "/images/creatures/Adept_Of_The_Cult.gif"
+            "img": "/images/creatures/Adept_of_the_Cult.gif"
         },
         {
             "name": "Amazons",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Assassins",
-            "img": "/images/creatures/assassin.gif"
+            "img": "/images/creatures/Assassin.gif"
         },
         {
             "name": "Bandits",
@@ -310,7 +310,7 @@
         },
         {
             "name": "Enlighteneds Of The Cult",
-            "img": "/images/creatures/Enlightened_Of_The_Cult.gif"
+            "img": "/images/creatures/Enlightened_of_the_Cult.gif"
         },
         {
             "name": "Fire Devils",

@@ -3,8 +3,8 @@ Certificado SSL
 Integrar sistema de cobro dentro de login
 
 #Secciones
-Login: Poder entrar, cambiar contraseña?, comprar premmy. Que al iniciar sesión, te muestre las tasks y quest realizadas, addons obtenidos? y spells desbloqueados?
-Lost account: Formulario de cambio de contraseñas.
+Login: Que al iniciar sesión, te muestre las tasks y quest realizadas, addons obtenidos?
+
 
 #Detalles
 NPCs: Ver cómo agregar gifs de los NPC personalizados
