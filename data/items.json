@@ -284,7 +284,7 @@
             "name": "Winged Helmet",
             "img": "/images/items/helmets/Winged_Helmet.gif",
             "arm": "10",
-            "additional": "?",
+            "additional": "<mark>Speed +10</mark>",
             "weight": "12.0",
             "obtained": "Azerus"
         },
@@ -300,7 +300,7 @@
             "name": "Horned Helmet",
             "img": "/images/items/helmets/Horned_Helmet.gif",
             "arm": "11",
-            "additional": "?",
+            "additional": "-",
             "weight": "51.0",
             "obtained": "Ragiaz"
         },
@@ -817,7 +817,7 @@
             "name": "Dragon Scale Legs",
             "img": "/images/items/legs/Dragon_Scale_Legs.gif",
             "arm": "10",
-            "additional": "?",
+            "additional": "-",
             "weight": "48.0",
             "obtained": "Fazzrah"
         }
@@ -2889,7 +2889,7 @@
             "atk": "<mark>+10</mark>",
             "range": "<mark>7</mark>",
             "hands": "2",
-            "additional": "<mark>Hit + 10%</mark>",
+            "additional": "<mark>Hit +10%</mark>",
             "level": "<mark>85</mark>",
             "weight": "55.0",
             "obtained": "Lizard Chosen"
@@ -2897,10 +2897,10 @@
         {
             "name": "Warsinger Bow",
             "img": "/images/items/distance/Warsinger_Bow.gif",
-            "atk": "?",
-            "range": "?",
+            "atk": "+12",
+            "range": "7",
             "hands": "2",
-            "additional": "?",
+            "additional": "<mark>Hit +10%</mark>",
             "level": "<mark>90</mark>",
             "weight": "45.0",
             "obtained": "Ghastly Dragon"
@@ -3214,8 +3214,8 @@
         {
             "name": "Golden Amulet",
             "img": "/images/items/amulets/Golden_Amulet.gif",
-            "arm": "?",
-            "additional": "?",
+            "arm": "3",
+            "additional": "-",
             "weight": "8.3",
             "obtained": "Fury, Grim Reaper, Warlock"
         }
