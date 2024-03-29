@@ -43,7 +43,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Add onclick attribute to hide members
                 guildRow.setAttribute('onclick', 'collapseTable("' + membersRowId + '", true)');
-                
+                guildRow.style.cursor = 'pointer';
+
                 // Add content to membersBody
                 fetch("query.php?query=SELECT p.online AS online, p.name AS name, r.name AS rank FROM players AS p JOIN guild_ranks AS r ON p.rank_id = r.id WHERE r.guild_id = (SELECT id FROM guilds WHERE name = '" + guild.name + "') ORDER BY r.level DESC, p.name;")
                 .then(response => response.json())
