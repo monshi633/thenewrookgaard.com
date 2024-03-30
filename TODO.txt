@@ -1,12 +1,9 @@
 #Importantísimo
-Certificado SSL
 Integrar sistema de cobro dentro de login
 
 #Secciones
 Login: Que al iniciar sesión, te muestre las tasks y quest realizadas, addons obtenidos?
 
-
 #Detalles
 NPCs: Ver cómo agregar gifs de los NPC personalizados
-Caché: ¿Hay una forma de que latestNews cargue siempre desde cero sin almacenar cache?
 Index: Compartimentar secciones tipo thenewrookgaard.com/library/creatures

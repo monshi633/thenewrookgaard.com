@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     submenu.addEventListener('click', function () {
         const guildTable = document.getElementById('guildTable');
         guildTable.innerText = '';
-        fetch("query.php?query=SELECT g.name, COUNT(p.name) AS members ,strftime('%d-%m-%Y', datetime(g.creationdata, 'unixepoch')) AS creation FROM guilds AS g JOIN players AS p_leader ON g.ownerid=p_leader.id JOIN guild_ranks as r ON g.id = r.guild_id JOIN players as p on r.id=p.rank_id GROUP BY g.name ORDER BY g.creationdata")
+        fetch("query.php?query=SELECT g.name, COUNT(p.name) AS members ,strftime('%d-%m-%Y', datetime(g.creationdata, 'unixepoch')) AS creation FROM guilds AS g JOIN players AS p_leader ON g.ownerid=p_leader.id JOIN guild_ranks as r ON g.id = r.guild_id JOIN players as p on r.id=p.rank_id GROUP BY g.name ORDER BY g.name")
         .then(response => response.json())
         .then(data => {
             data.forEach(guild => {
