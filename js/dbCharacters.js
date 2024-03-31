@@ -20,7 +20,7 @@ function loadCharacter(charName) {
     // Load Character Info
     const characterInfoTable = document.getElementById('characterInfoTable');
     characterInfoTable.innerText = '';
-    fetch("query.php?query=SELECT p.account_id, p.name, CASE WHEN p.rank_id = 0 THEN '-' ELSE g.name END AS guild, CASE WHEN p.rank_id = 0 THEN '' ELSE ' (' || r.name || ')' END AS rank, CASE WHEN p.sex = 1 THEN 'Male' WHEN p.sex = 0 THEN 'Female' END AS sex, CASE WHEN p.promotion = 0 THEN 'Rookie' WHEN p.promotion = 1 THEN 'Rookstayer' END AS vocation, p.level, strftime('%d-%m-%Y', datetime(p.lastlogin, 'unixepoch')) AS lastlogin, CASE WHEN a.premdays > 0 THEN 'Premium Account' ELSE 'Free Account' END AS status FROM players AS p LEFT JOIN accounts AS a ON p.account_id = a.id LEFT JOIN guild_ranks AS r ON p.rank_id = r.id LEFT JOIN guilds AS g ON r.guild_id = g.id WHERE p.name = '" + characterName + "'")
+    fetch('dbQueries.php?queryId=character')
         .then(response => response.json())
         .then(data => {
             data.forEach(characterInfo => {
@@ -60,7 +60,7 @@ function loadCharacter(charName) {
                 // Load Characters
                 const charactersTable = document.getElementById('charactersTable');
                 charactersTable.innerText = '';
-                fetch('query.php?query=SELECT name, level, online FROM players WHERE account_id = ' + characterInfo.account_id)
+                fetch('dbQueries.php?queryId=cAccount')
                     .then(response => response.json())
                     .then(data => {
                         data.forEach(character => {
@@ -126,7 +126,7 @@ function charactersDisplayError(characterName) {
 }
 
 function characterExists(characterName) {
-    fetch("query.php?query=SELECT COUNT(*) AS count FROM players WHERE name = '" + characterName + "'")
+    fetch('dbQueries.php?queryId=cExists')
         .then(response => response.json())
         .then(data => {
             if (data && data.length > 0 && data[0].count > 0) {
