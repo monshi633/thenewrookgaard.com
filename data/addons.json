@@ -15,13 +15,13 @@
         {
             "name": "First Hunter Addon",
             "img1": "/images/addons/Outfit_Hunter_Male_Addon_1.gif",
-            "img2": "/images/addons/Outfit_Hunter_Female_Addon_2.gif",
+            "img2": "/images/addons/Outfit_Hunter_Female_Addon_1.gif",
             "items": "30 Terramite Shells, 30 Wools, 20 Heaven Blossoms"
         },
         {
             "name": "Second Hunter Addon",
             "img1": "/images/addons/Outfit_Hunter_Male_Addon_2.gif",
-            "img2": "/images/addons/Outfit_Hunter_Female_Addon_1.gif",
+            "img2": "/images/addons/Outfit_Hunter_Female_Addon_2.gif",
             "items": "1 Sniper Gloves"
         },
         {
@@ -38,15 +38,15 @@
         },
         {
             "name": "First Knight Addon",
-            "img1": "/images/addons/Outfit_Knight_Male_Addon_2.gif",
-            "img2": "/images/addons/Outfit_Knight_Female_Addon_2.gif",
-            "items": "5 Steel Helmet, 10 Thorns, 5 Crystal Coins"
-        },
-        {
-            "name": "Second Knight Addon",
             "img1": "/images/addons/Outfit_Knight_Male_Addon_1.gif",
             "img2": "/images/addons/Outfit_Knight_Female_Addon_1.gif",
             "items": "1 Gland, 20 Seeds, 10 Antlers, 1 Pig Foot"
+        },
+        {
+            "name": "Second Knight Addon",
+            "img1": "/images/addons/Outfit_Knight_Male_Addon_2.gif",
+            "img2": "/images/addons/Outfit_Knight_Female_Addon_2.gif",
+            "items": "5 Steel Helmet, 10 Thorns, 5 Crystal Coins"
         },
         {
             "name": "First Nobleman Addon",
@@ -122,14 +122,14 @@
         },
         {
             "name": "First Oriental Addon",
-            "img1": "/images/addons/Outfit_Oriental_Male_Addon_2.gif",
-            "img2": "/images/addons/Outfit_Oriental_Female_Addon_2.gif",
-            "items": "1 Mermaid Comb"
+            "img1": "/images/addons/Outfit_Oriental_Male_Addon_1.gif",
+            "img2": "/images/addons/Outfit_Oriental_Female_Addon_1.gif",
+            "items": "1 Coral Comb"
         },
         {
             "name": "Second Oriental Addon",
-            "img1": "/images/addons/Outfit_Oriental_Male_Addon_1.gif",
-            "img2": "/images/addons/Outfit_Oriental_Female_Addon_1.gif",
+            "img1": "/images/addons/Outfit_Oriental_Male_Addon_2.gif",
+            "img2": "/images/addons/Outfit_Oriental_Female_Addon_2.gif",
             "items": "50 Fish Fins, 50 Ape Furs"
         },
         {
@@ -142,7 +142,7 @@
             "name": "Second Pirate Addon",
             "img1": "/images/addons/Outfit_Pirate_Male_Addon_2.gif",
             "img2": "/images/addons/Outfit_Pirate_Female_Addon_2.gif",
-            "items": "1 Brutus Bloodbeard's hat, 1 Lethal Lizzy's Shirt, 1 Ron The Ripper's Sabre, 1 Deadeye Devious's Eye Patch"
+            "items": "1 Brutus Bloodbeard's hat, 1 Lethal Lissy's Shirt, 1 Ron The Ripper's Sabre, 1 Deadeye Devious' Eye Patch"
         },
         {
             "name": "First Assassin Addon",
@@ -159,13 +159,13 @@
         {
             "name": "First Beggar Addon",
             "img1": "/images/addons/Outfit_Beggar_Male_Addon_1.gif",
-            "img2": "/images/addons/Outfit_Beggar_Female_Addon_2.gif",
+            "img2": "/images/addons/Outfit_Beggar_Female_Addon_1.gif",
             "items": "50 Minotaur Leathers, 30 Heaven Blossoms, 20 Brown Pieces of Cloth"
         },
         {
             "name": "Second Beggar Addon",
             "img1": "/images/addons/Outfit_Beggar_Male_Addon_2.gif",
-            "img2": "/images/addons/Outfit_Beggar_Female_Addon_1.gif",
+            "img2": "/images/addons/Outfit_Beggar_Female_Addon_2.gif",
             "items": "1 Simon The Beggar's Favorite Staff"
         },
         {
