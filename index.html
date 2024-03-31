@@ -1232,10 +1232,10 @@
                                     <div class="inputbox">
                                         <span class="inputbox__label">Character Name:</span>
                                         <div class="inputbox__inputfield">
-                                            <input id="characterName" type="text" name="Character name" maxlength="50">
+                                            <input id="characterName" type="text" name="Character name" maxlength="50" onkeydown="handleKeyPress(event)">
                                         </div>
                                         <div class="inputbox__buttonfield notspaced">
-                                            <input type="submit" value="Submit" onclick="loadCharacter()">
+                                            <input id="submitButton" type="submit" value="Submit" onclick="loadCharacter()">
                                         </div>
                                     </div>
                                 </div>
