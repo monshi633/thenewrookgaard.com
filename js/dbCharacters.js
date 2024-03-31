@@ -20,7 +20,7 @@ function loadCharacter(charName) {
     // Load Character Info
     const characterInfoTable = document.getElementById('characterInfoTable');
     characterInfoTable.innerText = '';
-    fetch('dbQueries.php?queryId=character')
+    fetch(`dbQueries.php?queryId=character&inputValue=${characterName}`)
         .then(response => response.json())
         .then(data => {
             data.forEach(characterInfo => {
@@ -60,7 +60,7 @@ function loadCharacter(charName) {
                 // Load Characters
                 const charactersTable = document.getElementById('charactersTable');
                 charactersTable.innerText = '';
-                fetch('dbQueries.php?queryId=cAccount')
+                fetch(`dbQueries.php?queryId=cAccount&inputValue=${characterInfo.account_id}`)
                     .then(response => response.json())
                     .then(data => {
                         data.forEach(character => {
@@ -126,7 +126,7 @@ function charactersDisplayError(characterName) {
 }
 
 function characterExists(characterName) {
-    fetch('dbQueries.php?queryId=cExists')
+    fetch(`dbQueries.php?queryId=cExists&inputValue=${characterName}`)
         .then(response => response.json())
         .then(data => {
             if (data && data.length > 0 && data[0].count > 0) {

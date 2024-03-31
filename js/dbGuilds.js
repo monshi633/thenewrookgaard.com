@@ -8,17 +8,19 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(response => response.json())
         .then(data => {
             data.forEach(guild => {
+                const guildName = guild.name;
+
                 // Add guild row
                 const guildRow = document.createElement('tr');
                 guildRow.innerHTML = `
-                <td>${guild.name}</td>
+                <td>${guildName}</td>
                 <td>${guild.members}</td>
                 <td>${guild.creation}</td>
                 `;
                 guildTable.appendChild(guildRow);
                 
                 // Define membersBodyId
-                const membersBodyId = guild.name + 'membersBody'
+                const membersBodyId = guildName + 'membersBody'
 
                 // Add member row
                 const membersRow = document.createElement('tr');
@@ -38,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 guildTable.appendChild(membersRow);
                 
                 // Define membersRowId
-                const membersRowId = guild.name + 'Collapsable';
+                const membersRowId = guildName + 'Collapsable';
                 membersRow.id = membersRowId;
 
                 // Add onclick attribute to hide members
@@ -46,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 guildRow.style.cursor = 'pointer';
 
                 // Add content to membersBody
-                fetch('dbQueries.php?queryId=guildMembers')
+                fetch(`dbQueries.php?queryId=guildMembers&inputValue=${guildName}`)
                 .then(response => response.json())
                 .then(data => {
                     const membersTable = document.getElementById(membersBodyId);

@@ -14,6 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Call the function immediately
     fetchNumberOnline();
 
-    // Call again every 5 seconds
-    setInterval(fetchNumberOnline, 5000);
+    // Call again every 10 seconds
+    setInterval(fetchNumberOnline, 10000);
 });
