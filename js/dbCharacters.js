@@ -97,7 +97,7 @@ function loadCharacter(charName) {
 
 function sanitizeInput(input) {
     // Allow only alphanumeric characters
-    return input.replace(/[^a-zA-Z]/g, '');
+    return input.replace(/[^a-zA-Z\s]/g, '');
 }
 
 function capitalizeWords(string) {

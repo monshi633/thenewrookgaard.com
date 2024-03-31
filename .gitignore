@@ -1,13 +1,3 @@
 .vscode/
-dashboard/
-img/
-webalizer/
-xampp/
-applications.html
-bitnami.css
-favicon.ico
-index-old.php
-.vs/htdocs/v15/.suo
-.vs/slnx.sqlite
-.vs/VSWorkspaceState.json
+.vs/
 php/php_errors.log
