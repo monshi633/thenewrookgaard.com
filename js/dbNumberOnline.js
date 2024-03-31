@@ -1,19 +1,19 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener('DOMContentLoaded', function () {
     const numberOnline = document.getElementById('numberOnline');
 
-    // Create EventSource object
-    const eventSource = new EventSource("sse.php?query=SELECT COUNT (*) AS players_online FROM players WHERE online = 1 AND id > 2");
+    function fetchNumberOnline() {
+        fetch('dbQueries.php?queryId=nOnline')
+            .then(response => response.json())
+            .then(data => {
+                const count = data[0].players_online;
+                numberOnline.innerText = count + (count === 1 ? ' Player Online' : ' Players Online');
+            })
+            .catch(error => console.error('Error loading numbers online:', error));
+    }
 
-    // Event listener for receiving SSE updates
-    eventSource.addEventListener('message', function(event) {
-        const data = JSON.parse(event.data);
-        const count = data.players_online;
-        numberOnline.innerText = count + (count === 1 ? ' Player Online' : ' Players Online');
-    });
+    // Call the function immediately
+    fetchNumberOnline();
 
-    // Error event handler
-    eventSource.addEventListener('error', function (error) {
-        console.error('Error with SSE connection:', error);
-        eventSource.close();
-    });
+    // Call again every 10 seconds
+    setInterval(fetchNumberOnline, 1000);y
 });
