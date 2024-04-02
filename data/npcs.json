@@ -2,406 +2,481 @@
     "npcs": [
         {
             "name": "Ajax",
+            "img": "/images/npcs/Ajax.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Al Dee",
+            "img": "/images/npcs/Al_Dee.png",
             "location": "Rookgaard",
             "services": "Forger, Merchant"
         },
         {
             "name": "Aldo",
+            "img": "/images/npcs/Aldo.png",
             "location": "Rookgaard",
             "services": "Merchant"
         },
         {
             "name": "Alice",
+            "img": "/images/npcs/Alice.png",
             "location": "Rookgaard",
             "services": "Merchant"
         },
         {
             "name": "Anerui",
+            "img": "/images/npcs/Anerui.png",
             "location": "Goblin Lair",
             "services": "Forger"
         },
         {
             "name": "Arkulius",
+            "img": "/images/npcs/Arkulius.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Asima",
+            "img": "/images/npcs/Asima.png",
             "location": "Swampland",
             "services": "Forger"
         },
         {
             "name": "Baltim",
+            "img": "/images/npcs/Baltim.png",
             "location": "Pirate Island",
             "services": "Forger"
         },
         {
             "name": "Barry",
+            "img": "/images/npcs/Barry.png",
             "location": "Swampland",
             "services": "Sailor"
         },
         {
             "name": "Bashira",
+            "img": "/images/npcs/Bashira.png",
             "location": "Dragonland",
             "services": "Forger"
         },
         {
             "name": "Beatrice",
+            "img": "/images/npcs/Beatrice.png",
             "location": "Desert",
             "services": "Forger"
         },
         {
             "name": "Berenice",
+            "img": "/images/npcs/Berenice.png",
             "location": "Snowland",
             "services": "Forger"
         },
         {
             "name": "Bespoke Zaffora",
+            "img": "/images/npcs/Bespoke_Zaffora.png",
             "location": "Rookgaard",
             "services": "Addoner"
         },
         {
             "name": "Blind Beholder",
+            "img": "/images/npcs/Blind_Beholder.png",
             "location": "Swampland",
             "services": "Forger"
         },
         {
             "name": "Borkas",
+            "img": "/images/npcs/Borkas.png",
             "location": "Orc Fortress",
             "services": "Forger"
         },
         {
             "name": "Bron",
+            "img": "/images/npcs/Bron.png",
             "location": "Snowland",
             "services": "Forger"
         },
         {
             "name": "Bruno",
+            "img": "/images/npcs/Bruno.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Buddel",
+            "img": "/images/npcs/Buddel.png",
             "location": "Snowland",
             "services": "Sailor"
         },
         {
             "name": "Cael",
+            "img": "/images/npcs/Cael.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Captain Breezelda",
+            "img": "/images/npcs/Captain_Breezelda.png",
             "location": "Snowland",
             "services": "Sailor"
         },
         {
             "name": "Captain Fearless",
+            "img": "/images/npcs/Captain_Fearless.png",
             "location": "Dragonland",
             "services": "Sailor"
         },
         {
             "name": "Captain Seagull",
+            "img": "/images/npcs/Captain_Seagull.png",
             "location": "Rookgaard",
             "services": "Sailor"
         },
         {
             "name": "Captain Sinbeard",
+            "img": "/images/npcs/Captain_Sinbeard.png",
             "location": "Snowland",
             "services": "Sailor"
         },
         {
             "name": "Captain Waverider",
+            "img": "/images/npcs/Captain_Waverider.png",
             "location": "Pirate Island",
             "services": "Sailor"
         },
         {
             "name": "Carlson",
+            "img": "/images/npcs/Carlson.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Chef Mallmann",
+            "img": "/images/npcs/Chef_Mallmann.png",
             "location": "Rookgaard",
             "services": "Chef"
         },
         {
             "name": "Clyde",
+            "img": "/images/npcs/Clyde.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Debbul",
+            "img": "/images/npcs/Debbul.png",
             "location": "Snowland",
             "services": "Sailor"
         },
         {
             "name": "Dixi",
+            "img": "/images/npcs/Dixi.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
-            "name": "Dove",
-            "location": "Swampland",
-            "services": "Forger"
-        },
-        {
             "name": "Drakus",
+            "img": "/images/npcs/Drakus.png",
             "location": "Swampland",
             "services": "Sailor"
         },
         {
+            "name": "Durin",
+            "img": "/images/npcs/Durin.png",
+            "location": "Dwarven Mines",
+            "services": "Forger"
+        },
+        {
             "name": "Eryn",
+            "img": "/images/npcs/Eryn.png",
             "location": "Rookgaard",
             "services": "Forger, Merchant"
         },
         {
             "name": "Ethan",
+            "img": "/images/npcs/Ethan.png",
             "location": "Snowland",
             "services": "Forger"
         },
         {
             "name": "Etzel",
+            "img": "/images/npcs/Etzel.png",
             "location": "Swampland",
             "services": "Forger"
         },
         {
             "name": "Fenech",
+            "img": "/images/npcs/Fenech.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Ferks",
+            "img": "/images/npcs/Ferks.png",
             "location": "Dragonland",
             "services": "Forger"
         },
         {
             "name": "Fisherman Arcay",
+            "img": "/images/npcs/Fisherman_Arkay.png",
             "location": "Rookgaard",
             "services": "Sailor"
         },
         {
             "name": "Frans",
+            "img": "/images/npcs/Frans.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Freezhild",
+            "img": "/images/npcs/Freezhild.png",
             "location": "Swampland",
             "services": "Forger"
         },
         {
             "name": "Frodo",
+            "img": "/images/npcs/Frodo.png",
             "location": "Rookgaard",
             "services": "Merchant"
         },
         {
             "name": "General Malor",
+            "img": "/images/npcs/General_Malor.png",
             "location": "Rookgaard",
             "services": "Guard"
         },
         {
+            "name": "Gloin",
+            "img": "/images/npcs/Gloin.png",
+            "location": "Dwarven Mines",
+            "services": "Forger"
+        },
+        {
             "name": "Graubart",
+            "img": "/images/npcs/Graubart.png",
             "location": "Pirate Island",
             "services": "Forger"
         },
         {
             "name": "Grizzly Adams",
+            "img": "/images/npcs/Grizzly_Adams.png",
             "location": "Rookgaard",
             "services": "Tasker"
         },
         {
             "name": "Gundralph",
+            "img": "/images/npcs/Gundralph.png",
             "location": "Swampland",
             "services": "Forger"
         },
         {
             "name": "Iwar",
+            "img": "/images/npcs/Iwar.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Jok'ker",
+            "img": "/images/npcs/Jokker.png",
             "location": "Rookgaard",
             "services": "Gambler"
         },
         {
             "name": "King Tibianus",
+            "img": "/images/npcs/King_Tibianus.png",
             "location": "Rookgaard",
             "services": "Royalty"
         },
         {
             "name": "Kroox",
+            "img": "/images/npcs/Kroox.png",
             "location": "Dragonlair",
             "services": "Forger"
         },
         {
             "name": "Larry",
+            "img": "/images/npcs/Larry.png",
             "location": "Swampland",
             "services": "Sailor"
         },
         {
             "name": "Lee'Delle",
+            "img": "/images/npcs/LeeDelle.png",
             "location": "Rookgaard",
             "services": "Forger, Merchant"
         },
         {
             "name": "Lil'Crab",
+            "img": "/images/npcs/LilCrab.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Lokur",
+            "img": "/images/npcs/Lokur.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Lorbas",
+            "img": "/images/npcs/Lorbas.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Marcus",
+            "img": "/images/npcs/Marcus.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Marvik",
+            "img": "/images/npcs/Marvik.png",
             "location": "Mintwallin",
             "services": "Forger"
         },
         {
             "name": "Melian",
+            "img": "/images/npcs/Melian.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Morpel The Demon",
+            "img": "/images/npcs/Morphel_The_Demon.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Naji",
+            "img": "/images/npcs/Naji.png",
             "location": "Rookgaard",
             "services": "Banker"
         },
         {
             "name": "Oldrak",
+            "img": "/images/npcs/Oldrak.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Olrik",
+            "img": "/images/npcs/Olrik.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "One-Eyed Beholder",
+            "img": "/images/npcs/One-Eyed_Beholder.png",
             "location": "Swampland",
             "services": "Forger"
         },
         {
             "name": "Perod",
+            "img": "/images/npcs/Perod.png",
             "location": "Snowland",
             "services": "Forger"
         },
         {
             "name": "Queen Eloise",
+            "img": "/images/npcs/Queen_Eloise.png",
             "location": "<i><b>Missing!</b></i>",
             "services": "Royalty"
         },
         {
             "name": "Sam",
+            "img": "/images/npcs/Sam.png",
             "location": "Rookgaard",
             "services": "Forger, Merchant"
         },
         {
             "name": "Shanar",
+            "img": "/images/npcs/Shanar.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Skjaar The Lich",
+            "img": "/images/npcs/Skjaar_The_Lich.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Squire Dove",
+            "img": "/images/npcs/Squire_Dove.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Squire Edoch",
+            "img": "/images/npcs/Squire_Edoch.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Squire Jerom",
+            "img": "/images/npcs/Squire_Jerom.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Squire Rodney",
+            "img": "/images/npcs/Squire_Rodney.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Storkus The Plaguesmith",
+            "img": "/images/npcs/Storkus_The_Plaguesmith.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Tamara",
+            "img": "/images/npcs/Tamara.png",
             "location": "Rookgaard",
-            "services": "Forger"
-        },
-        {
-            "name": "Tamoril",
-            "location": "Dwarven Mines",
-            "services": "Forger"
-        },
-        {
-            "name": "Tandros",
-            "location": "Dwarven Mines",
-            "services": "Forger"
-        },
-        {
-            "name": "Tarak",
-            "location": "Dwarven Mines",
             "services": "Forger"
         },
         {
             "name": "Thomas",
+            "img": "/images/npcs/Thomas.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
+            "name": "Thorin",
+            "img": "/images/npcs/Thorin.png",
+            "location": "Dwarven Mines",
+            "services": "Forger"
+        },
+        {
             "name": "Wally",
+            "img": "/images/npcs/Wally.png",
             "location": "Rookgaard",
             "services": "Post Officer"
         },
         {
             "name": "Websy",
+            "img": "/images/npcs/Websy.png",
             "location": "Rookgaard",
             "services": "Forger"
         },
         {
             "name": "Wrinkled Beholder",
+            "img": "/images/npcs/Wrinkled_Beholder.png",
             "location": "Swampland",
             "services": "Forger"
         },
         {
             "name": "Xodet",
+            "img": "/images/npcs/Xodet.png",
             "location": "Rookgaard",
             "services": "Forger, Merchant"
         },
         {
             "name": "Zetze",
+            "img": "/images/npcs/Zetze.png",
             "location": "Draken Castle",
             "services": "Sailor"
         }

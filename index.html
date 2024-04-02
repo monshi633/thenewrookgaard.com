@@ -261,19 +261,19 @@
                                     <div class="inputbox">
                                         <span class="inputbox__label" style="width: 120px;">Account Number:</span>
                                         <div class="inputbox__inputfield">
-                                            <input id="loginAccount" type="password" name="Account number" maxlength="50">
+                                            <input id="loginAccount" type="password" name="Account number" maxlength="50" tabindex="1" onkeydown="handleKeyPress(event,'submitLogin')">
                                         </div>
                                         <div class="inputbox__buttonfield">
-                                            <input type="submit" value="Login" onclick="login()">
+                                            <input id="submitLogin" type="submit" value="Login" onclick="login()" tabindex="3">
                                         </div>
                                         <div class="flex-break"></div>
                                         <span class="inputbox__label" style="width: 120px;">Password:</span>
                                         <div class="inputbox__inputfield">
-                                            <input id="loginPassword" type="password" name="Password" maxlength="50">
+                                            <input id="loginPassword" type="password" name="Password" maxlength="50" tabindex="2" onkeydown="handleKeyPress(event,'submitLogin')">
                                         </div>
                                         <div class="inputbox__buttonfield notspaced">
-                                            <!-- <input type="submit" value="Lost Account" onclick="showSection('sectionChangePassword')"> -->
-                                            <input type="submit" value="Lost Account">
+                                            <!-- <input type="submit" value="Lost Account" onclick="showSection('sectionChangePassword')" tabindex="4"> -->
+                                            <input type="submit" value="Lost Account" tabindex="4">
                                         </div>
                                     </div>
                                 </div>
@@ -563,8 +563,8 @@
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
                                         <tr>
-                                            <th>Name</th>
-                                            <th></th>
+                                            <th style="width: 150px;">Name</th>
+                                            <th style="width: 63px;"></th>
                                             <th>Message</th>
                                             <th>Location</th>
                                         </tr>
@@ -1090,7 +1090,8 @@
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
                                         <tr>
-                                            <th>Name</th>
+                                            <th style="width: 150px;">Name</th>
+                                            <th style="width: 63px;"></th>
                                             <th>Location</th>
                                             <th>Services</th>
                                         </tr>
@@ -1244,7 +1245,7 @@
                                     <div class="inputbox">
                                         <span class="inputbox__label">Character Name:</span>
                                         <div class="inputbox__inputfield">
-                                            <input id="characterName" type="text" name="Character name" maxlength="50" onkeydown="handleKeyPress(event)">
+                                            <input id="characterName" type="text" name="Character name" maxlength="50" onkeydown="handleKeyPress(event,'submitButton')">
                                         </div>
                                         <div class="inputbox__buttonfield notspaced">
                                             <input id="submitButton" type="submit" value="Submit" onclick="loadCharacter()">
