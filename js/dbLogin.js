@@ -9,19 +9,22 @@ function chooseSection() {
 }
 
 function login() {
+    // Forbidden accounts
+    const forbiddenAccounts = ["1","god"];
     // Get credentials
-    account = sanitizeInput(document.getElementById('loginAccount').value);
-    password = sanitizeInput(document.getElementById('loginPassword').value);
+    account = sanitizeCredentials(document.getElementById('loginAccount').value);
+    password = sanitizeCredentials(document.getElementById('loginPassword').value);
 
-    console.log(account,password);
-    // Try to login
-    if (account.length > 0 && password.length > 0) {
+    if (forbiddenAccounts.find((element) => element === account) || account.length < 1 || password.length < 1) {
+        document.getElementById('errorMsg').style.display = 'block';
+    } else {
+        // Try to login
         // Fetch account status
-        fetch(`dbQueries.php?queryId=getStatus&inputValue=${account}`)
+        fetch(`dbQueries.php?queryId=getStatus&inputValue=${account}&inputValueTwo=${hashInput(password)}`)
             .then(response => response.json())
             .then(data => {
                 const id = data[0].id;
-                const days = data[0].premmdays;
+                const days = data[0].premdays;
                 const expirationDate = calculateDateFromToday(days);
                 const gem = document.getElementById('statusbox-gem');
                 const status = document.getElementById('statusbox-status');
@@ -31,7 +34,7 @@ function login() {
                     `;
                     status.innerHTML = `
                         <p style="color: green"><b>Premium account</b></p>
-                        <span>Your Premium Time expires at ${expirationDate}.<br>(Balance of Premium Time: ${days} days</span>
+                        <span>Your Premium Time expires at ${expirationDate}.<br>(Balance of Premium Time: ${days} days)</span>
                     `;
                 } else {
                     gem.innerHTML = `
@@ -48,12 +51,9 @@ function login() {
             })
             .catch(error => console.error('Error loading account status:', error));
         
-
         document.getElementById('errorMsg').style.display = 'none';
         isLoggedIn = true;
         showSection('sectionLoggedIn');
-    } else {
-        document.getElementById('errorMsg').style.display = 'block';
     }
 
     // Clean fields
@@ -74,4 +74,28 @@ function calculateDateFromToday(days) {
     // Format the date to 'MMM DD YYYY'
     var options = { year: 'numeric', month: 'short', day: '2-digit' };
     return futureDate.toLocaleDateString('en-US', options);
+}
+
+function sanitizeCredentials(input) {
+    return input; //TODO
+}
+
+function hashInput(inputData) {
+    // Define URL of the PHP script
+    const url = 'hash.php';
+
+    // Define data to be sent in the POST request
+    const data = new URLSearchParams();
+    data.append('data', inputData);
+
+    // Make a POST request to the PHP script
+    return fetch(url, {
+        method: 'POST',
+        body: data
+    })
+    .then(response => response.json())
+    .then(data => data.hashedData)
+    .catch(error => {
+        console.error('Error:', error);
+    });
 }

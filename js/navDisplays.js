@@ -43,3 +43,13 @@ function showSection(section) {
         }
     }
 }
+
+function handleKeyPress(event, elementId) {
+    // Check if the pressed key is Enter (key code 13)
+    if (event.keyCode === 13) {
+        // Prevent the default form submission behavior
+        event.preventDefault();
+        // Trigger the click event of the submit button
+        document.getElementById(elementId).click();
+    }
+}

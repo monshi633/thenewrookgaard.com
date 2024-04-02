@@ -2,12 +2,12 @@ function loadCharacter(charName) {
     // Get character name
     var characterName = '';
     if (typeof charName === 'undefined') {
-        characterName = sanitizeInput(capitalizeWords(document.getElementById('characterName').value));
+        characterName = sanitizeName(capitalizeWords(document.getElementById('characterName').value));
         if (characterName.trim() === '') {
             return false;
         }
     } else {
-        characterName = sanitizeInput(capitalizeWords(charName));
+        characterName = sanitizeName(capitalizeWords(charName));
     }
 
     // Clear input field
@@ -69,19 +69,9 @@ function loadCharacter(charName) {
     });
 }
 
-function handleKeyPress(event) {
-    // Check if the pressed key is Enter (key code 13)
-    if (event.keyCode === 13) {
-        // Prevent the default form submission behavior
-        event.preventDefault();
-        // Trigger the click event of the submit button
-        document.getElementById("submitButton").click();
-    }
-}
-
-function sanitizeInput(input) {
+function sanitizeName(input) {
     // Allow only alphanumeric characters
-    return input.replace(/[^0-9a-zA-Z\s]/g, '');
+    return input.replace(/[^a-zA-Z\s]/g, '');
 }
 
 function capitalizeWords(string) {
@@ -151,7 +141,7 @@ function getCharacters(charactersTableId,accountId) {
                 <td>${onlineIcon}</td>
                 <td>
                     <div class="inputbox__buttonfield">
-                        <input type="submit" value="View" onclick="loadCharacter('${character.name}')">
+                        <input type="submit" value="View" onclick="showSection('SectionCommunityCharacters'), loadCharacter('${character.name}')">
                     </div>
                 </td>
                 `;
