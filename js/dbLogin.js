@@ -20,7 +20,7 @@ function login() {
     } else {
         // Try to login
         // Fetch account status
-        fetch(`dbQueries.php?queryId=getStatus&inputValue=${account}&inputValueTwo=${hashInput(password)}`)
+        fetch(`dbQueries.php?queryId=getStatus&inputValue=${account}&inputValueTwo=${hashInput(account,password)}`)
             .then(response => response.json())
             .then(data => {
                 const id = data[0].id;
@@ -80,13 +80,14 @@ function sanitizeCredentials(input) {
     return input; //TODO
 }
 
-function hashInput(inputData) {
+function hashInput(account,password) {
     // Define URL of the PHP script
     const url = 'hash.php';
 
     // Define data to be sent in the POST request
     const data = new URLSearchParams();
-    data.append('data', inputData);
+    data.append('account', account);
+    data.append('password', password);
 
     // Make a POST request to the PHP script
     return fetch(url, {
