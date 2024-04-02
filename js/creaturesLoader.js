@@ -9,11 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(data => {
                 data.creatures.forEach(creature => {
                     const creatureElement = document.createElement('div');
+                    creatureElement.classList.add("creature-container")
                     creatureElement.innerHTML = `
-                    <div class="creature-container">
-                        <img class="creature" src="${creature.img}" alt="${creature.name}">
-                        <div>${creature.name}</div>
+                    <div class="creature">
+                        <img src="${creature.img}" alt="${creature.name}">
                     </div>
+                    <div>${creature.name}</div>
                 `;
                     table.appendChild(creatureElement);
                 });

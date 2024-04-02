@@ -1,9 +1,10 @@
 #Importantísimo
 Integrar sistema de cobro dentro de login
+SSL: Set up Automatic Certificate Renewal
 
 #Secciones
 Login: Que al iniciar sesión, te muestre las tasks y quest realizadas, addons obtenidos?
 
 #Detalles
 NPCs: Ver cómo agregar gifs de los NPC personalizados
-Index: Compartimentar secciones tipo thenewrookgaard.com/library/creatures
+Index: Configurar subdominios tipo thenewrookgaard.com/library/creatures

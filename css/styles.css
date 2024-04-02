@@ -635,8 +635,10 @@ mark {
 }
 
 .creature {
-    height: 64px;
-    min-width: 64px;
+    min-height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 /*Community*/
 #characterInfoTable th {
