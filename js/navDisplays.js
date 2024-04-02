@@ -11,7 +11,7 @@ function menuButtonAction(navMenuId,alwaysBlock) {
     }
 }
 
-function openContent(section) {
+function showSection(section) {
     // Hide all sections
     const otherSections = document.getElementsByTagName('section')
     for (let i = 0; i < otherSections.length; i++) {

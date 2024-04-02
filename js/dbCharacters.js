@@ -58,34 +58,8 @@ function loadCharacter(charName) {
                 characterInfoTable.appendChild(infoBody);
 
                 // Load Characters
-                const charactersTable = document.getElementById('charactersTable');
-                charactersTable.innerText = '';
-                fetch(`dbQueries.php?queryId=cAccount&inputValue=${characterInfo.account_id}`)
-                    .then(response => response.json())
-                    .then(data => {
-                        data.forEach(character => {
-                            var onlineIcon = '<img src="images/'
-                            if (character.online == 1) {
-                                onlineIcon = onlineIcon + 'icon_yes.png" alt="Online">'
-                            } else {
-                                onlineIcon = onlineIcon + 'icon_no.png" alt="Offline">'
-                            }
-                
-                            const characterRow = document.createElement('tr');
-                            characterRow.innerHTML = `
-                            <td>${character.name}</td>
-                            <td>${character.level}</td>
-                            <td>${onlineIcon}</td>
-                            <td>
-                                <div class="inputbox__buttonfield">
-                                    <input type="submit" value="View" onclick="loadCharacter('${character.name}')">
-                                </div>
-                            </td>
-                            `;
-                            charactersTable.appendChild(characterRow);
-                        });
-                    })
-                    .catch(error => console.error('Error loading characters list:', error));
+                // It's encapsulated in a function because it's also used on account characters
+                getCharacters('charactersTable',characterInfo.account_id);
             });
         })
         .catch(error => {
@@ -95,9 +69,19 @@ function loadCharacter(charName) {
     });
 }
 
+function handleKeyPress(event) {
+    // Check if the pressed key is Enter (key code 13)
+    if (event.keyCode === 13) {
+        // Prevent the default form submission behavior
+        event.preventDefault();
+        // Trigger the click event of the submit button
+        document.getElementById("submitButton").click();
+    }
+}
+
 function sanitizeInput(input) {
     // Allow only alphanumeric characters
-    return input.replace(/[^a-zA-Z\s]/g, '');
+    return input.replace(/[^0-9a-zA-Z\s]/g, '');
 }
 
 function capitalizeWords(string) {
@@ -111,18 +95,6 @@ function capitalizeWords(string) {
     
     // Join the words back into a single string
     return capitalizedWords.join(' ');
-}
-
-function charactersDisplayReset() {
-    document.getElementById('characterNotFoundMessage').innerHTML = '';
-    document.getElementById('characterNotFound').style.display = 'none';
-    document.getElementById('characterInfo').style.display = 'none';
-    document.getElementById('characters').style.display = 'none';
-}
-
-function charactersDisplayError(characterName) {
-    document.getElementById('characterNotFoundMessage').innerHTML = `<td>Character <b>${characterName}</b> does not exist.</td>`
-    document.getElementById('characterNotFound').style.display = 'block';
 }
 
 function characterExists(characterName) {
@@ -146,12 +118,45 @@ function characterExists(characterName) {
         });
 }
 
-function handleKeyPress(event) {
-    // Check if the pressed key is Enter (key code 13)
-    if (event.keyCode === 13) {
-        // Prevent the default form submission behavior
-        event.preventDefault();
-        // Trigger the click event of the submit button
-        document.getElementById("submitButton").click();
-    }
+function charactersDisplayReset() {
+    document.getElementById('characterNotFoundMessage').innerHTML = '';
+    document.getElementById('characterNotFound').style.display = 'none';
+    document.getElementById('characterInfo').style.display = 'none';
+    document.getElementById('characters').style.display = 'none';
+}
+
+function charactersDisplayError(characterName) {
+    document.getElementById('characterNotFoundMessage').innerHTML = `<td>Character <b>${characterName}</b> does not exist.</td>`
+    document.getElementById('characterNotFound').style.display = 'block';
+}
+
+function getCharacters(charactersTableId,accountId) {
+    const charactersTable = document.getElementById(charactersTableId);
+    charactersTable.innerText = '';
+    fetch(`dbQueries.php?queryId=cAccount&inputValue=${accountId}`)
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(character => {
+                var onlineIcon = '<img src="images/'
+                if (character.online == 1) {
+                    onlineIcon = onlineIcon + 'icon_yes.png" alt="Online">'
+                } else {
+                    onlineIcon = onlineIcon + 'icon_no.png" alt="Offline">'
+                }
+    
+                const characterRow = document.createElement('tr');
+                characterRow.innerHTML = `
+                <td>${character.name}</td>
+                <td>${character.level}</td>
+                <td>${onlineIcon}</td>
+                <td>
+                    <div class="inputbox__buttonfield">
+                        <input type="submit" value="View" onclick="loadCharacter('${character.name}')">
+                    </div>
+                </td>
+                `;
+                charactersTable.appendChild(characterRow);
+            });
+        })
+        .catch(error => console.error('Error loading characters list:', error));
 }

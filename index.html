@@ -18,7 +18,7 @@
                     <div class="nav-top"></div>
                     <div class="nav-chain"></div>
                     <div class="nav__login__container">
-                        <div class="nav__login__container__button" onclick="openContent('sectionLogin')">
+                        <div class="nav__login__container__button" onclick="chooseSection()">
                             <img src="images/nav/mediumbutton_login.png" alt="Login">
                         </div>
                     </div>
@@ -32,8 +32,8 @@
                             <img class="nav__menu__button__icon" src="images/nav/icon-news.gif" alt="News">
                             <img class="nav__menu__button__label" src="images/nav/label-news.png" alt="News">
                         </div>
-                        <ul id="news">
-                            <li onclick="openContent('SectionNewsLatestnews')">
+                        <ul id="news" style="display: block;">
+                            <li onclick="showSection('SectionNewsLatestnews')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionNewsLatestnews" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionNewsLatestnews" class="nav__menu__submenu">Latest news</div>
@@ -47,13 +47,13 @@
                             <img class="nav__menu__button__label" src="images/nav/label-about.png" alt="News">
                         </div>
                         <ul id="about">
-                            <li onclick="openContent('SectionAboutGamefeatures')">
+                            <li onclick="showSection('SectionAboutGamefeatures')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionAboutGamefeatures" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionAboutGamefeatures" class="nav__menu__submenu">Game Features</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="openContent('SectionAboutPremiumfeatures')">
+                            <li onclick="showSection('SectionAboutPremiumfeatures')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionAboutPremiumfeatures" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionAboutPremiumfeatures" class="nav__menu__submenu">Premium Features</div>
@@ -67,55 +67,55 @@
                             <img class="nav__menu__button__label" src="images/nav/label-library.png" alt="News">
                         </div>
                         <ul id="library">
-                            <li onclick="openContent('SectionLibraryCreatures')">
+                            <li onclick="showSection('SectionLibraryCreatures')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryCreatures" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryCreatures" class="nav__menu__submenu">Creatures</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="openContent('SectionLibraryBosses')">
+                            <li onclick="showSection('SectionLibraryBosses')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryBosses" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryBosses" class="nav__menu__submenu">Bosses</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="openContent('SectionLibraryRaids')">
-                                    <div class="nav-chain left"></div>
-                                    <div id="activeiconSectionLibraryRaids" class="nav__menu__activeicon"></div>
-                                    <div id="submenuSectionLibraryRaids" class="nav__menu__submenu">Raids</div>
-                                    <div class="nav-chain right submenu"></div>
-                            </li>
-                                <li onclick="openContent('SectionLibrarySpells')">
+                            <li onclick="showSection('SectionLibraryRaids')">
                                 <div class="nav-chain left"></div>
-                                <div id="activeiconSectionLibrarySpells" class="nav__menu__activeicon"></div>
-                                <div id="submenuSectionLibrarySpells" class="nav__menu__submenu">Spells</div>
+                                <div id="activeiconSectionLibraryRaids" class="nav__menu__activeicon"></div>
+                                <div id="submenuSectionLibraryRaids" class="nav__menu__submenu">Raids</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="openContent('SectionLibraryQuests')">
-                                <div class="nav-chain left"></div>
-                                <div id="activeiconSectionLibraryQuests" class="nav__menu__activeicon"></div>
-                                <div id="submenuSectionLibraryQuests" class="nav__menu__submenu">Quests</div>
-                                <div class="nav-chain right submenu"></div>
-                            </li>
-                            <li onclick="openContent('SectionLibraryItems')">
-                                <div class="nav-chain left"></div>
-                                <div id="activeiconSectionLibraryItems" class="nav__menu__activeicon"></div>
-                                <div id="submenuSectionLibraryItems" class="nav__menu__submenu">Items</div>
-                                <div class="nav-chain right submenu"></div>
-                            </li>
-                            <li onclick="openContent('SectionLibraryNpcs')">
+                            <li onclick="showSection('SectionLibraryNpcs')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryNpcs" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryNpcs" class="nav__menu__submenu">NPCs</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="openContent('SectionLibraryAddons')">
+                            <li onclick="showSection('SectionLibraryAddons')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryAddons" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryAddons" class="nav__menu__submenu">Addons</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="openContent('SectionLibraryTasks')">
+                            <li onclick="showSection('SectionLibraryItems')">
+                                <div class="nav-chain left"></div>
+                                <div id="activeiconSectionLibraryItems" class="nav__menu__activeicon"></div>
+                                <div id="submenuSectionLibraryItems" class="nav__menu__submenu">Items</div>
+                                <div class="nav-chain right submenu"></div>
+                            </li>
+                            <li onclick="showSection('SectionLibrarySpells')">
+                                <div class="nav-chain left"></div>
+                                <div id="activeiconSectionLibrarySpells" class="nav__menu__activeicon"></div>
+                                <div id="submenuSectionLibrarySpells" class="nav__menu__submenu">Spells</div>
+                                <div class="nav-chain right submenu"></div>
+                            </li>
+                            <li onclick="showSection('SectionLibraryQuests')">
+                                <div class="nav-chain left"></div>
+                                <div id="activeiconSectionLibraryQuests" class="nav__menu__activeicon"></div>
+                                <div id="submenuSectionLibraryQuests" class="nav__menu__submenu">Quests</div>
+                                <div class="nav-chain right submenu"></div>
+                            </li>
+                            <li onclick="showSection('SectionLibraryTasks')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryTasks" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryTasks" class="nav__menu__submenu">Tasks</div>
@@ -129,31 +129,31 @@
                             <img class="nav__menu__button__label" src="images/nav/label-community.png" alt="News">
                         </div>
                         <ul id="community">
-                            <li onclick="openContent('SectionCommunityCharacters'), charactersDisplayReset()">
+                            <li onclick="showSection('SectionCommunityCharacters'), charactersDisplayReset()">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionCommunityCharacters" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionCommunityCharacters" class="nav__menu__submenu">Characters</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="openContent('SectionCommunityWhosonline')">
+                            <li onclick="showSection('SectionCommunityWhosonline')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionCommunityWhosonline" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionCommunityWhosonline" class="nav__menu__submenu">Who's online?</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="openContent('SectionCommunityHighscores')">
+                            <li onclick="showSection('SectionCommunityHighscores')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionCommunityHighscores" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionCommunityHighscores" class="nav__menu__submenu">Highscores</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="openContent('SectionCommunityHouses')">
+                            <li onclick="showSection('SectionCommunityHouses')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionCommunityHouses" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionCommunityHouses" class="nav__menu__submenu">Houses</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="openContent('SectionCommunityGuilds')">
+                            <li onclick="showSection('SectionCommunityGuilds')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionCommunityGuilds" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionCommunityGuilds" class="nav__menu__submenu">Guilds</div>
@@ -214,7 +214,7 @@
                     <div class="main-tr"></div>
                     <div class="main__box__heading red">
                         <p>The New Rookgaard OT Server</p>
-                        <a id="counter" onclick="openContent('SectionCommunityWhosonline'); menuButtonAction('community',true)">
+                        <a id="counter" onclick="showSection('SectionCommunityWhosonline'); menuButtonAction('community',true)">
                             <img src="images/main/icon-players-online.png" alt="players">
                             <span id="numberOnline"></span>
                         </a>
@@ -231,7 +231,21 @@
                     <section id="sectionLogin">
                         <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
                         <div class="main__box__section__content">
-                            <!-- <article>
+                            <article>
+                                <div id="errorMsg" class="main__box__section__content__article__caption message" style="display: none;">
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <div class="error">
+                                        <img src="images/attentionsign.gif" alt="Attention!">
+                                        <span class="caption-text message" style="color: red;"><b>The following error has occurred:</b><br>You have entered a wrong account number or password.</span>
+                                    </div>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
+                                </div>
                                 <div class="main__box__section__content__article__caption">
                                     <span class="caption tl"></span>
                                     <span class="caption top"></span>
@@ -247,22 +261,23 @@
                                     <div class="inputbox">
                                         <span class="inputbox__label" style="width: 120px;">Account Number:</span>
                                         <div class="inputbox__inputfield">
-                                            <input type="text" name="Account number" maxlength="50">
+                                            <input id="loginAccount" type="password" name="Account number" maxlength="50">
                                         </div>
                                         <div class="inputbox__buttonfield">
-                                            <input type="submit" value="Login" onclick="openContent('sectionLoggedIn')">
+                                            <input type="submit" value="Login" onclick="login()">
                                         </div>
                                         <div class="flex-break"></div>
                                         <span class="inputbox__label" style="width: 120px;">Password:</span>
                                         <div class="inputbox__inputfield">
-                                            <input type="password" name="Password" maxlength="50">
+                                            <input id="loginPassword" type="password" name="Password" maxlength="50">
                                         </div>
                                         <div class="inputbox__buttonfield notspaced">
-                                            <input type="submit" value="Lost Account" onclick="openContent('sectionChangePassword')">
+                                            <!-- <input type="submit" value="Lost Account" onclick="showSection('sectionChangePassword')"> -->
+                                            <input type="submit" value="Lost Account">
                                         </div>
                                     </div>
                                 </div>
-                            </article> -->
+                            </article>
                             <h1>New to Tibia?</h1>
                             <article>
                                 <div class="main__box__section__content__article__caption">
@@ -335,13 +350,13 @@
                                             </div>
                                         </div>
                                         <div class="inputbox__buttonfield notspaced">
-                                            <input type="submit" value="Submit" onclick="openContent('sectionLogin')">
+                                            <input type="submit" value="Submit" onclick="showSection('sectionLogin')">
                                         </div>
                                     </div>
                                 </div>
                             </article>
                         </div>
-                    </section>
+                    </section> -->
                     <section id="sectionLoggedIn">
                         <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
                         <div class="main__box__section__content">
@@ -359,22 +374,19 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <div class="statusbox">
-                                        <div id="statusbox-gem">
-                                            <img src="images/account-status_red.gif" alt="Free account">
-                                        </div>
-                                        <div id="statusbox-status">
-                                            <p><b>Free account</b></p>
-                                            <span>Your Premium Time expired at Mar 11 2013.<br>(Balance of Premium Time: 0 days)</span>
-                                        </div>
+                                        <div id="statusbox-gem"></div>
+                                        <div id="statusbox-status"></div>
                                         <div>
                                             <div class="inputbox__buttonfield">
-                                                <input type="submit" value="Change Password" onclick="openContent('sectionChangePassword')">
+                                                <!-- <input type="submit" value="Change Password" onclick="showSection('sectionChangePassword')"> -->
+                                                <input type="submit" value="Change Password">
                                             </div>
                                             <div class="inputbox__buttonfield green">
                                                 <input type="submit" value="Get Premium">
                                             </div>
                                             <div class="inputbox__buttonfield red notspaced">
-                                                <input type="submit" value="Logout" onclick="openContent('sectionLogin')">
+                                                <input type="submit" value="Logout" onclick="logout()">
+                                                <!-- <input type="submit" value="Logout"> -->
                                             </div>
                                         </div>
                                     </div>
@@ -400,14 +412,14 @@
                                             <th style="width: 60px;">Online?</th>
                                             <th style="width: 153px;"></th>
                                         </tr>
-                                        <tbody id="charactersTable">
-                                        --><!--Characters info is retrieved here using dbCharacters.js--><!--
+                                        <tbody id="accountCharactersTable">
+                                            <!--Characters info is retrieved here using dbCharacters.js-->
                                         </tbody>
                                     </table>
                                 </div>
                             </article>
                         </div>
-                    </section> -->
+                    </section>
                     <section id="SectionNewsLatestnews">
                         <img class="main__box__section__headline" src="images/headlines/headline-news.gif" alt="Latest News">
                         <div class="main__box__section__content">
@@ -1594,9 +1606,10 @@
                 </footer>
             </main>
         </div>
-        <script src="/js/sections.js"></script>
+        <script src="/js/navDisplays.js"></script>
         <script src="/js/divTableCollapser.js"></script>
         <script src="/js/dbNumberOnline.js"></script>
+        <script src="/js/dbLogin.js"></script>
         <script src="/js/latestNewsLoader.js"></script>
         <script src="/js/creaturesLoader.js"></script>
         <script src="/js/bossesLoader.js"></script>
