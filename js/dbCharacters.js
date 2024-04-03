@@ -60,6 +60,9 @@ function loadCharacter(charName) {
                 // Load Characters
                 // It's encapsulated in a function because it's also used on account characters
                 getCharacters('charactersTable',characterInfo.account_id);
+
+                // Focus input
+                document.getElementById("characterName").focus();
             });
         })
         .catch(error => {
@@ -113,6 +116,7 @@ function charactersDisplayReset() {
     document.getElementById('characterNotFound').style.display = 'none';
     document.getElementById('characterInfo').style.display = 'none';
     document.getElementById('characters').style.display = 'none';
+    document.getElementById("characterName").focus();
 }
 
 function charactersDisplayError(characterName) {

@@ -5,6 +5,8 @@ function chooseSection() {
         showSection('sectionLoggedIn');
     } else {
         showSection('sectionLogin');
+        // Focus input
+        document.getElementById("loginAccount").focus();
     }
 }
 
@@ -77,6 +79,8 @@ async function login() {
 function logout() {
     isLoggedIn = false;
     showSection('sectionLogin');
+    // Focus input
+    document.getElementById("loginAccount").focus();
 }
 
 function calculateDateFromToday(days) {
