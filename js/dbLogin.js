@@ -12,8 +12,8 @@ async function login() {
     // Forbidden accounts
     const forbiddenAccounts = ["1","god"];
     // Get credentials
-    account = sanitizeCredentials(document.getElementById('loginAccount').value);
-    password = sanitizeCredentials(document.getElementById('loginPassword').value);
+    account = document.getElementById('loginAccount').value;
+    password = document.getElementById('loginPassword').value;
 
     if (forbiddenAccounts.find((element) => element === account) || account.length < 1 || password.length < 1) {
         document.getElementById('errorMsg').style.display = 'block';
@@ -26,17 +26,17 @@ async function login() {
                 throw new Error('Hashed data is not available');
             }
 
-            const response = await fetch(`dbQueries.php?queryId=getStatus&inputValue=${account}&inputSecondValue=${hashInput(account,password)}`);
+            const response = await fetch(`dbQueries.php?queryId=getStatus&inputValue=${account}&inputSecondValue=${hashedData}`);
 
             if (!response) {
                 throw new Error('Failed to fetch data from dbQueries.php');
             }
 
-            const responseData = await response.json();
+            const data = await response.json();
 
             // Display data
-            const id = responseData[0].id;
-            const days = responseData[0].premdays;
+            const id = data[0].id;
+            const days = data[0].premdays;
             const expirationDate = calculateDateFromToday(days);
             const gem = document.getElementById('statusbox-gem');
             const status = document.getElementById('statusbox-status');
@@ -65,7 +65,7 @@ async function login() {
             isLoggedIn = true;
             showSection('sectionLoggedIn');
         } catch (error) {
-            console.error('Error:', error.message);
+            document.getElementById('errorMsg').style.display = 'block';
         }
     }
 
@@ -87,10 +87,6 @@ function calculateDateFromToday(days) {
     // Format the date to 'MMM DD YYYY'
     var options = { year: 'numeric', month: 'short', day: '2-digit' };
     return futureDate.toLocaleDateString('en-US', options);
-}
-
-function sanitizeCredentials(input) {
-    return input; //TODO
 }
 
 async function hashInput(account,password) {
