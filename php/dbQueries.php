@@ -42,20 +42,15 @@
             // Connect to SQLite database
             $db = new SQLite3('C:/the-new-rook/server/schemas/otxserver.s3db');
             
-            // Use prepared statement for the getStatus query
+            // Use prepared statement to fill queries
+            $statement = $db->prepare($query);
             if ($queryId === "getStatus") {
-                $statement = $db->prepare($query);
                 $statement->bindValue(':account', $inputValue, SQLITE3_TEXT);
                 $statement->bindValue(':password', $inputSecondValue, SQLITE3_TEXT);
-                $result = $statement->execute();
             } else {
-                // If the query contains a variable parameter, replace it with the provided value
-                if (strpos($query, ':inputValue') !== false) {
-                    $query = str_replace(':inputValue', $inputValue, $query);
-                }
-                // Use direct execution for other queries
-                $result = $db->query($query);
+                $statement->bindValue(':inputValue', $inputValue, SQLITE3_TEXT);
             }
+            $result = $statement->execute();
 
             // Fetch results and send back as JSON
             $rows = array();

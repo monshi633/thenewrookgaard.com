@@ -1,7 +1,2 @@
-#Importantísimo
-Integrar sistema de cobro dentro de login
+﻿Integrar sistema de cobro dentro de login
 SSL: Set up Automatic Certificate Renewal
-
-#Detalles
-NPCs: Ver cómo agregar gifs de los NPC personalizados
-Index: Configurar subdominios tipo thenewrookgaard.com/library/creatures
