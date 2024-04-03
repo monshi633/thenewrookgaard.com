@@ -1,6 +1,5 @@
 <?php
-// Yes, I know that SHA1 is not safe
-// Yes, I know that you can add security adding a random salt
+// Yes, I know that SHA1 is not safe, even with salt
 // Yes, I know that using SHA256 is much better
 // But the game uses SHA1 and I couldn't yet get it to work with SHA256
 
@@ -18,13 +17,11 @@ $query = "SELECT salt FROM accounts WHERE name = '$account'";
 $result = $db->query($query);
 
 // Retrieve salt from db
-if ($result->num_rows > 0) {
-    // Output data of each row
-    while($row = $result->fetch_assoc()) {
-        $salt = $row["salt"];
-    }
+$row = $result->fetchArray(SQLITE3_ASSOC);
+if ($row) {
+    $salt = $row["salt"];
 } else {
-    $salt = ""; // Set default value if no data found
+    $salt = "";
 }
 
 // concatenate salt + password

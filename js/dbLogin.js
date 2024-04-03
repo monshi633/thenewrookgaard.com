@@ -8,7 +8,7 @@ function chooseSection() {
     }
 }
 
-function login() {
+async function login() {
     // Forbidden accounts
     const forbiddenAccounts = ["1","god"];
     // Get credentials
@@ -19,41 +19,54 @@ function login() {
         document.getElementById('errorMsg').style.display = 'block';
     } else {
         // Try to login
-        // Fetch account status
-        fetch(`dbQueries.php?queryId=getStatus&inputValue=${account}&inputValueTwo=${hashInput(account,password)}`)
-            .then(response => response.json())
-            .then(data => {
-                const id = data[0].id;
-                const days = data[0].premdays;
-                const expirationDate = calculateDateFromToday(days);
-                const gem = document.getElementById('statusbox-gem');
-                const status = document.getElementById('statusbox-status');
-                if (days > 0) {
-                    gem.innerHTML = `
-                        <img src="images/account-status_green.gif" alt="Premium account">
-                    `;
-                    status.innerHTML = `
-                        <p style="color: green"><b>Premium account</b></p>
-                        <span>Your Premium Time expires at ${expirationDate}.<br>(Balance of Premium Time: ${days} days)</span>
-                    `;
-                } else {
-                    gem.innerHTML = `
-                        <img src="images/account-status_red.gif" alt="Free account">
-                    `;
-                    status.innerHTML = `
-                        <p style="color: red"><b>Free account</b></p>
-                        <span>Your Premium Time has expired.<br>(Balance of Premium Time: 0 days)</span>
-                    `;
-                }
+        try {
+            const hashedData = await hashInput(account,password);
 
-                // Fetch account characters
-                getCharacters('accountCharactersTable',id);
-            })
-            .catch(error => console.error('Error loading account status:', error));
-        
-        document.getElementById('errorMsg').style.display = 'none';
-        isLoggedIn = true;
-        showSection('sectionLoggedIn');
+            if (!hashedData) {
+                throw new Error('Hashed data is not available');
+            }
+
+            const response = await fetch(`dbQueries.php?queryId=getStatus&inputValue=${account}&inputSecondValue=${hashInput(account,password)}`);
+
+            if (!response) {
+                throw new Error('Failed to fetch data from dbQueries.php');
+            }
+
+            const responseData = await response.json();
+
+            // Display data
+            const id = responseData[0].id;
+            const days = responseData[0].premdays;
+            const expirationDate = calculateDateFromToday(days);
+            const gem = document.getElementById('statusbox-gem');
+            const status = document.getElementById('statusbox-status');
+            if (days > 0) {
+                gem.innerHTML = `
+                    <img src="images/account-status_green.gif" alt="Premium account">
+                `;
+                status.innerHTML = `
+                    <p style="color: green"><b>Premium account</b></p>
+                    <span>Your Premium Time expires at ${expirationDate}.<br>(Balance of Premium Time: ${days} days)</span>
+                `;
+            } else {
+                gem.innerHTML = `
+                    <img src="images/account-status_red.gif" alt="Free account">
+                `;
+                status.innerHTML = `
+                    <p style="color: red"><b>Free account</b></p>
+                    <span>Your Premium Time has expired.<br>(Balance of Premium Time: 0 days)</span>
+                `;
+            }
+    
+            // Fetch account characters
+            getCharacters('accountCharactersTable',id);
+
+            document.getElementById('errorMsg').style.display = 'none';
+            isLoggedIn = true;
+            showSection('sectionLoggedIn');
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
     }
 
     // Clean fields
@@ -80,7 +93,7 @@ function sanitizeCredentials(input) {
     return input; //TODO
 }
 
-function hashInput(account,password) {
+async function hashInput(account,password) {
     // Define URL of the PHP script
     const url = 'hash.php';
 
@@ -90,13 +103,20 @@ function hashInput(account,password) {
     data.append('password', password);
 
     // Make a POST request to the PHP script
-    return fetch(url, {
-        method: 'POST',
-        body: data
-    })
-    .then(response => response.json())
-    .then(data => data.hashedData)
-    .catch(error => {
-        console.error('Error:', error);
-    });
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            body: data
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to fetch data');
+        }
+
+        const responseData = await response.json();
+        return responseData.hashedData;
+    } catch (error) {
+        console.error('Error:',error.message);
+        return null;
+    }
 }

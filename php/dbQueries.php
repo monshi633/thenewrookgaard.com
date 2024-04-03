@@ -18,7 +18,7 @@
         "houses" =>         "SELECT h.name, h.size, CAST(h.price / 1000 AS TEXT) || '.000' AS price, COALESCE(p.name, '<i><b>Available</b></i>') AS status FROM houses AS h LEFT JOIN players AS p ON h.owner=p.id ORDER BY h.name",
         "guilds" =>         "SELECT g.name, COUNT(p.name) AS members ,strftime('%d-%m-%Y', datetime(g.creationdata, 'unixepoch')) AS creation FROM guilds AS g JOIN players AS p_leader ON g.ownerid=p_leader.id JOIN guild_ranks as r ON g.id = r.guild_id JOIN players as p on r.id=p.rank_id GROUP BY g.name ORDER BY g.name",
         "guildMembers" =>   "SELECT p.online AS online, p.name AS name, r.name AS rank FROM players AS p JOIN guild_ranks AS r ON p.rank_id = r.id WHERE r.guild_id = (SELECT id FROM guilds WHERE name = ':inputValue') ORDER BY r.level DESC, p.name",
-        "getStatus" =>      "SELECT id, premdays FROM accounts WHERE name = ':inputValue' AND password = ':inputValueTwo'"
+        "getStatus" =>      "SELECT id, premdays FROM accounts WHERE name = ':inputValue' AND password = ':inputSecondValue'"
     );
 
     // Check if the request is coming from an allowed origin (CORS)
@@ -30,7 +30,7 @@
     if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         $queryId = $_GET['queryId'];        // Parameter to identify the query
         $inputValue = isset($_GET['inputValue']) ? $_GET['inputValue'] : null;  // Parameter for and when a variable is needed
-        $inputValueTwo = isset($_GET['inputValueTwo']) ? $_GET['inputValueTwo'] : null;  // Parameter for and when a second variable is needed
+        $inputSecondValue = isset($_GET['inputSecondValue']) ? $_GET['inputSecondValue'] : null;  // Parameter for and when a second variable is needed
 
         // Check if the query identifier exists in the array
         if (array_key_exists($queryId, $queries)) {
@@ -41,8 +41,8 @@
             if (strpos($query, ':inputValue') !== false) {
                 $query = str_replace(':inputValue', $inputValue, $query);
             }
-            if (strpos($query, ':inputValueTwo') !== false) {
-                $query = str_replace(':inputValueTwo', $inputValue, $query);
+            if (strpos($query, ':inputSecondValue') !== false) {
+                $query = str_replace(':inputSecondValue', $inputSecondValue, $query);
             }
 
             // Connect to SQLite database
