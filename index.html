@@ -259,21 +259,17 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <div class="inputbox">
-                                        <span class="inputbox__label" style="width: 120px;">Account Number:</span>
-                                        <div class="inputbox__inputfield">
-                                            <input id="loginAccount" type="password" name="Account number" maxlength="50" tabindex="1" onkeydown="handleKeyPress(event,'submitLogin')">
+                                        <div class="inputbox__labels vertical">
+                                            <span class="inputbox__labels__label">Account:</span>
+                                            <span class="inputbox__labels__label">Password:</span>
                                         </div>
-                                        <div class="inputbox__buttonfield">
-                                            <input id="submitLogin" type="submit" value="Login" onclick="login()" tabindex="3">
+                                        <div class="vertical" style="flex-grow: 1;">
+                                            <input class="inputbox__field" id="loginAccount" type="password" name="Account" maxlength="50" tabindex="1" onkeydown="handleKeyPress(event,'submitLogin')">
+                                            <input class="inputbox__field" id="loginPassword" type="password" name="Password" maxlength="50" tabindex="2" onkeydown="handleKeyPress(event,'submitLogin')">
                                         </div>
-                                        <div class="flex-break"></div>
-                                        <span class="inputbox__label" style="width: 120px;">Password:</span>
-                                        <div class="inputbox__inputfield">
-                                            <input id="loginPassword" type="password" name="Password" maxlength="50" tabindex="2" onkeydown="handleKeyPress(event,'submitLogin')">
-                                        </div>
-                                        <div class="inputbox__buttonfield notspaced">
-                                            <!-- <input type="submit" value="Lost Account" onclick="showSection('sectionChangePassword')" tabindex="4"> -->
-                                            <input type="submit" value="Lost Account" tabindex="4">
+                                        <div class="vertical">
+                                            <input class="inputbox__button" id="submitLogin" type="submit" value="Login" onclick="login()" tabindex="3">
+                                            <input class="inputbox__button" type="submit" value="Lost Account" onclick="showSection('sectionLoginLostpassword')" tabindex="4">
                                         </div>
                                     </div>
                                 </div>
@@ -316,7 +312,7 @@
                             </article>
                         </div>
                     </section>
-                    <!-- <section id="sectionChangePassword">
+                    <section id="sectionLoginLostpassword">
                         <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
                         <div class="main__box__section__content">
                             <article>
@@ -325,38 +321,34 @@
                                     <span class="caption top"></span>
                                     <span class="caption tr"></span>
                                     <span class="caption left"></span>
-                                    <span class="caption-text"><b>Change password</b></span>
+                                    <span class="caption-text"><b>Lost password</b></span>
                                     <span class="caption right"></span>
                                     <span class="caption bl"></span>
                                     <span class="caption bottom"></span>
                                     <span class="caption br"></span>
                                 </div>
                                 <div class="main__box__section__content__article__border">
-                                    <div class="statusbox">
-                                        <div class="password-labels">
-                                            <span class="inputbox__label">Recovery Key:</span>
-                                            <span class="inputbox__label">New Password:</span>
-                                            <span class="inputbox__label">Repeat New Password:</span>
+                                    <div class="inputbox">
+                                        <div class="inputbox__labels vertical">
+                                            <span class="inputbox__labels__label">Account:</span>
+                                            <span class="inputbox__labels__label">Recovery Key:</span>
+                                            <span class="inputbox__labels__label">New Password:</span>
+                                            <span class="inputbox__labels__label">Repeat New Password:</span>
                                         </div>
-                                        <div style="flex-grow: 1;">
-                                            <div class="inputbox__inputfield">
-                                                <input type="password" name="Recovery key" maxlength="50">
-                                            </div>
-                                            <div class="inputbox__inputfield">
-                                                <input type="password" name="New password" maxlength="50">
-                                            </div>
-                                            <div class="inputbox__inputfield notspaced">
-                                                <input type="password" name="New password" maxlength="50">
-                                            </div>
+                                        <div class="vertical" style="flex-grow: 1;">
+                                            <input class="inputbox__field" id="lostAccount" type="password" name="Account" maxlength="50" tabindex="1" onkeydown="handleKeyPress(event,'submitLost')">
+                                            <input class="inputbox__field" id="lostKey" type="password" name="Recovery Key" maxlength="50" tabindex="2" onkeydown="handleKeyPress(event,'submitLost')">
+                                            <input class="inputbox__field" id="lostNewPassword" type="password" name="New Password" maxlength="50" tabindex="3" onkeydown="handleKeyPress(event,'submitLost')">
+                                            <input class="inputbox__field" id="lostNewPasswordRepeat" type="password" name="Repeat New Password" maxlength="50" tabindex="4" onkeydown="handleKeyPress(event,'submitLost')">
                                         </div>
-                                        <div class="inputbox__buttonfield notspaced">
-                                            <input type="submit" value="Submit" onclick="showSection('sectionLogin')">
+                                        <div class="vertical" style="justify-content: center;">
+                                            <input class="inputbox__button" id="submitLost" type="submit" value="Submit" onclick="recoverPassword()" tabindex="5">
                                         </div>
                                     </div>
                                 </div>
                             </article>
                         </div>
-                    </section> -->
+                    </section>
                     <section id="sectionLoggedIn">
                         <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
                         <div class="main__box__section__content">
@@ -373,21 +365,13 @@
                                     <span class="caption br"></span>
                                 </div>
                                 <div class="main__box__section__content__article__border">
-                                    <div class="statusbox">
-                                        <div id="statusbox-gem"></div>
-                                        <div id="statusbox-status"></div>
-                                        <div>
-                                            <div class="inputbox__buttonfield">
-                                                <!-- <input type="submit" value="Change Password" onclick="showSection('sectionChangePassword')"> -->
-                                                <input type="submit" value="Change Password">
-                                            </div>
-                                            <div class="inputbox__buttonfield green">
-                                                <input type="submit" value="Get Premium">
-                                            </div>
-                                            <div class="inputbox__buttonfield red notspaced">
-                                                <input type="submit" value="Logout" onclick="logout()">
-                                                <!-- <input type="submit" value="Logout"> -->
-                                            </div>
+                                    <div class="inputbox">
+                                        <div id="inputbox-gem"></div>
+                                        <div id="inputbox-status"></div>
+                                        <div class="vertical" style="justify-content: center;">
+                                            <input class="inputbox__button" type="submit" value="Change Password" onclick="showSection('sectionChangePassword')">
+                                            <input class="inputbox__button green" type="submit" value="Get Premium" onclick="getPremium()">
+                                            <input class="inputbox__button red" type="submit" value="Logout" onclick="logout()">
                                         </div>
                                     </div>
                                 </div>
@@ -416,6 +400,43 @@
                                             <!--Characters info is retrieved here using dbCharacters.js-->
                                         </tbody>
                                     </table>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <section id="sectionLoginChangePassword">
+                        <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
+                        <div class="main__box__section__content">
+                            <article>
+                                <div class="main__box__section__content__article__caption">
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <span class="caption-text"><b>Change password</b></span>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
+                                </div>
+                                <div class="main__box__section__content__article__border">
+                                    <div class="inputbox">
+                                        <div class="inputbox__labels vertical">
+                                            <span class="inputbox__labels__label">Account:</span>
+                                            <span class="inputbox__labels__label">Old Password:</span>
+                                            <span class="inputbox__labels__label">New Password:</span>
+                                            <span class="inputbox__labels__label">Repeat New Password:</span>
+                                        </div>
+                                        <div class="vertical" style="flex-grow: 1;">
+                                            <input class="inputbox__field" id="changeAccount" type="password" name="Account" maxlength="50" tabindex="1" onkeydown="handleKeyPress(event,'submitChange')">
+                                            <input class="inputbox__field" id="changeOldPassword" type="password" name="Old Password" maxlength="50" tabindex="2" onkeydown="handleKeyPress(event,'submitChange')">
+                                            <input class="inputbox__field" id="changeNewPassword" type="password" name="New Password" maxlength="50" tabindex="3" onkeydown="handleKeyPress(event,'submitChange')">
+                                            <input class="inputbox__field" id="changeNewPasswordRepeat" type="password" name="Repeat New Password" maxlength="50" tabindex="4" onkeydown="handleKeyPress(event,'submitChange')">
+                                        </div>
+                                        <div class="vertical" style="justify-content: center;">
+                                            <input class="inputbox__button" id="submitChange" type="submit" value="Submit" onclick="changePassword()" tabindex="5">
+                                        </div>
+                                    </div>
                                 </div>
                             </article>
                         </div>
@@ -1243,13 +1264,11 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <div class="inputbox">
-                                        <span class="inputbox__label">Character Name:</span>
-                                        <div class="inputbox__inputfield">
-                                            <input id="characterName" type="text" name="Character name" maxlength="50" onkeydown="handleKeyPress(event,'submitButton')">
+                                        <span class="inputbox__labels__label">Character Name:</span>
+                                        <div class="vertical" style="flex-grow: 1;">
+                                            <input class="inputbox__field" id="characterName" type="text" name="Character name" maxlength="50" onkeydown="handleKeyPress(event,'submitButton')">
                                         </div>
-                                        <div class="inputbox__buttonfield notspaced">
-                                            <input id="submitButton" type="submit" value="Submit" onclick="loadCharacter()">
-                                        </div>
+                                        <input class="inputbox__button"type="submit" value="Submit" onclick="loadCharacter()">
                                     </div>
                                 </div>
                             </article>

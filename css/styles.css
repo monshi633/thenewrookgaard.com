@@ -448,30 +448,30 @@ article {
 }
 .inputbox {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 20px;
 }
 
-.inputbox__label {
-    font-size: 10pt;
+.vertical {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.inputbox__labels {
+    justify-content: space-evenly;
+}
+
+.inputbox__labels__label {
     font-weight: 700;
-    padding-right: 15px;
 }
 
-.inputbox__inputfield {
-    flex-grow: 1;
-}
-
-.inputbox__inputfield input {
-    width: 100%;
+.inputbox__field {
+    height: 21px;
     padding: 0;
 }
 
-.inputbox__buttonfield {
-    padding-left: 20px;
-    margin-bottom: 5px;
-}
-
-.inputbox__buttonfield input {
+.inputbox__button {
     background-image: url(/images/main/button_blue.gif);
     width: 135px;
     height: 25px;
@@ -483,69 +483,42 @@ article {
     text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
-.inputbox__buttonfield input:hover {
+.inputbox__button:hover {
     background-image: url(/images/main/button_blue_over.gif);
 }
 
-.flex-break {
-    flex-basis: 100%;
-}
-
-.inputbox__buttonfield.green input {
+.inputbox__button.green {
     background-image: url(/images/main/button_green.gif);
 }
 
-.inputbox__buttonfield.green input:hover {
+.inputbox__button.green:hover {
     background-image: url(/images/main/button_green_over.gif);
 }
 
-.inputbox__buttonfield.red input {
+.inputbox__button.red {
     background-image: url(/images/main/button_red.gif);
 }
 
-.inputbox__buttonfield.red input:hover {
+.inputbox__button.red:hover {
     background-image: url(/images/main/button_red_over.gif);
 }
 
-.statusbox {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.password-labels {
-    width: 165px;
-    height: 79px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.statusbox .inputbox__inputfield {
-    margin-bottom: 5px;
-}
-
-.inputbox__inputfield.notspaced,
-.inputbox__buttonfield.notspaced {
-    margin-bottom: 0;
-}
-
-#statusbox-gem {
+#inputbox-gem {
     height: 52px;
     width: 52px;
     padding-left: 10px;
     padding-right: 20px;
 }
 
-#statusbox-status {
+#inputbox-status {
     flex-grow: 1;
 }
 
-#statusbox-status p {
+#inputbox-status p {
     font-size: 14pt;
 }
 
-#statusbox-status span{
+#inputbox-status span{
     font-size: 9pt;
 }
 
