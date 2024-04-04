@@ -66,3 +66,7 @@ function handleKeyPress(event, elementId) {
         document.getElementById(elementId).click();
     }
 }
+
+function focusElement(elementId) {
+    document.getElementById(elementId).focus();
+}

@@ -283,7 +283,7 @@
                                         </div>
                                         <div class="vertical">
                                             <input class="inputbox__button" id="submitLogin" type="submit" value="Login" onclick="login()" tabindex="3">
-                                            <input class="inputbox__button" type="submit" value="Lost Account" onclick="showSection('sectionLoginLostpassword')" tabindex="4">
+                                            <input class="inputbox__button" type="submit" value="Lost Account" onclick="showSection('sectionLoginLostpassword'), focusElement('lostAccount')" tabindex="4">
                                         </div>
                                     </div>
                                 </div>
@@ -397,7 +397,7 @@
                                         <div id="inputbox-gem"></div>
                                         <div id="inputbox-status"></div>
                                         <div class="vertical" style="justify-content: center;">
-                                            <input class="inputbox__button" type="submit" value="Change Password" onclick="showSection('sectionLoginChangePassword')">
+                                            <input class="inputbox__button" type="submit" value="Change Password" onclick="showSection('sectionLoginChangePassword'), focusElement('changeAccount')">
                                             <!-- <input class="inputbox__button green" type="submit" value="Get Premium" onclick="getPremium()"> -->
                                             <input class="inputbox__button green" type="submit" value="Get Premium">
                                             <input class="inputbox__button red" type="submit" value="Logout" onclick="logout()">

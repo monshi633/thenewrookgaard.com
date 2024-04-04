@@ -5,8 +5,7 @@ function chooseSection() {
         showSection('sectionLoggedIn');
     } else {
         showSection('sectionLogin');
-        // Focus input
-        document.getElementById("loginAccount").focus();
+        focusElement('loginAccount');
     }
 }
 
@@ -63,7 +62,9 @@ function login() {
                 isLoggedIn = true;
                 showSection('sectionLoggedIn');
             } else {
+                document.getElementById('successMsg').style.display = 'none';
                 document.getElementById('loginErrorMsg').style.display = 'block';
+                focusElement('loginAccount');
             }
         })
         .catch(error => {
@@ -83,21 +84,31 @@ function changePassword() {
     const newPasswordRepeat = document.getElementById('changeNewPasswordRepeat').value;
 
     if (account.length > 0 && oldPassword.length > 0 && oldPassword != newPassword && newPassword.length > 0 && newPassword === newPasswordRepeat) {
+        // Clear messages
+        document.getElementById('changeErrorMsg').style.display = 'none';
+        document.getElementById('successMsg').style.display = 'none';
+
+        // Attempt to change password
         fetch(`dbQueries.php?queryId=setNewPassword&inputValue=${account}&inputSecondValue=${oldPassword}&inputThirdValue=${newPassword}`)
         .then(response => response.json())
         .then(data => {
-            console.log(typeof(data),data);
             // Display confirmation
+            isLoggedIn = false;
             showSection('sectionLogin');
             document.getElementById('successMsg').style.display = 'block';
-            // Focus input
-            document.getElementById('loginAccount').focus();
+            focusElement('loginAccount');
         })
         .catch(error => {
-            console.error('Error changing password:', error);
             document.getElementById('changeErrorMsg').style.display = 'block';
         });
     }
+    
+    // Clear inputs
+    document.getElementById('changeAccount').value = '';
+    document.getElementById('changeOldPassword').value = '';
+    document.getElementById('changeNewPassword').value = '';
+    document.getElementById('changeNewPasswordRepeat').value = '';
+    focusElement('changeAccount');
 }
 
 // function recoverPassword() {
@@ -111,6 +122,5 @@ function changePassword() {
 function logout() {
     isLoggedIn = false;
     showSection('sectionLogin');
-    // Focus input
-    document.getElementById('loginAccount').focus();
+    focusElement('loginAccount');
 }

@@ -19,7 +19,7 @@
         "getGuilds" =>              "SELECT g.name, COUNT(p.name) AS members ,strftime('%d-%m-%Y', datetime(g.creationdata, 'unixepoch')) AS creation FROM guilds AS g JOIN players AS p_leader ON g.ownerid=p_leader.id JOIN guild_ranks as r ON g.id = r.guild_id JOIN players as p on r.id=p.rank_id GROUP BY g.name ORDER BY g.name",
         "getGuildMembers" =>        "SELECT p.online AS online, p.name AS name, r.name AS rank FROM players AS p JOIN guild_ranks AS r ON p.rank_id = r.id WHERE r.guild_id = (SELECT id FROM guilds WHERE name = :inputValue) ORDER BY r.level DESC, p.name",
         "getAccountStatus" =>       "SELECT id, premdays FROM accounts WHERE name = :account AND password = :password",
-        "setNewPassword" =>         "UPDATE accounts SET password = :newPassword WHERE name = :account AND password = :password"
+        "setNewPassword" =>         "UPDATE accounts SET password = :newPassword WHERE id = :id"
     );
 
     // Check if the request is coming from an allowed origin (CORS)
@@ -47,22 +47,30 @@
             // Use prepared statement to fill queries
             $statement = $db->prepare($query);
             if ($queryId === "getAccountStatus") {
-                $hashedPassword = hashPassword($db,$inputValue,$inputSecondValue);
+                $result = hashPassword($db,$inputValue,$inputSecondValue);
+                $hashedPassword = $result['hashedPassword'];
 
                 $statement->bindValue(':account', $inputValue, SQLITE3_TEXT);
                 $statement->bindValue(':password', $hashedPassword, SQLITE3_TEXT);
             } else if ($queryId === "setNewPassword") {
-                $hashedPassword = hashPassword($db,$inputValue,$inputThirdValue);
-
-                $statement->bindValue(':account', $inputValue, SQLITE3_TEXT);
-                $statement->bindValue(':password', $inputSecondValue, SQLITE3_TEXT);
-                $statement->bindValue(':newPassword', $hashedPassword, SQLITE3_TEXT);
+                $result = hashPassword($db,$inputValue,$inputSecondValue);
+                $hashedOldPassword = $result['hashedPassword'];
+                if (checkCredentials($db,$inputValue,$hashedOldPassword)) {
+                    $result = hashPassword($db,$inputValue,$inputThirdValue);
+                    $id = $result['id'];
+                    $hashedPassword = $result['hashedPassword'];
+    
+                    $statement->bindValue(':id', $id, SQLITE3_TEXT);
+                    $statement->bindValue(':newPassword', $hashedPassword, SQLITE3_TEXT);
+                } else {
+                    echo json_encode(['error' => 'Invalid credentials']);
+                }
             } else {
                 $statement->bindValue(':inputValue', $inputValue, SQLITE3_TEXT);
             }
             $result = $statement->execute();
 
-            // Fetch results and send back as JSON
+            // Fetch results
             $rows = array();
             while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
                 $rows[] = $row;
@@ -87,25 +95,51 @@
 
     function hashPassword($db,$account,$password) {
         // Prepare query
-        $query = "SELECT salt FROM accounts WHERE name = '$account'";
-
+        $query = 'SELECT id, salt FROM accounts WHERE name = :account';
+        $statement = $db->prepare($query);
+        $statement->bindValue(':account', $account, SQLITE3_TEXT);
+        $statement->bindValue(':password', $password, SQLITE3_TEXT);
+        
         // Execute the query
-        $result = $db->query($query);
+        $result = $statement->execute();
 
-        // Retrieve salt from db
+        // Fetch results
         $row = $result->fetchArray(SQLITE3_ASSOC);
-        if ($row) {
-            $salt = $row["salt"];
-        } else {
-            $salt = "";
+        if (!$row) {
+            return false; // Account doesn't exist
         }
 
-        // concatenate salt + password
-        $fullPassword = $salt . $password;
+        // Concatenate salt + password
+        $fullPassword = $row['salt'] . $password;
 
         // Hash using SHA-1
         $hashedPassword = sha1($fullPassword);
 
-        return $hashedPassword;
+        return array(
+            'id' => $row['id'],
+            'hashedPassword' => $hashedPassword
+        );
+    }
+
+    function checkCredentials($db,$account,$password) {
+        // Prepare query
+        $query = 'SELECT password FROM accounts WHERE name = :account';
+        $statement = $db->prepare($query);
+        $statement->bindValue(':account', $account, SQLITE3_TEXT);
+        
+        // Execute the query
+        $result = $statement->execute();
+
+        // Fetch results
+        $row = $result->fetchArray(SQLITE3_ASSOC);
+
+        if (!$row) {
+            return false; // Account doesn't exist
+        }
+
+        // Retrieve the password from the database
+        $dbPassword = $row['password'];
+
+        return $password === $dbPassword;
     }
 ?>
