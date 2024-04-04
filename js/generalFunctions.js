@@ -70,3 +70,7 @@ function handleKeyPress(event, elementId) {
 function focusElement(elementId) {
     document.getElementById(elementId).focus();
 }
+
+function hideElement(elementId) {
+    document.getElementById(elementId).style.display = 'none';
+}

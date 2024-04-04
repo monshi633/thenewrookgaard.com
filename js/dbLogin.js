@@ -58,12 +58,12 @@ function login() {
                 // Fetch account characters
                 getCharacters('accountCharactersTable',id);
                 
-                document.getElementById('loginErrorMsg').style.display = 'none';
+                // Display section
                 isLoggedIn = true;
                 showSection('sectionLoggedIn');
             } else {
-                document.getElementById('successMsg').style.display = 'none';
                 document.getElementById('loginErrorMsg').style.display = 'block';
+                setTimeout(hideElement, 5000,'loginErrorMsg');
                 focusElement('loginAccount');
             }
         })
@@ -96,10 +96,12 @@ function changePassword() {
             isLoggedIn = false;
             showSection('sectionLogin');
             document.getElementById('successMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'successMsg');
             focusElement('loginAccount');
         })
         .catch(error => {
             document.getElementById('changeErrorMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'changeErrorMsg');
         });
     }
     
