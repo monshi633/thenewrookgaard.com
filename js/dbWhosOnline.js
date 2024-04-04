@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const onlineTable = document.getElementById('onlineTable');
         onlineTable.innerText = '';
 
-        fetch('dbQueries.php?queryId=whosOnline')
+        fetch('dbQueries.php?queryId=getWhosOnline')
             .then(response => response.json())
             .then(data => {
                 data.forEach(player => {

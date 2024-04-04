@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     submenu.addEventListener('click', function () {
         const guildTable = document.getElementById('guildTable');
         guildTable.innerText = '';
-        fetch('dbQueries.php?queryId=guilds')
+        fetch('dbQueries.php?queryId=getGuilds')
         .then(response => response.json())
         .then(data => {
             data.forEach(guild => {
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 guildRow.style.cursor = 'pointer';
 
                 // Add content to membersBody
-                fetch(`dbQueries.php?queryId=guildMembers&inputValue=${guildName}`)
+                fetch(`dbQueries.php?queryId=getGuildMembers&inputValue=${guildName}`)
                 .then(response => response.json())
                 .then(data => {
                     const membersTable = document.getElementById(membersBodyId);

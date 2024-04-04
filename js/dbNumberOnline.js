@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const numberOnline = document.getElementById('numberOnline');
 
     function fetchNumberOnline() {
-        fetch('dbQueries.php?queryId=nOnline')
+        fetch('dbQueries.php?queryId=getNumberOnline')
             .then(response => response.json())
             .then(data => {
                 const count = data[0].players_online;

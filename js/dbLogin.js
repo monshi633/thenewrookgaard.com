@@ -10,36 +10,31 @@ function chooseSection() {
     }
 }
 
-async function login() {
-    // Forbidden accounts
+function calculateDateFromToday(days) {
+    var currentDate = new Date();
+    var futureDate = new Date();
+    futureDate.setDate(currentDate.getDate() + days);
+    
+    // Format the date to 'MMM DD YYYY'
+    var options = {year: 'numeric', month: 'short', day: '2-digit'};
+    return futureDate.toLocaleDateString('en-US', options);
+}
+
+function login() {
     const forbiddenAccounts = ["1","god"];
-    // Get credentials
-    account = document.getElementById('loginAccount').value;
-    password = document.getElementById('loginPassword').value;
+    // Get input
+    const account = document.getElementById('loginAccount').value;
+    const password = document.getElementById('loginPassword').value;
 
-    if (forbiddenAccounts.find((element) => element === account) || account.length < 1 || password.length < 1) {
-        document.getElementById('errorMsg').style.display = 'block';
-    } else {
-        // Try to login
-        try {
-            const hashedData = await hashInput(account,password);
-
-            if (!hashedData) {
-                throw new Error('Hashed data is not available');
-            }
-
-            const response = await fetch(`dbQueries.php?queryId=getStatus&inputValue=${account}&inputSecondValue=${hashedData}`);
-
-            if (!response) {
-                throw new Error('Failed to fetch data from dbQueries.php');
-            }
-
-            const data = await response.json();
-
-            // Display data
+    if (!forbiddenAccounts.find((element) => element === account) && account.length > 0 && password.length > 0) {
+        // Get account status
+        fetch(`dbQueries.php?queryId=getAccountStatus&inputValue=${account}&inputSecondValue=${password}`)
+        .then(response => response.json())
+        .then(data => {
             const id = data[0].id;
             const days = data[0].premdays;
             const expirationDate = calculateDateFromToday(days);
+
             const gem = document.getElementById('statusbox-gem');
             const status = document.getElementById('statusbox-status');
             if (days > 0) {
@@ -63,60 +58,56 @@ async function login() {
             // Fetch account characters
             getCharacters('accountCharactersTable',id);
 
-            document.getElementById('errorMsg').style.display = 'none';
+            document.getElementById('loginErrorMsg').style.display = 'none';
             isLoggedIn = true;
             showSection('sectionLoggedIn');
-        } catch (error) {
-            document.getElementById('errorMsg').style.display = 'block';
-        }
+        })
+        .catch(error => {
+            console.error('Error logging in:', error);
+            document.getElementById('loginErrorMsg').style.display = 'block';
+        });
     }
-
     // Clean fields
     document.getElementById('loginAccount').value = '';
     document.getElementById('loginPassword').value = '';
 }
 
+function changePassword() {
+    // Get input
+    const account = document.getElementById('changeAccount').value;
+    const oldPassword = document.getElementById('changeOldPassword').value;
+    const newPassword = document.getElementById('changeNewPassword').value;
+    const newPasswordRepeat = document.getElementById('changeNewPasswordRepeat').value;
+
+    if (account.length > 0 && oldPassword.length > 0 && oldPassword != newPassword && newPassword.length > 0 && newPassword === newPasswordRepeat) {
+        fetch(`dbQueries.php?queryId=setNewPassword&inputValue=${account}&inputSecondValue=${oldPassword}&inputThirdValue=${newPassword}`)
+        .then(response => response.json())
+        .then(data => {
+            console.log(typeof(data),data);
+            // Display confirmation
+            showSection('sectionLogin');
+            document.getElementById('successMsg').style.display = 'block';
+            // Focus input
+            document.getElementById('loginAccount').focus();
+        })
+        .catch(error => {
+            console.error('Error changing password:', error);
+            document.getElementById('changeErrorMsg').style.display = 'block';
+        });
+    }
+}
+
+// function recoverPassword() {
+//     // Get input
+//     const account = document.getElementById('lostAccount').value;
+//     const recoveryKey = document.getElementById('lostKey').value;
+//     const newPassword = document.getElementById('lostNewPassword').value;
+//     const newPasswordRepeat = document.getElementById('lostNewPasswordRepeat').value;
+// }
+
 function logout() {
     isLoggedIn = false;
     showSection('sectionLogin');
     // Focus input
-    document.getElementById("loginAccount").focus();
-}
-
-function calculateDateFromToday(days) {
-    var currentDate = new Date(); // Get today's date
-    var futureDate = new Date(); // Initialize future date with today's date
-    futureDate.setDate(currentDate.getDate() + days); // Set future date to be 'days' days from today
-    
-    // Format the date to 'MMM DD YYYY'
-    var options = { year: 'numeric', month: 'short', day: '2-digit' };
-    return futureDate.toLocaleDateString('en-US', options);
-}
-
-async function hashInput(account,password) {
-    // Define URL of the PHP script
-    const url = 'hash.php';
-
-    // Define data to be sent in the POST request
-    const data = new URLSearchParams();
-    data.append('account', account);
-    data.append('password', password);
-
-    // Make a POST request to the PHP script
-    try {
-        const response = await fetch(url, {
-            method: 'POST',
-            body: data
-        });
-
-        if (!response.ok) {
-            throw new Error('Failed to fetch data');
-        }
-
-        const responseData = await response.json();
-        return responseData.hashedData;
-    } catch (error) {
-        console.error('Error:',error.message);
-        return null;
-    }
+    document.getElementById('loginAccount').focus();
 }

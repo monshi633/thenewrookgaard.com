@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     submenu.addEventListener('click', function () {
         const table = document.getElementById('housesTable');
         table.innerText = '';
-        fetch('dbQueries.php?queryId=houses')
+        fetch('dbQueries.php?queryId=getHouses')
         .then(response => response.json())
         .then(data => {
             data.forEach(house => {

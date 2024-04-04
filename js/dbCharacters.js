@@ -1,5 +1,56 @@
+function capitalizeWords(string) {
+    // Split the string into an array of words
+    const words = string.split(' ');
+    
+    // Capitalize the first letter of each word and convert the rest to lowercase
+    const capitalizedWords = words.map(word => {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    });
+    
+    // Join the words back into a single string
+    return capitalizedWords.join(' ');
+}
+
+function sanitizeName(input) {
+    // Allow only alphanumeric characters
+    return input.replace(/[^a-zA-Z\s]/g, '');
+}
+
+function charactersDisplayReset() {
+    document.getElementById('characterNotFoundMessage').innerHTML = '';
+    document.getElementById('characterNotFound').style.display = 'none';
+    document.getElementById('characterInfo').style.display = 'none';
+    document.getElementById('characters').style.display = 'none';
+    document.getElementById('characterName').focus();
+}
+
+function charactersDisplayError(characterName) {
+    document.getElementById('characterNotFoundMessage').innerHTML = `<td>Character <b>${characterName}</b> does not exist.</td>`
+    document.getElementById('characterNotFound').style.display = 'block';
+}
+
+function characterExists(characterName) {
+    fetch(`dbQueries.php?queryId=getCharacterName&inputValue=${characterName}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data && data.length > 0 && data[0].count > 0) {
+                // Character name exists in the database, display articles
+                document.getElementById('characterInfo').style.display = 'block';
+                document.getElementById('characters').style.display = 'block';
+                return true;
+            } else {
+                // Character name doesn't exist in the database
+                charactersDisplayError(characterName);
+                return false;
+            }
+        })
+        .catch(error => {
+            console.error('Error validating character:', error);
+        });
+}
+
 function loadCharacter(charName) {
-    // Get character name
+    // Get character name from input
     var characterName = '';
     if (typeof charName === 'undefined') {
         characterName = sanitizeName(capitalizeWords(document.getElementById('characterName').value));
@@ -20,7 +71,7 @@ function loadCharacter(charName) {
     // Load Character Info
     const characterInfoTable = document.getElementById('characterInfoTable');
     characterInfoTable.innerText = '';
-    fetch(`dbQueries.php?queryId=character&inputValue=${characterName}`)
+    fetch(`dbQueries.php?queryId=getCharacterInfo&inputValue=${characterName}`)
         .then(response => response.json())
         .then(data => {
             data.forEach(characterInfo => {
@@ -72,62 +123,10 @@ function loadCharacter(charName) {
     });
 }
 
-function sanitizeName(input) {
-    // Allow only alphanumeric characters
-    return input.replace(/[^a-zA-Z\s]/g, '');
-}
-
-function capitalizeWords(string) {
-    // Split the string into an array of words
-    const words = string.split(' ');
-    
-    // Capitalize the first letter of each word and convert the rest to lowercase
-    const capitalizedWords = words.map(word => {
-        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-    });
-    
-    // Join the words back into a single string
-    return capitalizedWords.join(' ');
-}
-
-function characterExists(characterName) {
-    fetch(`dbQueries.php?queryId=cExists&inputValue=${characterName}`)
-        .then(response => response.json())
-        .then(data => {
-            if (data && data.length > 0 && data[0].count > 0) {
-                // Character name exists in the database
-                // Display articles
-                document.getElementById('characterInfo').style.display = 'block';
-                document.getElementById('characters').style.display = 'block';
-                return true;
-            } else {
-                // Character name doesn't exist in the database
-                charactersDisplayError(characterName);
-                return false;
-            }
-        })
-        .catch(error => {
-            console.error('Error validating character:', error);
-        });
-}
-
-function charactersDisplayReset() {
-    document.getElementById('characterNotFoundMessage').innerHTML = '';
-    document.getElementById('characterNotFound').style.display = 'none';
-    document.getElementById('characterInfo').style.display = 'none';
-    document.getElementById('characters').style.display = 'none';
-    document.getElementById("characterName").focus();
-}
-
-function charactersDisplayError(characterName) {
-    document.getElementById('characterNotFoundMessage').innerHTML = `<td>Character <b>${characterName}</b> does not exist.</td>`
-    document.getElementById('characterNotFound').style.display = 'block';
-}
-
 function getCharacters(charactersTableId,accountId) {
     const charactersTable = document.getElementById(charactersTableId);
     charactersTable.innerText = '';
-    fetch(`dbQueries.php?queryId=cAccount&inputValue=${accountId}`)
+    fetch(`dbQueries.php?queryId=getAccountCharacters&inputValue=${accountId}`)
         .then(response => response.json())
         .then(data => {
             data.forEach(character => {

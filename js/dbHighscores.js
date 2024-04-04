@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         fishingTable.innerText = '';
 
         // Level
-        fetch('dbQueries.php?queryId=hLevel')
+        fetch('dbQueries.php?queryId=getHighLevel')
             .then(response => response.json())
             .then(data => {
                 let index = 1;
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error loading level highscores:', error));
         
         // Magic Level
-        fetch('dbQueries.php?queryId=hMagic')
+        fetch('dbQueries.php?queryId=getHighMagic')
             .then(response => response.json())
             .then(data => {
                 let index = 1;
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error loading magic level highscores:', error));
         
         // Fist
-        fetch('dbQueries.php?queryId=hFist')
+        fetch('dbQueries.php?queryId=getHighFist')
             .then(response => response.json())
             .then(data => {
                 let index = 1;
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error loading fist highscores:', error));
 
         // Club
-        fetch('dbQueries.php?queryId=hClub')
+        fetch('dbQueries.php?queryId=getHighClub')
             .then(response => response.json())
             .then(data => {
                 let index = 1;
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error loading club highscores:', error));
 
         // Sword
-        fetch('dbQueries.php?queryId=hSword')
+        fetch('dbQueries.php?queryId=getHighSword')
             .then(response => response.json())
             .then(data => {
                 let index = 1;
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error loading sword highscores:', error));
 
         // Axe
-        fetch('dbQueries.php?queryId=hAxe')
+        fetch('dbQueries.php?queryId=getHighAxe')
             .then(response => response.json())
             .then(data => {
                 let index = 1;
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error loading axe highscores:', error));
 
         // Distance
-        fetch('dbQueries.php?queryId=hDistance')
+        fetch('dbQueries.php?queryId=getHighDistance')
             .then(response => response.json())
             .then(data => {
                 let index = 1;
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error loading distance highscores:', error));
 
         // Shielding
-        fetch('dbQueries.php?queryId=hShielding')
+        fetch('dbQueries.php?queryId=getHighShielding')
             .then(response => response.json())
             .then(data => {
                 let index = 1;
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error loading shielding highscores:', error));
 
         // Fishing
-        fetch('dbQueries.php?queryId=hFishing')
+        fetch('dbQueries.php?queryId=getHighFishing')
             .then(response => response.json())
             .then(data => {
                 let index = 1;

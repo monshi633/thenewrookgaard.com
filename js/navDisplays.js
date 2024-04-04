@@ -1,5 +1,5 @@
-function menuButtonAction(navMenuId,alwaysBlock) {
-    const navSubmenu = document.getElementById(navMenuId)
+function collapseSubMenu(subMenuId,alwaysBlock) {
+    const navSubmenu = document.getElementById(subMenuId)
     if (navSubmenu.style.display != 'block') {
         navSubmenu.style.display = 'block';
     } else {
@@ -40,6 +40,19 @@ function showSection(section) {
         const labelId = document.getElementById('submenu' + section)
         if (labelId) {
             labelId.style.color = 'white';
+        }
+    }
+}
+
+function collapseTable(divId,isRow) {
+    const divTable = document.getElementById(divId)
+    if (divTable.style.display != 'none') {
+        divTable.style.display = 'none';
+    } else {
+        if (isRow) {
+            divTable.style.display = 'table-row';
+        } else {
+            divTable.style.display = 'block';
         }
     }
 }

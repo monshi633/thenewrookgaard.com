@@ -28,12 +28,12 @@
                 <div class="nav__menu">
                     <div class="nav-top"></div>
                     <div>
-                        <div class="nav__menu__button" onclick="menuButtonAction('news')">
+                        <div class="nav__menu__button" onclick="collapseSubMenu('news')">
                             <img class="nav__menu__button__icon" src="images/nav/icon-news.gif" alt="News">
                             <img class="nav__menu__button__label" src="images/nav/label-news.png" alt="News">
                         </div>
                         <ul id="news" style="display: block;">
-                            <li onclick="showSection('SectionNewsLatestnews')">
+                            <li onclick="showSection('sectionNewsLatestnews')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionNewsLatestnews" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionNewsLatestnews" class="nav__menu__submenu">Latest news</div>
@@ -42,18 +42,18 @@
                         </ul>
                     </div>
                     <div>
-                        <div class="nav__menu__button" onclick="menuButtonAction('about')">
+                        <div class="nav__menu__button" onclick="collapseSubMenu('about')">
                             <img class="nav__menu__button__icon" src="images/nav/icon-about.gif" alt="News">
                             <img class="nav__menu__button__label" src="images/nav/label-about.png" alt="News">
                         </div>
                         <ul id="about">
-                            <li onclick="showSection('SectionAboutGamefeatures')">
+                            <li onclick="showSection('sectionAboutGamefeatures')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionAboutGamefeatures" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionAboutGamefeatures" class="nav__menu__submenu">Game Features</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionAboutPremiumfeatures')">
+                            <li onclick="showSection('sectionAboutPremiumfeatures')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionAboutPremiumfeatures" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionAboutPremiumfeatures" class="nav__menu__submenu">Premium Features</div>
@@ -62,60 +62,60 @@
                         </ul>
                     </div>
                     <div>
-                        <div class="nav__menu__button" onclick="menuButtonAction('library')">
+                        <div class="nav__menu__button" onclick="collapseSubMenu('library')">
                             <img class="nav__menu__button__icon" src="images/nav/icon-library.gif" alt="News">
                             <img class="nav__menu__button__label" src="images/nav/label-library.png" alt="News">
                         </div>
                         <ul id="library">
-                            <li onclick="showSection('SectionLibraryCreatures')">
+                            <li onclick="showSection('sectionLibraryCreatures')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryCreatures" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryCreatures" class="nav__menu__submenu">Creatures</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionLibraryBosses')">
+                            <li onclick="showSection('sectionLibraryBosses')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryBosses" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryBosses" class="nav__menu__submenu">Bosses</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionLibraryRaids')">
+                            <li onclick="showSection('sectionLibraryRaids')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryRaids" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryRaids" class="nav__menu__submenu">Raids</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionLibraryNpcs')">
+                            <li onclick="showSection('sectionLibraryNpcs')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryNpcs" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryNpcs" class="nav__menu__submenu">NPCs</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionLibraryAddons')">
+                            <li onclick="showSection('sectionLibraryAddons')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryAddons" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryAddons" class="nav__menu__submenu">Addons</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionLibraryItems')">
+                            <li onclick="showSection('sectionLibraryItems')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryItems" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryItems" class="nav__menu__submenu">Items</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionLibrarySpells')">
+                            <li onclick="showSection('sectionLibrarySpells')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibrarySpells" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibrarySpells" class="nav__menu__submenu">Spells</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionLibraryQuests')">
+                            <li onclick="showSection('sectionLibraryQuests')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryQuests" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryQuests" class="nav__menu__submenu">Quests</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionLibraryTasks')">
+                            <li onclick="showSection('sectionLibraryTasks')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionLibraryTasks" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionLibraryTasks" class="nav__menu__submenu">Tasks</div>
@@ -124,36 +124,36 @@
                         </ul>
                     </div>
                     <div>
-                        <div class="nav__menu__button" onclick="menuButtonAction('community')">
+                        <div class="nav__menu__button" onclick="collapseSubMenu('community')">
                             <img class="nav__menu__button__icon" src="images/nav/icon-community.gif" alt="News">
                             <img class="nav__menu__button__label" src="images/nav/label-community.png" alt="News">
                         </div>
                         <ul id="community">
-                            <li onclick="showSection('SectionCommunityCharacters'), charactersDisplayReset()">
+                            <li onclick="showSection('sectionCommunityCharacters'), charactersDisplayReset()">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionCommunityCharacters" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionCommunityCharacters" class="nav__menu__submenu">Characters</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionCommunityWhosonline')">
+                            <li onclick="showSection('sectionCommunityWhosonline')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionCommunityWhosonline" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionCommunityWhosonline" class="nav__menu__submenu">Who's online?</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionCommunityHighscores')">
+                            <li onclick="showSection('sectionCommunityHighscores')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionCommunityHighscores" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionCommunityHighscores" class="nav__menu__submenu">Highscores</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionCommunityHouses')">
+                            <li onclick="showSection('sectionCommunityHouses')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionCommunityHouses" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionCommunityHouses" class="nav__menu__submenu">Houses</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
-                            <li onclick="showSection('SectionCommunityGuilds')">
+                            <li onclick="showSection('sectionCommunityGuilds')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconSectionCommunityGuilds" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionCommunityGuilds" class="nav__menu__submenu">Guilds</div>
@@ -162,7 +162,7 @@
                         </ul>
                     </div>
                     <div>
-                        <div class="nav__menu__button" onclick="menuButtonAction('networks')">
+                        <div class="nav__menu__button" onclick="collapseSubMenu('networks')">
                             <img class="nav__menu__button__icon" src="images/nav/icon-networks.gif" alt="News">
                             <img class="nav__menu__button__label" src="images/nav/label-networks.png" alt="News">
                         </div>
@@ -190,7 +190,7 @@
                         </ul>
                     </div>
                     <div>
-                        <div class="nav__menu__button" onclick="menuButtonAction('support')">
+                        <div class="nav__menu__button" onclick="collapseSubMenu('support')">
                             <img class="nav__menu__button__icon" src="images/nav/icon-support.gif" alt="News">
                             <img class="nav__menu__button__label" src="images/nav/label-support.png" alt="News">
                         </div>
@@ -214,7 +214,7 @@
                     <div class="main-tr"></div>
                     <div class="main__box__heading red">
                         <p>The New Rookgaard OT Server</p>
-                        <a id="counter" onclick="showSection('SectionCommunityWhosonline'); menuButtonAction('community',true)">
+                        <a id="counter" onclick="showSection('sectionCommunityWhosonline'); collapseSubMenu('community',true)">
                             <img src="images/main/icon-players-online.png" alt="players">
                             <span id="numberOnline"></span>
                         </a>
@@ -231,21 +231,35 @@
                     <section id="sectionLogin">
                         <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
                         <div class="main__box__section__content">
-                            <article>
-                                <div id="errorMsg" class="main__box__section__content__article__caption message" style="display: none;">
-                                    <span class="caption tl"></span>
-                                    <span class="caption top"></span>
-                                    <span class="caption tr"></span>
-                                    <span class="caption left"></span>
-                                    <div class="error">
-                                        <img src="images/attentionsign.gif" alt="Attention!">
-                                        <span class="caption-text message" style="color: red;"><b>The following error has occurred:</b><br>You have entered a wrong account number or password.</span>
-                                    </div>
-                                    <span class="caption right"></span>
-                                    <span class="caption bl"></span>
-                                    <span class="caption bottom"></span>
-                                    <span class="caption br"></span>
+                            <article id="successMsg" class="main__box__section__content__article__caption message" style="display: none;">
+                                <span class="caption tl"></span>
+                                <span class="caption top"></span>
+                                <span class="caption tr"></span>
+                                <span class="caption left"></span>
+                                <div class="error">
+                                    <img src="images/attentionsign.gif" alt="Attention!">
+                                    <span class="caption-text message" style="color: green;"><b>Your password has been changed!</b><br>Please log back in.</span>
                                 </div>
+                                <span class="caption right"></span>
+                                <span class="caption bl"></span>
+                                <span class="caption bottom"></span>
+                                <span class="caption br"></span>
+                            </article>
+                            <article id="loginErrorMsg" class="main__box__section__content__article__caption message" style="display: none;">
+                                <span class="caption tl"></span>
+                                <span class="caption top"></span>
+                                <span class="caption tr"></span>
+                                <span class="caption left"></span>
+                                <div class="error">
+                                    <img src="images/attentionsign.gif" alt="Attention!">
+                                    <span class="caption-text message" style="color: red;"><b>The following error has occurred:</b><br>You have entered a wrong account number or password.</span>
+                                </div>
+                                <span class="caption right"></span>
+                                <span class="caption bl"></span>
+                                <span class="caption bottom"></span>
+                                <span class="caption br"></span>
+                            </article>
+                            <article>
                                 <div class="main__box__section__content__article__caption">
                                     <span class="caption tl"></span>
                                     <span class="caption top"></span>
@@ -315,6 +329,20 @@
                     <section id="sectionLoginLostpassword">
                         <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
                         <div class="main__box__section__content">
+                            <article id="lostErrorMsg" class="main__box__section__content__article__caption message" style="display: none;">
+                                <span class="caption tl"></span>
+                                <span class="caption top"></span>
+                                <span class="caption tr"></span>
+                                <span class="caption left"></span>
+                                <div class="error">
+                                    <img src="images/attentionsign.gif" alt="Attention!">
+                                    <span class="caption-text message" style="color: red;"><b>The following error has occurred:</b><br>You have entered a wrong value, please try again.</span>
+                                </div>
+                                <span class="caption right"></span>
+                                <span class="caption bl"></span>
+                                <span class="caption bottom"></span>
+                                <span class="caption br"></span>
+                            </article>
                             <article>
                                 <div class="main__box__section__content__article__caption">
                                     <span class="caption tl"></span>
@@ -369,8 +397,9 @@
                                         <div id="inputbox-gem"></div>
                                         <div id="inputbox-status"></div>
                                         <div class="vertical" style="justify-content: center;">
-                                            <input class="inputbox__button" type="submit" value="Change Password" onclick="showSection('sectionChangePassword')">
-                                            <input class="inputbox__button green" type="submit" value="Get Premium" onclick="getPremium()">
+                                            <input class="inputbox__button" type="submit" value="Change Password" onclick="showSection('sectionLoginChangePassword')">
+                                            <!-- <input class="inputbox__button green" type="submit" value="Get Premium" onclick="getPremium()"> -->
+                                            <input class="inputbox__button green" type="submit" value="Get Premium">
                                             <input class="inputbox__button red" type="submit" value="Logout" onclick="logout()">
                                         </div>
                                     </div>
@@ -407,6 +436,20 @@
                     <section id="sectionLoginChangePassword">
                         <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
                         <div class="main__box__section__content">
+                            <article id="changeErrorMsg" class="main__box__section__content__article__caption message" style="display: none;">
+                                <span class="caption tl"></span>
+                                <span class="caption top"></span>
+                                <span class="caption tr"></span>
+                                <span class="caption left"></span>
+                                <div class="error">
+                                    <img src="images/attentionsign.gif" alt="Attention!">
+                                    <span class="caption-text message" style="color: red;"><b>The following error has occurred:</b><br>You have entered a wrong value, please try again.</span>
+                                </div>
+                                <span class="caption right"></span>
+                                <span class="caption bl"></span>
+                                <span class="caption bottom"></span>
+                                <span class="caption br"></span>
+                            </article>
                             <article>
                                 <div class="main__box__section__content__article__caption">
                                     <span class="caption tl"></span>
@@ -441,7 +484,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionNewsLatestnews">
+                    <section id="sectionNewsLatestnews">
                         <img class="main__box__section__headline" src="images/headlines/headline-news.gif" alt="Latest News">
                         <div class="main__box__section__content">
                             <div id="newsContainer">
@@ -449,7 +492,7 @@
                             </div>
                         </div>
                     </section>
-                    <section id="SectionAboutGamefeatures">
+                    <section id="sectionAboutGamefeatures">
                         <img class="main__box__section__headline" src="images/headlines/headline-gamefeatures.gif" alt="Game Features">
                         <div class="main__box__section__content">
                             <article>
@@ -487,7 +530,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionAboutPremiumfeatures">
+                    <section id="sectionAboutPremiumfeatures">
                         <img class="main__box__section__headline" src="images/headlines/headline-premiumfeatures.gif" alt="Premium Features">
                         <div class="main__box__section__content">
                             <article>
@@ -522,7 +565,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionLibraryCreatures">
+                    <section id="sectionLibraryCreatures">
                         <img class="main__box__section__headline" src="images/headlines/headline-creatures.gif" alt="Creatures">
                         <div class="main__box__section__content">
                             <article>
@@ -544,7 +587,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionLibraryBosses">
+                    <section id="sectionLibraryBosses">
                         <img class="main__box__section__headline" src="images/headlines/headline-bosses.gif" alt="Bosses">
                         <div class="main__box__section__content">
                             <article>
@@ -566,7 +609,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionLibraryRaids">
+                    <section id="sectionLibraryRaids">
                         <img class="main__box__section__headline" src="images/headlines/headline-raids.gif" alt="Raids">
                         <div class="main__box__section__content">
                             <article>
@@ -597,7 +640,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionLibraryNpcs">   
+                    <section id="sectionLibraryNpcs">   
                         <img class="main__box__section__headline" src="images/headlines/headline-npcs.gif" alt="NPCs">
                         <div class="main__box__section__content">
                             <article>
@@ -628,7 +671,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionLibraryAddons">
+                    <section id="sectionLibraryAddons">
                         <img class="main__box__section__headline" src="images/headlines/headline-addons.gif" alt="Addons">
                         <div class="main__box__section__content">
                             <article>
@@ -658,7 +701,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionLibraryItems">
+                    <section id="sectionLibraryItems">
                         <img class="main__box__section__headline" src="images/headlines/headline-items.gif" alt="Items">
                         <div class="main__box__section__content">
                             <div class="main__box__section__content__article__caption message">
@@ -1079,7 +1122,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionLibrarySpells">
+                    <section id="sectionLibrarySpells">
                         <img class="main__box__section__headline" src="images/headlines/headline-spells.gif" alt="Spells">
                         <div class="main__box__section__content">
                             <article>
@@ -1124,7 +1167,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionLibraryQuests">
+                    <section id="sectionLibraryQuests">
                         <img class="main__box__section__headline" src="images/headlines/headline-quests.gif" alt="Quests">
                         <div class="main__box__section__content">
                             <article>
@@ -1154,7 +1197,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionLibraryTasks">
+                    <section id="sectionLibraryTasks">
                         <img class="main__box__section__headline" src="images/headlines/headline-tasks.gif" alt="Tasks">
                         <div class="main__box__section__content">
                             <article>
@@ -1185,7 +1228,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionCommunityCharacters">
+                    <section id="sectionCommunityCharacters">
                         <img class="main__box__section__headline" src="images/headlines/headline-characters.gif" alt="Characters">
                         <div class="main__box__section__content">
                             <article id="characterNotFound" style="display: none;">
@@ -1274,7 +1317,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionCommunityWhosonline">
+                    <section id="sectionCommunityWhosonline">
                         <img class="main__box__section__headline" src="images/headlines/headline-whosonline.gif" alt="Who's online?">
                         <div class="main__box__section__content">
                             <article>
@@ -1305,7 +1348,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionCommunityHighscores">
+                    <section id="sectionCommunityHighscores">
                         <img class="main__box__section__headline" src="images/headlines/headline-highscores.gif" alt="Highscores">
                         <div class="main__box__section__content">
                             <article>
@@ -1553,7 +1596,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionCommunityHouses">
+                    <section id="sectionCommunityHouses">
                         <img class="main__box__section__headline" src="images/headlines/headline-houses.gif" alt="Houses">
                         <div class="main__box__section__content">
                             <article>
@@ -1584,7 +1627,7 @@
                             </article>
                         </div>
                     </section>
-                    <section id="SectionCommunityGuilds">
+                    <section id="sectionCommunityGuilds">
                         <img class="main__box__section__headline" src="images/headlines/headline-guilds.gif" alt="Guilds">
                         <div class="main__box__section__content">
                             <article>
@@ -1627,7 +1670,6 @@
             </main>
         </div>
         <script src="/js/navDisplays.js"></script>
-        <script src="/js/divTableCollapser.js"></script>
         <script src="/js/dbNumberOnline.js"></script>
         <script src="/js/dbLogin.js"></script>
         <script src="/js/latestNewsLoader.js"></script>
