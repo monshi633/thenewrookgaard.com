@@ -47,12 +47,12 @@
             // Use prepared statement to fill queries
             $statement = $db->prepare($query);
             if ($queryId === "getAccountStatus") {
-                $hashedPassword = hashPassword($inputValue,$inputSecondValue);
+                $hashedPassword = hashPassword($db,$inputValue,$inputSecondValue);
 
                 $statement->bindValue(':account', $inputValue, SQLITE3_TEXT);
                 $statement->bindValue(':password', $hashedPassword, SQLITE3_TEXT);
             } else if ($queryId === "setNewPassword") {
-                $hashedPassword = hashPassword($inputValue,$inputThirdValue);
+                $hashedPassword = hashPassword($db,$inputValue,$inputThirdValue);
 
                 $statement->bindValue(':account', $inputValue, SQLITE3_TEXT);
                 $statement->bindValue(':password', $inputSecondValue, SQLITE3_TEXT);
@@ -85,7 +85,7 @@
         echo json_encode(['error' => 'Method Not Allowed']);
     }
 
-    function hashPassword($account,$password) {
+    function hashPassword($db,$account,$password) {
         // Prepare query
         $query = "SELECT salt FROM accounts WHERE name = '$account'";
 

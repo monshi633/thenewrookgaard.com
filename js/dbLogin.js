@@ -30,41 +30,44 @@ function login() {
         // Get account status
         fetch(`dbQueries.php?queryId=getAccountStatus&inputValue=${account}&inputSecondValue=${password}`)
         .then(response => response.json())
-        .then(data => {
-            const id = data[0].id;
-            const days = data[0].premdays;
-            const expirationDate = calculateDateFromToday(days);
-
-            const gem = document.getElementById('statusbox-gem');
-            const status = document.getElementById('statusbox-status');
-            if (days > 0) {
-                gem.innerHTML = `
+        .then (data => {
+            if (data && data.length > 0) {
+                const id = data[0].id;
+                const days = data[0].premdays;
+                const expirationDate = calculateDateFromToday(days);
+                
+                const gem = document.getElementById('inputbox-gem');
+                const status = document.getElementById('inputbox-status');
+                if (days > 0) {
+                    gem.innerHTML = `
                     <img src="images/account-status_green.gif" alt="Premium account">
                 `;
                 status.innerHTML = `
-                    <p style="color: green"><b>Premium account</b></p>
-                    <span>Your Premium Time expires at ${expirationDate}.<br>(Balance of Premium Time: ${days} days)</span>
+                <p style="color: green"><b>Premium account</b></p>
+                <span>Your Premium Time expires at ${expirationDate}.<br>(Balance of Premium Time: ${days} days)</span>
                 `;
-            } else {
-                gem.innerHTML = `
+                } else {
+                    gem.innerHTML = `
                     <img src="images/account-status_red.gif" alt="Free account">
-                `;
-                status.innerHTML = `
+                    `;
+                    status.innerHTML = `
                     <p style="color: red"><b>Free account</b></p>
                     <span>Your Premium Time has expired.<br>(Balance of Premium Time: 0 days)</span>
-                `;
+                    `;
+                }
+                
+                // Fetch account characters
+                getCharacters('accountCharactersTable',id);
+                
+                document.getElementById('loginErrorMsg').style.display = 'none';
+                isLoggedIn = true;
+                showSection('sectionLoggedIn');
+            } else {
+                document.getElementById('loginErrorMsg').style.display = 'block';
             }
-    
-            // Fetch account characters
-            getCharacters('accountCharactersTable',id);
-
-            document.getElementById('loginErrorMsg').style.display = 'none';
-            isLoggedIn = true;
-            showSection('sectionLoggedIn');
         })
         .catch(error => {
             console.error('Error logging in:', error);
-            document.getElementById('loginErrorMsg').style.display = 'block';
         });
     }
     // Clean fields
