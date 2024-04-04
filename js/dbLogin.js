@@ -84,11 +84,6 @@ function changePassword() {
     const newPasswordRepeat = document.getElementById('changeNewPasswordRepeat').value;
 
     if (account.length > 0 && oldPassword.length > 0 && oldPassword != newPassword && newPassword.length > 0 && newPassword === newPasswordRepeat) {
-        // Clear messages
-        document.getElementById('changeErrorMsg').style.display = 'none';
-        document.getElementById('successMsg').style.display = 'none';
-
-        // Attempt to change password
         fetch(`dbQueries.php?queryId=setNewPassword&inputValue=${account}&inputSecondValue=${oldPassword}&inputThirdValue=${newPassword}`)
         .then(response => response.json())
         .then(data => {
@@ -102,6 +97,7 @@ function changePassword() {
         .catch(error => {
             document.getElementById('changeErrorMsg').style.display = 'block';
             setTimeout(hideElement, 5000,'changeErrorMsg');
+            focusElement('changeAccount');
         });
     }
     
@@ -110,16 +106,39 @@ function changePassword() {
     document.getElementById('changeOldPassword').value = '';
     document.getElementById('changeNewPassword').value = '';
     document.getElementById('changeNewPasswordRepeat').value = '';
-    focusElement('changeAccount');
 }
 
-// function recoverPassword() {
-//     // Get input
-//     const account = document.getElementById('lostAccount').value;
-//     const recoveryKey = document.getElementById('lostKey').value;
-//     const newPassword = document.getElementById('lostNewPassword').value;
-//     const newPasswordRepeat = document.getElementById('lostNewPasswordRepeat').value;
-// }
+function recoverPassword() {
+    // Get input
+    const account = document.getElementById('lostAccount').value;
+    const recoveryKey = document.getElementById('lostKey').value;
+    const newPassword = document.getElementById('lostNewPassword').value;
+    const newPasswordRepeat = document.getElementById('lostNewPasswordRepeat').value;
+
+    if (account.length > 0 && recoveryKey.length > 0 && newPassword.length > 0 && newPassword === newPasswordRepeat) {
+        fetch(`dbQueries.php?queryId=setNewPassword&inputValue=${account}&inputSecondValue=${recoveryKey}&inputThirdValue=${newPassword}&inputFourthValue='key'`)
+        .then(response => response.json())
+        .then(data => {
+            // Display confirmation
+            isLoggedIn = false;
+            showSection('sectionLogin');
+            document.getElementById('successMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'successMsg');
+            focusElement('loginAccount');
+        })
+        .catch(error => {
+            document.getElementById('changeErrorMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'changeErrorMsg');
+            focusElement('changeAccount');
+        });
+    }
+    
+    // Clear inputs
+    document.getElementById('lostAccount').value = '';
+    document.getElementById('lostKey').value = '';
+    document.getElementById('lostNewPassword').value = '';
+    document.getElementById('lostNewPasswordRepeat').value = '';
+}
 
 function logout() {
     isLoggedIn = false;

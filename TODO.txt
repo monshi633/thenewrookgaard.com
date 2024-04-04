@@ -1,2 +1,4 @@
-﻿Integrar sistema de cobro dentro de login
+﻿Add mail / show on logged in
+recover by email??
+Get premium: Integrar sistema de cobro dentro de login
 SSL: Set up Automatic Certificate Renewal

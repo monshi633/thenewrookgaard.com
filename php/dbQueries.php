@@ -1,6 +1,6 @@
 <?php
     // Define array of indexed queries
-    $queries = array(
+    $queries = [
         "getNumberOnline" =>        "SELECT COUNT (*) AS players_online FROM players WHERE online = 1 AND id > 2",
         "getCharacterName" =>       "SELECT COUNT(*) AS count FROM players WHERE name = :inputValue",
         "getCharacterInfo" =>       "SELECT p.account_id, p.name, CASE WHEN p.rank_id = 0 THEN '-' ELSE g.name END AS guild, CASE WHEN p.rank_id = 0 THEN '' ELSE ' (' || r.name || ')' END AS rank, CASE WHEN p.sex = 1 THEN 'Male' WHEN p.sex = 0 THEN 'Female' END AS sex, CASE WHEN p.promotion = 0 THEN 'Rookie' WHEN p.promotion = 1 THEN 'Rookstayer' END AS vocation, p.level, strftime('%d-%m-%Y', datetime(p.lastlogin, 'unixepoch')) AS lastlogin, CASE WHEN a.premdays > 0 THEN 'Premium Account' ELSE 'Free Account' END AS status FROM players AS p LEFT JOIN accounts AS a ON p.account_id = a.id LEFT JOIN guild_ranks AS r ON p.rank_id = r.id LEFT JOIN guilds AS g ON r.guild_id = g.id WHERE p.name = :inputValue",
@@ -20,83 +20,104 @@
         "getGuildMembers" =>        "SELECT p.online AS online, p.name AS name, r.name AS rank FROM players AS p JOIN guild_ranks AS r ON p.rank_id = r.id WHERE r.guild_id = (SELECT id FROM guilds WHERE name = :inputValue) ORDER BY r.level DESC, p.name",
         "getAccountStatus" =>       "SELECT id, premdays FROM accounts WHERE name = :account AND password = :password",
         "setNewPassword" =>         "UPDATE accounts SET password = :newPassword WHERE id = :id"
-    );
+    ];
 
     // Check if the request is coming from an allowed origin (CORS)
     header('Access-Control-Allow-Origin: https://thenewrookgaard.com');
     header('Access-Control-Allow-Methods: GET');
     header('Access-Control-Allow-Headers: Content-Type');
 
-    // Check if the request method is GET
+    // Handle GET requests
     if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         $queryId = $_GET['queryId'];
-
-        // Optional parameters
-        $inputValue = isset($_GET['inputValue']) ? $_GET['inputValue'] : null;
-        $inputSecondValue = isset($_GET['inputSecondValue']) ? $_GET['inputSecondValue'] : null;
-        $inputThirdValue = isset($_GET['inputThirdValue']) ? $_GET['inputThirdValue'] : null;
-
+        
         // Check if the query identifier exists in the array
         if (array_key_exists($queryId, $queries)) {
             // Retrieve the query based on the identifier
             $query = $queries[$queryId];
-            
-            // Connect to SQLite database
-            $db = new SQLite3('C:/the-new-rook/server/schemas/otxserver.s3db');
-            
-            // Use prepared statement to fill queries
-            $statement = $db->prepare($query);
-            if ($queryId === "getAccountStatus") {
-                $result = hashPassword($db,$inputValue,$inputSecondValue);
-                $hashedPassword = $result['hashedPassword'];
 
-                $statement->bindValue(':account', $inputValue, SQLITE3_TEXT);
-                $statement->bindValue(':password', $hashedPassword, SQLITE3_TEXT);
-            } else if ($queryId === "setNewPassword") {
-                $result = hashPassword($db,$inputValue,$inputSecondValue);
-                $hashedOldPassword = $result['hashedPassword'];
-                if (checkCredentials($db,$inputValue,$hashedOldPassword)) {
-                    $result = hashPassword($db,$inputValue,$inputThirdValue);
-                    $id = $result['id'];
+            try {
+                // Connect to SQLite database
+                $db = new SQLite3('C:/the-new-rook/server/schemas/otxserver.s3db');
+                $statement = $db->prepare($query);
+                
+                // Optional parameters
+                $inputValue = isset($_GET['inputValue']) ? $_GET['inputValue'] : null;
+                $inputSecondValue = isset($_GET['inputSecondValue']) ? $_GET['inputSecondValue'] : null;
+                $inputThirdValue = isset($_GET['inputThirdValue']) ? $_GET['inputThirdValue'] : null;
+                $inputFourthValue = isset($_GET['inputFourthValue']) ? $_GET['inputFourthValue'] : null;
+                
+                // Use prepared statement to fill queries
+                if ($queryId === "getAccountStatus") {
+                    // Hash password
+                    $result = hashPassword($db,$inputValue,$inputSecondValue);
                     $hashedPassword = $result['hashedPassword'];
-    
-                    $statement->bindValue(':id', $id, SQLITE3_TEXT);
-                    $statement->bindValue(':newPassword', $hashedPassword, SQLITE3_TEXT);
+                    // Replace placeholders in query
+                    $statement->bindValue(':account', $inputValue, SQLITE3_TEXT);
+                    $statement->bindValue(':password', $hashedPassword, SQLITE3_TEXT);
+                } else if ($queryId === "setNewPassword") {
+                    if (is_null($inputFourthValue)) {
+                        // Hash old password
+                        $result = hashPassword($db,$inputValue,$inputSecondValue);
+                        $hashedOldPassword = $result['hashedPassword'];
+                        // Check if account and old password match db
+                        if (checkCredentials($db,$inputValue,$hashedOldPassword)) {
+                            // Hash new password and get account id
+                            $result = hashPassword($db,$inputValue,$inputThirdValue);
+                            $id = $result['id'];
+                            $hashedNewPassword = $result['hashedPassword'];
+                            // Replace placeholders in query
+                            $statement->bindValue(':id', $id, SQLITE3_TEXT);
+                            $statement->bindValue(':newPassword', $hashedNewPassword, SQLITE3_TEXT);
+                        }
+                    } else {
+                        // Hash recovery key
+                        $hashedKey = sha1($inputFourthValue);
+                        // Check if account and key match db
+                        if (checkCredentials($db,$inputValue,$hashedKey,true)) {
+                            // Hash new password and get account id
+                            $result = hashPassword($db,$inputValue,$inputThirdValue);
+                            $id = $result['id'];
+                            $hashedNewPassword = $result['hashedPassword'];
+                            // Replace placeholders in query
+                            $statement->bindValue(':id', $id, SQLITE3_TEXT);
+                            $statement->bindValue(':newPassword', $hashedNewPassword, SQLITE3_TEXT);
+                        }
+                    }
                 } else {
-                    echo json_encode(['error' => 'Invalid credentials']);
+                    $statement->bindValue(':inputValue', $inputValue, SQLITE3_TEXT);
                 }
-            } else {
-                $statement->bindValue(':inputValue', $inputValue, SQLITE3_TEXT);
+
+                $result = $statement->execute();
+    
+                // Fetch results
+                $rows = [];
+                while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+                    $rows[] = $row;
+                }
+    
+                // Close the database connection
+                $db->close();
+    
+                // Send the response as JSON
+                header('Content-Type: application/json');
+                echo json_encode($rows);
+            } catch (Exception $e) {
+                http_response_code(500); // Internal Server Error
+                echo json_encode(['error' => $e->getMessage()]);
             }
-            $result = $statement->execute();
-
-            // Fetch results
-            $rows = array();
-            while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-                $rows[] = $row;
-            }
-
-            // Close the database connection
-            $db->close();
-
-            // Send the response as JSON
-            header('Content-Type: application/json');
-            echo json_encode($rows);
         } else {
-            // If the query identifier does not exist, return an error response
             http_response_code(400); // Bad Request
             echo json_encode(['error' => 'Invalid query identifier']);
         }
     } else {
-        // If the request method is not GET, return an error response
         http_response_code(405); // Method Not Allowed
         echo json_encode(['error' => 'Method Not Allowed']);
     }
 
     function hashPassword($db,$account,$password) {
         // Prepare query
-        $query = 'SELECT id, salt FROM accounts WHERE name = :account';
-        $statement = $db->prepare($query);
+        $statement = $db->prepare('SELECT id, salt FROM accounts WHERE name = :account');
         $statement->bindValue(':account', $account, SQLITE3_TEXT);
         $statement->bindValue(':password', $password, SQLITE3_TEXT);
         
@@ -121,9 +142,12 @@
         );
     }
 
-    function checkCredentials($db,$account,$password) {
+    function checkCredentials($db,$account,$credential,$isKey = false) {
+        // Define the credential to check
+        $column = $isKey ? 'password' : 'key';
+
         // Prepare query
-        $query = 'SELECT password FROM accounts WHERE name = :account';
+        $query = 'SELECT $column FROM accounts WHERE name = :account';
         $statement = $db->prepare($query);
         $statement->bindValue(':account', $account, SQLITE3_TEXT);
         
@@ -138,8 +162,8 @@
         }
 
         // Retrieve the password from the database
-        $dbPassword = $row['password'];
+        $dbcredential = $row[$column];
 
-        return $password === $dbPassword;
+        return $dbCcredential === $credential;
     }
 ?>
