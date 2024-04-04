@@ -18,8 +18,9 @@
         "getHouses" =>              "SELECT h.name, h.size, CAST(h.price / 1000 AS TEXT) || '.000' AS price, COALESCE(p.name, '<i><b>Available</b></i>') AS status FROM houses AS h LEFT JOIN players AS p ON h.owner=p.id ORDER BY h.name",
         "getGuilds" =>              "SELECT g.name, COUNT(p.name) AS members ,strftime('%d-%m-%Y', datetime(g.creationdata, 'unixepoch')) AS creation FROM guilds AS g JOIN players AS p_leader ON g.ownerid=p_leader.id JOIN guild_ranks as r ON g.id = r.guild_id JOIN players as p on r.id=p.rank_id GROUP BY g.name ORDER BY g.name",
         "getGuildMembers" =>        "SELECT p.online AS online, p.name AS name, r.name AS rank FROM players AS p JOIN guild_ranks AS r ON p.rank_id = r.id WHERE r.guild_id = (SELECT id FROM guilds WHERE name = :inputValue) ORDER BY r.level DESC, p.name",
-        "getAccountStatus" =>       "SELECT id, premdays FROM accounts WHERE name = :account AND password = :password",
-        "setNewPassword" =>         "UPDATE accounts SET password = :newPassword WHERE id = :id"
+        "getAccountStatus" =>       "SELECT id, premdays, email FROM accounts WHERE name = :account AND password = :password",
+        "setNewPassword" =>         "UPDATE accounts SET password = :newPassword WHERE id = :id",
+        "setEmail" =>               "UPDATE accounts SET email = :email WHERE id = :id"
     ];
 
     // Check if the request is coming from an allowed origin (CORS)
@@ -83,6 +84,16 @@
                             $statement->bindValue(':id', $id, SQLITE3_TEXT);
                             $statement->bindValue(':newPassword', $hashedNewPassword, SQLITE3_TEXT);
                         }
+                    }
+                } else if ($queryId === "setEmail") {
+                    // Hash password and get account id
+                        $result = hashPassword($db,$inputValue,$inputSecondValue);
+                        $id = $result['id'];
+                        $hashedPassword = $result['hashedPassword'];
+                    if (checkCredentials($db,$inputValue,$hashedPassword)) {
+                        // Replace placeholders in query
+                        $statement->bindValue(':id', $id, SQLITE3_TEXT);
+                        $statement->bindValue(':email', $inputThirdValue, SQLITE3_TEXT);
                     }
                 } else {
                     $statement->bindValue(':inputValue', $inputValue, SQLITE3_TEXT);

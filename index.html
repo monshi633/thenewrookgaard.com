@@ -398,6 +398,7 @@
                                         <div id="inputbox-status"></div>
                                         <div class="vertical" style="justify-content: center;">
                                             <input class="inputbox__button" type="submit" value="Change Password" onclick="showSection('sectionLoginChangePassword'), focusElement('changeAccount')">
+                                            <input class="inputbox__button" type="submit" value="Set email" onclick="showSection('sectionLoginSetEmail'), focusElement('email')">
                                             <!-- <input class="inputbox__button green" type="submit" value="Get Premium" onclick="getPremium()"> -->
                                             <input class="inputbox__button green" type="submit" value="Get Premium">
                                             <input class="inputbox__button red" type="submit" value="Logout" onclick="logout()">
@@ -478,6 +479,57 @@
                                         </div>
                                         <div class="vertical" style="justify-content: center;">
                                             <input class="inputbox__button" id="submitChange" type="submit" value="Submit" onclick="changePassword()" tabindex="5">
+                                            <input class="inputbox__button"type="submit" value="Back" onclick="showSection('sectionLoggedIn')" tabindex="6">
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <section id="sectionLoginSetEmail">
+                        <img class="main__box__section__headline" src="images/headlines/headline-accountmanagement.gif" alt="Account management">
+                        <div class="main__box__section__content">
+                            <article id="emailSuccessMsg" class="main__box__section__content__article__caption message" style="display: none;">
+                                <span class="caption tl"></span>
+                                <span class="caption top"></span>
+                                <span class="caption tr"></span>
+                                <span class="caption left"></span>
+                                <div class="error">
+                                    <img src="images/attentionsign.gif" alt="Attention!">
+                                    <span class="caption-text message" style="color: green;"><b>Sucess!</b><br>Your email has been set.</span>
+                                </div>
+                                <span class="caption right"></span>
+                                <span class="caption bl"></span>
+                                <span class="caption bottom"></span>
+                                <span class="caption br"></span>
+                            </article>
+                            <article>
+                                <div class="main__box__section__content__article__caption">
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <span class="caption-text"><b>Set email</b></span>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
+                                </div>
+                                <div class="main__box__section__content__article__border">
+                                    <div class="inputbox">
+                                        <div class="inputbox__labels vertical">
+                                            <span class="inputbox__labels__label">Email:</span>
+                                            <span class="inputbox__labels__label">Account:</span>
+                                            <span class="inputbox__labels__label">Password:</span>
+                                        </div>
+                                        <div class="vertical" style="flex-grow: 1;">
+                                            <input class="inputbox__field" id="email" type="email" name="Email" maxlength="50" tabindex="1" onkeydown="handleKeyPress(event,'submitEmail')">
+                                            <input class="inputbox__field" id="emailAccount" type="password" name="Account" maxlength="50" tabindex="2" onkeydown="handleKeyPress(event,'submitEmail')">
+                                            <input class="inputbox__field" id="emailPassword" type="password" name="Password" maxlength="50" tabindex="3" onkeydown="handleKeyPress(event,'submitEmail')">
+                                        </div>
+                                        <div class="vertical" style="justify-content: center;">
+                                            <input class="inputbox__button" id="submitEmail" type="submit" value="Submit" onclick="setEmail()" tabindex="4">
+                                            <input class="inputbox__button" type="submit" value="Back" onclick="showSection('sectionLoggedIn')" tabindex="5">
                                         </div>
                                     </div>
                                 </div>

@@ -33,18 +33,21 @@ function login() {
             if (data && data.length > 0) {
                 const id = data[0].id;
                 const days = data[0].premdays;
+                const email = data[0].email;
                 const expirationDate = calculateDateFromToday(days);
                 
                 const gem = document.getElementById('inputbox-gem');
                 const status = document.getElementById('inputbox-status');
+
+                // Show account status
                 if (days > 0) {
                     gem.innerHTML = `
                     <img src="images/account-status_green.gif" alt="Premium account">
-                `;
-                status.innerHTML = `
-                <p style="color: green"><b>Premium account</b></p>
-                <span>Your Premium Time expires at ${expirationDate}.<br>(Balance of Premium Time: ${days} days)</span>
-                `;
+                    `;
+                    status.innerHTML = `
+                    <p style="color: green"><b>Premium account</b></p>
+                    <span>Your Premium Time expires at ${expirationDate}.<br>(Balance of Premium Time: ${days} days)</span>
+                    `;
                 } else {
                     gem.innerHTML = `
                     <img src="images/account-status_red.gif" alt="Free account">
@@ -53,6 +56,17 @@ function login() {
                     <p style="color: red"><b>Free account</b></p>
                     <span>Your Premium Time has expired.<br>(Balance of Premium Time: 0 days)</span>
                     `;
+                }
+
+                // Show email
+                if (email != null) {
+                    const emailSpan = document.createElement('span');
+                    emailSpan.textContent(`Your email is: ${email}.`);
+                    status.appendChild(emailSpan);
+                } else {
+                    const emailSpan = document.createElement('span');
+                    emailSpan.textContent(`Your haven't set an email yet.`);
+                    status.appendChild(emailSpan);
                 }
                 
                 // Fetch account characters
@@ -76,6 +90,33 @@ function login() {
     document.getElementById('loginPassword').value = '';
 }
 
+function setEmail() {
+    // Get input
+    const email = document.getElementById('email').value;
+    const account = document.getElementById('emailAccount').value;
+    const password = document.getElementById('emailPassword').value;
+
+    if (isLoggedIn && account.length > 0 && Password.length > 0) { // TODO: Add check for valid email format
+        fetch(`dbQueries.php?queryId=setEmail&inputValue=${account}&inputSecondValue=${password}&inputThirdValue=${email}`)
+        .then(response => response.json())
+        .then(data => {
+            // Display confirmation
+            document.getElementById('emailSuccessMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'emailSuccessMsg');
+        })
+        .catch(error => {
+            document.getElementById('changeErrorMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'changeErrorMsg');
+            focusElement('email');
+        });
+    }
+    
+    // Clear inputs
+    document.getElementById('email').value = '';
+    document.getElementById('emailAccount').value = '';
+    document.getElementById('emailPassword').value = '';
+}
+
 function changePassword() {
     // Get input
     const account = document.getElementById('changeAccount').value;
@@ -83,7 +124,7 @@ function changePassword() {
     const newPassword = document.getElementById('changeNewPassword').value;
     const newPasswordRepeat = document.getElementById('changeNewPasswordRepeat').value;
 
-    if (account.length > 0 && oldPassword.length > 0 && oldPassword != newPassword && newPassword.length > 0 && newPassword === newPasswordRepeat) {
+    if (isLoggedIn && account.length > 0 && oldPassword.length > 0 && oldPassword != newPassword && newPassword.length > 0 && newPassword === newPasswordRepeat) {
         fetch(`dbQueries.php?queryId=setNewPassword&inputValue=${account}&inputSecondValue=${oldPassword}&inputThirdValue=${newPassword}`)
         .then(response => response.json())
         .then(data => {
