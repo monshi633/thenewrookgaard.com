@@ -140,12 +140,10 @@ function getCharacters(charactersTableId,accountId) {
                 const characterRow = document.createElement('tr');
                 characterRow.innerHTML = `
                 <td>${character.name}</td>
-                <td>${character.level}</td>
-                <td>${onlineIcon}</td>
+                <td style="text-align: center;">${character.level}</td>
+                <td style="text-align: center;">${onlineIcon}</td>
                 <td>
-                    <div class="inputbox__buttonfield">
-                        <input type="submit" value="View" onclick="showSection('SectionCommunityCharacters'), loadCharacter('${character.name}')">
-                    </div>
+                    <input class="inputbox__button" type="submit" value="View" onclick="showSection('sectionCommunityCharacters'), loadCharacter('${character.name}')">
                 </td>
                 `;
                 charactersTable.appendChild(characterRow);

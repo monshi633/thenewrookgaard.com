@@ -1283,9 +1283,9 @@
                                     <table class="listed-table">
                                         <tr>
                                             <th>Name</th>
-                                            <th style="width: 60px;">Level</th>
-                                            <th style="width: 60px;">Online?</th>
-                                            <th style="width: 153px;"></th>
+                                            <th style="width: 60px; text-align: center;">Level</th>
+                                            <th style="width: 60px; text-align: center;">Online?</th>
+                                            <th style="width: 135px;"></th>
                                         </tr>
                                         <tbody id="charactersTable">
                                             <!--Characters info is retrieved here using dbCharacters.js-->
@@ -1309,9 +1309,9 @@
                                     <div class="inputbox">
                                         <span class="inputbox__labels__label">Character Name:</span>
                                         <div class="vertical" style="flex-grow: 1;">
-                                            <input class="inputbox__field" id="characterName" type="text" name="Character name" maxlength="50" onkeydown="handleKeyPress(event,'submitButton')">
+                                            <input class="inputbox__field" id="characterName" type="text" name="Character name" maxlength="50" onkeydown="handleKeyPress(event,'searchCharacter')">
                                         </div>
-                                        <input class="inputbox__button"type="submit" value="Submit" onclick="loadCharacter()">
+                                        <input id="searchCharacter" class="inputbox__button"type="submit" value="Submit" onclick="loadCharacter()">
                                     </div>
                                 </div>
                             </article>
