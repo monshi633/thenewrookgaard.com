@@ -1,12 +1,40 @@
 {
     "bosses": [
         {
+            "name": "Arthom the Hunter",
+            "img": "/images/creatures/Bandit.gif"
+        },
+        {
             "name": "Avalanche",
             "img": "/images/creatures/Ice_Golem.gif"
         },
         {
             "name": "Azerus",
             "img": "/images/bosses/Azerus.gif"
+        },
+        {
+            "name": "Barbaria",
+            "img": "/images/creatures/Barbarian_Brutetamer.gif"
+        },
+        {
+            "name": "Bibby Bloodbath",
+            "img": "/images/creatures/Orc_Warlord.gif"
+        },
+        {
+            "name": "Big Boss Trolliver",
+            "img": "/images/creatures/Troll_Champion.gif"
+        },
+        {
+            "name": "Cublarc the Plunderer",
+            "img": "/images/creatures/Orc_Marauder.gif"
+        },
+        {
+            "name": "Dharalion",
+            "img": "/images/creatures/Elf_Arcanist.gif"
+        },
+        {
+            "name": "Ekatrix",
+            "img": "/images/creatures/Witch.gif"
         },
         {
             "name": "Fazzrah",
@@ -17,12 +45,80 @@
             "img": "/images/creatures/Dwarf_Guard.gif"
         },
         {
+            "name": "Grorlam",
+            "img": "/images/creatures/Stone_Golem.gif"
+        },
+        {
+            "name": "Hairman the Huge",
+            "img": "/images/creatures/Kongra.gif"
+        },
+        {
+            "name": "Hide",
+            "img": "/images/creatures/Tarantula.gif"
+        },
+        {
+            "name": "Inki",
+            "img": "/images/creatures/Quara_Constrictor.gif"
+        },
+        {
             "name": "Leviathan",
             "img": "/images/creatures/Sea_Serpent.gif"
         },
         {
+            "name": "Man in the Cave",
+            "img": "/images/bosses/Man_in_the_Cave.gif"
+        },
+        {
+            "name": "Ocyakao",
+            "img": "/images/creatures/Chakoya_Toolshaper.gif"
+        },
+        {
+            "name": "Oodok Witchmaster",
+            "img": "/images/creatures/Dworc_Voodoomaster.gif"
+        },
+        {
             "name": "Ragiaz",
             "img": "/images/creatures/Destroyer.gif"
+        },
+        {
+            "name": "Renegade Orc",
+            "img": "/images/creatures/Orc_Leader.gif"
+        },
+        {
+            "name": "Ribstride",
+            "img": "/images/creatures/Bonebeast.gif"
+        },
+        {
+            "name": "Rottie the Rotworm",
+            "img": "/images/creatures/Rotworm.gif"
+        },
+        {
+            "name": "Smuggler Baron Silvertoe",
+            "img": "/images/creatures/Smuggler.gif"
+        },
+        {
+            "name": "Splasher",
+            "img": "/images/creatures/Quara_Hydromancer.gif"
+        },
+        {
+            "name": "The Big Bad One",
+            "img": "/images/creatures/War_Wolf.gif"
+        },
+        {
+            "name": "The Bloodtusk",
+            "img": "/images/creatures/Mammoth.gif"
+        },
+        {
+            "name": "The Bloodweb",
+            "img": "/images/creatures/Crystal_Spider.gif"
+        },
+        {
+            "name": "The Old Whopper",
+            "img": "/images/creatures/Cyclops_Smith.gif"
+        },
+        {
+            "name": "Yakchal",
+            "img": "/images/bosses/Yakchal.gif"
         },
         {
             "name": "Yeti",

@@ -19,6 +19,12 @@
             "location": "Pirate Island"
         },
         {
+            "name": "Cobras",
+            "img": "/images/creatures/Cobra.gif",
+            "message": "Poison overflow in the Rookgaard desert!",
+            "location": "Desert"
+        },
+        {
             "name": "Deadeye Devious",
             "img": "/images/raids/Deadeye_Devious.gif",
             "message": "The blind Deadeye Devious hears you from far away, he is waiting for you!",
@@ -29,6 +35,12 @@
             "img": "/images/creatures/Dragon_Lord.gif",
             "message": "he dragon boss Demodras has appeared and seeks to exterminate all humans!",
             "location": "Dragonland"
+        },
+        {
+            "name": "Ferumbras",
+            "img": "/images/raids/Ferumbras.gif",
+            "message": "Ferumbras has returned to his citadel once more. Stop him before it's too late!",
+            "location": "Rookgaard"
         },
         {
             "name": "Grovehorn",
@@ -43,10 +55,22 @@
             "location": "Pirate Island"
         },
         {
+            "name": "Lions",
+            "img": "/images/creatures/Lion.gif",
+            "message": "A pack of hungry lions stalk Rookgaard's eastern desert. Be on your guard!",
+            "location": "Desert"
+        },
+        {
             "name": "Lord of the depth",
             "img": "/images/raids/Demon.gif",
             "message": "From the depths of hell his enraged representative has appeared!",
             "location": "Dragonland"
+        },
+        {
+            "name": "Orshabaal",
+            "img": "/images/creatures/Demon.gif",
+            "message": "Orshabaal has been summoned from hell to plague the lands of mortals again!",
+            "location": "Rookgaard"
         },
         {
             "name": "Ron the Ripper",
@@ -61,10 +85,34 @@
             "location": "Cementery"
         },
         {
+            "name": "Terramites",
+            "img": "/images/creatures/Terramite.gif",
+            "message": "Something is moving under the surface in the north of Rookgaard!",
+            "location": "Rookgaard"
+        },
+        {
+            "name": "Terror Birds",
+            "img": "/images/creatures/Terror_Bird.gif",
+            "message": "Teror birds have been sighted in the south of Swampland!",
+            "location": "Swampland"
+        },
+        {
             "name": "The Old Widow",
             "img": "/images/raids/Giant_Spider.gif",
             "message": "Many legs, many eyes, many deaths...the old widow is here!",
             "location": "Rookgaards deep caves"
+        },
+        {
+            "name": "Willi Wasp",
+            "img": "/images/creatures/Wasp.gif",
+            "message": "Willi Wasp the Wicked has arrived!",
+            "location": "Rookgaard"
+        },
+        {
+            "name": "Zombies",
+            "img": "/images/creatures/Zombie.gif",
+            "message": "A dark ritual has succeeded. Dead meat is walking through the halls!",
+            "location": "Rookgaard"
         }
     ]
 }
