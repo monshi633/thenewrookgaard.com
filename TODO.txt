@@ -1,4 +1,3 @@
 ﻿recover by email??
-mail first time earns 3 free days of premium
 Get premium: Integrar sistema de cobro dentro de login
 SSL: Set up Automatic Certificate Renewal

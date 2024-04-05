@@ -30,7 +30,7 @@
             "title": "Community",
             "capital": "/images/capital/letter_martel_D.gif",
             "firstLine": "ear friends,",
-            "content": "We wanted to let you know that you can reach us and other players you've met using our official community channels.<br>You can find us on Instagram, Facebook and Discord. Check out our <strong>Networks</strong> section!<br><br>Until the next one,<br>The development team"
+            "content": "We wanted to let you know that you can reach us and other players you've met using our official community channels.<br>You can find us on Instagram, Facebook and Discord. Check out our <b>Networks</b> section!<br><br>Until the next one,<br>The development team"
         },
         {
             "icon": "/images/news/newsicon_community_big.png",
@@ -38,7 +38,7 @@
             "title": "Game Library",
             "capital": "/images/capital/letter_martel_F.gif",
             "firstLine": "ellow adventurers,",
-            "content": "The <strong>Library</strong> section was updated and is full of rarities for you to find.<br>Browse through its sections and learn about quests, creatures, items, tasks and many more things you can find in the game.<br><br>Until the next one,<br>The development team"
+            "content": "The <b>Library</b> section was updated and is full of rarities for you to find.<br>Browse through its sections and learn about quests, creatures, items, tasks and many more things you can find in the game.<br><br>Until the next one,<br>The development team"
         },
         {
             "icon": "/images/news/newsicon_community_big.png",
@@ -46,7 +46,15 @@
             "title": "Community",
             "capital": "/images/capital/letter_martel_F.gif",
             "firstLine": "ull speed!",
-            "content": "The progress we are making with the website is amazing! This time, we are happy to announce that the <strong>Community</strong> section is released and ready for you to check who's online right now. You can also find yourself or your friends all over the Highscores, check how fast guilds are growing and even which houses are free to buy (you better hurry up before the best ones are gone).<br>But this doesn't end here, we are working on adding more details to some sections and to make your experience here as smooth as possible so you can go back to playing without skipping a beat.<br><br>Stay tuned,<br>The development team"
+            "content": "The progress we are making with the website is amazing! This time, we are happy to announce that the <b>Community</b> section is released and ready for you to check who's online right now. You can also find yourself or your friends all over the Highscores, check how fast guilds are growing and even which houses are free to buy (you better hurry up before the best ones are gone).<br>But this doesn't end here, we are working on adding more details to some sections and to make your experience here as smooth as possible so you can go back to playing without skipping a beat.<br><br>Stay tuned,<br>The development team"
+        },
+        {
+            "icon": "/images/news/newsicon_development_big.png",
+            "date": "Apr 06 2024 -",
+            "title": "Account Management",
+            "capital": "/images/capital/letter_martel_H.gif",
+            "firstLine": "aven't you tried the <b>Login</b> section yet?",
+            "content": "If that's the case, let us tell you something: you are missing out on one or two things. By logging in you'll be able to have an overview of all your characters, change your password buy Premium time (coming soon) and even link an email to your account.<br>But wait, there's more, the first time you set an email you'll get a <mark>tempting reward</mark>!<br><br>Also, we'd like to encourage you to get your <b>Recovery Key</b> from the account manager and store it somewhere safe in case you forget your password (we really hope you don't).<br><br>See you around,<br>The development team"
         }
     ]
 }
