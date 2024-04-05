@@ -144,7 +144,7 @@ function setEmail(event) {
         .then(response => response.json())
         .then(data => {
             // Check for reward
-            if (data[0].reward) {
+            if (data[0].reward === 'true') {
                 document.getElementById('reward').style.display = "block";
                 setTimeout(hideElement, 5000,'reward');
             }
