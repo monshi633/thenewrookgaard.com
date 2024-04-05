@@ -143,6 +143,12 @@ function setEmail(event) {
         fetch(`dbQueries.php?queryId=setEmail&inputValue=${account}&inputSecondValue=${password}&inputThirdValue=${email}`)
         .then(response => response.json())
         .then(data => {
+            // Check for reward
+            if (data[0].reward) {
+                document.getElementById('reward').style.display = "block";
+                setTimeout(hideElement, 5000,'reward');
+            }
+
             // Display confirmation
             isLoggedIn = false;
             showSection('sectionLogin');

@@ -31,7 +31,7 @@
     // Handle GET requests
     if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         $queryId = $_GET['queryId'];
-        
+
         // Check if the query identifier exists in the array
         if (array_key_exists($queryId, $queries)) {
             // Retrieve the query based on the identifier
@@ -43,6 +43,10 @@
                 $inputSecondValue = isset($_GET['inputSecondValue']) ? $_GET['inputSecondValue'] : null;
                 $inputThirdValue = isset($_GET['inputThirdValue']) ? $_GET['inputThirdValue'] : null;
                 $inputFourthValue = isset($_GET['inputFourthValue']) ? $_GET['inputFourthValue'] : null;
+
+                // Declare variable to store result
+                // Important!: I'm declaring it here instead of after the if statement so checkRewards can send a message if the reward was given
+                $rows = [];
 
                 // Connect to SQLite database
                 $db = new SQLite3('C:/the-new-rook/server/schemas/otxserver.s3db');
@@ -97,6 +101,9 @@
                     $id = $result['id'];
                     $hashedPassword = $result['hashedPassword'];
                     if (checkCredentials($db,$inputValue,$hashedPassword)) {
+                        // Give reward if elegible
+                        $reward = checkRewards($db,$inputValue,$id);
+                        $rows[] = $reward ? ['reward' => 'true'] : ['reward' => 'false'];
                         // Replace placeholders in query
                         $statement->bindValue(':id', $id, SQLITE3_TEXT);
                         $statement->bindValue(':email', $inputThirdValue, SQLITE3_TEXT);
@@ -111,7 +118,7 @@
                 $result = $statement->execute();
     
                 // Fetch results
-                $rows = [];
+                
                 while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
                     $rows[] = $row;
                 }
@@ -180,5 +187,39 @@
             return false;
         }
         return $dbCredential === $credential;
+    }
+
+    function checkRewards($db,$account,$id) {
+        // Prepare query
+        $statement = $db->prepare("SELECT email, premdays FROM accounts WHERE name = :account");
+        $statement->bindValue(':account', $account, SQLITE3_TEXT);
+
+        // Execute the query
+        $result = $statement->execute();
+
+        // Fetch results
+        $row = $result->fetchArray(SQLITE3_ASSOC);
+        if (!$row) {
+            return false; // Account doesn't exist
+        }
+        
+        // Retrieve data from db
+        $email = $row['email'];
+        $premdays = $row['premdays'] + 3;
+
+        // If email is empty
+        if (empty($email)) {
+            // Give reward
+            $statement = $db->prepare("UPDATE accounts SET premdays = :premdays WHERE id = :id");
+            $statement->bindValue(':premdays', $premdays, SQLITE3_INTEGER);
+            $statement->bindValue(':id', $id, SQLITE3_TEXT);
+
+            // Execute the query
+            $statement->execute();
+
+            return true;
+        } else {
+            return false;
+        }
     }
 ?>
