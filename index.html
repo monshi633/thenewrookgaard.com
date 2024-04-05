@@ -1372,15 +1372,15 @@
                                     <span class="caption br"></span>
                                 </div>
                                 <div class="main__box__section__content__article__border">
-                                    <form id="charForm">
+                                    <form>
                                         <div class="form__labels vertical">
                                             <label for="characterName">Character Name:</label>
                                         </div>
                                         <div class="vertical" style="flex-grow: 1;">
-                                            <input id="characterName" class="form__field" type="text" name="Character name" maxlength="50" tabindex="1">
+                                            <input id="characterName" class="form__field" type="text" name="Character name" maxlength="50" tabindex="1" onkeydown="handleKeyPress(event,'searchCharacter')">
                                         </div>
                                         <div class="vertical" style="justify-content: center;">
-                                            <input class="form__button" value="Submit" tabindex="2" type="submit">
+                                            <input id="searchCharacter" class="form__button" value="Submit" tabindex="2" onclick="loadCharacter()">
                                         </div>
                                     </form>
                                 </div>

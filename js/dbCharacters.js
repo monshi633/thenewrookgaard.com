@@ -49,13 +49,10 @@ function characterExists(characterName) {
         });
 }
 
-function loadCharacter(event,charName = '') {
-    // Prevent default form submission
-    event.preventDefault();
-    
+function loadCharacter(charName) {    
     // Get character name from input
     var characterName = '';
-    if (charName === '') {
+    if (typeof charName === 'undefined') {
         characterName = sanitizeName(capitalizeWords(document.getElementById('characterName').value));
         if (characterName.trim() === '') {
             return false;
@@ -144,7 +141,7 @@ function getCharacters(charactersTableId,accountId) {
                 <td style="text-align: center;">${character.level}</td>
                 <td style="text-align: center;">${onlineIcon}</td>
                 <td>
-                    <input class="inputbox__button" type="submit" value="View" onclick="showSection('sectionCommunityCharacters'), loadCharacter('${character.name}')">
+                    <input class="form__button" value="View" onclick="showSection('sectionCommunityCharacters'), loadCharacter('${character.name}')">
                 </td>
                 `;
                 charactersTable.appendChild(characterRow);
@@ -152,6 +149,3 @@ function getCharacters(charactersTableId,accountId) {
         })
         .catch(error => console.error('Error loading characters list:', error));
 }
-
-var charForm = document.getElementById('charForm');
-charForm.addEventListener('submit',loadCharacter);
