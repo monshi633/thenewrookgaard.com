@@ -1,6 +1,12 @@
 {
     "tasks": [
         {
+            "name": "Amazons",
+            "creatures": "Amazon, Valkyrie, Witch",
+            "kills": "250",
+            "reward": "Exp: 75.000<br>Gold: 4.000<br>Items: Noble Armor"
+        },
+        {
             "name": "Apes",
             "creatures": "Kongra, Merklin, Sibang",
             "kills": "500",
@@ -31,16 +37,22 @@
             "reward": "Exp: 450.000<br>Gold: 50.000<br>Items: Steel Boots"
         },
         {
+            "name": "Beholders",
+            "creatures": "Beholder, Elder Beholder, Gazer",
+            "kills": "250",
+            "reward": "Exp: 100.000<br>Gold: 20.000<br>Items: 5 Beholder Eye, 5 Elder Beholder Tentacle"
+        },
+        {
             "name": "Birds",
             "creatures": "Chicken, Flamingo, Parrot, Penguin, Seagull, Terror Bird",
             "kills": "250",
             "reward": "Exp: 0<br>Gold: 1.500<br>Items: 10 Chicken Feather, Feather Headdress"
         },
         {
-            "name": "Beholders",
-            "creatures": "Beholder, Elder Beholder, Gazer",
-            "kills": "250",
-            "reward": "Exp: 100.000<br>Gold: 20.000<br>Items: 5 Beholder Eye, 5 Elder Beholder Tentacle"
+            "name": "Bosses",
+            "creatures": "All bosses",
+            "kills": "300",
+            "reward": "Exp: 1.000.000<br>Gold: 100.000<br>Items: Firewalker Boots"
         },
         {
             "name": "Cultists",
@@ -52,7 +64,7 @@
             "name": "Demons",
             "creatures": "Demon",
             "kills": "666",
-            "reward": "Exp: 6.666.666<br>Gold: 100.000<br>Items: Demon Helmet"
+            "reward": "Exp: 6.666.666<br>Gold: 100.000<br>Items: Demon Legs"
         },
         {
             "name": "Dragon Hatchlings",
@@ -89,6 +101,12 @@
             "creatures": "Elf, Elf Scout, Elf Arcanist",
             "kills": "350",
             "reward": "Exp: 35.000<br>Gold: 5.000<br>Items: Modified Crossbow"
+        },
+        {
+            "name": "Genies",
+            "creatures": "Blue Djinn, Efreet, Green Djinn, Marid",
+            "kills": "200",
+            "reward": "Exp: 150.000<br>Gold: 7.500<br>Items: Ceremonial Ankh"
         },
         {
             "name": "Giants",

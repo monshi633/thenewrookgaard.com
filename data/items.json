@@ -809,9 +809,9 @@
             "name": "Demon Legs",
             "img": "/images/items/legs/Demon_Legs.gif",
             "arm": "9",
-            "additional": "?",
+            "additional": "-",
             "weight": "70.0",
-            "obtained": "Unknown"
+            "obtained": "Task"
         },
         {
             "name": "Dragon Scale Legs",
@@ -830,7 +830,7 @@
             "additional": "Protection fire +90%",
             "level": "130",
             "weight": "9.5",
-            "obtained": "Quest"
+            "obtained": "Task"
         },
         {
             "name": "Bunnyslippers",
