@@ -49,10 +49,13 @@ function characterExists(characterName) {
         });
 }
 
-function loadCharacter(charName) {
+function loadCharacter(event,charName = '') {
+    // Prevent default form submission
+    event.preventDefault();
+    
     // Get character name from input
     var characterName = '';
-    if (typeof charName === 'undefined') {
+    if (charName === '') {
         characterName = sanitizeName(capitalizeWords(document.getElementById('characterName').value));
         if (characterName.trim() === '') {
             return false;
@@ -149,3 +152,6 @@ function getCharacters(charactersTableId,accountId) {
         })
         .catch(error => console.error('Error loading characters list:', error));
 }
+
+var charForm = document.getElementById('charForm');
+charForm.addEventListener('submit',loadCharacter);

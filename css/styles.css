@@ -446,7 +446,8 @@ article {
     align-items: center;
     padding-left: 10px;
 }
-.inputbox {
+
+form {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
@@ -458,20 +459,27 @@ article {
     row-gap: 5px;
 }
 
-.inputbox__labels {
+.form__labels {
     justify-content: space-evenly;
 }
 
-.inputbox__labels__label {
+label {
     font-weight: 700;
 }
 
-.inputbox__field {
+.form__field {
     height: 21px;
     padding: 0;
 }
 
-.inputbox__button {
+#email:invalid {
+    color: red;
+    outline: 2px solid red;
+}
+
+.form__button {
+    box-sizing: border-box;
+    text-align: center;
     background-image: url(/images/main/button_blue.gif);
     width: 135px;
     height: 25px;
@@ -483,42 +491,42 @@ article {
     text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
-.inputbox__button:hover {
+.form__button:hover {
     background-image: url(/images/main/button_blue_over.gif);
 }
 
-.inputbox__button.green {
+.form__button.green {
     background-image: url(/images/main/button_green.gif);
 }
 
-.inputbox__button.green:hover {
+.form__button.green:hover {
     background-image: url(/images/main/button_green_over.gif);
 }
 
-.inputbox__button.red {
+.form__button.red {
     background-image: url(/images/main/button_red.gif);
 }
 
-.inputbox__button.red:hover {
+.form__button.red:hover {
     background-image: url(/images/main/button_red_over.gif);
 }
 
-#inputbox-gem {
+#accountGem {
     height: 52px;
     width: 52px;
     padding-left: 10px;
     padding-right: 20px;
 }
 
-#inputbox-status {
+#accountstatus {
     flex-grow: 1;
 }
 
-#inputbox-status p {
+#accountstatus p {
     font-size: 14pt;
 }
 
-#inputbox-status span{
+#accountstatus span{
     font-size: 9pt;
 }
 

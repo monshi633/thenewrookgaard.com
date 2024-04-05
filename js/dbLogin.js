@@ -19,7 +19,10 @@ function calculateDateFromToday(days) {
     return futureDate.toLocaleDateString('en-US', options);
 }
 
-function login() {
+function login(event) {
+    // Prevent default form submission
+    event.preventDefault();
+
     const forbiddenAccounts = ["1","god"];
     // Get input
     const account = document.getElementById('loginAccount').value;
@@ -36,8 +39,8 @@ function login() {
                 const email = data[0].email;
                 const expirationDate = calculateDateFromToday(days);
                 
-                const gem = document.getElementById('inputbox-gem');
-                const status = document.getElementById('inputbox-status');
+                const gem = document.getElementById('accountGem');
+                const status = document.getElementById('accountStatus');
 
                 // Show account status
                 if (days > 0) {
@@ -92,69 +95,10 @@ function login() {
     document.getElementById('loginPassword').value = '';
 }
 
-function setEmail() {
-    // Get input
-    const email = document.getElementById('email').value;
-    const account = document.getElementById('emailAccount').value;
-    const password = document.getElementById('emailPassword').value;
+function recoverPassword(event) {
+    // Prevent default form submission
+    event.preventDefault();
 
-    if (isLoggedIn && account.length > 0 && password.length > 0) { // TODO: Add check for valid email format
-        fetch(`dbQueries.php?queryId=setEmail&inputValue=${account}&inputSecondValue=${password}&inputThirdValue=${email}`)
-        .then(response => response.json())
-        .then(data => {
-            // Display confirmation
-            isLoggedIn = false;
-            showSection('sectionLogin');
-            document.getElementById('emailSuccessMsg').style.display = 'block';
-            setTimeout(hideElement, 5000,'emailSuccessMsg');
-            focusElement('loginAccount');
-        })
-        .catch(error => {
-            document.getElementById('emailErrorMsg').style.display = 'block';
-            setTimeout(hideElement, 5000,'emailErrorMsg');
-            focusElement('email');
-        });
-    }
-    
-    // Clear inputs
-    document.getElementById('email').value = '';
-    document.getElementById('emailAccount').value = '';
-    document.getElementById('emailPassword').value = '';
-}
-
-function changePassword() {
-    // Get input
-    const account = document.getElementById('changeAccount').value;
-    const oldPassword = document.getElementById('changeOldPassword').value;
-    const newPassword = document.getElementById('changeNewPassword').value;
-    const newPasswordRepeat = document.getElementById('changeNewPasswordRepeat').value;
-
-    if (isLoggedIn && account.length > 0 && oldPassword.length > 0 && oldPassword != newPassword && newPassword.length > 0 && newPassword === newPasswordRepeat) {
-        fetch(`dbQueries.php?queryId=setNewPassword&inputValue=${account}&inputSecondValue=${oldPassword}&inputThirdValue=${newPassword}`)
-        .then(response => response.json())
-        .then(data => {
-            // Display confirmation
-            isLoggedIn = false;
-            showSection('sectionLogin');
-            document.getElementById('successMsg').style.display = 'block';
-            setTimeout(hideElement, 5000,'successMsg');
-            focusElement('loginAccount');
-        })
-        .catch(error => {
-            document.getElementById('changeErrorMsg').style.display = 'block';
-            setTimeout(hideElement, 5000,'changeErrorMsg');
-            focusElement('changeAccount');
-        });
-    }
-    
-    // Clear inputs
-    document.getElementById('changeAccount').value = '';
-    document.getElementById('changeOldPassword').value = '';
-    document.getElementById('changeNewPassword').value = '';
-    document.getElementById('changeNewPasswordRepeat').value = '';
-}
-
-function recoverPassword() {
     // Get input
     const account = document.getElementById('lostAccount').value;
     const recoveryKey = document.getElementById('lostKey').value;
@@ -186,8 +130,88 @@ function recoverPassword() {
     document.getElementById('lostNewPasswordRepeat').value = '';
 }
 
+function setEmail(event) {
+    // Prevent default form submission
+    event.preventDefault();
+    
+    // Get input
+    const email = document.getElementById('email').value;
+    const account = document.getElementById('emailAccount').value;
+    const password = document.getElementById('emailPassword').value;
+
+    if (isLoggedIn && account.length > 0 && password.length > 0) { // TODO: Add check for valid email format
+        fetch(`dbQueries.php?queryId=setEmail&inputValue=${account}&inputSecondValue=${password}&inputThirdValue=${email}`)
+        .then(response => response.json())
+        .then(data => {
+            // Display confirmation
+            isLoggedIn = false;
+            showSection('sectionLogin');
+            document.getElementById('emailSuccessMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'emailSuccessMsg');
+            focusElement('loginAccount');
+        })
+        .catch(error => {
+            document.getElementById('emailErrorMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'emailErrorMsg');
+            focusElement('email');
+        });
+    }
+    
+    // Clear inputs
+    document.getElementById('email').value = '';
+    document.getElementById('emailAccount').value = '';
+    document.getElementById('emailPassword').value = '';
+}
+
+function changePassword(event) {
+    // Prevent default form submission
+    event.preventDefault();
+
+    // Get input
+    const account = document.getElementById('changeAccount').value;
+    const oldPassword = document.getElementById('changeOldPassword').value;
+    const newPassword = document.getElementById('changeNewPassword').value;
+    const newPasswordRepeat = document.getElementById('changeNewPasswordRepeat').value;
+
+    if (isLoggedIn && account.length > 0 && oldPassword.length > 0 && oldPassword != newPassword && newPassword.length > 0 && newPassword === newPasswordRepeat) {
+        fetch(`dbQueries.php?queryId=setNewPassword&inputValue=${account}&inputSecondValue=${oldPassword}&inputThirdValue=${newPassword}`)
+        .then(response => response.json())
+        .then(data => {
+            // Display confirmation
+            isLoggedIn = false;
+            showSection('sectionLogin');
+            document.getElementById('successMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'successMsg');
+            focusElement('loginAccount');
+        })
+        .catch(error => {
+            document.getElementById('changeErrorMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'changeErrorMsg');
+            focusElement('changeAccount');
+        });
+    }
+    
+    // Clear inputs
+    document.getElementById('changeAccount').value = '';
+    document.getElementById('changeOldPassword').value = '';
+    document.getElementById('changeNewPassword').value = '';
+    document.getElementById('changeNewPasswordRepeat').value = '';
+}
+
 function logout() {
     isLoggedIn = false;
     showSection('sectionLogin');
     focusElement('loginAccount');
 }
+
+var loginForm = document.getElementById('loginForm');
+loginForm.addEventListener('submit',login);
+
+var lostForm = document.getElementById('lostForm');
+lostForm.addEventListener('submit',recoverPassword);
+
+var changeForm = document.getElementById('changeForm');
+changeForm.addEventListener('submit',changePassword);
+
+var emailForm = document.getElementById('emailForm');
+emailForm.addEventListener('submit',setEmail);
