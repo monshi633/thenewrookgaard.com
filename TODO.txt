@@ -1,4 +1,4 @@
-﻿Add mail / show on logged in
-recover by email??
+﻿recover by email??
+mail first time earns 3 free days of premium
 Get premium: Integrar sistema de cobro dentro de login
 SSL: Set up Automatic Certificate Renewal

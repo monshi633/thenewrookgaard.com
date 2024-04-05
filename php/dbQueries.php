@@ -38,15 +38,15 @@
             $query = $queries[$queryId];
 
             try {
-                // Connect to SQLite database
-                $db = new SQLite3('C:/the-new-rook/server/schemas/otxserver.s3db');
-                $statement = $db->prepare($query);
-                
                 // Optional parameters
                 $inputValue = isset($_GET['inputValue']) ? $_GET['inputValue'] : null;
                 $inputSecondValue = isset($_GET['inputSecondValue']) ? $_GET['inputSecondValue'] : null;
                 $inputThirdValue = isset($_GET['inputThirdValue']) ? $_GET['inputThirdValue'] : null;
                 $inputFourthValue = isset($_GET['inputFourthValue']) ? $_GET['inputFourthValue'] : null;
+
+                // Connect to SQLite database
+                $db = new SQLite3('C:/the-new-rook/server/schemas/otxserver.s3db');
+                $statement = $db->prepare($query);
                 
                 // Use prepared statement to fill queries
                 if ($queryId === "getAccountStatus") {
@@ -70,10 +70,13 @@
                             // Replace placeholders in query
                             $statement->bindValue(':id', $id, SQLITE3_TEXT);
                             $statement->bindValue(':newPassword', $hashedNewPassword, SQLITE3_TEXT);
+                        } else {
+                            http_response_code(400); // Bad Request
+                            echo json_encode(['error' => 'Invalid credentials']);
                         }
                     } else {
                         // Hash recovery key
-                        $hashedKey = sha1($inputFourthValue);
+                        $hashedKey = sha1($inputSecondValue);
                         // Check if account and key match db
                         if (checkCredentials($db,$inputValue,$hashedKey,true)) {
                             // Hash new password and get account id
@@ -83,17 +86,23 @@
                             // Replace placeholders in query
                             $statement->bindValue(':id', $id, SQLITE3_TEXT);
                             $statement->bindValue(':newPassword', $hashedNewPassword, SQLITE3_TEXT);
+                        } else {
+                            http_response_code(400); // Bad Request
+                            echo json_encode(['error' => 'Invalid credentials for recovery']);
                         }
                     }
                 } else if ($queryId === "setEmail") {
                     // Hash password and get account id
-                        $result = hashPassword($db,$inputValue,$inputSecondValue);
-                        $id = $result['id'];
-                        $hashedPassword = $result['hashedPassword'];
+                    $result = hashPassword($db,$inputValue,$inputSecondValue);
+                    $id = $result['id'];
+                    $hashedPassword = $result['hashedPassword'];
                     if (checkCredentials($db,$inputValue,$hashedPassword)) {
                         // Replace placeholders in query
                         $statement->bindValue(':id', $id, SQLITE3_TEXT);
                         $statement->bindValue(':email', $inputThirdValue, SQLITE3_TEXT);
+                    } else {
+                        http_response_code(400); // Bad Request
+                        echo json_encode(['error' => 'Invalid credentials']);
                     }
                 } else {
                     $statement->bindValue(':inputValue', $inputValue, SQLITE3_TEXT);
@@ -128,9 +137,8 @@
 
     function hashPassword($db,$account,$password) {
         // Prepare query
-        $statement = $db->prepare('SELECT id, salt FROM accounts WHERE name = :account');
+        $statement = $db->prepare("SELECT id, salt FROM accounts WHERE name = :account");
         $statement->bindValue(':account', $account, SQLITE3_TEXT);
-        $statement->bindValue(':password', $password, SQLITE3_TEXT);
         
         // Execute the query
         $result = $statement->execute();
@@ -154,11 +162,8 @@
     }
 
     function checkCredentials($db,$account,$credential,$isKey = false) {
-        // Define the credential to check
-        $column = $isKey ? 'password' : 'key';
-
         // Prepare query
-        $query = 'SELECT $column FROM accounts WHERE name = :account';
+        $query = $isKey ? "SELECT key FROM accounts WHERE name = :account" : "SELECT password FROM accounts WHERE name = :account";
         $statement = $db->prepare($query);
         $statement->bindValue(':account', $account, SQLITE3_TEXT);
         
@@ -167,14 +172,13 @@
 
         // Fetch results
         $row = $result->fetchArray(SQLITE3_ASSOC);
-
-        if (!$row) {
-            return false; // Account doesn't exist
+        
+        // Retrieve credential from db
+        $dbCredential = $isKey ? $row['key'] : $row['password'];
+        
+        if (!$row || !$dbCredential) {
+            return false;
         }
-
-        // Retrieve the password from the database
-        $dbcredential = $row[$column];
-
-        return $dbCcredential === $credential;
+        return $dbCredential === $credential;
     }
 ?>

@@ -47,6 +47,7 @@ function login() {
                     status.innerHTML = `
                     <p style="color: green"><b>Premium account</b></p>
                     <span>Your Premium Time expires at ${expirationDate}.<br>(Balance of Premium Time: ${days} days)</span>
+                    <br><br>
                     `;
                 } else {
                     gem.innerHTML = `
@@ -55,17 +56,18 @@ function login() {
                     status.innerHTML = `
                     <p style="color: red"><b>Free account</b></p>
                     <span>Your Premium Time has expired.<br>(Balance of Premium Time: 0 days)</span>
+                    <br><br>
                     `;
                 }
 
                 // Show email
-                if (email != null) {
+                if (email != null && email != '') {
                     const emailSpan = document.createElement('span');
-                    emailSpan.textContent(`Your email is: ${email}.`);
+                    emailSpan.textContent = `Your email is: ${email}.`;
                     status.appendChild(emailSpan);
                 } else {
                     const emailSpan = document.createElement('span');
-                    emailSpan.textContent(`Your haven't set an email yet.`);
+                    emailSpan.innerHTML = `<b>Your haven't set an email yet.</b>`;
                     status.appendChild(emailSpan);
                 }
                 
@@ -96,17 +98,20 @@ function setEmail() {
     const account = document.getElementById('emailAccount').value;
     const password = document.getElementById('emailPassword').value;
 
-    if (isLoggedIn && account.length > 0 && Password.length > 0) { // TODO: Add check for valid email format
+    if (isLoggedIn && account.length > 0 && password.length > 0) { // TODO: Add check for valid email format
         fetch(`dbQueries.php?queryId=setEmail&inputValue=${account}&inputSecondValue=${password}&inputThirdValue=${email}`)
         .then(response => response.json())
         .then(data => {
             // Display confirmation
+            isLoggedIn = false;
+            showSection('sectionLogin');
             document.getElementById('emailSuccessMsg').style.display = 'block';
             setTimeout(hideElement, 5000,'emailSuccessMsg');
+            focusElement('loginAccount');
         })
         .catch(error => {
-            document.getElementById('changeErrorMsg').style.display = 'block';
-            setTimeout(hideElement, 5000,'changeErrorMsg');
+            document.getElementById('emailErrorMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'emailErrorMsg');
             focusElement('email');
         });
     }
@@ -168,9 +173,9 @@ function recoverPassword() {
             focusElement('loginAccount');
         })
         .catch(error => {
-            document.getElementById('changeErrorMsg').style.display = 'block';
-            setTimeout(hideElement, 5000,'changeErrorMsg');
-            focusElement('changeAccount');
+            document.getElementById('lostErrorMsg').style.display = 'block';
+            setTimeout(hideElement, 5000,'lostErrorMsg');
+            focusElement('lostAccount');
         });
     }
     
