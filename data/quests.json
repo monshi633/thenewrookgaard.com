@@ -3,7 +3,7 @@
         {
             "name": "First Items",
             "level": "-",
-            "reward": "Rope, Shovel and one of these items:Slingshot/Studded Club/Hand Axe/Silver Dagger"
+            "reward": "Rope, Shovel and one of these items: Slingshot / Studded Club / Hand Axe / Silver Dagger"
         },
         {
             "name": "Bear Room",
@@ -16,29 +16,9 @@
             "reward": "Treasure of Captain Iglue (Book) and some Salmon"
         },
         {
-            "name": "Combat Knife",
+            "name": "Goblin's Temple",
             "level": "-",
-            "reward": "Combat Knife"
-        },
-        {
-            "name": "Doublet",
-            "level": "-",
-            "reward": "Doublet"
-        },
-        {
-            "name": "Dragon Corpse",
-            "level": "-",
-            "reward": "Copper Shield"
-        },
-        {
-            "name": "Goblin Temple",
-            "level": "",
             "reward": "100 gp, 4 Snowballs, 5 Small Stones, Sandals and Key"
-        },
-        {
-            "name": "Katana",
-            "level": "-",
-            "reward": "Katana, Viking Helmet and Key"
         },
         {
             "name": "Minotaur Hell",
@@ -46,19 +26,14 @@
             "reward": "Carlin Sword, 4 Poison Arrows, 10 Arrows and a Fishing Rod"
         },
         {
-            "name": "Rapier",
+            "name": "Katana",
             "level": "-",
-            "reward": "Rapier"
+            "reward": "Katana, Viking Helmet and Key"
         },
         {
-            "name": "Pick",
+            "name": "Dragon's Corpse",
             "level": "-",
-            "reward": "Pick"
-        },
-        {
-            "name": "Sword",
-            "level": "-",
-            "reward": "Sword"
+            "reward": "Copper Shield"
         },
         {
             "name": "Postman",
@@ -66,49 +41,59 @@
             "reward": "Use of locked mailboxes"
         },
         {
-            "name": "Mallmann Cuisine",
-            "level": "",
-            "reward": "Cookbook and some recipe ingredients"
-        },
-        {
-            "name": "Golden Armor",
+            "name": "Genies",
             "level": "-",
-            "reward": "Golden Armor"
+            "reward": "One of these items: Abyss Hammer, Mystic Blade, The Ironworker, Vile Axe"
         },
         {
-            "name": "Mermaid",
-            "level": "-",
-            "reward": "Coral Comb"
-        },
-        {
-            "name": "Goblin Lair",
-            "level": "30",
-            "reward": "36 Burst Arrows and Bow"
-        },
-        {
-            "name": "Orc Lair",
-            "level": "30",
-            "reward": "10 Broken Helmets and dice"
-        },
-        {
-            "name": "Minotaur lair",
-            "level": "30",
-            "reward": "Magic Light Wand and 10 Minotaur Leathers"
-        },
-        {
-            "name": "Dwarf Lair",
+            "name": "Dwarf's Lair",
             "level": "30",
             "reward": "Light Shovel and Elvenhair Rope"
         },
         {
-            "name": "King's",
-            "level": "100",
-            "reward": "King's Sword, King's Hammer, King's Axe and King's Crossbow"
+            "name": "Goblin's Lair",
+            "level": "30",
+            "reward": "36 Burst Arrows and Bow"
+        },
+        {
+            "name": "Minotaur's lair",
+            "level": "30",
+            "reward": "Magic Lightwand and 10 Minotaur Leathers"
+        },
+        {
+            "name": "Orc's Lair",
+            "level": "30",
+            "reward": "10 Broken Helmets and dice"
+        },
+        {
+            "name": "Golden Armor",
+            "level": "30",
+            "reward": "Golden Armor"
+        },
+        {
+            "name": "Mallmann's Cuisine",
+            "level": "40",
+            "reward": "Cookbook and some recipe ingredients"
+        },
+        {
+            "name": "Mermaid",
+            "level": "50",
+            "reward": "Coral Comb"
         },
         {
             "name": "Queen's",
-            "level": "-",
+            "level": "50",
             "reward": "Queen's Shield"
+        },
+        {
+            "name": "Annihilator",
+            "level": "100",
+            "reward": "One of these items: Demon Armor, Magic Sword, Stonecutter Axe, Thunder Hammer"
+        },
+        {
+            "name": "King's",
+            "level": "120",
+            "reward": "King's Sword, King's Hammer, King's Axe and King's Crossbow"
         }
     ]
 }
