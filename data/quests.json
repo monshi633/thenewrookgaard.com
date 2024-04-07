@@ -94,6 +94,11 @@
             "name": "King's",
             "level": "120",
             "reward": "King's Sword, King's Hammer, King's Axe and King's Crossbow"
+        },
+        {
+            "name": "Destruction",
+            "level": "150",
+            "reward": "One of these items: Arbalest, Magic Longsword, Queen's Sceptre, Solar Axe"
         }
     ]
 }
