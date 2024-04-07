@@ -1928,7 +1928,7 @@
             "atk": "18",
             "def": "15",
             "hands": "1",
-            "additional": "Def +1, earth attack +8",
+            "additional": "Def +1, Earth attack +8",
             "level": "-",
             "weight": "41.0",
             "obtained": "Sea Serpent, Dragon"
@@ -1994,7 +1994,7 @@
             "atk": "24",
             "def": "20",
             "hands": "1",
-            "additional": "Def +1, fire attack +11",
+            "additional": "Def +1, Fire attack +11",
             "level": "30",
             "weight": "23.0",
             "obtained": "Serpent Spawn, Dragon Lord, Hero, Hellhound"
@@ -2381,7 +2381,7 @@
             "atk": "<mark>26</mark>",
             "def": "16",
             "hands": "1",
-            "additional": "Def +1, fire attack +11",
+            "additional": "Def +1, Fire attack +11",
             "level": "35",
             "weight": "40.0",
             "obtained": "Demon, Latrivan, Hellfire Fighter"
@@ -2997,7 +2997,7 @@
             "name": "Earth Arrow",
             "img": "/images/items/ammunitions/Earth_Arrow.gif",
             "atk": "14",
-            "additional": "earth attack +14",
+            "additional": "Earth attack +14",
             "weight": "0.35",
             "obtained": "Earth Elemental"
         },
@@ -3005,7 +3005,7 @@
             "name": "Flash Arrow",
             "img": "/images/items/ammunitions/Flash_Arrow.gif",
             "atk": "14",
-            "additional": "energy attack +14",
+            "additional": "Energy attack +14",
             "weight": "0.35",
             "obtained": "Energy Elemental"
         },
@@ -3013,7 +3013,7 @@
             "name": "Shiver Arrow",
             "img": "/images/items/ammunitions/Shiver_Arrow.gif",
             "atk": "14",
-            "additional": "ice attack +14",
+            "additional": "Ice attack +14",
             "weight": "0.35",
             "obtained": "Water Elemental"
         },
@@ -3021,7 +3021,7 @@
             "name": "Flaming Arrow",
             "img": "/images/items/ammunitions/Flaming_Arrow.gif",
             "atk": "14",
-            "additional": "fire attack +14",
+            "additional": "Fire attack +14",
             "weight": "0.35",
             "obtained": "Blazing Fire Elemental"
         }

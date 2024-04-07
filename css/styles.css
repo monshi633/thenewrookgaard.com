@@ -625,6 +625,12 @@ mark {
     justify-content: center;
     align-items: flex-end;
 }
+
+#questsTable td:nth-child(2),
+#tasksTable td:nth-child(3) {
+    text-align: center;
+}
+
 /*Community*/
 #characterInfoTable th {
     width: 120px;

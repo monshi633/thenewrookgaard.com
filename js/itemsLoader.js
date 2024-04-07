@@ -41,9 +41,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.arm}</td>
+                    <td style="text-align: center;">${item.arm}</td>
                     <td>${item.additional}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 helmetsTable.appendChild(row);
@@ -56,10 +56,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.arm}</td>
+                    <td style="text-align: center;">${item.arm}</td>
                     <td>${item.additional}</td>
-                    <td>${item.level}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.level}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 armorsTable.appendChild(row);
@@ -72,9 +72,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.arm}</td>
+                    <td style="text-align: center;">${item.arm}</td>
                     <td>${item.additional}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 legsTable.appendChild(row);
@@ -87,10 +87,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.arm}</td>
+                    <td style="text-align: center;">${item.arm}</td>
                     <td>${item.additional}</td>
-                    <td>${item.level}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.level}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 bootsTable.appendChild(row);
@@ -103,9 +103,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.def}</td>
+                    <td style="text-align: center;">${item.def}</td>
                     <td>${item.additional}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 shieldsTable.appendChild(row);
@@ -118,12 +118,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.atk}</td>
-                    <td>${item.def}</td>
-                    <td>${item.hands}</td>
+                    <td style="text-align: center;">${item.atk}</td>
+                    <td style="text-align: center;">${item.def}</td>
+                    <td style="text-align: center;">${item.hands}</td>
                     <td>${item.additional}</td>
-                    <td>${item.level}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.level}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 clubTable.appendChild(row);
@@ -136,12 +136,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.atk}</td>
-                    <td>${item.def}</td>
-                    <td>${item.hands}</td>
+                    <td style="text-align: center;">${item.atk}</td>
+                    <td style="text-align: center;">${item.def}</td>
+                    <td style="text-align: center;">${item.hands}</td>
                     <td>${item.additional}</td>
-                    <td>${item.level}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.level}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 swordTable.appendChild(row);
@@ -154,12 +154,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.atk}</td>
-                    <td>${item.def}</td>
-                    <td>${item.hands}</td>
+                    <td style="text-align: center;">${item.atk}</td>
+                    <td style="text-align: center;">${item.def}</td>
+                    <td style="text-align: center;">${item.hands}</td>
                     <td>${item.additional}</td>
-                    <td>${item.level}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.level}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 axeTable.appendChild(row);
@@ -172,12 +172,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.atk}</td>
-                    <td>${item.range}</td>
-                    <td>${item.hands}</td>
+                    <td style="text-align: center;">${item.atk}</td>
+                    <td style="text-align: center;">${item.range}</td>
+                    <td style="text-align: center;">${item.hands}</td>
                     <td>${item.additional}</td>
-                    <td>${item.level}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.level}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 distanceTable.appendChild(row);
@@ -190,9 +190,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.atk}</td>
+                    <td style="text-align: center;">${item.atk}</td>
                     <td>${item.additional}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 ammunitionTable.appendChild(row);
@@ -205,9 +205,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.arm}</td>
+                    <td style="text-align: center;">${item.arm}</td>
                     <td>${item.additional}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 amuletsTable.appendChild(row);
@@ -220,9 +220,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.arm}</td>
+                    <td style="text-align: center;">${item.arm}</td>
                     <td>${item.additional}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 ringsTable.appendChild(row);
@@ -235,9 +235,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>
                         <img src="${item.img}" alt="${item.name}">
                     </td>
-                    <td>${item.slots}</td>
+                    <td style="text-align: center;">${item.slots}</td>
                     <td>${item.additional}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 containersTable.appendChild(row);
@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <img src="${item.img}" alt="${item.name}">
                     </td>
                     <td>${item.effect}</td>
-                    <td>${item.weight}</td>
+                    <td style="text-align: center;">${item.weight}</td>
                 `;
                 recipesTable.appendChild(row);
                 });
