@@ -2,7 +2,7 @@
     "raids": [
         {
             "name": "Ancient Scarbs",
-            "img": "/images/raids/Ancient_Scarab.gif",
+            "img": "/images/creatures/Ancient_Scarab.gif",
             "message": "Something crawls from deep in the Rookgaard Desert!",
             "location": "Desert"
         },
@@ -44,7 +44,7 @@
         },
         {
             "name": "Grovehorn",
-            "img": "/images/raids/Juggernaut.gif",
+            "img": "/images/creatures/Juggernaut.gif",
             "message": "The forests tremble because of the appearance of so many horns!",
             "location": "Swampland"
         },
@@ -62,7 +62,7 @@
         },
         {
             "name": "Lord of the depth",
-            "img": "/images/raids/Demon.gif",
+            "img": "/images/raids/Lord_of_the_Depth.gif",
             "message": "From the depths of hell his enraged representative has appeared!",
             "location": "Dragonland"
         },
@@ -80,7 +80,7 @@
         },
         {
             "name": "Soulharvester",
-            "img": "/images/raids/Draken_Abomination.gif",
+            "img": "/images/creatures/Draken_Abomination.gif",
             "message": "The souls flee from the cemetery, because an abysmal being is consuming them!",
             "location": "Cementery"
         },
@@ -98,7 +98,7 @@
         },
         {
             "name": "The Old Widow",
-            "img": "/images/raids/Giant_Spider.gif",
+            "img": "/images/creatures/Giant_Spider.gif",
             "message": "Many legs, many eyes, many deaths...the old widow is here!",
             "location": "Rookgaards deep caves"
         },
