@@ -1,3 +1,11 @@
-﻿recover by email??
-Get premium: Integrar sistema de cobro dentro de login
+﻿#sitio
+registrar muertes en community -> characters
+manage cookies
 SSL: Set up Automatic Certificate Renewal
+
+#email
+recover by email??
+prepare php to fetch all emails and (store to json?) send marketing mails (SMTP server?)
+
+#payments
+Get premium: Integrar sistema de cobro dentro de login

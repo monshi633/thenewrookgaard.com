@@ -308,9 +308,9 @@
             "name": "Golden Helmet",
             "img": "/images/items/helmets/Golden_Helmet.gif",
             "arm": "12",
-            "additional": "?",
+            "additional": "-",
             "weight": "32.0",
-            "obtained": "Unknown"
+            "obtained": "Soulharvester"
         }
     ],
     "armors": [
@@ -980,10 +980,10 @@
             "name": "Golden Boots",
             "img": "/images/items/boots/Golden_Boots.gif",
             "arm": "4",
-            "additional": "?",
-            "level": "-",
+            "additional": "Protection physical +2%",
+            "level": "100",
             "weight": "31.0",
-            "obtained": "Unknown"
+            "obtained": "Orshabaal"
         }
     ],
     "shields": [
@@ -1263,7 +1263,7 @@
             "name": "Great Shield",
             "img": "/images/items/shields/Great_Shield.gif",
             "def": "38",
-            "additional": "?",
+            "additional": "-",
             "weight": "84.0",
             "obtained": "Grovehorn"
         },
@@ -1273,7 +1273,7 @@
             "def": "40",
             "additional": "-",
             "weight": "68.0",
-            "obtained": "Unknown"
+            "obtained": "Lord of the Depth"
         },
         {
             "name": "Queen's Shield",
@@ -1676,7 +1676,7 @@
             "additional": "-",
             "level": "75",
             "weight": "40.0",
-            "obtained": "Unknown"
+            "obtained": "Ashmunrah"
         },
         {
             "name": "Obsidian Truncheon",
