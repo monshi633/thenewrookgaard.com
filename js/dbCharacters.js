@@ -37,7 +37,6 @@ function characterExists(characterName) {
             if (data && data.length > 0 && data[0].count > 0) {
                 // Character name exists in the database, display articles
                 document.getElementById('characterInfo').style.display = 'block';
-                document.getElementById('characterDeaths').style.display = 'block';
                 document.getElementById('characters').style.display = 'block';
                 return true;
             } else {
@@ -116,14 +115,17 @@ function loadCharacter(charName) {
                 fetch(`dbQueries.php?queryId=getCharacterDeaths&inputValue=${characterName}`)
                     .then(response => response.json())
                     .then(data => {
-                        data.forEach(death => {
-                            const deathRow = document.createElement('tr');
-                            deathRow.innerHTML = `
-                            <td class="death_date">${death.date}</td>
-                            <td>${death.cause}${death.level}${death.killers}</td>
-                            `;
-                            characterDeathsTable.appendChild(deathRow);
-                        });
+                        if (data && data.length > 0) {
+                            document.getElementById('characterDeaths').style.display = 'block';
+                            data.forEach(death => {
+                                const deathRow = document.createElement('tr');
+                                deathRow.innerHTML = `
+                                <td class="death_date">${death.date}</td>
+                                <td>${death.cause}${death.level}${death.killers}</td>
+                                `;
+                                characterDeathsTable.appendChild(deathRow);
+                            });
+                        }
                     })
                     .catch(error => console.error('Error loading characters deaths:', error));
 
