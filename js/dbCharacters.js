@@ -119,7 +119,7 @@ function loadCharacter(charName) {
                         data.forEach(death => {
                             const deathRow = document.createElement('tr');
                             deathRow.innerHTML = `
-                            <td>${death.date}</td>
+                            <td class="death_date">${death.date}</td>
                             <td>${death.cause}${death.level}${death.killers}</td>
                             `;
                             characterDeathsTable.appendChild(deathRow);

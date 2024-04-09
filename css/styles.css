@@ -632,8 +632,9 @@ mark {
 }
 
 /*Community*/
-#characterInfoTable th {
-    width: 120px;
+#characterInfoTable th,
+.death_date {
+    width: 170px;
 }
 
 .sub.fixed_width {
