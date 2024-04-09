@@ -20,6 +20,7 @@ function charactersDisplayReset() {
     document.getElementById('characterNotFoundMessage').innerHTML = '';
     document.getElementById('characterNotFound').style.display = 'none';
     document.getElementById('characterInfo').style.display = 'none';
+    document.getElementById('characterDeaths').style.display = 'none';
     document.getElementById('characters').style.display = 'none';
     focusElement('characterName');
 }
@@ -36,6 +37,7 @@ function characterExists(characterName) {
             if (data && data.length > 0 && data[0].count > 0) {
                 // Character name exists in the database, display articles
                 document.getElementById('characterInfo').style.display = 'block';
+                document.getElementById('characterDeaths').style.display = 'block';
                 document.getElementById('characters').style.display = 'block';
                 return true;
             } else {
@@ -70,7 +72,9 @@ function loadCharacter(charName) {
 
     // Load Character Info
     const characterInfoTable = document.getElementById('characterInfoTable');
+    const characterDeathsTable = document.getElementById('characterDeathsTable');
     characterInfoTable.innerText = '';
+    characterDeathsTable.innerText = '';
     fetch(`dbQueries.php?queryId=getCharacterInfo&inputValue=${characterName}`)
         .then(response => response.json())
         .then(data => {
@@ -108,7 +112,22 @@ function loadCharacter(charName) {
                 `;
                 characterInfoTable.appendChild(infoBody);
 
-                // Load Characters
+                // Load Character Deaths
+                fetch(`dbQueries.php?queryId=getCharacterDeaths&inputValue=${characterName}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        data.forEach(death => {
+                            const deathRow = document.createElement('tr');
+                            deathRow.innerHTML = `
+                            <td>${death.date}</td>
+                            <td>${death.cause}${death.level}${death.killers}</td>
+                            `;
+                            characterDeathsTable.appendChild(deathRow);
+                        });
+                    })
+                    .catch(error => console.error('Error loading characters deaths:', error));
+
+                // Load Characters List
                 // It's encapsulated in a function because it's also used on account characters
                 getCharacters('charactersTable',characterInfo.account_id);
                 focusElement('characterName');

@@ -1,5 +1,4 @@
 ﻿#sitio
-registrar muertes en community -> characters
 manage cookies
 SSL: Set up Automatic Certificate Renewal
 
