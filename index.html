@@ -415,7 +415,7 @@
                                         <div class="vertical" style="justify-content: center;">
                                             <input class="form__button" value="Change Password" tabindex="1" onclick="showSection('sectionLoginChangePassword'), focusElement('changeAccount')">
                                             <input class="form__button" value="Set email" tabindex="2" onclick="showSection('sectionLoginSetEmail'), focusElement('email')">
-                                            <input class="form__button green" value="Get Premium" tabindex="3"> <!-- onclick="getPremium()" -->
+                                            <input class="form__button green" value="Get Premium" tabindex="3" onclick="showSection('sectionLoginBuyPremium')">
                                             <input class="form__button red" value="Logout" tabindex="4" onclick="logout()">
                                         </div>
                                     </form>
@@ -547,6 +547,27 @@
                                             <input class="form__button" value="Back" tabindex="5" onclick="showSection('sectionLoggedIn')">
                                         </div>
                                     </form>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <section id="sectionLoginBuyPremium">
+                        <img class="main__box__section__headline" src="images/headlines/headline-webshop.gif" alt="Webshop">
+                        <div class="main__box__section__content">
+                            <article>
+                                <div class="main__box__section__content__article__caption">
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <span class="caption-text"><b>Buy Premium</b></span>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
+                                </div>
+                                <div class="main__box__section__content__article__border">
+                                    <iframe src='https://btcpay.davidcoen.it/apps/8qeYhqQpjqeWYDKyAMCKBft4tXx/pos' style='width: 100%; height: 100vh;'></iframe>
                                 </div>
                             </article>
                         </div>
