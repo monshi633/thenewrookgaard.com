@@ -103,6 +103,12 @@
                                 <div id="submenuSectionLibraryItems" class="nav__menu__submenu">Items</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
+                            <li onclick="showSection('sectionLibraryForge')">
+                                <div class="nav-chain left"></div>
+                                <div id="activeiconsectionLibraryForge" class="nav__menu__activeicon"></div>
+                                <div id="submenuSectionLibraryForge" class="nav__menu__submenu">Forge</div>
+                                <div class="nav-chain right submenu"></div>
+                            </li>
                             <li onclick="showSection('sectionLibrarySpells')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconsectionLibrarySpells" class="nav__menu__activeicon"></div>
@@ -1210,6 +1216,38 @@
                             </article>
                         </div>
                     </section>
+                    <section id="sectionLibraryForge">
+                        <img class="main__box__section__headline" src="images/headlines/headline-forge.gif" alt="Forge">
+                        <div class="main__box__section__content">
+                            <article>
+                                <div class="main__box__section__content__article__caption">
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <span class="caption-text"><b>Forge</b></span>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
+                                </div>
+                                <div class="main__box__section__content__article__border">
+                                    <table class="listed-table">
+                                        <tr>
+                                            <th style="width: 35px;"></th>
+                                            <th>Required</th>
+                                            <th style="width: 51px; text-align: center;">Amount</th>
+                                            <th style="width: 35px;"></th>
+                                            <th>Reward</th>
+                                        </tr>
+                                        <tbody id="forgeTable">
+                                            <!--Forge is retrieved here using forgeLoader.js-->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
                     <section id="sectionLibrarySpells">
                         <img class="main__box__section__headline" src="images/headlines/headline-spells.gif" alt="Spells">
                         <div class="main__box__section__content">
@@ -1789,6 +1827,7 @@
         <script src="/js/spellsLoader.js"></script>
         <script src="/js/questsLoader.js"></script>
         <script src="/js/itemsLoader.js"></script>
+        <script src="/js/forgeLoader.js"></script>
         <script src="/js/npcsLoader.js"></script>
         <script src="/js/addonsLoader.js"></script>
         <script src="/js/tasksLoader.js"></script>
