@@ -55,6 +55,14 @@
             "capital": "/images/capital/letter_martel_H.gif",
             "firstLine": "aven't you tried the <b>Login</b> section yet?",
             "content": "If that's the case, let us tell you something: you are missing out on one or two things. By logging in you'll be able to have an overview of all your characters, change your password buy Premium time (coming soon) and even link an email to your account.<br>But wait, there's more, the first time you set an email you'll get a <mark>tempting reward</mark>!<br><br>Also, we'd like to encourage you to get your <b>Recovery Key</b> from the account manager and store it somewhere safe in case you forget your password (we really hope you don't).<br><br>See you around,<br>The development team"
+        },
+        {
+            "icon": "/images/news/newsicon_development_big.png",
+            "date": "Apr 12 2024 -",
+            "title": "Premium accounts",
+            "capital": "/images/capital/letter_martel_V.gif",
+            "firstLine": "ery important news!",
+            "content": "As of right now, we are implementing a payment method for buying premium time.<br>This means that now you'll be able to select from different time packages and buy at a very low price through Bitcoin Lightning Network thanks to BTCPay technology.<br><br>It is very important that you had previously set your email in the <b>Login</b> section and that you use the same email to make the purchase.<br><br>We know not everyone uses Bitcoin yet and we don't want this to be an abrupt change at all. So instead of disabling the <b>!buypremium</b> command in-game, we'll be rising its gold price.<br><br>Until next we meet,<br>The development team"
         }
     ]
 }

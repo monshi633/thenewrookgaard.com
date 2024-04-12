@@ -55,6 +55,7 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, [
 curl_setopt($curl, CURLOPT_CAINFO, __DIR__ . '/cacert.pem');
 
 $response = curl_exec($curl);
+
 if (curl_errno($curl)) {
     file_put_contents('payments_errors.log', 'CURL error' . curl_error($curl) . PHP_EOL, FILE_APPEND);
 } else {
@@ -63,10 +64,16 @@ if (curl_errno($curl)) {
     $status = $responseData['status']; // 'Settled'
     $orderId = $responseData['metadata']['orderId'];
     $itemCode = $responseData['metadata']['itemCode'];
-    $buyer = $responseData['metadata']['buyerEmail'];
+    $buyerEmail = $responseData['metadata']['buyerEmail'];
     
-    if (isset($status) && $status == 'Settled' && isset($itemCode) && isset($orderId) && isset($buyer)) {
-        file_put_contents('payments_success.log', $orderId . ' ' . $buyer . ' ' . $itemCode . PHP_EOL, FILE_APPEND);
+    if (isset($status) && $status == 'Settled' && isset($itemCode) && isset($orderId) && isset($buyerEmail)) {
+        file_put_contents('payments_success.log', $orderId . ' ' . $buyerEmail . ' ' . $itemCode . PHP_EOL, FILE_APPEND);
+        $updateDb = addPremiumDays($buyerEmail, $itemCode);
+        if ($updateDb) {
+            file_put_contents('payments_success.log', 'Updated DB for order ' . $orderId . PHP_EOL, FILE_APPEND);
+        } else {
+            file_put_contents('payments_errors.log', 'Failed to updated DB for order ' . $orderId . PHP_EOL, FILE_APPEND);
+        }
     } else {
         $message = print_r($responseData, true);
         file_put_contents('payments_errors.log', 'Response was OK but data doesnt match with what was expected: '. $message . PHP_EOL, FILE_APPEND);
@@ -74,4 +81,45 @@ if (curl_errno($curl)) {
 }
 
 curl_close($curl);
+
+function addPremiumDays($buyerEmail, $itemCode) {
+    // Define pattern to extract premium days from $itemCode
+    $pattern = '/^(\d+)-/';
+    
+    if (preg_match($pattern, $itemCode, $matches)) {
+        $extractedNumber = $matches[1];
+    } else {
+        return false;
+    }
+    
+    // Connect to SQLite database
+    $db = new SQLite3('C:/the-new-rook/server/schemas/otxserver.s3db');
+    $statement = $db->prepare($query);
+
+    // Get id and premdays with email
+    $statement = $db->prepare("SELECT id, premdays FROM accounts WHERE email = :email");
+    $statement->bindValue(':email', $buyerEmail, SQLITE3_TEXT);
+
+    // Execute the query
+    $result = $statement->execute();
+
+    // Fetch results
+    $row = $result->fetchArray(SQLITE3_ASSOC);
+    if (!$row) {
+        return false;
+    }
+    // Retrieve data from db
+    $id = $row['id'];
+    $premdays = $row['premdays'] + $extractedNumber;
+    if (isset($id)) {
+        // Give reward
+        $statement = $db->prepare("UPDATE accounts SET premdays = :premdays WHERE id = :id");
+        $statement->bindValue(':premdays', $premdays, SQLITE3_INTEGER);
+        $statement->bindValue(':id', $id, SQLITE3_TEXT);
+        $statement->execute();
+        return true;
+    } else {
+        return false;
+    }
+}
 ?>

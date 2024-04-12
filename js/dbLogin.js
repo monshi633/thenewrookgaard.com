@@ -66,7 +66,7 @@ function login(event) {
                 // Show email
                 if (email != null && email != '') {
                     const emailSpan = document.createElement('span');
-                    emailSpan.textContent = `Your email is: ${email}.`;
+                    emailSpan.textContent = `Your email is: ${email}`;
                     status.appendChild(emailSpan);
                 } else {
                     const emailSpan = document.createElement('span');
