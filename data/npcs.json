@@ -157,6 +157,12 @@
             "services": "Chef"
         },
         {
+            "name": "Chester Kahs",
+            "img": "/images/npcs/Chester_Kahs.png",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
             "name": "Clyde",
             "img": "/images/npcs/Clyde.png",
             "location": "Rookgaard",

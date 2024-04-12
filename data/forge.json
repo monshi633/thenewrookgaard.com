@@ -211,6 +211,13 @@
             "img2": "/images/items/armors/Robe_of_the_Underworld.gif"
         },
         {
+            "name": "Life Crystal",
+            "img1": "/images/items/forge/Life_Crystal.gif",
+            "amount": "1",
+            "reward": "Life Ring",
+            "img2": "/images/items/rings/Life_Ring.gif"
+        },
+        {
             "name": "Lizard Leather",
             "img1": "/images/items/forge/Lizard_Leather.gif",
             "amount": "25",
