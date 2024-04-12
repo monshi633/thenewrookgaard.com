@@ -72,7 +72,7 @@ nav {
     height: 40px;
     width: 8px;
     background-repeat: repeat-y;
-    z-index: 10;
+    z-index: 1;
 }
 
 .nav-chain.right {
@@ -113,6 +113,10 @@ nav {
     background-repeat: no-repeat;
 }
 
+.nav__login:nth-child(2) {
+    margin-bottom: 46px;
+}
+
 .nav__login__container {
     background-image: url(/images/nav/loginbox-textfield-background.gif);
     position: relative;
@@ -134,6 +138,13 @@ nav {
 
 .nav__login__container__button:hover {
     background-image: url(/images/nav/mediumbutton-over.gif);
+}
+
+#crownDecor {
+    position: absolute;
+    top: -24px;
+    left: 30px;
+    z-index: 1;
 }
 
 .nav__menu {
@@ -226,6 +237,17 @@ nav {
 }
 
 /*Main*/
+#deactivationContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .75;
+    z-index: 10;
+}
+
 .main__box {
     position: relative;
     margin: 4px 5px 18px;
@@ -243,7 +265,7 @@ nav {
     left: -5px;
     width: 17px;
     height: 17px;
-    z-index: 50;
+    z-index: 1;
 }
 
 .main-tr {
@@ -253,7 +275,7 @@ nav {
     right: -5px;
     width: 17px;
     height: 17px;
-    z-index: 50;
+    z-index: 1;
 }
 
 .main-bl {
@@ -263,7 +285,7 @@ nav {
     left: -5px;
     width: 17px;
     height: 17px;
-    z-index: 50;
+    z-index: 1;
 }
 
 .main-br {
@@ -273,7 +295,7 @@ nav {
     right: -5px;
     width: 17px;
     height: 17px;
-    z-index: 50;
+    z-index: 1;
 }
 
 .main-border {
@@ -365,7 +387,7 @@ article {
     position: absolute;
     width: 5px;
     height: 5px;
-    z-index: 50;
+    z-index: 1;
 }
 
 .caption.tl {

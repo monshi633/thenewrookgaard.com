@@ -25,6 +25,18 @@
                     <div class="nav-chain right"></div>
                     <div class="nav-bottom"></div>
                 </div>
+                <div class="nav__login">
+                    <img id="crownDecor" src="images/nav/button_premiumtime.png" alt="Crown decor">
+                    <div class="nav-top"></div>
+                    <div class="nav-chain"></div>
+                    <div class="nav__login__container">
+                        <div class="nav__login__container__button" onclick="setDeactivationContainer('sectionNewsLatestnews')">
+                            <img src="images/nav/mediumbutton_get_premium.png" alt="Get Premium">
+                        </div>
+                    </div>
+                    <div class="nav-chain right"></div>
+                    <div class="nav-bottom"></div>
+                </div>
                 <div class="nav__menu">
                     <div class="nav-top"></div>
                     <div>
@@ -214,6 +226,7 @@
                 </div>
             </nav>
             <main>
+                <div id="deactivationContainer" style="display: none;" onclick="setDeactivationContainer()"></div>
                 <div class="main__box">
                     <div class="main-tl"></div>
                     <div class="main-border"></div>
@@ -229,7 +242,7 @@
                     <div class="main-border"></div>
                     <div class="main-br"></div>
                 </div>
-                <div class="main__box">
+                <div class="main__box" style="z-index: 11;">
                     <div class="main-tl"></div>
                     <div class="main-border"></div>
                     <div class="main-tr"></div>
@@ -303,7 +316,7 @@
                                         </div>
                                         <div class="vertical">
                                             <input class="form__button" value="Login" tabindex="3" type="submit">
-                                            <input class="form__button" value="Lost Account" tabindex="4" onclick="showSection('sectionLoginLostpassword'), focusElement('lostAccount')">
+                                            <input class="form__button" value="Lost Account" tabindex="4" type="button" onclick="showSection('sectionLoginLostpassword'), focusElement('lostAccount')">
                                         </div>
                                     </form>
                                 </div>
@@ -391,6 +404,7 @@
                                         </div>
                                         <div class="vertical" style="justify-content: center;">
                                             <input class="form__button" value="Submit" tabindex="5" type="submit">
+                                            <input class="form__button" value="Back" tabindex="6" type="button" onclick="showSection('sectionLoggedIn')">
                                         </div>
                                     </form>
                                 </div>
@@ -419,10 +433,10 @@
                                             <div id="accountStatus"></div>
                                         </div>
                                         <div class="vertical" style="justify-content: center;">
-                                            <input class="form__button" value="Change Password" tabindex="1" onclick="showSection('sectionLoginChangePassword'), focusElement('changeAccount')">
-                                            <input class="form__button" value="Set email" tabindex="2" onclick="showSection('sectionLoginSetEmail'), focusElement('email')">
-                                            <input class="form__button green" value="Get Premium" tabindex="3" onclick="showSection('sectionLoginBuyPremium')">
-                                            <input class="form__button red" value="Logout" tabindex="4" onclick="logout()">
+                                            <input class="form__button" value="Change Password" tabindex="1" type="button" onclick="showSection('sectionLoginChangePassword'), focusElement('changeAccount')">
+                                            <input class="form__button" value="Set email" tabindex="2" type="button" onclick="showSection('sectionLoginSetEmail'), focusElement('email')">
+                                            <input class="form__button green" value="Get Premium" tabindex="3" type="button" onclick="setDeactivationContainer('sectionLoggedIn')">
+                                            <input class="form__button red" value="Logout" tabindex="4" type="button" onclick="logout()">
                                         </div>
                                     </form>
                                 </div>
@@ -500,7 +514,7 @@
                                         </div>
                                         <div class="vertical" style="justify-content: center;">
                                             <input class="form__button" value="Submit" tabindex="5" type="submit">
-                                            <input class="form__button" value="Back" tabindex="6" onclick="showSection('sectionLoggedIn')">
+                                            <input class="form__button" value="Back" tabindex="6" type="button" onclick="showSection('sectionLoggedIn')">
                                         </div>
                                     </form>
                                 </div>
@@ -564,7 +578,7 @@
                                         </div>
                                         <div class="vertical" style="justify-content: center;">
                                             <input class="form__button" value="Submit" tabindex="4" type="submit">
-                                            <input class="form__button" value="Back" tabindex="5" onclick="showSection('sectionLoggedIn')">
+                                            <input class="form__button" value="Back" tabindex="5" type="button" onclick="showSection('sectionLoggedIn')">
                                         </div>
                                     </form>
                                 </div>
@@ -587,7 +601,7 @@
                                     <span class="caption br"></span>
                                 </div>
                                 <div class="main__box__section__content__article__border">
-                                    <iframe src='https://btcpay.davidcoen.it/apps/8qeYhqQpjqeWYDKyAMCKBft4tXx/pos' style='width: 100%; height: 100vh;'></iframe>
+                                    <iframe id="BTCPay" src='https://btcpay.davidcoen.it/apps/8qeYhqQpjqeWYDKyAMCKBft4tXx/pos' style='width: 100%; height: 100vh;'></iframe>
                                 </div>
                             </article>
                         </div>
@@ -1472,7 +1486,7 @@
                                             <input id="characterName" class="form__field" type="text" name="Character name" maxlength="50" tabindex="1" onkeydown="handleKeyPress(event,'searchCharacter')">
                                         </div>
                                         <div class="vertical" style="justify-content: center;">
-                                            <input id="searchCharacter" class="form__button" value="Submit" tabindex="2" onclick="loadCharacter()">
+                                            <input id="searchCharacter" class="form__button" value="Submit" tabindex="2" type="button" onclick="loadCharacter()">
                                         </div>
                                     </form>
                                 </div>
@@ -1834,6 +1848,7 @@
         <script src="/js/generalFunctions.js"></script>
         <script src="/js/dbNumberOnline.js"></script>
         <script src="/js/dbLogin.js"></script>
+        <script src="/js/premiumLoader.js"></script>
         <script src="/js/latestNewsLoader.js"></script>
         <script src="/js/creaturesLoader.js"></script>
         <script src="/js/bossesLoader.js"></script>
