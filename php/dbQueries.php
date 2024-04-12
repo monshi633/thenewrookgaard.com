@@ -103,15 +103,20 @@
                     $hashedPassword = $result['hashedPassword'];
 
                     if (checkCredentials($db,$inputValue,$hashedPassword)) {
-                        // Give reward if elegible
-                        $reward = checkRewards($db,$inputValue,$id);
-                        $rows[] = $reward ? ['reward' => 'true'] : ['reward' => 'false'];
-                        // Replace placeholders in query
-                        $statement->bindValue(':id', $id, SQLITE3_TEXT);
-                        $statement->bindValue(':email', $inputThirdValue, SQLITE3_TEXT);
+                        if (emailIsUnique($db,$inputThirdValue)) {
+                            // Give reward if elegible
+                            $reward = checkRewards($db,$inputValue,$id);
+                            $rows[] = $reward ? ['reward' => 'true'] : ['reward' => 'false'];
+                            // Replace placeholders in query
+                            $statement->bindValue(':id', $id, SQLITE3_TEXT);
+                            $statement->bindValue(':email', $inputThirdValue, SQLITE3_TEXT);
+                        } else {
+                            $rows[] = ['error' => 'emailNotUnique'];
+                            http_response_code(403); // Forbidden
+                        }
                     } else {
+                        $rows[] = ['error' => 'invalidCredentials'];
                         http_response_code(400); // Bad Request
-                        echo json_encode(['error' => 'Invalid credentials']);
                     }
                 } else {
                     $statement->bindValue(':inputValue', $inputValue, SQLITE3_TEXT);
@@ -219,5 +224,25 @@
         } else {
             return false;
         }
+    }
+
+    function emailIsUnique($db,$email) {
+        // Prepare query
+        $statement = $db->prepare("SELECT COUNT(*) AS email FROM accounts WHERE email = :email");
+        $statement->bindValue(':email', $email, SQLITE3_TEXT);
+
+        // Execute the query
+        $result = $statement->execute();
+
+        // Fetch results
+        $row = $result->fetchArray(SQLITE3_ASSOC);
+        if (!$row) {
+            return false;
+        }
+
+        // Retrieve data from db
+        $email = $row['email'];
+
+        return $email == 0 ? true : false;
     }
 ?>

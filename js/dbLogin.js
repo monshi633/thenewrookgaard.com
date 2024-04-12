@@ -143,23 +143,31 @@ function setEmail(event) {
         fetch(`dbQueries.php?queryId=setEmail&inputValue=${account}&inputSecondValue=${password}&inputThirdValue=${email}`)
         .then(response => response.json())
         .then(data => {
-            // Check for reward
-            if (data[0].reward === 'true') {
-                document.getElementById('reward').style.display = "block";
-                setTimeout(hideElement, 5000,'reward');
+            if (data[0].error === 'emailNotUnique') {
+                document.getElementById('emailNotUnique').style.display = 'block';
+                setTimeout(hideElement, 5000,'emailNotUnique');
+                focusElement('email');
+            } else if (data[0].error === 'invalidCredentials') {
+                document.getElementById('emailErrorMsg').style.display = 'block';
+                setTimeout(hideElement, 5000,'emailErrorMsg');
+                focusElement('email');
+            } else {
+                // Check for reward
+                if (data[0].reward === 'true') {
+                    document.getElementById('reward').style.display = "block";
+                    setTimeout(hideElement, 5000,'reward');
+                }
+    
+                // Display confirmation
+                isLoggedIn = false;
+                showSection('sectionLogin');
+                document.getElementById('emailSuccessMsg').style.display = 'block';
+                setTimeout(hideElement, 5000,'emailSuccessMsg');
+                focusElement('loginAccount');
             }
-
-            // Display confirmation
-            isLoggedIn = false;
-            showSection('sectionLogin');
-            document.getElementById('emailSuccessMsg').style.display = 'block';
-            setTimeout(hideElement, 5000,'emailSuccessMsg');
-            focusElement('loginAccount');
         })
         .catch(error => {
-            document.getElementById('emailErrorMsg').style.display = 'block';
-            setTimeout(hideElement, 5000,'emailErrorMsg');
-            focusElement('email');
+            console.error('Fetch error: ', error);
         });
     }
     
