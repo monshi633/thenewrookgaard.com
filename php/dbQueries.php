@@ -101,6 +101,7 @@
                     $result = hashPassword($db,$inputValue,$inputSecondValue);
                     $id = $result['id'];
                     $hashedPassword = $result['hashedPassword'];
+
                     if (checkCredentials($db,$inputValue,$hashedPassword)) {
                         // Give reward if elegible
                         $reward = checkRewards($db,$inputValue,$id);
@@ -119,7 +120,6 @@
                 $result = $statement->execute();
     
                 // Fetch results
-                
                 while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
                     $rows[] = $row;
                 }
@@ -208,14 +208,11 @@
         $email = $row['email'];
         $premdays = $row['premdays'] + 3;
 
-        // If email is empty
-        if (empty($email)) {
+        if ($email === null) {
             // Give reward
             $statement = $db->prepare("UPDATE accounts SET premdays = :premdays WHERE id = :id");
             $statement->bindValue(':premdays', $premdays, SQLITE3_INTEGER);
             $statement->bindValue(':id', $id, SQLITE3_TEXT);
-
-            // Execute the query
             $statement->execute();
 
             return true;

@@ -6,14 +6,14 @@ Disclaimers:
 
 1. Rent a hosting service and a DNS
 2. Web Server
-   * Download NginX (https://nginx.org/en/download.html) mainline version and extract preferably in C:/nginx
+   * Download NginX (https://nginx.org/en/download.html) mainline version and extract into C:/nginx
    * Clone this repo in C:/nginx/html/thenewrookgaard.com/
    * Modify C:/nginx/conf/nginx.conf (see attachments)
 3. PHP
-   * Download PHP (https://windows.php.net/download/) Thread Safe latest version and extract preferably in C:/php
+   * Download PHP (https://windows.php.net/download/) Thread Safe latest version and extract into C:/php
    * Make a copy of C:/php/php.ini-production and rename as php.ini (see attachments)
 4. Service Manager
-   * Download NSSM (https://nssm.cc/download) latest release and extract preferably in C:/nssm
+   * Download NSSM (https://nssm.cc/download) latest release and extract into C:/nssm
    * Open command prompt as administrator in C:/nssm/win64/
    * Run 'nssm install', a GUI will appear and complete the Application tab:
      * Path: 'C:\php\php-cgi.exe'
@@ -22,7 +22,7 @@ Disclaimers:
      * Service name: 'phpfcgi'
      * Click on 'Install service'
 5. SSL certificates for https
-   * Download and extract win-acme (https://www.win-acme.com) preferably in C:/win-acme
+   * Download and extract win-acme (https://www.win-acme.com) into C:/win-acme
    * Open command prompt as administrator in C:/win-acme/
    * Run 'wacs.exe' and follow the instructions to create the certificate
    * Copy thenewrookgaard.com-crt.pem and thenewrookgaard.com-key.pem into C:/nginx/conf
@@ -30,6 +30,16 @@ Disclaimers:
    * Run C:/nginx/nginx.exe
    * Open command prompt as administrator in C:/nssm/win64/
    * Run 'nssm start phpfcgi'
+7. Set up BTCPay payments
+   * Get a BTCPay server and run a store
+   * Create credentials.php in the same directory and store your BTCPay store credentials:
+     ```
+     <?php
+     $storeId = 'yourStoreId';
+     $apiKey = 'yourGreenfieldApiKey';
+     ?>
+     ```
+   * Download cacert.pem (https://curl.se/docs/caextract.html) into C:/nginx/html/thenewrookgaard.com/php next to payments.php
 
 
 to renew certificate open command prompt as administrator in C:/win-acme/ and run 'wacs.exe --renew --force --verbose'

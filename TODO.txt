@@ -1,4 +1,5 @@
 ﻿#sitio
+Screenshots carousel
 manage cookies
 SSL: Set up Automatic Certificate Renewal
 
@@ -8,3 +9,5 @@ prepare php to fetch all emails and (store to json?) send marketing mails (SMTP 
 
 #payments
 Get premium: Integrar sistema de cobro dentro de login
+
+# Preparar header para Forge
