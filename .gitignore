@@ -4,3 +4,4 @@ php/php_errors.log
 php/invoiceId.log
 php/ipn.log
 php/payments_success.log
+php/credentials.php
