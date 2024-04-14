@@ -72,7 +72,7 @@ if (curl_errno($curl)) {
         if ($updateDb) {
             file_put_contents('payments_success.log', 'Updated DB for order ' . $orderId . PHP_EOL, FILE_APPEND);
         } else {
-            file_put_contents('payments_errors.log', 'Failed to updated DB for order ' . $orderId . PHP_EOL, FILE_APPEND);
+            file_put_contents('payments_errors.log', 'Failed to update DB for order ' . $orderId . '(most likely due to email not set)' . PHP_EOL, FILE_APPEND);
         }
     } else {
         $message = print_r($responseData, true);
