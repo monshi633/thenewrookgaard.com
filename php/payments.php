@@ -60,14 +60,14 @@ if (curl_errno($curl)) {
     file_put_contents('payments_errors.log', 'CURL error' . curl_error($curl) . PHP_EOL, FILE_APPEND);
 } else {
     $responseData = json_decode($response, true);
-
     $status = $responseData['status']; // 'Settled'
     $orderId = $responseData['metadata']['orderId'];
     $itemCode = $responseData['metadata']['itemCode'];
     $buyerEmail = $responseData['metadata']['buyerEmail'];
+    $itemPrice = $responseData['metadata']['invoice_amount'];
     
     if (isset($status) && $status == 'Settled' && isset($itemCode) && isset($orderId) && isset($buyerEmail)) {
-        file_put_contents('payments_success.log', $orderId . ' ' . $buyerEmail . ' ' . $itemCode . PHP_EOL, FILE_APPEND);
+        file_put_contents('payments_success.log', 'orderId: ' . $orderId . ', buyerEmail: ' . $buyerEmail . ', itemCode: ' . $itemCode . ', itemPrice: '  . $itemPrice . PHP_EOL, FILE_APPEND);
         $updateDb = addPremiumDays($buyerEmail, $itemCode);
         if ($updateDb) {
             file_put_contents('payments_success.log', 'Updated DB for order ' . $orderId . PHP_EOL, FILE_APPEND);
