@@ -46,6 +46,11 @@
             "reward": "One of these items: Abyss Hammer, Mystic Blade, The Ironworker, Vile Axe"
         },
         {
+            "name": "Pits of Inferno",
+            "level": "-",
+            "reward": "Demonic Backpack, Frozen Starlight, 25 Necromancer Token, Soft Boots, Stuffed Dragon, One of these items: Glorious Axe, Silver Mace, The Devileye, Warlord Sword"
+        },
+        {
             "name": "Dwarf's Lair",
             "level": "30",
             "reward": "Light Shovel and Elvenhair Rope"
@@ -89,6 +94,11 @@
             "name": "Annihilator",
             "level": "100",
             "reward": "One of these items: Demon Armor, Magic Sword, Stonecutter Axe, Thunder Hammer"
+        },
+        {
+            "name": "Demon Helmet",
+            "level": "100",
+            "reward": "Demon Helmet, Demon Shield, Steel Boots"
         },
         {
             "name": "King's",

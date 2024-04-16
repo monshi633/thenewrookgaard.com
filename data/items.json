@@ -1709,7 +1709,7 @@
             "additional": "-",
             "level": "<mark>85</mark>",
             "weight": "67.0",
-            "obtained": "Lizad Chosen"
+            "obtained": "Quest"
         },
         {
             "name": "Thunder Hammer",
@@ -2162,7 +2162,7 @@
             "additional": "-",
             "level": "<mark>85</mark>",
             "weight": "64.0",
-            "obtained": "Lizard Chosen"
+            "obtained": "Quest"
         },
         {
             "name": "Magic Sword",
@@ -2390,12 +2390,12 @@
             "name": "Glorious Axe",
             "img": "/images/items/axes/Glorious_Axe.gif",
             "atk": "40",
-            "def": "<mark>13</mark>",
+            "def": "23",
             "hands": "2",
             "additional": "-",
             "level": "30",
             "weight": "95.0",
-            "obtained": "Undead Gladiator"
+            "obtained": "Mutated Tiger, Undead Gladiator"
         },
         {
             "name": "Titan Axe",
@@ -2604,7 +2604,7 @@
             "additional": "-",
             "level": "<mark>85</mark>",
             "weight": "90.0",
-            "obtained": "Lizard Chosen"
+            "obtained": "Quest"
         },
         {
             "name": "Stonecutter Axe",
@@ -2892,7 +2892,7 @@
             "additional": "<mark>Hit +10%</mark>",
             "level": "<mark>85</mark>",
             "weight": "55.0",
-            "obtained": "Lizard Chosen"
+            "obtained": "Quest"
         },
         {
             "name": "Warsinger Bow",
@@ -3477,7 +3477,7 @@
             "slots": "<mark>30</mark>",
             "additional": "-",
             "weight": "18.0",
-            "obtained": "<i><b>Forging</b></i>"
+            "obtained": "<i><b>Quest</b></i>"
         },
         {
             "name": "Expedition Bag",

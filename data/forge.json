@@ -71,13 +71,6 @@
             "img2": "/images/items/armors/Skullcracker_Armor.gif"
         },
         {
-            "name": "Demon Dust",
-            "img1": "/images/items/forge/Demon_Dust.gif",
-            "amount": "10",
-            "reward": "Demon Backpack",
-            "img2": "/images/items/containers/Demonic_Backpack.gif"
-        },
-        {
             "name": "Dwarven Beard",
             "img1": "/images/items/forge/Dwarven_Beard.gif",
             "amount": "50",
