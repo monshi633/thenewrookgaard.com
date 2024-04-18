@@ -80,6 +80,7 @@ function loadCharacter(charName) {
             data.forEach(characterInfo => {
                 const infoBody = document.createElement('tbody');
                 infoBody.innerHTML = `
+                <tr></tr>
                 <tr>
                     <th>Name</th>
                     <td>${characterInfo.name}</td>

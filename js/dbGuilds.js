@@ -13,13 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Add guild row
                 const guildRow = document.createElement('tr');
                 guildRow.innerHTML = `
-                <thead>
-                    <tr>
-                        <td>${guildName}</td>
-                        <td>${guild.members}</td>
-                        <td>${guild.creation}</td>
-                    <tr>
-                </thead>
+                    <td>${guildName}</td>
+                    <td>${guild.members}</td>
+                    <td>${guild.creation}</td>
                 `;
                 guildTable.appendChild(guildRow);
                 
@@ -32,14 +28,17 @@ document.addEventListener('DOMContentLoaded', function () {
                 membersRow.innerHTML = `
                 <td></td>
                 <td colspan="2" style="padding: 0; border: 0;">
-                    <table id="${membersBodyId}" class="sub fixed_width">
+                    <table class="sub fixed_width">
                         <thead>
+                            <tr></tr>
                             <tr>
-                            <th>Name</th>
-                            <th>Rank</th>
-                            <th style="width: 60px;">Online?</th>
+                                <th>Name</th>
+                                <th>Rank</th>
+                                <th style="width: 60px;">Online?</th>
                             </tr>
                         </thead>
+                        <tbody id="${membersBodyId}">
+                        </tbody>
                     </table>
                 </td>
                 `;
