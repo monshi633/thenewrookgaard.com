@@ -3373,6 +3373,14 @@
             "obtained": "<i><b>Forging</b></i>"
         },
         {
+            "name": "Bonfire Amulet",
+            "img": "/images/items/amulets/Bonfire_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection physical +60%, fire +40%",
+            "weight": "7.0",
+            "obtained": "Fury, Infernalist"
+        },
+        {
             "name": "Bronze Amulet",
             "img": "/images/items/amulets/Bronze_Amulet.gif",
             "arm": "-",
@@ -3421,6 +3429,14 @@
             "obtained": "Quest"
         },
         {
+            "name": "Leviathan's Amulet",
+            "img": "/images/items/amulets/Leviathan's_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection physical +60%, ice +40%",
+            "weight": "7.0",
+            "obtained": "Leviathan, Sea Serpent"
+        },
+        {
             "name": "Protection Amulet",
             "img": "/images/items/amulets/Protection_Amulet.gif",
             "arm": "-",
@@ -3442,7 +3458,7 @@
             "arm": "-",
             "additional": "Protection physical +60%, earth +40%",
             "weight": "7.0",
-            "obtained": "Medusa"
+            "obtained": "Medusa, Serpent Spawn"
         },
         {
             "name": "Sapphire Amulet",
@@ -3459,6 +3475,14 @@
             "additional": "-",
             "weight": "7.7",
             "obtained": "Ancient Scarab"
+        },
+        {
+            "name": "Shockwave Amulet",
+            "img": "/images/items/amulets/Shockwave_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection physical +60%, energy +40%",
+            "weight": "7.0",
+            "obtained": "Banshee, Wyrm"
         },
         {
             "name": "Silver Amulet",

@@ -787,12 +787,14 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 150px;">Name</th>
-                                            <th style="width: 63px;"></th>
-                                            <th>Message</th>
-                                            <th>Location</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 150px;">Name</th>
+                                                <th style="width: 63px;"></th>
+                                                <th>Message</th>
+                                                <th>Location</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="raidsTable">
                                             <!--Raids are retrieved here using raidsLoader.js-->
                                         </tbody>
@@ -818,12 +820,14 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 150px;">Name</th>
-                                            <th style="width: 63px;"></th>
-                                            <th>Location</th>
-                                            <th>Services</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 150px;">Name</th>
+                                                <th style="width: 63px;"></th>
+                                                <th>Location</th>
+                                                <th>Services</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="npcsTable">
                                             <!--NPCs are retrieved here using npcsLoader.js-->
                                         </tbody>
@@ -849,11 +853,13 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th style="width: 160px;"></th>
-                                            <th>Items needed</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th style="width: 160px;"></th>
+                                                <th>Items needed</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="addonsTable">
                                             <!--Addons are retrieved here using addonsLoader.js-->
                                         </tbody>
@@ -891,14 +897,16 @@
                                 </div>
                                 <div id="helmetsTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Arm</th>
-                                            <th style="width: 180px;">Additional</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Arm</th>
+                                                <th style="width: 180px;">Additional</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="helmetsTable">
                                             <!--Helmets are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -919,15 +927,17 @@
                                 </div>
                                 <div id="armorsTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Arm</th>
-                                            <th style="width: 180px;">Additional</th>
-                                            <th>Level</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Arm</th>
+                                                <th style="width: 180px;">Additional</th>
+                                                <th>Level</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="armorsTable">
                                             <!--Armors are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -948,6 +958,7 @@
                                 </div>
                                 <div id="legsTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
+                                    </thead>
                                         <tr>
                                             <th>Name</th>
                                             <th></th>
@@ -956,7 +967,8 @@
                                             <th>Weight</th>
                                             <th>Obtained by</th>
                                         </tr>
-                                        <tbody id="legsTable">
+                                    <thead>
+                                    <tbody id="legsTable">
                                             <!--Legs are retrieved here using itemsLoader.js-->
                                         </tbody>
                                     </table>
@@ -976,15 +988,17 @@
                                 </div>
                                 <div id="bootsTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Arm</th>
-                                            <th style="width: 180px;">Additional</th>
-                                            <th>Level</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Arm</th>
+                                                <th style="width: 180px;">Additional</th>
+                                                <th>Level</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="bootsTable">
                                             <!--Boots are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1005,15 +1019,17 @@
                                 </div>
                                 <div id="shieldsTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Def</th>
-                                            <th style="width: 180px;">Additional</th>
-                                            <th>Level</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Def</th>
+                                                <th style="width: 180px;">Additional</th>
+                                                <th>Level</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="shieldsTable">
                                             <!--Shields are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1034,17 +1050,19 @@
                                 </div>
                                 <div id="magicTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Element</th>
-                                            <th>Avg dmg</th>
-                                            <th>Range</th>
-                                            <th>Mana cost</th>
-                                            <th>Level</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Element</th>
+                                                <th>Avg dmg</th>
+                                                <th>Range</th>
+                                                <th>Mana cost</th>
+                                                <th>Level</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="magicTable">
                                             <!--Magic weapons are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1065,17 +1083,19 @@
                                 </div>
                                 <div id="clubTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Atk</th>
-                                            <th>Def</th>
-                                            <th>Hands</th>
-                                            <th>Additional</th>
-                                            <th>Level</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Atk</th>
+                                                <th>Def</th>
+                                                <th>Hands</th>
+                                                <th>Additional</th>
+                                                <th>Level</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="clubTable">
                                             <!--Club Weapons are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1096,17 +1116,19 @@
                                 </div>
                                 <div id="swordTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Atk</th>
-                                            <th>Def</th>
-                                            <th>Hands</th>
-                                            <th>Additional</th>
-                                            <th>Level</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Atk</th>
+                                                <th>Def</th>
+                                                <th>Hands</th>
+                                                <th>Additional</th>
+                                                <th>Level</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="swordTable">
                                             <!--Sword Weapons are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1127,17 +1149,19 @@
                                 </div>
                                 <div id="axeTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Atk</th>
-                                            <th>Def</th>
-                                            <th>Hands</th>
-                                            <th>Additional</th>
-                                            <th>Level</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Atk</th>
+                                                <th>Def</th>
+                                                <th>Hands</th>
+                                                <th>Additional</th>
+                                                <th>Level</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="axeTable">
                                             <!--Axe Weapons are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1158,17 +1182,19 @@
                                 </div>
                                 <div id="distanceTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Atk</th>
-                                            <th>Range</th>
-                                            <th>Hands</th>
-                                            <th style="width: 80px;">Additional</th>
-                                            <th>Level</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Atk</th>
+                                                <th>Range</th>
+                                                <th>Hands</th>
+                                                <th style="width: 80px;">Additional</th>
+                                                <th>Level</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="distanceTable">
                                             <!--Distance Weapons are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1189,14 +1215,16 @@
                                 </div>
                                 <div id="ammunitionsTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Atk</th>
-                                            <th style="width: 180px;">Additional</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Atk</th>
+                                                <th style="width: 180px;">Additional</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="ammunitionTable">
                                             <!--Ammunitions are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1217,14 +1245,16 @@
                                 </div>
                                 <div id="amuletsTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Arm</th>
-                                            <th style="width: 180px;">Additional</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Arm</th>
+                                                <th style="width: 180px;">Additional</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="amuletsTable">
                                             <!--Amulets are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1245,14 +1275,16 @@
                                 </div>
                                 <div id="ringsTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Arm</th>
-                                            <th style="width: 180px;">Additional</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Arm</th>
+                                                <th style="width: 180px;">Additional</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="ringsTable">
                                             <!--Rings are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1273,14 +1305,16 @@
                                 </div>
                                 <div id="containersTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Slots</th>
-                                            <th style="width: 180px;">Additional</th>
-                                            <th>Weight</th>
-                                            <th>Obtained by</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Slots</th>
+                                                <th style="width: 180px;">Additional</th>
+                                                <th>Weight</th>
+                                                <th>Obtained by</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="containersTable">
                                             <!--Containers are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1301,12 +1335,14 @@
                                 </div>
                                 <div id="recipesTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th></th>
-                                            <th>Effect</th>
-                                            <th>Weight</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th></th>
+                                                <th>Effect</th>
+                                                <th>Weight</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="recipesTable">
                                             <!--Recipes are retrieved here using itemsLoader.js-->
                                         </tbody>
@@ -1332,13 +1368,15 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 35px;"></th>
-                                            <th>Required</th>
-                                            <th style="width: 51px; text-align: center;">Amount</th>
-                                            <th style="width: 35px;"></th>
-                                            <th>Reward</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 35px;"></th>
+                                                <th>Required</th>
+                                                <th style="width: 51px; text-align: center;">Amount</th>
+                                                <th style="width: 35px;"></th>
+                                                <th>Reward</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="forgeTable">
                                             <!--Forge is retrieved here using forgeLoader.js-->
                                         </tbody>
@@ -1376,14 +1414,16 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Group</th>
-                                            <th>Type</th>
-                                            <th>Level</th>
-                                            <th>Mana</th>
-                                            <th>Premium</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Group</th>
+                                                <th>Type</th>
+                                                <th>Level</th>
+                                                <th>Mana</th>
+                                                <th>Premium</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="spellsTable">
                                             <!--Spells are retrieved here using spellsLoader.js-->
                                         </tbody>
@@ -1409,11 +1449,13 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th style="width: 65px; text-align: center;">Min. level</th>
-                                            <th>Reward</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th style="width: 65px; text-align: center;">Min. level</th>
+                                                <th>Reward</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="questsTable">
                                             <!--Quests are retrieved here using questsLoader.js-->
                                         </tbody>
@@ -1439,12 +1481,14 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Creatures</th>
-                                            <th style="width: 35px; text-align: center;">Kills</th>
-                                            <th>Reward</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Creatures</th>
+                                                <th style="width: 35px; text-align: center;">Kills</th>
+                                                <th>Reward</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="tasksTable">
                                             <!--Tasks are retrieved here using tasksLoader.js-->
                                         </tbody>
@@ -1505,8 +1549,10 @@
                                     <span class="caption br"></span>
                                 </div>
                                 <div class="main__box__section__content__article__border">
-                                    <table id="characterDeathsTable" class="listed-table">
-                                        <!--CharacterDeaths is retrieved here using dbCharacters.js-->
+                                    <table class="listed-table">
+                                        <tbody id="characterDeathsTable">
+                                            <!--CharacterDeaths is retrieved here using dbCharacters.js-->
+                                        </tbody>
                                     </table>
                                 </div>
                             </article>
@@ -1524,12 +1570,14 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th style="width: 60px; text-align: center;">Level</th>
-                                            <th style="width: 60px; text-align: center;">Online?</th>
-                                            <th style="width: 135px;"></th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th style="width: 60px; text-align: center;">Level</th>
+                                                <th style="width: 60px; text-align: center;">Online?</th>
+                                                <th style="width: 135px;"></th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="charactersTable">
                                             <!--Characters info is retrieved here using dbCharacters.js-->
                                         </tbody>
@@ -1581,12 +1629,14 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th style="width: 90px;">Vocation</th>
-                                            <th style="width: 60px;">Level</th>
-                                            <th>Guild</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th style="width: 90px;">Vocation</th>
+                                                <th style="width: 60px;">Level</th>
+                                                <th>Guild</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="onlineTable">
                                             <!--Players online are retrieved here using dbWhosOnline.js-->
                                         </tbody>
@@ -1612,13 +1662,15 @@
                                 </div>
                                 <div id="levelTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 30px;">Rank</th>
-                                            <th>Name</th>
-                                            <th style="width: 90px;">Vocation</th>
-                                            <th style="width: 60px;">Level</th>
-                                            <th>Exp points</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 30px;">Rank</th>
+                                                <th>Name</th>
+                                                <th style="width: 90px;">Vocation</th>
+                                                <th style="width: 60px;">Level</th>
+                                                <th>Exp points</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="levelTable">
                                             <!--Level highscores are retrieved here using dbHighscores.js-->
                                         </tbody>
@@ -1639,13 +1691,15 @@
                                 </div>
                                 <div id="magicLevelTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 30px;">Rank</th>
-                                            <th>Name</th>
-                                            <th style="width: 90px;">Vocation</th>
-                                            <th style="width: 90px;">Magic Level</th>
-                                            <th>Mana spent</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 30px;">Rank</th>
+                                                <th>Name</th>
+                                                <th style="width: 90px;">Vocation</th>
+                                                <th style="width: 90px;">Magic Level</th>
+                                                <th>Mana spent</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="magicLevelTable">
                                             <!--Magic Level highscores are retrieved here using dbHighscores.js-->
                                         </tbody>
@@ -1666,13 +1720,15 @@
                                 </div>
                                 <div id="fistFightingTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 30px;">Rank</th>
-                                            <th>Name</th>
-                                            <th style="width: 90px;">Vocation</th>
-                                            <th style="width: 60px;">Level</th>
-                                            <th>Skill</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 30px;">Rank</th>
+                                                <th>Name</th>
+                                                <th style="width: 90px;">Vocation</th>
+                                                <th style="width: 60px;">Level</th>
+                                                <th>Skill</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="fistFightingTable">
                                             <!--Fist fighting highscores are retrieved here using dbHighscores.js-->
                                         </tbody>
@@ -1693,13 +1749,15 @@
                                 </div>
                                 <div id="clubFightingTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 30px;">Rank</th>
-                                            <th>Name</th>
-                                            <th style="width: 90px;">Vocation</th>
-                                            <th style="width: 60px;">Level</th>
-                                            <th>Skill</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 30px;">Rank</th>
+                                                <th>Name</th>
+                                                <th style="width: 90px;">Vocation</th>
+                                                <th style="width: 60px;">Level</th>
+                                                <th>Skill</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="clubFightingTable">
                                             <!--Club fighting highscores are retrieved here using dbHighscores.js-->
                                         </tbody>
@@ -1720,13 +1778,15 @@
                                 </div>
                                 <div id="swordFightingTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 30px;">Rank</th>
-                                            <th>Name</th>
-                                            <th style="width: 90px;">Vocation</th>
-                                            <th style="width: 60px;">Level</th>
-                                            <th>Skill</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 30px;">Rank</th>
+                                                <th>Name</th>
+                                                <th style="width: 90px;">Vocation</th>
+                                                <th style="width: 60px;">Level</th>
+                                                <th>Skill</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="swordFightingTable">
                                             <!--Sword fighting highscores are retrieved here using dbHighscores.js-->
                                         </tbody>
@@ -1747,13 +1807,15 @@
                                 </div>
                                 <div id="axeFightingTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 30px;">Rank</th>
-                                            <th>Name</th>
-                                            <th style="width: 90px;">Vocation</th>
-                                            <th style="width: 60px;">Level</th>
-                                            <th>Skill</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 30px;">Rank</th>
+                                                <th>Name</th>
+                                                <th style="width: 90px;">Vocation</th>
+                                                <th style="width: 60px;">Level</th>
+                                                <th>Skill</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="axeFightingTable">
                                             <!--Axe fighting highscores are retrieved here using dbHighscores.js-->
                                         </tbody>
@@ -1774,13 +1836,15 @@
                                 </div>
                                 <div id="distanceFightingTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 30px;">Rank</th>
-                                            <th>Name</th>
-                                            <th style="width: 90px;">Vocation</th>
-                                            <th style="width: 60px;">Level</th>
-                                            <th>Skill</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 30px;">Rank</th>
+                                                <th>Name</th>
+                                                <th style="width: 90px;">Vocation</th>
+                                                <th style="width: 60px;">Level</th>
+                                                <th>Skill</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="distanceFightingTable">
                                             <!--Distance fighting highscores are retrieved here using dbHighscores.js-->
                                         </tbody>
@@ -1801,13 +1865,15 @@
                                 </div>
                                 <div id="shieldingTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 30px;">Rank</th>
-                                            <th>Name</th>
-                                            <th style="width: 90px;">Vocation</th>
-                                            <th style="width: 60px;">Level</th>
-                                            <th>Skill</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 30px;">Rank</th>
+                                                <th>Name</th>
+                                                <th style="width: 90px;">Vocation</th>
+                                                <th style="width: 60px;">Level</th>
+                                                <th>Skill</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="shieldingTable">
                                             <!--Shielding highscores are retrieved here using dbHighscores.js-->
                                         </tbody>
@@ -1828,13 +1894,15 @@
                                 </div>
                                 <div id="fishingTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th style="width: 30px;">Rank</th>
-                                            <th>Name</th>
-                                            <th style="width: 90px;">Vocation</th>
-                                            <th style="width: 60px;">Level</th>
-                                            <th>Skill</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 30px;">Rank</th>
+                                                <th>Name</th>
+                                                <th style="width: 90px;">Vocation</th>
+                                                <th style="width: 60px;">Level</th>
+                                                <th>Skill</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="fishingTable">
                                             <!--Fishing highscores are retrieved here using dbHighscores.js-->
                                         </tbody>
@@ -1860,12 +1928,14 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table">
-                                        <tr>
-                                            <th>Name</th>
-                                            <th style="width: 80px;">Size (sqm)</th>
-                                            <th style="width: 60px;">Price</th>
-                                            <th>Status</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th style="width: 80px;">Size (sqm)</th>
+                                                <th style="width: 60px;">Price</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="housesTable">
                                             <!--Houses are retrieved here using dbHouses.js-->
                                         </tbody>

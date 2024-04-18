@@ -32,12 +32,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 membersRow.innerHTML = `
                 <td></td>
                 <td colspan="2" style="padding: 0; border: 0;">
-                    <table id="${membersBodyId}" class="listed-table sub fixed_width">
-                        <tr>
+                    <table id="${membersBodyId}" class="sub fixed_width">
+                        <thead>
+                            <tr>
                             <th>Name</th>
                             <th>Rank</th>
                             <th style="width: 60px;">Online?</th>
-                        </tr>
+                            </tr>
+                        </thead>
                     </table>
                 </td>
                 `;
