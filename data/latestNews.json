@@ -63,6 +63,14 @@
             "capital": "/images/capital/letter_martel_V.gif",
             "firstLine": "ery important news!",
             "content": "As of right now, we are implementing a payment method for buying premium time.<br>This means that now you'll be able to select from different time packages and buy at a very low price through Bitcoin Lightning Network thanks to BTCPay technology.<br><br>It is very important that you had previously set your email in the <b>Login</b> section and that you use the same email to make the purchase.<br><br>We know not everyone uses Bitcoin yet and we don't want this to be an abrupt change at all. So instead of disabling the <b>!buypremium</b> command in-game, we'll be rising its gold price.<br><br>Until next we meet,<br>The development team"
+        },
+        {
+            "icon": "/images/news/newsicon_development_big.png",
+            "date": "Apr 18 2024 -",
+            "title": "Magic items",
+            "capital": "/images/capital/letter_martel_S.gif",
+            "firstLine": "trong waves of arcane power hit Rookgaard.",
+            "content": "Since the begining, we took the stance to leave vocations out of the game, but that doesn't mean we'll discourage magic users at all.<br>We decided to reinforce magic and give it a fresh balance introducing Wands, Rods and Spellbooks into the game along with more spells for free and premium players.<br><br>Bear in mind that there might be some attributes rebalancing in the days to come and feel free to reach us in case you find any bugs or have great improvement ideas to share.<br><br>As always, stay tuned for more,<br>The development team"
         }
     ]
 }

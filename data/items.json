@@ -321,7 +321,7 @@
             "additional": "-",
             "level": "-",
             "weight": "19.0",
-            "obtained": "Vampire Bride"
+            "obtained": "Bog Rider, Vampire Bride"
         },
         {
             "name": "Simple Dress",
@@ -501,7 +501,7 @@
             "additional": "-",
             "level": "-",
             "weight": "22.0",
-            "obtained": "Quara Mantassin, Enlightened of The Cult, Banshee, Medusa, Lich, Warlock"
+            "obtained": "Banshee, Enlightened of The Cult, Medusa, Lich, Quara Mantassin, Warlock"
         },
         {
             "name": "Noble Armor",
@@ -988,18 +988,47 @@
     ],
     "shields": [
         {
+            "name": "Spellscroll of Prophecies",
+            "img": "/images/items/shields/Spellscroll_of_Prophecies.gif",
+            "def": "12",
+            "additional": "Magic level +3",
+            "level": "70",
+            "weight": "26.5",
+            "obtained": "Fury, Hellfire Fighter, Infernalist"
+        },
+        {
+            "name": "Spellbook",
+            "img": "/images/items/shields/Spellbook.gif",
+            "def": "14",
+            "additional": "-",
+            "level": "-",
+            "weight": "18.0",
+            "obtained": "Beholder, Braindeath, Dwarf Geomancer, Elder Beholder, Lich"
+        },
+        {
             "name": "Wooden Shield",
             "img": "/images/items/shields/Wooden_Shield.gif",
             "def": "14",
             "additional": "-",
+            "level": "-",
             "weight": "40.0",
             "obtained": "Frost Troll, Beholder, Island Troll, Troll, Orc Warrior"
+        },
+        {
+            "name": "Snake God's Wristguard",
+            "img": "/images/items/shields/Snake_God's_Wristguard.gif",
+            "def": "14",
+            "additional": "<mark>Magic level +4</mark>",
+            "level": "100",
+            "weight": "28.0",
+            "obtained": "Fazzrah, Orshabaal, Ragiaz, Soulharvester"
         },
         {
             "name": "Studded Shield",
             "img": "/images/items/shields/Studded_Shield.gif",
             "def": "15",
             "additional": "-",
+            "level": "-",
             "weight": "58.0",
             "obtained": "Orc, Amazon"
         },
@@ -1008,14 +1037,34 @@
             "img": "/images/items/shields/Brass_Shield.gif",
             "def": "16",
             "additional": "-",
+            "level": "-",
             "weight": "60.0",
             "obtained": "Stalker, Bandit, Elf, Skeleton, Nomad, Wild Warrior"
+        },
+        {
+            "name": "Spellbook of Mind Control",
+            "img": "/images/items/shields/Spellbook_of_Mind_Control.gif",
+            "def": "16",
+            "additional": "Magic level +2",
+            "level": "50",
+            "weight": "24.5",
+            "obtained": "Dragon Lord, Medusa, Serpent Spawn"
+        },
+        {
+            "name": "Spellbook of Dark Mysteries",
+            "img": "/images/items/shields/Spellbook_of_Dark_Mysteries.gif",
+            "def": "16",
+            "additional": "Magic level +3",
+            "level": "80",
+            "weight": "28.5",
+            "obtained": "Hellhound, Diabolic Imp, Demon"
         },
         {
             "name": "Plate Shield",
             "img": "/images/items/shields/Plate_Shield.gif",
             "def": "17",
             "additional": "-",
+            "level": "-",
             "weight": "65.0",
             "obtained": "Tarantula, Elf, Orc Leader, Cyclops, Tortoise, Minotaur, Assassin, Pirate Marauder, Orc Warrior"
         },
@@ -1024,14 +1073,25 @@
             "img": "/images/items/shields/Black_Shield.gif",
             "def": "18",
             "additional": "-",
+            "level": "-",
             "weight": "42.0",
             "obtained": "Mummy, Priestess"
+        },
+        {
+            "name": "Spellbook of Enlightenment",
+            "img": "/images/items/shields/Spellbook_of_Enlightenment.gif",
+            "def": "18",
+            "additional": "Magic level +1",
+            "level": "30",
+            "weight": "19.5",
+            "obtained": "Frost Dragon Hatchling, Mutated Rat"
         },
         {
             "name": "Copper Shield",
             "img": "/images/items/shields/Copper_Shield.gif",
             "def": "19",
             "additional": "-",
+            "level": "-",
             "weight": "63.0",
             "obtained": "Dwarf, Rotworm, Orc Warrior."
         },
@@ -1040,14 +1100,25 @@
             "img": "/images/items/shields/Bone_Shield.gif",
             "def": "20",
             "additional": "-",
+            "level": "-",
             "weight": "55.0",
             "obtained": "Chakoya Tribewarden, Dworc Fleshhunter, Bonebeast, Crypt Shambler, Skeleton Warrior"
+        },
+        {
+            "name": "Spellbook of Lost Souls",
+            "img": "/images/items/shields/Spellbook_of_Lost_Souls.gif",
+            "def": "20",
+            "additional": "Magic level +2",
+            "level": "60",
+            "weight": "25.6",
+            "obtained": "Ghastly Dragon, Lost Soul, Warlock"
         },
         {
             "name": "Steel Shield",
             "img": "/images/items/shields/Steel_Shield.gif",
             "def": "21",
             "additional": "-",
+            "level": "-",
             "weight": "69.0",
             "obtained": "Elder Beholder, Bandit, Braindeath, Assassin, Dragon, Beholder, Nomad, Pirate Cutthroat, Stone Golem, Wild Warrior"
         },
@@ -1056,14 +1127,25 @@
             "img": "/images/items/shields/Sentinel_Shield.gif",
             "def": "22",
             "additional": "-",
+            "level": "-",
             "weight": "49.0",
             "obtained": "Lizard Sentinel"
+        },
+        {
+            "name": "Spellbook of Warding",
+            "img": "/images/items/shields/Spellbook_of_Warding.gif",
+            "def": "22",
+            "additional": "Magic level +1",
+            "level": "40",
+            "weight": "21.0",
+            "obtained": "Enlightened of The Cult, Necromancer, Wyrm"
         },
         {
             "name": "Battle Shield",
             "img": "/images/items/shields/Battle_Shield.gif",
             "def": "23",
             "additional": "-",
+            "level": "-",
             "weight": "62.0",
             "obtained": "Minotaur Guard, Cyclops, Frost Giantess, Orc Rider, Assassin, Frost Giant, Dwarf Guard, Demon Skeleton and others"
         },
@@ -1072,6 +1154,7 @@
             "img": "/images/items/shields/Dark_Shield.gif",
             "def": "25",
             "additional": "-",
+            "level": "-",
             "weight": "52.0",
             "obtained": "Werewolf, Grim Reaper, Fire Devil, Pirate Corsair, Skeleton Warrior"
         },
@@ -1080,6 +1163,7 @@
             "img": "/images/items/shields/Scarab_Shield.gif",
             "def": "25",
             "additional": "-",
+            "level": "-",
             "weight": "47.0",
             "obtained": "Ancient Scarab"
         },
@@ -1088,6 +1172,7 @@
             "img": "/images/items/shields/Dwarven_Shield.gif",
             "def": "26",
             "additional": "-",
+            "level": "-",
             "weight": "55.0",
             "obtained": "Dwarf Soldier."
         },
@@ -1096,6 +1181,7 @@
             "img": "/images/items/shields/Salamander_Shield.gif",
             "def": "26",
             "additional": "-",
+            "level": "-",
             "weight": "59.0",
             "obtained": "Lizard Templar."
         },
@@ -1104,6 +1190,7 @@
             "img": "/images/items/shields/Ancient_Shield.gif",
             "def": "27",
             "additional": "-",
+            "level": "-",
             "weight": "61.0",
             "obtained": "Ghost"
         },
@@ -1112,6 +1199,7 @@
             "img": "/images/items/shields/Tortoise_Shield.gif",
             "def": "<mark>27</mark>",
             "additional": "-",
+            "level": "-",
             "weight": "52.0",
             "obtained": "Tortoise"
         },
@@ -1120,6 +1208,7 @@
             "img": "/images/items/shields/Tusk_Shield.gif",
             "def": "27",
             "additional": "-",
+            "level": "-",
             "weight": "69.0",
             "obtained": "Elephant, Mammoth, Orc Rider"
         },
@@ -1128,6 +1217,7 @@
             "img": "/images/items/shields/Beholder_Shield.gif",
             "def": "28",
             "additional": "-",
+            "level": "-",
             "weight": "47.0",
             "obtained": "Elder Beholder, Braindeath, Beholder."
         },
@@ -1136,6 +1226,7 @@
             "img": "/images/items/shields/Castle_Shield.gif",
             "def": "28",
             "additional": "-",
+            "level": "-",
             "weight": "49.0",
             "obtained": "Lich"
         },
@@ -1144,6 +1235,7 @@
             "img": "/images/items/shields/Norse_Shield.gif",
             "def": "28",
             "additional": "-",
+            "level": "-",
             "weight": "41.0",
             "obtained": "Frost Giant, Frost Giantess"
         },
@@ -1152,6 +1244,7 @@
             "img": "/images/items/shields/Guardian_Shield.gif",
             "def": "30",
             "additional": "-",
+            "level": "-",
             "weight": "55.0",
             "obtained": "Fire Devil, Demon Skeleton"
         },
@@ -1160,6 +1253,7 @@
             "img": "/images/items/shields/Dragon_Shield.gif",
             "def": "31",
             "additional": "-",
+            "level": "-",
             "weight": "60.0",
             "obtained": "Dragon"
         },
@@ -1168,6 +1262,7 @@
             "img": "/images/items/shields/Crown_Shield.gif",
             "def": "32",
             "additional": "-",
+            "level": "-",
             "weight": "62.0",
             "obtained": "Hero, High Quaras"
         },
@@ -1176,6 +1271,7 @@
             "img": "/images/items/shields/Tower_Shield.gif",
             "def": "32",
             "additional": "-",
+            "level": "-",
             "weight": "82.0",
             "obtained": "Dragon Lord, Frost Dragon, Mutated Rat, Sea Serpent, Serpent Spawn"
         },
@@ -1184,6 +1280,7 @@
             "img": "/images/items/shields/Medusa_Shield.gif",
             "def": "33",
             "additional": "-",
+            "level": "-",
             "weight": "58.0",
             "obtained": "Medusa, Hydra"
         },
@@ -1192,6 +1289,7 @@
             "img": "/images/items/shields/Vampire_Shield.gif",
             "def": "34",
             "additional": "-",
+            "level": "-",
             "weight": "38.0",
             "obtained": "Werewolf, Vampire"
         },
@@ -1200,6 +1298,7 @@
             "img": "/images/items/shields/Demon_Shield.gif",
             "def": "35",
             "additional": "-",
+            "level": "-",
             "weight": "26.0",
             "obtained": "Demon"
         },
@@ -1208,6 +1307,7 @@
             "img": "/images/items/shields/Phoenix_Shield.gif",
             "def": "<mark>35</mark>",
             "additional": "-",
+            "level": "-",
             "weight": "35.0",
             "obtained": "Ashmunrah"
         },
@@ -1216,6 +1316,7 @@
             "img": "/images/items/shields/Fiery_Rainbow_Shield.gif",
             "def": "36",
             "additional": "<mark>Protection fire +7%</mark>",
+            "level": "-",
             "weight": "69.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -1224,6 +1325,7 @@
             "img": "/images/items/shields/Icy_Rainbow_Shield.gif",
             "def": "36",
             "additional": "<mark>Protection ice +7%</mark>",
+            "level": "-",
             "weight": "69.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -1232,6 +1334,7 @@
             "img": "/images/items/shields/Sparking_Rainbow_Shield.gif",
             "def": "36",
             "additional": "<mark>Protection energy +7%</mark>",
+            "level": "-",
             "weight": "69.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -1240,6 +1343,7 @@
             "img": "/images/items/shields/Terran_Rainbow_Shield.gif",
             "def": "36",
             "additional": "<mark>Protection earth +7%</mark>",
+            "level": "-",
             "weight": "69.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -1248,6 +1352,7 @@
             "img": "/images/items/shields/Mastermind_Shield.gif",
             "def": "37",
             "additional": "-",
+            "level": "-",
             "weight": "57.0",
             "obtained": "Demon."
         },
@@ -1256,6 +1361,7 @@
             "img": "/images/items/shields/Necromancer_Shield.gif",
             "def": "37",
             "additional": "-",
+            "level": "-",
             "weight": "32.0",
             "obtained": "<i><b>Forging</b></i>"
         },
@@ -1264,6 +1370,7 @@
             "img": "/images/items/shields/Great_Shield.gif",
             "def": "38",
             "additional": "-",
+            "level": "-",
             "weight": "84.0",
             "obtained": "Grovehorn"
         },
@@ -1272,6 +1379,7 @@
             "img": "/images/items/shields/Blessed_Shield.gif",
             "def": "40",
             "additional": "-",
+            "level": "-",
             "weight": "68.0",
             "obtained": "Lord of the Depth"
         },
@@ -1280,6 +1388,7 @@
             "img": "/images/items/shields/Queen's_Shield.gif",
             "def": "<mark>41</mark>",
             "additional": "-",
+            "level": "-",
             "weight": "54.0",
             "obtained": "Quest"
         },
@@ -1288,8 +1397,220 @@
             "img": "/images/items/shields/Rose_Shield.gif",
             "def": "?",
             "additional": "?",
+            "level": "-",
             "weight": "52.0",
             "obtained": "Unknown"
+        }
+    ],
+    "magic": [
+        {
+            "name": "Enchanted Staff",
+            "img": "/images/items/magic/Enchanted_Staff.gif",
+            "element": "Energy",
+            "damage": "2",
+            "range": "1",
+            "mana": "2",
+            "level": "-",
+            "weight": "38.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Wand of Vortex",
+            "img": "/images/items/magic/Wand_of_Vortex.gif",
+            "element": "Energy",
+            "damage": "16.5",
+            "range": "2",
+            "mana": "2",
+            "level": "20",
+            "weight": "19.0",
+            "obtained": "Elf Arcanist, Minotaur Mage, Orc Shaman"
+        },
+        {
+            "name": "Snakebite Rod",
+            "img": "/images/items/magic/Snakebite_Rod.gif",
+            "element": "Earth",
+            "damage": "16.5",
+            "range": "2",
+            "mana": "2",
+            "level": "20",
+            "weight": "19.0",
+            "obtained": "Carniphila, Earth Elemental, Lizard Snakecharmer"
+        },
+        {
+            "name": "Jester Staff",
+            "img": "/images/items/magic/Jester_Staff.gif",
+            "element": "Death",
+            "damage": "16.5",
+            "range": "2",
+            "mana": "2",
+            "level": "20",
+            "weight": "19.0",
+            "obtained": "Adept of The Cult, Enlightened of The Cult"
+        },
+        {
+            "name": "Wand of Dragonbreath",
+            "img": "/images/items/magic/Wand_of_Dragonbreath.gif",
+            "element": "Fire",
+            "damage": "16.5",
+            "range": "2",
+            "mana": "2",
+            "level": "20",
+            "weight": "21.0",
+            "obtained": "Dragon, Fire Devil"
+        },
+        {
+            "name": "Moonlight Rod",
+            "img": "/images/items/magic/Moonlight_Rod.gif",
+            "element": "Ice",
+            "damage": "16.5",
+            "range": "2",
+            "mana": "2",
+            "level": "20",
+            "weight": "21.0",
+            "obtained": "Frost Dragon Hatchling, Ice Golem"
+        },
+        {
+            "name": "Wand of Cosmic Energy",
+            "img": "/images/items/magic/Wand_of_Cosmic_Energy.gif",
+            "element": "Energy",
+            "damage": "40",
+            "range": "3",
+            "mana": "3",
+            "level": "50",
+            "weight": "25.0",
+            "obtained": "Elder Beholder, Wyrm"
+        },
+        {
+            "name": "Terra Rod",
+            "img": "/images/items/magic/Terra_Rod.gif",
+            "element": "Earth",
+            "damage": "40",
+            "range": "3",
+            "mana": "3",
+            "level": "50",
+            "weight": "25.0",
+            "obtained": "Bog Rider, Hydra"
+        },
+        {
+            "name": "Necrotic Rod",
+            "img": "/images/items/magic/Necrotic_Rod.gif",
+            "element": "Death",
+            "damage": "40",
+            "range": "3",
+            "mana": "3",
+            "level": "50",
+            "weight": "23.0",
+            "obtained": "Grim Reaper, Hellspawn, Nightmare"
+        },
+        {
+            "name": "Wand of Draconia",
+            "img": "/images/items/magic/Wand_of_Draconia.gif",
+            "element": "Fire",
+            "damage": "40",
+            "range": "3",
+            "mana": "3",
+            "level": "50",
+            "weight": "27.0",
+            "obtained": "Dragon Lord, Fury"
+        },
+        {
+            "name": "Northwind Rod",
+            "img": "/images/items/magic/Northwind_Rod.gif",
+            "element": "Ice",
+            "damage": "40",
+            "range": "3",
+            "mana": "3",
+            "level": "50",
+            "weight": "29.0",
+            "obtained": "Crystal Spider, Ice Witch"
+        },
+        {
+            "name": "Wand of Starstorm",
+            "img": "/images/items/magic/Wand_of_Starstorm.gif",
+            "element": "Energy",
+            "damage": "77.5",
+            "range": "3",
+            "mana": "4",
+            "level": "75",
+            "weight": "25.5",
+            "obtained": "Draken Spellweaver, Warlock"
+        },
+        {
+            "name": "Springsprout Rod",
+            "img": "/images/items/magic/Springsprout_Rod.gif",
+            "element": "Earth",
+            "damage": "77.5",
+            "range": "3",
+            "mana": "4",
+            "level": "75",
+            "weight": "27.0",
+            "obtained": "Plaguesmith, Defiler"
+        },
+        {
+            "name": "Underworld Rod",
+            "img": "/images/items/magic/Underworld_Rod.gif",
+            "element": "Death",
+            "damage": "77.5",
+            "range": "3",
+            "mana": "4",
+            "level": "75",
+            "weight": "29.0",
+            "obtained": "Undead Dragon, Ghastly Dragon"
+        },
+        {
+            "name": "Wand of Inferno",
+            "img": "/images/items/magic/Wand_of_Inferno.gif",
+            "element": "Fire",
+            "damage": "77.5",
+            "range": "3",
+            "mana": "4",
+            "level": "75",
+            "weight": "27.0",
+            "obtained": "Demon, Hellfire Fighter, Hellhound"
+        },
+        {
+            "name": "Hailstorm Rod",
+            "img": "/images/items/magic/Hailstorm_Rod.gif",
+            "element": "Ice",
+            "damage": "77.5",
+            "range": "3",
+            "mana": "4",
+            "level": "75",
+            "weight": "27.0",
+            "obtained": "Frost Dragon, Sea Serpent"
+        },
+        {
+            "name": "Spellwand",
+            "img": "/images/items/magic/Spellwand.gif",
+            "element": "Holy",
+            "damage": "115",
+            "range": "4",
+            "mana": "5",
+            "level": "90",
+            "weight": "15.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Crystal Wand",
+            "img": "/images/items/magic/Crystal_Wand.gif",
+            "element": "Holy",
+            "damage": "137.5",
+            "range": "4",
+            "mana": "5",
+            "level": "100",
+            "weight": "28.0",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Snake God's Sceptre",
+            "img": "/images/items/magic/Snake_God's_Sceptre.gif",
+            "element": "Holy",
+            "damage": "162.5",
+            "range": "4",
+            "mana": "6",
+            "level": "120",
+            "weight": "120.0",
+            "obtained": "Quest"
         }
     ],
     "club": [
@@ -1566,7 +1887,7 @@
             "additional": "-",
             "level": "40",
             "weight": "35.0",
-            "obtained": "Enlightened of The Cult, Adept of The Cult, Hellhound"
+            "obtained": "Adept of The Cult, Enlightened of The Cult, Hellhound"
         },
         {
             "name": "Cranial Basher",
@@ -1931,7 +2252,7 @@
             "additional": "Def +1, Fire attack +11",
             "level": "30",
             "weight": "23.0",
-            "obtained": "Serpent Spawn, Dragon Lord, Hero, Hellhound"
+            "obtained": "Serpent Spawn, Dragon Lord, Hero, Hellfire Fighter, Hellhound"
         },
         {
             "name": "Spike Sword",
@@ -2439,7 +2760,7 @@
             "additional": "Def +1",
             "level": "65",
             "weight": "55.0",
-            "obtained": "Behemot"
+            "obtained": "Behemoth"
         },
         {
             "name": "Twin Axe",
@@ -2461,7 +2782,7 @@
             "additional": "-",
             "level": "55",
             "weight": "110.0",
-            "obtained": "Behemot"
+            "obtained": "Behemoth"
         },
         {
             "name": "Vile Axe",

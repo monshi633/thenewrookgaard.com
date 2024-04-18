@@ -37,7 +37,7 @@ function showSection(section) {
             activeiconId.style.visibility = 'visible';
         }
         // Highlight submenu
-        const labelId = document.getElementById('submenu' + section)
+        const labelId = document.getElementById('Submenu' + section)
         if (labelId) {
             labelId.style.color = 'white';
         }

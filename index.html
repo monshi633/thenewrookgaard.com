@@ -58,7 +58,7 @@
                             <img class="nav__menu__button__icon" src="images/nav/icon-about.gif" alt="News">
                             <img class="nav__menu__button__label" src="images/nav/label-about.png" alt="News">
                         </div>
-                        <ul id="about">
+                        <ul id="about" style="display: block;">
                             <li onclick="showSection('sectionAboutGamefeatures')">
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconsectionAboutGamefeatures" class="nav__menu__activeicon"></div>
@@ -69,6 +69,12 @@
                                 <div class="nav-chain left"></div>
                                 <div id="activeiconsectionAboutPremiumfeatures" class="nav__menu__activeicon"></div>
                                 <div id="submenuSectionAboutPremiumfeatures" class="nav__menu__submenu">Premium Features</div>
+                                <div class="nav-chain right submenu"></div>
+                            </li>
+                            <li onclick="showSection('sectionAboutScreenshots')">
+                                <div class="nav-chain left"></div>
+                                <div id="activeiconsectionAboutScreenshots" class="nav__menu__activeicon"></div>
+                                <div id="submenuSectionAboutScreenshots" class="nav__menu__submenu">Screenshots</div>
                                 <div class="nav-chain right submenu"></div>
                             </li>
                         </ul>
@@ -687,6 +693,39 @@
                             </article>
                         </div>
                     </section>
+                    <section id="sectionAboutScreenshots">
+                        <img class="main__box__section__headline" src="images/headlines/headline-screenshots.gif" alt="Screenshots">
+                        <div class="main__box__section__content">
+                            <article>
+                                <div class="main__box__section__content__article__caption">
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <span class="caption-text"><b>Screenshots</b></span>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
+                                </div>
+                                <div class="main__box__section__content__article__border">
+                                    <div id="slider">
+                                        <button class="prev">&lt;</button>
+                                        <img src="images/screenshots/screenshot1.png" alt="Screenshot" class="slide active">
+                                        <img src="images/screenshots/screenshot2.png" alt="Screenshot" class="slide">
+                                        <img src="images/screenshots/screenshot3.png" alt="Screenshot" class="slide">
+                                        <img src="images/screenshots/screenshot4.png" alt="Screenshot" class="slide">
+                                        <img src="images/screenshots/screenshot5.png" alt="Screenshot" class="slide">
+                                        <img src="images/screenshots/screenshot6.png" alt="Screenshot" class="slide">
+                                        <img src="images/screenshots/screenshot7.png" alt="Screenshot" class="slide">
+                                        <img src="images/screenshots/screenshot8.png" alt="Screenshot" class="slide">
+                                        <button class="next">&gt;</button>
+                                    </div>
+                                    <div id="fullPage" onclick="this.style.display='none';"></div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
                     <section id="sectionLibraryCreatures">
                         <img class="main__box__section__headline" src="images/headlines/headline-creatures.gif" alt="Creatures">
                         <div class="main__box__section__content">
@@ -971,11 +1010,43 @@
                                             <th></th>
                                             <th>Def</th>
                                             <th style="width: 180px;">Additional</th>
+                                            <th>Level</th>
                                             <th>Weight</th>
                                             <th>Obtained by</th>
                                         </tr>
                                         <tbody id="shieldsTable">
                                             <!--Shields are retrieved here using itemsLoader.js-->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="main__box__section__content__article__caption" style="cursor: pointer;" onclick="collapseTable('magicTableCollapsable')">
+                                    <span class="caption tl"></span>
+                                    <span class="caption top"></span>
+                                    <span class="caption tr"></span>
+                                    <span class="caption left"></span>
+                                    <span class="caption-text"><b>Magic Weapons</b></span>
+                                    <span class="caption right"></span>
+                                    <span class="caption bl"></span>
+                                    <span class="caption bottom"></span>
+                                    <span class="caption br"></span>
+                                </div>
+                                <div id="magicTableCollapsable" class="main__box__section__content__article__border" style="display: none;">
+                                    <table class="listed-table">
+                                        <tr>
+                                            <th>Name</th>
+                                            <th></th>
+                                            <th>Element</th>
+                                            <th>Avg dmg</th>
+                                            <th>Range</th>
+                                            <th>Mana cost</th>
+                                            <th>Level</th>
+                                            <th>Weight</th>
+                                            <th>Obtained by</th>
+                                        </tr>
+                                        <tbody id="magicTable">
+                                            <!--Magic weapons are retrieved here using itemsLoader.js-->
                                         </tbody>
                                     </table>
                                 </div>
@@ -1820,11 +1891,13 @@
                                 </div>
                                 <div class="main__box__section__content__article__border">
                                     <table class="listed-table fixed_width">
-                                        <tr>
-                                            <th style="width: 40%;">Name</th>
-                                            <th>Members</th>
-                                            <th style="width: 191px;">Creation date</th>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 40%;">Name</th>
+                                                <th>Members</th>
+                                                <th style="width: 191px;">Creation date</th>
+                                            </tr>
+                                        </thead>
                                         <tbody id="guildTable">
                                             <!--Guilds are retrieved here using dbGuilds.js-->
                                         </tbody>
@@ -1865,5 +1938,6 @@
         <script src="/js/dbHighscores.js"></script>
         <script src="/js/dbHouses.js"></script>
         <script src="/js/dbGuilds.js"></script>
+        <script src="/js/slider.js"></script>
     </body>
 </html>

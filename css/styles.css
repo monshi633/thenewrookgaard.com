@@ -189,10 +189,6 @@ nav {
     cursor: pointer;
 }
 
-#news {
-    display: block;
-}
-
 .nav__menu li {
     position: relative;
     color: #d7d7d7;
@@ -587,7 +583,7 @@ h1 {
     padding: 2px 5px;
 }
 
-.listed-table tbody:nth-child(2) tr:nth-child(odd) {
+.listed-table tbody tr:nth-child(odd) {
     background-color: #f1e0c5;
 }
 /*News*/
@@ -595,7 +591,6 @@ h1 {
     background-image: url(/images/main/newsheadline_background.gif);
     position: relative;
     min-height: 30px;
-    margin-bottom: 5px;
     border: 1px solid #000;
     color: white;
 }
@@ -620,6 +615,65 @@ h1 {
     margin: 13px 0;
     font-size: 10.5pt;
 }
+/*Slider*/
+#slider { 
+    width: 100%;
+    min-height: 40vh;
+    position: relative;
+}
+
+.slide {
+    display: none;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slide.active {
+    display: block;
+    animation-name:fading;
+    animation-duration: 1.5s;
+}
+
+@keyframes fading {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+.prev,
+.next {
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 4rem;
+    border: none;
+    font-size: 3rem;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0.5;
+    color: white;
+    background: none;
+    z-index: 1;
+}
+
+.next {
+    right: 0;
+}
+
+#fullPage {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
+  }
 /*Library*/
 mark {
     background-color: transparent;

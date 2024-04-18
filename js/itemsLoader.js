@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
         bootsTable.innerText = '';
         const shieldsTable = document.getElementById('shieldsTable');
         shieldsTable.innerText = '';
+        const magicTable = document.getElementById('magicTable');
+        magicTable.innerText = '';
         const clubTable = document.getElementById('clubTable');
         clubTable.innerText = '';
         const swordTable = document.getElementById('swordTable');
@@ -105,10 +107,29 @@ document.addEventListener("DOMContentLoaded", function () {
                     </td>
                     <td style="text-align: center;">${item.def}</td>
                     <td>${item.additional}</td>
+                    <td style="text-align: center;">${item.level}</td>
                     <td style="text-align: center;">${item.weight}</td>
                     <td>${item.obtained}</td>
                 `;
                 shieldsTable.appendChild(row);
+                });
+                // Magic Weapons
+                data.magic.forEach(item => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                    <td>${item.name}</td>
+                    <td>
+                        <img src="${item.img}" alt="${item.name}">
+                    </td>
+                    <td>${item.element}</td>
+                    <td style="text-align: center;">${item.damage}</td>
+                    <td style="text-align: center;">${item.range}</td>
+                    <td style="text-align: center;">${item.mana}</td>
+                    <td style="text-align: center;">${item.level}</td>
+                    <td style="text-align: center;">${item.weight}</td>
+                    <td>${item.obtained}</td>
+                `;
+                magicTable.appendChild(row);
                 });
                 // Club Weapons
                 data.club.forEach(item => {

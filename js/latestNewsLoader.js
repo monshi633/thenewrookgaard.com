@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <span class="news__date">${article.date}</span>
                     <span class="news__text"><b>${article.title}</b></span>
                 </div>
-                <table>
+                <table style="margin: 0 10px">
                     <tbody>
                         <tr>
                             <td>

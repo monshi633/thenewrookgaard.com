@@ -1,8 +1,0 @@
-﻿#sitio
-Screenshots carousel
-manage cookies
-SSL: Set up Automatic Certificate Renewal
-
-#email
-recover by email??
-prepare php to fetch all emails and (store to json?) send marketing mails (SMTP server?)
