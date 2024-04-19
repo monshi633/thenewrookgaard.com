@@ -57,6 +57,14 @@
             "obtained": "Barbarian Bloodwalker, Barbarian Brutetamer, Barbarian Skullhunter, Barbarian Headsplitter"
         },
         {
+            "name": "Sedge Hat",
+            "img": "/images/items/helmets/Sedge_Hat.gif",
+            "arm": "2",
+            "additional": "-",
+            "weight": "18.0",
+            "obtained": "Quest"
+        },
+        {
             "name": "Studded Helmet",
             "img": "/images/items/helmets/Studded_Helmet.gif",
             "arm": "2",
@@ -3357,172 +3365,12 @@
             "obtained": "Ancient Scarab"
         },
         {
-            "name": "Amulet of Loss",
-            "img": "/images/items/amulets/Amulet_of_Loss.gif",
-            "arm": "-",
-            "additional": "Protection from item's loss",
-            "weight": "4.2",
-            "obtained": "Lost Soul"
-        },
-        {
-            "name": "Beetle Necklace",
-            "img": "/images/items/amulets/Beetle_Necklace.gif",
-            "arm": "-",
-            "additional": "<mark>Speed +10</mark>",
-            "weight": "8.2",
-            "obtained": "<i><b>Forging</b></i>"
-        },
-        {
-            "name": "Bonfire Amulet",
-            "img": "/images/items/amulets/Bonfire_Amulet.gif",
-            "arm": "-",
-            "additional": "Protection physical +60%, fire +40%",
-            "weight": "7.0",
-            "obtained": "Fury, Infernalist"
-        },
-        {
-            "name": "Bronze Amulet",
-            "img": "/images/items/amulets/Bronze_Amulet.gif",
-            "arm": "-",
-            "additional": "Protection mana drain +20%",
-            "weight": "5.0",
-            "obtained": "Dworc Venomsniper, Dworc Voodoomaster, Werewolf, Minotaur, Vampire"
-        },
-        {
-            "name": "Crystal Necklace",
-            "img": "/images/items/amulets/Crystal_Necklace.gif",
-            "arm": "-",
-            "additional": "-",
-            "weight": "4.9",
-            "obtained": "Amazon, Behemoth, Priestess"
-        },
-        {
-            "name": "Dragon Necklace",
-            "img": "/images/items/amulets/Dragon_Necklace.gif",
-            "arm": "-",
-            "additional": "Protection fire +8%",
-            "weight": "6.3",
-            "obtained": "Acolyte of The Cult, Hunter"
-        },
-        {
-            "name": "Elven Amulet",
-            "img": "/images/items/amulets/Elven_Amulet.gif",
-            "arm": "-",
-            "additional": "Protection physical +5% energy +5% poison +5% fire +5% ice +5%",
-            "weight": "2.7",
-            "obtained": "Elf Arcanist"
-        },
-        {
-            "name": "Garlic Necklace",
-            "img": "/images/items/amulets/Garlic_Necklace.gif",
-            "arm": "-",
-            "additional": "Protection lifedrain +20%",
-            "weight": "3.8",
-            "obtained": "Witch, Novice of The Cult"
-        },
-        {
-            "name": "Holy Falcon",
-            "img": "/images/items/amulets/Holy_Falcon.gif",
-            "arm": "-",
-            "additional": "<mark>Distance fighting +3</mark>",
-            "weight": "8.4",
-            "obtained": "Quest"
-        },
-        {
-            "name": "Leviathan's Amulet",
-            "img": "/images/items/amulets/Leviathan's_Amulet.gif",
-            "arm": "-",
-            "additional": "Protection physical +60%, ice +40%",
-            "weight": "7.0",
-            "obtained": "Leviathan, Sea Serpent"
-        },
-        {
-            "name": "Protection Amulet",
-            "img": "/images/items/amulets/Protection_Amulet.gif",
-            "arm": "-",
-            "additional": "<mark>Protection physical +10%</mark>",
-            "weight": "5.5",
-            "obtained": " Enlightened of The Cult, Orc Warlord, Kongra, Undead Gladiator"
-        },
-        {
-            "name": "Ruby Necklace",
-            "img": "/images/items/amulets/Ruby_Necklace.gif",
-            "arm": "-",
-            "additional": "<mark>Sword fighting +3</mark>",
-            "weight": "5.7",
-            "obtained": "Quest"
-        },
-        {
-            "name": "Sacred Tree Amulet",
-            "img": "/images/items/amulets/Sacred_Tree_Amulet.gif",
-            "arm": "-",
-            "additional": "Protection physical +60%, earth +40%",
-            "weight": "7.0",
-            "obtained": "Medusa, Serpent Spawn"
-        },
-        {
-            "name": "Sapphire Amulet",
-            "img": "/images/items/amulets/Sapphire_Amulet.gif",
-            "arm": "-",
-            "additional": "<mark>Club fighting +3</mark>",
-            "weight": "6.8",
-            "obtained": "Quest"
-        },
-        {
             "name": "Scarab Amulet",
             "img": "/images/items/amulets/Scarab_Amulet.gif",
             "arm": "-",
             "additional": "-",
             "weight": "7.7",
             "obtained": "Ancient Scarab"
-        },
-        {
-            "name": "Shockwave Amulet",
-            "img": "/images/items/amulets/Shockwave_Amulet.gif",
-            "arm": "-",
-            "additional": "Protection physical +60%, energy +40%",
-            "weight": "7.0",
-            "obtained": "Banshee, Wyrm"
-        },
-        {
-            "name": "Silver Amulet",
-            "img": "/images/items/amulets/Silver_Amulet.gif",
-            "arm": "-",
-            "additional": "Protection poison +10%",
-            "weight": "5.0",
-            "obtained": "Banshee, Medusa, Adept of The Cult, Mummy, Island Troll, Troll, Mutated Human"
-        },
-        {
-            "name": "Star Amulet",
-            "img": "/images/items/amulets/Star_Amulet.gif",
-            "arm": "-",
-            "additional": "<mark>Axe fighting +3</mark>",
-            "weight": "6.1",
-            "obtained": "Quest"
-        },
-        {
-            "name": "Stone Skin Amulet",
-            "img": "/images/items/amulets/Stone_Skin_Amulet.gif",
-            "arm": "-",
-            "additional": "Protection physical +80% death +80%",
-            "weight": "7.0",
-            "obtained": "Banshee, Lost Soul, Hydra, Warlock"
-        },
-        {
-            "name": "Strange Talisman",
-            "img": "/images/items/amulets/Strange_Talisman.gif",
-            "arm": "-",
-            "additional": "Protection energy +10%",
-            "weight": "2.9",
-            "obtained": "Mummy"
-        },
-        {
-            "name": "Wailing Widow's Necklace",
-            "img": "/images/items/amulets/Wailing_Widow's_Necklace.gif",
-            "arm": "-",
-            "additional": "<mark>Protection earth +15%</mark>",
-            "weight": "5.4",
-            "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Wolf Tooth Chain",
@@ -3533,12 +3381,172 @@
             "obtained": "Witch, Cyclops, Orc Rider, Gargoyle"
         },
         {
+            "name": "Beetle Necklace",
+            "img": "/images/items/amulets/Beetle_Necklace.gif",
+            "arm": "-",
+            "additional": "<mark>Speed +10</mark>",
+            "weight": "8.2",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Amulet of Loss",
+            "img": "/images/items/amulets/Amulet_of_Loss.gif",
+            "arm": "-",
+            "additional": "Protection from item's loss",
+            "weight": "4.2",
+            "obtained": "Lost Soul"
+        },
+        {
+            "name": "Bronze Amulet",
+            "img": "/images/items/amulets/Bronze_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection mana drain +20%",
+            "weight": "5.0",
+            "obtained": "Dworc Venomsniper, Dworc Voodoomaster, Werewolf, Minotaur, Vampire"
+        },
+        {
+            "name": "Garlic Necklace",
+            "img": "/images/items/amulets/Garlic_Necklace.gif",
+            "arm": "-",
+            "additional": "Protection lifedrain +20%",
+            "weight": "3.8",
+            "obtained": "Witch, Novice of The Cult"
+        },
+        {
+            "name": "Protection Amulet",
+            "img": "/images/items/amulets/Protection_Amulet.gif",
+            "arm": "-",
+            "additional": "<mark>Protection physical +10%</mark>",
+            "weight": "5.5",
+            "obtained": " Enlightened of The Cult, Orc Warlord, Kongra, Undead Gladiator"
+        },
+        {
+            "name": "Elven Amulet",
+            "img": "/images/items/amulets/Elven_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection physical +5% energy +5% poison +5% fire +5% ice +5%",
+            "weight": "2.7",
+            "obtained": "Elf Arcanist"
+        },
+        {
+            "name": "Dragon Necklace",
+            "img": "/images/items/amulets/Dragon_Necklace.gif",
+            "arm": "-",
+            "additional": "Protection fire +8%",
+            "weight": "6.3",
+            "obtained": "Acolyte of The Cult, Hunter"
+        },
+        {
+            "name": "Silver Amulet",
+            "img": "/images/items/amulets/Silver_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection poison +10%",
+            "weight": "5.0",
+            "obtained": "Banshee, Medusa, Adept of The Cult, Mummy, Island Troll, Troll, Mutated Human"
+        },
+        {
+            "name": "Wailing Widow's Necklace",
+            "img": "/images/items/amulets/Wailing_Widow's_Necklace.gif",
+            "arm": "-",
+            "additional": "<mark>Protection earth +8%</mark>",
+            "weight": "5.4",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Strange Talisman",
+            "img": "/images/items/amulets/Strange_Talisman.gif",
+            "arm": "-",
+            "additional": "Protection energy +10%",
+            "weight": "2.9",
+            "obtained": "Mummy"
+        },
+        {
+            "name": "Bonfire Amulet",
+            "img": "/images/items/amulets/Bonfire_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection physical +60%, fire +40%",
+            "weight": "7.0",
+            "obtained": "Fury, Infernalist"
+        },
+        {
+            "name": "Leviathan's Amulet",
+            "img": "/images/items/amulets/Leviathan's_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection physical +60%, ice +40%",
+            "weight": "7.0",
+            "obtained": "Leviathan, Sea Serpent"
+        },
+        {
+            "name": "Sacred Tree Amulet",
+            "img": "/images/items/amulets/Sacred_Tree_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection physical +60%, earth +40%",
+            "weight": "7.0",
+            "obtained": "Medusa, Serpent Spawn"
+        },
+        {
+            "name": "Shockwave Amulet",
+            "img": "/images/items/amulets/Shockwave_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection physical +60%, energy +40%",
+            "weight": "7.0",
+            "obtained": "Banshee, Wyrm"
+        },
+        {
+            "name": "Stone Skin Amulet",
+            "img": "/images/items/amulets/Stone_Skin_Amulet.gif",
+            "arm": "-",
+            "additional": "Protection physical +80% death +80%",
+            "weight": "7.0",
+            "obtained": "Banshee, Lost Soul, Hydra, Warlock"
+        },
+        {
+            "name": "Crystal Necklace",
+            "img": "/images/items/amulets/Crystal_Necklace.gif",
+            "arm": "-",
+            "additional": "<mark>Magic level +3</mark>",
+            "weight": "4.9",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Sapphire Amulet",
+            "img": "/images/items/amulets/Sapphire_Amulet.gif",
+            "arm": "-",
+            "additional": "<mark>Club fighting +3</mark>",
+            "weight": "6.8",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Ruby Necklace",
+            "img": "/images/items/amulets/Ruby_Necklace.gif",
+            "arm": "-",
+            "additional": "<mark>Sword fighting +3</mark>",
+            "weight": "5.7",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Star Amulet",
+            "img": "/images/items/amulets/Star_Amulet.gif",
+            "arm": "-",
+            "additional": "<mark>Axe fighting +3</mark>",
+            "weight": "6.1",
+            "obtained": "Quest"
+        },
+        {
+            "name": "Holy Falcon",
+            "img": "/images/items/amulets/Holy_Falcon.gif",
+            "arm": "-",
+            "additional": "<mark>Distance fighting +3</mark>",
+            "weight": "8.4",
+            "obtained": "Quest"
+        },
+        {
             "name": "Paw Amulet",
             "img": "/images/items/amulets/Paw_Amulet.gif",
             "arm": "<mark>1</mark>",
             "additional": "-",
             "weight": "4.2",
-            "obtained": "?"
+            "obtained": "Rabbit"
         },
         {
             "name": "Scarf",

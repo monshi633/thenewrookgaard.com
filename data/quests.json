@@ -3,7 +3,7 @@
         {
             "name": "First Items",
             "level": "-",
-            "reward": "Rope, Shovel and one of these items: Slingshot / Studded Club / Hand Axe / Silver Dagger"
+            "reward": "Rope, Shovel, one of these items: Enchanted Staff, Hand Axe, Silver Dagger, Slingshot, Studded Club, Silver Dagger"
         },
         {
             "name": "Bear Room",
@@ -13,27 +13,32 @@
         {
             "name": "Captain Iglues Treasure",
             "level": "-",
-            "reward": "Treasure of Captain Iglue (Book) and some Salmon"
+            "reward": "Treasure of Captain Iglue (Book), some Salmon"
         },
         {
             "name": "Goblin's Temple",
             "level": "-",
-            "reward": "100 gp, 4 Snowballs, 5 Small Stones, Sandals and Key"
+            "reward": "100 gp, 4 Snowballs, 5 Small Stones, Sandals, Key"
         },
         {
             "name": "Minotaur Hell",
             "level": "-",
-            "reward": "Carlin Sword, 4 Poison Arrows, 10 Arrows and a Fishing Rod"
+            "reward": "Carlin Sword, 4 Poison Arrows, 10 Arrows, Fishing Rod"
         },
         {
             "name": "Katana",
             "level": "-",
-            "reward": "Katana, Viking Helmet and Key"
+            "reward": "Katana, Viking Helmet, Key"
         },
         {
             "name": "Dragon's Corpse",
             "level": "-",
             "reward": "Copper Shield"
+        },
+        {
+            "name": "Minotaur Trophy",
+            "level": "-",
+            "reward": "Minotaur Trophy, Stealth Ring"
         },
         {
             "name": "Postman",
@@ -46,39 +51,59 @@
             "reward": "One of these items: Abyss Hammer, Mystic Blade, The Ironworker, Vile Axe"
         },
         {
+            "name": "Vampire Hunter",
+            "level": "-",
+            "reward": "Blood Skull, Vampire Doll, 15 Necromancer Tokens, 50 Platinum coins"
+        },
+        {
+            "name": "Arena",
+            "level": "-",
+            "reward": "One of these items: Crystal Necklace, Holy Falcon, Ruby Necklace, Sapphire Amulet, Star Amulet"
+        },
+        {
             "name": "Pits of Inferno",
             "level": "-",
-            "reward": "Demonic Backpack, Frozen Starlight, 25 Necromancer Token, Soft Boots, Stuffed Dragon, One of these items: Glorious Axe, Silver Mace, The Devileye, Warlord Sword"
+            "reward": "Demonic Backpack, Frozen Starlight, 25 Necromancer Token, Soft Boots, Stuffed Dragon, one of these items: Glorious Axe, Silver Mace, The Devileye, Warlord Sword"
         },
         {
             "name": "Dwarf's Lair",
             "level": "30",
-            "reward": "Light Shovel and Elvenhair Rope"
+            "reward": "Light Shovel, Elvenhair Rope"
         },
         {
             "name": "Goblin's Lair",
             "level": "30",
-            "reward": "36 Burst Arrows and Bow"
+            "reward": "36 Burst Arrows, Bow"
         },
         {
             "name": "Minotaur's lair",
             "level": "30",
-            "reward": "Magic Lightwand and 10 Minotaur Leathers"
+            "reward": "Magic Lightwand, 10 Minotaur Leathers"
         },
         {
             "name": "Orc's Lair",
             "level": "30",
-            "reward": "10 Broken Helmets and dice"
+            "reward": "10 Broken Helmets, dice"
         },
         {
-            "name": "Golden Armor",
+            "name": "Sedge Hat",
             "level": "30",
-            "reward": "Golden Armor"
+            "reward": "100 Platinum Coins, Sedge Hat"
+        },
+        {
+            "name": "Skeleton",
+            "level": "30",
+            "reward": "Skeleton Decoration, 89 gp, Shard"
         },
         {
             "name": "Mallmann's Cuisine",
             "level": "40",
-            "reward": "Cookbook and some recipe ingredients"
+            "reward": "Cookbook, some ingredients"
+        },
+        {
+            "name": "Deeper Dragonland",
+            "level": "50",
+            "reward": "Elven Amulet, Dwarven Ring, Knight Axe, Tower Shield, Warrior Helmet"
         },
         {
             "name": "Mermaid",
@@ -89,6 +114,31 @@
             "name": "Queen's",
             "level": "50",
             "reward": "Queen's Shield"
+        },
+        {
+            "name": "Banshee",
+            "level": "60",
+            "reward": "Boots of haste, Giant Sword, Tower Shield, Stealth Ring, Stone Skin Amulet, 100 Platinum Coins"
+        },
+        {
+            "name": "Dragon's Lair",
+            "level": "60",
+            "reward": "Dragon Necklace, Fire Axe, Ring of Healing, 7 Small Diamonds"
+        },
+        {
+            "name": "Medusa",
+            "level": "60",
+            "reward": "Blue Robe, Skull Staff, Medusa Shield"
+        },
+        {
+            "name": "Vampire Shield",
+            "level": "70",
+            "reward": "Vampire Shield, Dragon Lance"
+        },
+        {
+            "name": "Behemoth",
+            "level": "80",
+            "reward": "Demon Shield, Golden Armor, Guardian Halberd, Platinum Amulet, Life Ring, Crystal Ring, 3 Small Diamonds, 4 Small Saphires"
         },
         {
             "name": "Annihilator",
@@ -103,7 +153,7 @@
         {
             "name": "King's",
             "level": "120",
-            "reward": "King's Sword, King's Hammer, King's Axe and King's Crossbow"
+            "reward": "King's Sword, King's Hammer, King's Axe, King's Crossbow"
         },
         {
             "name": "Destruction",
