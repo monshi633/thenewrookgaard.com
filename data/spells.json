@@ -41,11 +41,35 @@
             "premium": "no"
         },
         {
+            "name": "<b>Cure Burning</b> (exana flam)",
+            "group": "Healing",
+            "type": "Instant",
+            "level": "<mark>11</mark>",
+            "mana": "30",
+            "premium": "no"
+        },
+        {
             "name": "<b>Levitate</b> (exani hur up|down)",
             "group": "Support",
             "type": "Instant",
             "level": "12",
             "mana": "50",
+            "premium": "yes"
+        },
+        {
+            "name": "<b>Energy Strike</b> (exori vis)",
+            "group": "Attack",
+            "type": "Instant",
+            "level": "12",
+            "mana": "20",
+            "premium": "yes"
+        },
+        {
+            "name": "<b>Terra Strike</b> (exori tera)",
+            "group": "Attack",
+            "type": "Instant",
+            "level": "13",
+            "mana": "20",
             "premium": "yes"
         },
         {
@@ -57,11 +81,27 @@
             "premium": "no"
         },
         {
+            "name": "<b>Flame Strike</b> (exori flam)",
+            "group": "Attack",
+            "type": "Instant",
+            "level": "14",
+            "mana": "20",
+            "premium": "yes"
+        },
+        {
             "name": "<b>Haste</b> (utani hur)",
             "group": "Support",
             "type": "Instant",
             "level": "14",
             "mana": "60",
+            "premium": "yes"
+        },
+        {
+            "name": "<b>Ice Strike</b> (exori frigo)",
+            "group": "Attack",
+            "type": "Instant",
+            "level": "15",
+            "mana": "20",
             "premium": "yes"
         },
         {
@@ -97,12 +137,36 @@
             "premium": "yes"
         },
         {
+            "name": "<b>Death Strike</b> (exori mort)",
+            "group": "Attack",
+            "type": "Instant",
+            "level": "16",
+            "mana": "20",
+            "premium": "yes"
+        },
+        {
             "name": "<b>Conjure Arrow</b> (exevo con)",
             "group": "Support",
             "type": "Instant",
             "level": "<mark>17</mark>",
             "mana": "100",
             "premium": "no"
+        },
+        {
+            "name": "<b>Heal Friend</b> (exura sio)",
+            "group": "Healing",
+            "type": "Instant",
+            "level": "18",
+            "mana": "120",
+            "premium": "yes"
+        },
+        {
+            "name": "<b>Challenge</b> (exeta res)",
+            "group": "Support",
+            "type": "Instant",
+            "level": "20",
+            "mana": "40",
+            "premium": "yes"
         },
         {
             "name": "<b>Intense Healing</b> (exura gran)",
@@ -121,6 +185,14 @@
             "premium": "no"
         },
         {
+            "name": "<b>Creature Illusion</b> (utevo res ina)",
+            "group": "Support",
+            "type": "Instant",
+            "level": "23",
+            "mana": "100",
+            "premium": "no"
+        },
+        {
             "name": "<b>Heavy Magic Missile</b> (adori vis)",
             "group": "Support",
             "type": "Rune",
@@ -129,12 +201,28 @@
             "premium": "no"
         },
         {
+            "name": "<b>Berserk</b> (exori)",
+            "group": "Attack",
+            "type": "Instant",
+            "level": "35",
+            "mana": "115",
+            "premium": "yes"
+        },
+        {
             "name": "<b>Great Fireball</b> (adori mas flam)",
             "group": "Support",
             "type": "Rune",
             "level": "<mark>35</mark>",
             "mana": "<mark>300</mark>",
             "premium": "no"
+        },
+        {
+            "name": "<b>Fierce Berserk</b> (exori gran)",
+            "group": "Attack",
+            "type": "Instant",
+            "level": "90",
+            "mana": "340",
+            "premium": "yes"
         }
     ]
 }
