@@ -241,6 +241,12 @@
             "services": "Merchant"
         },
         {
+            "name": "Gail",
+            "img": "/images/npcs/Gail.png",
+            "location": "Rookgaard",
+            "services": "Guard"
+        },
+        {
             "name": "General Malor",
             "img": "/images/npcs/General_Malor.png",
             "location": "Rookgaard",
@@ -256,6 +262,12 @@
             "name": "Graubart",
             "img": "/images/npcs/Graubart.png",
             "location": "Pirate Island",
+            "services": "Forger"
+        },
+        {
+            "name": "Gree Dee",
+            "img": "/images/npcs/Gree_Dee.png",
+            "location": "Swampland",
             "services": "Forger"
         },
         {
@@ -355,6 +367,12 @@
             "services": "Banker"
         },
         {
+            "name": "Nydale",
+            "img": "/images/npcs/Nydale.png",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
             "name": "Oldrak",
             "img": "/images/npcs/Oldrak.png",
             "location": "Rookgaard",
@@ -393,6 +411,12 @@
         {
             "name": "Shanar",
             "img": "/images/npcs/Shanar.png",
+            "location": "Rookgaard",
+            "services": "Forger"
+        },
+        {
+            "name": "Shiriel",
+            "img": "/images/npcs/Shiriel.png",
             "location": "Rookgaard",
             "services": "Forger"
         },

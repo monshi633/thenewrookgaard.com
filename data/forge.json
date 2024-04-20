@@ -134,6 +134,13 @@
             "img2": "/images/items/armors/Voltage_Armor.gif"
         },
         {
+            "name": "Essence of a Bad Dream",
+            "img1": "/images/items/forge/Essence_of_a_Bad_Dream.gif",
+            "amount": "25",
+            "reward": "Spellweaver's Robe",
+            "img2": "/images/items/armors/Spellweaver's_Robe.gif"
+        },
+        {
             "name": "Eternal Flames",
             "img1": "/images/items/forge/Eternal_Flames.gif",
             "amount": "50",
@@ -174,6 +181,13 @@
             "amount": "20",
             "reward": "Mammoth Fur Cape",
             "img2": "/images/items/armors/Mammoth_Fur_Cape.gif"
+        },
+        {
+            "name": "Hat",
+            "img1": "/images/items/forge/Hat.gif",
+            "amount": "25",
+            "reward": "Witch Hat",
+            "img2": "/images/items/helmets/Witch_Hat.gif"
         },
         {
             "name": "Holy Orchid",
@@ -351,6 +365,13 @@
             "img2": "/images/items/amulets/Beetle_Necklace.gif"
         },
         {
+            "name": "Sea Serpent Scales",
+            "img1": "/images/items/forge/Sea_Serpent_Scale.gif",
+            "amount": "25",
+            "reward": "Serpent Coat",
+            "img2": "/images/items/armors/Serpent_Coat.gif"
+        },
+        {
             "name": "Spider Fangs",
             "img1": "/images/items/forge/Spider_Fangs.gif",
             "amount": "100",
@@ -377,6 +398,13 @@
             "amount": "5",
             "reward": "Devil Helmet",
             "img2": "/images/items/helmets/Devil_Helmet.gif"
+        },
+        {
+            "name": "Wyrm Scale",
+            "img1": "/images/items/forge/Wyrm_Scale.gif",
+            "amount": "25",
+            "reward": "Focus Cape",
+            "img2": "/images/items/armors/Focus_Cape.gif"
         }
     ]
 }

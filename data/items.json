@@ -97,12 +97,20 @@
             "obtained": "<i><b>Forging</b></i>"
         },
         {
+            "name": "Magician Hat",
+            "img": "/images/items/helmets/Magician_Hat.gif",
+            "arm": "3",
+            "additional": "Magic level +1",
+            "weight": "7.5",
+            "obtained": "Acolyte of the Cult, Adept of the Cult, Enlightened of the Cult, Ice Witch"
+        },
+        {
             "name": "Pirate Hat",
             "img": "/images/items/helmets/Pirate_Hat.gif",
             "arm": "3",
             "additional": "-",
             "weight": "12.5",
-            "obtained": "Pirate Corsair."
+            "obtained": "Pirate Corsair"
         },
         {
             "name": "Legion Helmet",
@@ -201,6 +209,22 @@
             "obtained": "<i><b>Forging</b></i>"
         },
         {
+            "name": "Witch Hat",
+            "img": "/images/items/helmets/Witch_Hat.gif",
+            "arm": "6",
+            "additional": "<mark>Protection mana drain +5%, magic level +1</mark>",
+            "weight": "17.8",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Batwing Hat",
+            "img": "/images/items/helmets/Batwing_Hat.gif",
+            "arm": "7",
+            "additional": "<mark>Protection death +5%, magic level +2</mark>",
+            "weight": "16.0",
+            "obtained": "Ghastly Dragon, Draken Abomination"
+        },
+        {
             "name": "Beholder Helmet",
             "img": "/images/items/helmets/Beholder_Helmet.gif",
             "arm": "7",
@@ -231,6 +255,22 @@
             "additional": "-",
             "weight": "50.0",
             "obtained": "Demon, Demon Skeleton, Giant Spider, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Hat of the Mad",
+            "img": "/images/items/helmets/Hat_of_the_Mad.gif",
+            "arm": "7",
+            "additional": "Protection energy +5%, magic level +1",
+            "weight": "17.0",
+            "obtained": "Lizard Dragon Priest, Draken Spellweaver"
+        },
+        {
+            "name": "Cobra Crown",
+            "img": "/images/items/helmets/Cobra_Crown.gif",
+            "arm": "8",
+            "additional": "Protection earth +5%, magic level +2",
+            "weight": "18.5",
+            "obtained": "Fury, Infernalist"
         },
         {
             "name": "Crusader Helmet",
@@ -512,6 +552,15 @@
             "obtained": "Banshee, Enlightened of The Cult, Medusa, Lich, Quara Mantassin, Warlock"
         },
         {
+            "name": "Focus Cape",
+            "img": "/images/items/armors/Focus_Cape.gif",
+            "arm": "11",
+            "additional": "Magic level +1",
+            "level": "35",
+            "weight": "21.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
             "name": "Noble Armor",
             "img": "/images/items/armors/Noble_Armor.gif",
             "arm": "11",
@@ -537,6 +586,15 @@
             "level": "-",
             "weight": "120.0",
             "obtained": "Serpent Spawn, Quara Hydromancer, Medusa, Black Knight, Hydra, Giant Spider, Undead Dragon, <i><b>Forging</b></i>"
+        },
+        {
+            "name": "Serpent Coat",
+            "img": "/images/items/armors/Serpent_Coat.gif",
+            "arm": "12",
+            "additional": "Protection ice +3%, Magic level +2",
+            "level": "50",
+            "weight": "29.5",
+            "obtained": "<i><b>Forging</b></i>"
         },
         {
             "name": "Witchhunter's Cloak",
@@ -572,6 +630,15 @@
             "additional": "<mark>Protection energy +8%, death +8%</mark>",
             "level": "65",
             "weight": "29.0",
+            "obtained": "<i><b>Forging</b></i>"
+        },
+        {
+            "name": "Spellweaver's Robe",
+            "img": "/images/items/armors/Spellweaver's_Robe.gif",
+            "arm": "<mark>13</mark>",
+            "additional": "<mark>Protection energy +13%, Magic level +2</mark>",
+            "level": "75",
+            "weight": "23.5",
             "obtained": "<i><b>Forging</b></i>"
         },
         {
@@ -629,6 +696,24 @@
             "obtained": "<i><b>Forging</b></i>"
         },
         {
+            "name": "Zaoan Armor",
+            "img": "/images/items/armors/Zaoan_Armor.gif",
+            "arm": "14",
+            "additional": "Speed +10",
+            "level": "50",
+            "weight": "95.5",
+            "obtained": "Lizard Choosen, Lizard Dragon Priest, Lizard High Guard, Lizard Legionnaire, Lizard Zaogun"
+        },
+        {
+            "name": "Zaoan Robe",
+            "img": "/images/items/armors/Zaoan_Robe.gif",
+            "arm": "14",
+            "additional": "Distance fighting +1",
+            "level": "50",
+            "weight": "24.5",
+            "obtained": "Lizard Choosen, Lizard Dragon Priest, Lizard High Guard, Lizard Legionnaire, Lizard Zaogun"
+        },
+        {
             "name": "Dragon Scale Mail",
             "img": "/images/items/armors/Dragon_Scale_Mail.gif",
             "arm": "15",
@@ -645,6 +730,15 @@
             "level": "70",
             "weight": "120.0",
             "obtained": "Ghastly Dragon, Lizard Chosen, Draken Elite, Lizard Zaogun, Lizard High Guard, Lizard Legionnaire"
+        },
+        {
+            "name": "Paladin Armor",
+            "img": "/images/items/armors/Paladin_Armor.gif",
+            "arm": "15",
+            "additional": "Distance fighting +2",
+            "level": "75",
+            "weight": "65.0",
+            "obtained": "Demon, Hellhound, Hellfire Fighter"
         },
         {
             "name": "Demon Armor",
