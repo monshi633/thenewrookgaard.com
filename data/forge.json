@@ -246,6 +246,13 @@
             "img2": "/images/items/shields/Necromancer_Shield.gif"
         },
         {
+            "name": "Necromantic Robe",
+            "img1": "/images/items/forge/Necromantic_Robe.gif",
+            "amount": "50",
+            "reward": "Dark Lord's Cape",
+            "img2": "/images/items/armors/Dark_Lord's_Cape.gif"
+        },
+        {
             "name": "Orc Bag",
             "img1": "/images/items/forge/Orc_Bag.gif",
             "amount": "1",
