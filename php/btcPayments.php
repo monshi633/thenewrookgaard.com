@@ -31,26 +31,26 @@ if (isset($data['event']['code']) && $data['event']['code'] == 1006 && isset($da
 }
 
 // API Key is stored in credentials.php
-if (!$apiKey || $apiKey == '') {
+if (!$btcApiKey || $btcApiKey == '') {
     file_put_contents('payments_errors.log', 'Missing API Key' . PHP_EOL, FILE_APPEND);
     exit;
 }
 
 // Store ID is stored in credentials.php
-if (!$storeId || $storeId == '') {
+if (!$btcStoreId || $btcStoreId == '') {
     file_put_contents('payments_errors.log', 'Missing storeId' . PHP_EOL, FILE_APPEND);
     exit;
 }
 
 // Send a GET request to retrieve invoice details
-$url = "https://btcpay.davidcoen.it/api/v1/stores/$storeId/invoices/$invoiceId";
+$url = "https://btcpay.davidcoen.it/api/v1/stores/$btcStoreId/invoices/$invoiceId";
 $curl = curl_init();
 
 curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_HTTPHEADER, [
     'Content-Type: application/json',
-    'Authorization: token ' . $apiKey
+    'Authorization: token ' . $btcApiKey
 ]);
 curl_setopt($curl, CURLOPT_CAINFO, __DIR__ . '/cacert.pem');
 
