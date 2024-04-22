@@ -64,13 +64,6 @@
             "img2": "/images/items/armors/Witchhunters_Cloak.gif"
         },
         {
-            "name": "Demon Bag",
-            "img1": "/images/items/forge/Demon_Bag.gif",
-            "amount": "1",
-            "reward": "Skullcracker Armor",
-            "img2": "/images/items/armors/Skullcracker_Armor.gif"
-        },
-        {
             "name": "Dwarven Beard",
             "img1": "/images/items/forge/Dwarven_Beard.gif",
             "amount": "50",
@@ -211,13 +204,6 @@
             "img2": "/images/items/armors/Frozen_Armor.gif"
         },
         {
-            "name": "Lich Bag",
-            "img1": "/images/items/forge/Lich_Bag.gif",
-            "amount": "1",
-            "reward": "Robe of the Underworld",
-            "img2": "/images/items/armors/Robe_of_the_Underworld.gif"
-        },
-        {
             "name": "Life Crystal",
             "img1": "/images/items/forge/Life_Crystal.gif",
             "amount": "1",
@@ -265,13 +251,6 @@
             "amount": "50",
             "reward": "Dark Lord's Cape",
             "img2": "/images/items/armors/Dark_Lord's_Cape.gif"
-        },
-        {
-            "name": "Orc Bag",
-            "img1": "/images/items/forge/Orc_Bag.gif",
-            "amount": "1",
-            "reward": "Master Archer Armor",
-            "img2": "/images/items/armors/Master_Archer's_Armor.gif"
         },
         {
             "name": "Orcish Gear",

@@ -367,8 +367,8 @@
             "services": "Banker"
         },
         {
-            "name": "Nydale",
-            "img": "/images/npcs/Nydale.png",
+            "name": "Nydala",
+            "img": "/images/npcs/Nydala.png",
             "location": "Rookgaard",
             "services": "Forger"
         },

@@ -22,7 +22,7 @@
             "arm": "1",
             "additional": "-",
             "weight": "8.5",
-            "obtained": "Blue djinn, Green Djinn, ice Witch, Necromancer, Orc Shaman"
+            "obtained": "Blue djinn, Green Djinn, Ice Witch, Necromancer, Orc Shaman"
         },
         {
             "name": "Party Hat",
@@ -756,7 +756,7 @@
             "additional": "<mark>Distance fighting +3</mark>",
             "level": "75",
             "weight": "69.0",
-            "obtained": "<i><b>Forging</b></i>"
+            "obtained": "Grovehorn"
         },
         {
             "name": "Robe Of The Underworld",
@@ -765,7 +765,7 @@
             "additional": "<mark>Magic level +3</mark>",
             "level": "75",
             "weight": "51.0",
-            "obtained": "<i><b>Forging</b></i>"
+            "obtained": "Soulharvester"
         },
         {
             "name": "Skullcracker Armor",
@@ -774,7 +774,7 @@
             "additional": "<mark>Shielding +4</mark>",
             "level": "75",
             "weight": "110.0",
-            "obtained": "<i><b>Forging</b></i>"
+            "obtained": "Lord of the Depth"
         },
         {
             "name": "Magic Plate Armor",
@@ -3664,7 +3664,7 @@
             "arm": "3",
             "additional": "-",
             "weight": "8.3",
-            "obtained": "Fury, Grim Reaper, Warlock"
+            "obtained": "Quest"
         }
     ],
     "rings": [
