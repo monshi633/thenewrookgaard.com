@@ -947,7 +947,7 @@
             "name": "Coconut Shoes",
             "img": "/images/items/boots/Coconut_Shoes.gif",
             "arm": "-",
-            "additional": "Faster regeneration",
+            "additional": "Faster mana regeneration",
             "level": "-",
             "weight": "6.0",
             "obtained": "<i><b>Forging</b></i>"
@@ -965,7 +965,7 @@
             "name": "Pair Of Soft Boots",
             "img": "/images/items/boots/Pair_Of_Soft_Boots.gif",
             "arm": "-",
-            "additional": "Faster regeneration",
+            "additional": "Faster mana regeneration",
             "level": "-",
             "weight": "6.0",
             "obtained": "Quest"

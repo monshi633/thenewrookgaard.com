@@ -25,10 +25,22 @@
             "services": "Merchant"
         },
         {
+            "name": "Alwin",
+            "img": "/images/npcs/Alwin.png",
+            "location": "Gondolin",
+            "services": "Forger"
+        },
+        {
             "name": "Anerui",
             "img": "/images/npcs/Anerui.png",
             "location": "Goblin Lair",
             "services": "Forger"
+        },
+        {
+            "name": "Arena Traveller",
+            "img": "/images/npcs/Arena_Traveller.png",
+            "location": "Rookgaard",
+            "services": "Sailor"
         },
         {
             "name": "Arkulius",
@@ -85,6 +97,12 @@
             "services": "Forger"
         },
         {
+            "name": "Bonifacius",
+            "img": "/images/npcs/Bonifacius.png",
+            "location": "Rookgaard",
+            "services": "Tasker"
+        },
+        {
             "name": "Borkas",
             "img": "/images/npcs/Borkas.png",
             "location": "Orc Fortress",
@@ -127,6 +145,12 @@
             "services": "Sailor"
         },
         {
+            "name": "Captain Haba",
+            "img": "/images/npcs/Captain_Haba.png",
+            "location": "Gondolin",
+            "services": "Sailor"
+        },
+        {
             "name": "Captain Seagull",
             "img": "/images/npcs/Captain_Seagull.png",
             "location": "Rookgaard",
@@ -151,6 +175,12 @@
             "services": "Forger"
         },
         {
+            "name": "Cerberus",
+            "img": "/images/npcs/Cerberus.png",
+            "location": "Hell",
+            "services": "Sailor"
+        },
+        {
             "name": "Chef Mallmann",
             "img": "/images/npcs/Chef_Mallmann.png",
             "location": "Rookgaard",
@@ -167,6 +197,12 @@
             "img": "/images/npcs/Clyde.png",
             "location": "Rookgaard",
             "services": "Forger"
+        },
+        {
+            "name": "Condemned Navigator",
+            "img": "/images/npcs/Condemned_Navigator.png",
+            "location": "Dragonland",
+            "services": "Sailor"
         },
         {
             "name": "Debbul",
@@ -207,6 +243,12 @@
         {
             "name": "Etzel",
             "img": "/images/npcs/Etzel.png",
+            "location": "Swampland",
+            "services": "Forger"
+        },
+        {
+            "name": "Evan",
+            "img": "/images/npcs/Evan.png",
             "location": "Swampland",
             "services": "Forger"
         },
@@ -267,7 +309,7 @@
         {
             "name": "Gree Dee",
             "img": "/images/npcs/Gree_Dee.png",
-            "location": "Swampland",
+            "location": "Rookgaard",
             "services": "Forger"
         },
         {
@@ -281,6 +323,30 @@
             "img": "/images/npcs/Gundralph.png",
             "location": "Swampland",
             "services": "Forger"
+        },
+        {
+            "name": "Hal",
+            "img": "/images/npcs/Hal.png",
+            "location": "Gondolin",
+            "services": "Merchant"
+        },
+        {
+            "name": "Halif",
+            "img": "/images/npcs/Halif.png",
+            "location": "Gondolin",
+            "services": "Merchant"
+        },
+        {
+            "name": "Halvar",
+            "img": "/images/npcs/Halvar.png",
+            "location": "Gondolin",
+            "services": "Merchant"
+        },
+        {
+            "name": "Harlow",
+            "img": "/images/npcs/Harlow.png",
+            "location": "Gondolin",
+            "services": "Merchant"
         },
         {
             "name": "Iwar",
@@ -395,6 +461,12 @@
             "img": "/images/npcs/Perod.png",
             "location": "Snowland",
             "services": "Forger"
+        },
+        {
+            "name": "Pythius",
+            "img": "/images/npcs/Pythius.png",
+            "location": "Gondolin",
+            "services": "-"
         },
         {
             "name": "Queen Eloise",

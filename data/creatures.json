@@ -717,6 +717,10 @@
             "img": "/images/creatures/Priestess.gif"
         },
         {
+            "name": "Putrid Furies",
+            "img": "/images/creatures/Putrid_Fury.gif"
+        },
+        {
             "name": "Quara Constrictor Scouts",
             "img": "/images/creatures/Quara_Constrictor.gif"
         },

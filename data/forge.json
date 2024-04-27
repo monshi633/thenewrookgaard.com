@@ -43,6 +43,13 @@
             "img2": "/images/items/containers/Camouflage_Backpack.gif"
         },
         {
+            "name": "Coconut",
+            "img1": "/images/items/forge/Coconut.gif",
+            "amount": "150",
+            "reward": "Coconut Shoes",
+            "img2": "/images/items/boots/Coconut_Shoes.gif"
+        },
+        {
             "name": "Colourful Feather",
             "img1": "/images/items/forge/Colourful_Feather.gif",
             "amount": "10",
